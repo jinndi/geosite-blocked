@@ -7,6 +7,8 @@
 
 - https://github.com/1andrevich/Re-filter-lists
 
+- https://iplist.opencck.org
+
 
 ### Ссылки на последню актуальную версию для sing-box:
 

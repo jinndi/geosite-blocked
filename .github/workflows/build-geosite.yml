@@ -32,7 +32,8 @@ jobs:
         # ПАРАМЕТРЫ
         urls = {
             "community.antifilter.txt": "https://community.antifilter.download/list/domains.lst",
-            "1andrevich.refilter.txt": "https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/domains_all.lst"
+            "1andrevich.refilter.txt": "https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/domains_all.lst",
+            "opencck.txt": "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&group=ai&group=anime&group=art&group=casino&group=discord&group=education&group=finance&group=games&group=hosting&group=jetbrains&group=messengers&group=news&group=porn&group=shop&group=socials&group=tools&group=torrent&group=video&group=youtube"
         }
         folder = 'geosite-blocked'
         # ------------------------
