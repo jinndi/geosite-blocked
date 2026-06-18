@@ -37,12 +37,9 @@ jobs:
         folder = 'geosite-blocked'
         # ------------------------
 
-        # Просто проверяем, существует ли папка. Если нет - создаем.
-        # Старое содержимое папки при этом никак не удаляется.
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-        # Скачивание файлов с автоперезаписью
         print("--- Старт скачивания файлов ---")
         for filename, url in urls.items():
             filepath = os.path.join(folder, filename)
@@ -52,12 +49,10 @@ jobs:
                     url, 
                     headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
                 )
-                # Режим 'wb' сам очистит старый файл и запишет вместо него новый
-                with urllib.request.urlopen(req, timeout=15) as response, open(filepath, 'wb') as out_file:
+                with urllib.request.urlopen(req, timeout=30) as response, open(filepath, 'wb') as out_file:
                     out_file.write(response.read())
                 print(f"Успешно обновлен: {filename}")
             except urllib.error.URLError as e:
-                # В случае ошибки старая локальная версия файла останется нетронутой
                 print(f"Ошибка при скачивании {url} (оставлена старая версия): {e}")
             except Exception as e:
                 print(f"Непредвиденная ошибка для {url}: {e}")
@@ -99,18 +94,25 @@ jobs:
         else:
             print(f"Предупреждение: Стартовая папка {folder} не найдена!")
 
-        domain_list = sorted(list(domains))
-        all_domains_set = set(domain_list)
         unique_domains = []
-        for d in domain_list:
+        sorted_domains = sorted(list(domains), key=len)
+        processed_parents = set()
+
+        for d in sorted_domains:
+            parts = d.split('.')
             is_subdomain = False
-            for u in all_domains_set:
-                if d != u and d.endswith('.' + u):
+            for i in range(len(parts) - 1, 0, -1):
+                parent = '.'.join(parts[i:])
+                if parent in processed_parents:
                     is_subdomain = True
                     break
+            
             if not is_subdomain:
                 unique_domains.append(d)
+                processed_parents.add(d)
         
+        unique_domains.sort()
+
         result = {
           "version": 3,
           "rules": [{
@@ -123,7 +125,6 @@ jobs:
         
         print(f"Итог {len(unique_domains)} уникальных доменов (из {stats['total_lines']} валидных исходных строк)")
         EOF
-  
     - name: Install sing-box
       run: |
         VERSION=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | grep "tag_name" | cut -d '"' -f 4)
