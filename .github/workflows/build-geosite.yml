@@ -1,0 +1,179 @@
+name: Build Geosite
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 3 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Process domain files
+      run: |
+        python << 'EOF'
+        import os
+        import json
+        import shutil
+        import urllib.request
+        import urllib.error
+
+        # ПАРАМЕТРЫ
+        urls = {
+            "community.antifilter.txt": "https://community.antifilter.download/list/domains.lst",
+            "1andrevich.refilter.txt": "https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/domains_all.lst"
+        }
+        folder = 'geosite-blocked'
+        # ------------------------
+
+        # Просто проверяем, существует ли папка. Если нет - создаем.
+        # Старое содержимое папки при этом никак не удаляется.
+        if not os.path.exists(folder):
+            os.makedirs(folder)
+
+        # Скачивание файлов с автоперезаписью
+        print("--- Старт скачивания файлов ---")
+        for filename, url in urls.items():
+            filepath = os.path.join(folder, filename)
+            print(f"Скачиваю/Обновляю: {url} -> {filepath}")
+            try:
+                req = urllib.request.Request(
+                    url, 
+                    headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+                )
+                # Режим 'wb' сам очистит старый файл и запишет вместо него новый
+                with urllib.request.urlopen(req, timeout=15) as response, open(filepath, 'wb') as out_file:
+                    out_file.write(response.read())
+                print(f"Успешно обновлен: {filename}")
+            except urllib.error.URLError as e:
+                # В случае ошибки старая локальная версия файла останется нетронутой
+                print(f"Ошибка при скачивании {url} (оставлена старая версия): {e}")
+            except Exception as e:
+                print(f"Непредвиденная ошибка для {url}: {e}")
+
+        print("--- Скачивание завершено ---\n")
+
+        # --- Обработка ---
+        domains = set()
+        stats = {"total_lines": 0}
+
+        def process_line(line):
+            line = line.strip()
+            line = line.replace('\xa0', ' ').strip()
+            if '#' in line:
+                line = line.split('#')[0].strip()
+            if not line or line.startswith('#'):
+                return
+            if ' ' in line:
+                line = line.split()[0]
+
+            stats["total_lines"] += 1
+            domain = line.lower().strip()
+            
+            if domain.endswith('.'):
+                domain = domain[:-1]
+            if domain.startswith('www.'):
+                domain = domain[4:]
+                
+            if domain and "." in domain:
+                domains.add(domain)
+
+        if os.path.exists(folder):
+            for filename in os.listdir(folder):
+                if filename.endswith('.txt'):
+                    print(f"Читаю файл: {filename}")
+                    with open(os.path.join(folder, filename), 'r', encoding='utf-8') as f:
+                        for line in f:
+                            process_line(line)
+        else:
+            print(f"Предупреждение: Стартовая папка {folder} не найдена!")
+
+        domain_list = sorted(list(domains))
+        all_domains_set = set(domain_list)
+        unique_domains = []
+        for d in domain_list:
+            is_subdomain = False
+            for u in all_domains_set:
+                if d != u and d.endswith('.' + u):
+                    is_subdomain = True
+                    break
+            if not is_subdomain:
+                unique_domains.append(d)
+        
+        result = {
+          "version": 3,
+          "rules": [{
+            "domain_suffix": unique_domains
+          }]
+        }
+        
+        with open('geosite-blocked.json', 'w', encoding='utf-8') as f:
+          json.dump(result, f, ensure_ascii=False, indent=2)
+        
+        print(f"Итог {len(unique_domains)} уникальных доменов (из {stats['total_lines']} валидных исходных строк)")
+        EOF
+  
+    - name: Install sing-box
+      run: |
+        VERSION=$(curl -s https://api.github.com/repos/SagerNet/sing-box/releases/latest | grep "tag_name" | cut -d '"' -f 4)
+        VERSION=${VERSION#v}
+        wget https://github.com/SagerNet/sing-box/releases/download/v$VERSION/sing-box-$VERSION-linux-amd64.tar.gz
+        tar -xzf sing-box-$VERSION-linux-amd64.tar.gz
+        sudo mv sing-box*/sing-box /usr/local/bin/
+        chmod +x /usr/local/bin/sing-box
+
+    - name: Convert to srs format
+      run: |
+        sing-box rule-set compile geosite-cheburnet.json -o geosite-cheburnet.srs
+
+    - name: Count domains
+      id: count_domains
+      run: |
+        COUNT=$(python -c "
+        import json
+        with open('geosite-blocked.json', 'r', encoding='utf-8') as f:
+          data = json.load(f)
+        print(len(data['rules'][0]['domain_suffix']))
+        ")
+        echo "count=$COUNT" >> $GITHUB_OUTPUT
+
+    - name: Commit files to repository
+      env:
+        TZ: "Europe/Moscow"
+      run: |
+        if [ -z "$(git status --porcelain geosite-blocked.json geosite-blocked.srs)" ]; then
+          echo "No changes in generated files; skipping commit."
+        else
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add geosite-blocked.json geosite-blocked.srs
+          git commit -m "[auto] Update geosite-blocked $(date '+%Y-%m-%d %H:%M:%S')"
+          git push
+        fi
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v2
+      with:
+        tag_name: v1.${{ github.run_number }}
+        name: Релиз 1.${{ github.run_number }}
+        files: |
+          geosite-blocked.json
+          geosite-blocked.srs
+        body: |
+          Автоматическая публикация файлов geosite-blocked
+          Всего доменов: ${{ steps.count_domains.outputs.count }}
+          - geosite-blocked.json: JSON формат
+          - geosite-blocked.srs: Sing-box rule_set формат
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
