@@ -3,7 +3,7 @@ name: Build Geosite
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 3 * * *'
+    - cron: '37 6 * * *'
 
 jobs:
   build:
