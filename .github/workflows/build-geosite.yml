@@ -136,7 +136,7 @@ jobs:
 
     - name: Convert to srs format
       run: |
-        sing-box rule-set compile geosite-cheburnet.json -o geosite-cheburnet.srs
+        sing-box rule-set compile geosite-blocked.json -o geosite-blocked.srs
 
     - name: Count domains
       id: count_domains
