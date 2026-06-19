@@ -162,6 +162,8 @@ jobs:
           git add geosite-blocked.json geosite-blocked.srs
           git commit -m "[auto] Update geosite-blocked $(date '+%Y-%m-%d %H:%M:%S')"
           git push
+
+          curl -sfL "https://purge.jsdelivr.net/gh/jinndi/geosite-blocked@main/geosite-blocked.srs"
         fi
 
     - name: Create Release
