@@ -6,7 +6,7 @@ on:
     - cron: '37 6 * * *'
 
 env:
-  SINGBOX_VERSION 1.12.25
+  SINGBOX_VERSION: 1.12.25
 
 jobs:
   build:
