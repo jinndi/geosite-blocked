@@ -1,9 +1,11 @@
 # geosite-blocked
-Список недоступных доменов для аэропорта из РФ
+Список доменов для аэропорта из РФ
 
 ### Источники данных
 
 - https://community.antifilter.download
+
+- https://github.com/1andrevich/Re-filter-lists (community.lst)
 
 - https://iplist.opencck.org (все категории)
 
