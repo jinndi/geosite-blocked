@@ -3,7 +3,8 @@ name: Build Geosite
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 6 * * *'
+    # Запуск в 06:37 UTC (09:37 МСК) раз в 3 дня
+    - cron: '37 6 */3 * *'
 
 env:
   SINGBOX_VERSION: 1.12.25
