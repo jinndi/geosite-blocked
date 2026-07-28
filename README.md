@@ -9,6 +9,8 @@
 
 - https://beta.iplist.opencck.org (все категории)
 
+- https://github.com/itdoginfo/allow-domains (Russia inside)
+
 
 ### Ссылки на последню актуальную версию для sing-box:
 
