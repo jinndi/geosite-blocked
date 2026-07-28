@@ -5,9 +5,9 @@
 
 - https://community.antifilter.download
 
-- https://github.com/1andrevich/Re-filter-lists
+- https://iplist.opencck.org (все категории)
 
-- https://iplist.opencck.org
+- https://beta.iplist.opencck.org (все категории)
 
 
 ### Ссылки на последню актуальную версию для sing-box:
