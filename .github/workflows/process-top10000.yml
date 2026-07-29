@@ -34,12 +34,18 @@ jobs:
           src_csv = 'cloudflare-radar_top-10000-domains.csv'
           folder = 'data'
           dst_lst = os.path.join(folder, 'cloudflare.top10000.lst')
+          excluded_lst = 'excluded_cloudflare-radar_top-10000-domains.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           ignored_tlds = (
               '.ru', '.su', '.рф', '.xn--p1ai',      # Россия
               '.by', '.бел', '.xn--90ais',           # Беларусь
               '.kz', '.каз', '.xn--80ao2b'           # Казахстан
+          )
+
+          ignored_keywords = (
+              'vk-cdn', 'vkontakte', 'vkuser', 'yandex', 'ya.ru', 'mail.ru', 
+              'rambler', 'vk.com', 'ok.ru'
           )
           
           ignored_country_codes = {'RU', 'BY', 'KZ'}
@@ -75,13 +81,17 @@ jobs:
               resolver.nameservers = ['1.1.1.1', '8.8.8.8']
               resolver.timeout = 2.0
               resolver.lifetime = 2.0
-
+              
               def check_domain(domain):
                   # 1. Проверка по TLD
                   if domain.endswith(ignored_tlds):
                       return domain, True, 'TLD'
 
-                  # 2. Резолв IP и проверка по GeoIP
+                  # 2. Проверка по ключевым словам/брендам
+                  if any(keyword in domain for keyword in ignored_keywords):
+                      return domain, True, 'Keyword'
+
+                  # 3. Резолв IP и проверка по GeoIP
                   if reader:
                       try:
                           answers = resolver.resolve(domain, 'A')
@@ -96,35 +106,49 @@ jobs:
                   return domain, False, 'OK'
 
               filtered_domains = []
+              excluded_domains = []
+              
               tld_filtered = 0
+              keyword_filtered = 0
               geoip_filtered = 0
 
               print('Начинаем многопоточный резолв и проверку...')
               
-              # Запуск с 100 рабочими потоками для быстрого сетевого ввода/вывода
               with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
                   results = list(executor.map(check_domain, raw_domains))
 
               for domain, is_ignored, reason in results:
                   if is_ignored:
+                      excluded_domains.append((domain, reason))
                       if reason == 'TLD':
                           tld_filtered += 1
+                      elif reason == 'Keyword':
+                          keyword_filtered += 1
                       else:
                           geoip_filtered += 1
                   else:
                       filtered_domains.append(domain)
 
-              # Сохраняем результат
+              # Сохраняем итоговый чистый список
               with open(dst_lst, 'w', encoding='utf-8') as out_f:
                   for d in sorted(filtered_domains):
                       out_f.write(f'{d}\n')
 
+              # Сохраняем исключенные домены в корень репозитория
+              with open(excluded_lst, 'w', encoding='utf-8') as ex_f:
+                  for d, reason in sorted(excluded_domains):
+                      ex_f.write(f'{d} # {reason}\n')
+
+              total_excluded = tld_filtered + keyword_filtered + geoip_filtered
+
               print('\n--- ИТОГИ ПРОВЕРКИ ---')
               print(f'Всего обработано: {len(raw_domains)}')
-              print(f'Удалено по TLD (.ru/.by/.kz и т.д.): {tld_filtered}')
+              print(f'Удалено по TLD (.ru/.by и т.д.): {tld_filtered}')
+              print(f'Удалено по Keyword: {keyword_filtered}')
               print(f'Удалено по GeoIP (IP из RU/BY/KZ): {geoip_filtered}')
-              print(f'Всего исключено: {tld_filtered + geoip_filtered}')
-              print(f'Сохранено в список: {len(filtered_domains)}')
+              print(f'Всего исключено: {total_excluded}')
+              print(f'Сохранено в чистый список: {len(filtered_domains)}')
+              print(f'Список исключений записан в: {excluded_lst}')
           else:
               print(f'Ошибка: Файл {src_csv} не найден в корне репозитория!')
           "
@@ -133,12 +157,12 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst)" ]; then
-            echo "Изменений в файле cloudflare.top10000.lst нет."
+          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst excluded_domains.lst)" ]; then
+            echo "Изменений в файлах нет."
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/cloudflare.top10000.lst
-            git commit -m "[auto] Process top10000.csv without RU/BY/KZ domains $(date '+%Y-%m-%d %H:%M:%S')"
+            git add data/cloudflare.top10000.lst excluded_domains.lst
+            git commit -m "[auto] Process top10000.csv and update excluded_domains.lst $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi
