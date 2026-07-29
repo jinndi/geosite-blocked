@@ -21,29 +21,27 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install geoip2
+          pip install geoip2 dnspython
 
       - name: Process top5000.csv and filter RU, BY, KZ domains
         run: |
           python -c "
           import os
-          import socket
           import concurrent.futures
           import geoip2.database
+          import dns.resolver
 
-          src_csv = 'cloudflare.top5000.csv'
+          src_csv = 'top5000.csv'
           folder = 'data'
           dst_lst = os.path.join(folder, 'cloudflare.top5000.lst')
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
-          # TLD домены для RU, BY, KZ (включая IDN/Punycode)
           ignored_tlds = (
               '.ru', '.su', '.рф', '.xn--p1ai',      # Россия
               '.by', '.бел', '.xn--90ais',           # Беларусь
               '.kz', '.каз', '.xn--80ao2b'           # Казахстан
           )
           
-          # Коды стран по GeoIP
           ignored_country_codes = {'RU', 'BY', 'KZ'}
 
           if not os.path.exists(folder):
@@ -59,57 +57,74 @@ jobs:
                       if len(raw_domains) >= 5000:
                           break
 
-              print(f'Прочитано из CSV: {len(raw_domains)} доменов. Начинаем резолв и фильтрацию RU/BY/KZ...')
+              print(f'Прочитано из CSV: {len(raw_domains)} доменов.')
 
               # Подключаем GeoIP
               reader = None
               if os.path.exists(geoip_db_path):
                   try:
                       reader = geoip2.database.Reader(geoip_db_path)
+                      print('База GeoIP успешно загружена.')
                   except Exception as e:
-                      print(f'Ошибка базы GeoIP ({e}), фильтрация только по TLD.')
+                      print(f'Ошибка загрузки GeoIP: {e}')
               else:
-                  print(f'База {geoip_db_path} не найдена в корне, фильтрация только по TLD.')
+                  print(f'Предупреждение: Файл {geoip_db_path} не найден!')
 
-              def is_ignored_domain(domain):
-                  # 1. Проверка по доменным зонам
+              # Настройка DNS резолвера
+              resolver = dns.resolver.Resolver()
+              resolver.nameservers = ['1.1.1.1', '8.8.8.8']
+              resolver.timeout = 2.0
+              resolver.lifetime = 2.0
+
+              def check_domain(domain):
+                  # 1. Проверка по TLD
                   if domain.endswith(ignored_tlds):
-                      return True
+                      return domain, True, 'TLD'
+
                   # 2. Резолв IP и проверка по GeoIP
                   if reader:
                       try:
-                          ip = socket.gethostbyname(domain)
-                          response = reader.country(ip)
-                          if response.country.iso_code in ignored_country_codes:
-                              return True
+                          answers = resolver.resolve(domain, 'A')
+                          for rdata in answers:
+                              ip = rdata.to_text()
+                              response = reader.country(ip)
+                              if response.country.iso_code in ignored_country_codes:
+                                  return domain, True, f'GeoIP ({response.country.iso_code})'
                       except Exception:
-                          pass
-                  return False
+                          pass  # Не удалось резолвить или нет A-записи
+                  
+                  return domain, False, 'OK'
 
               filtered_domains = []
-              removed_count = 0
+              tld_filtered = 0
+              geoip_filtered = 0
 
-              # Запуск проверки в 50 параллельных потоков
-              with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
-                  future_to_domain = {executor.submit(is_ignored_domain, d): d for d in raw_domains}
-                  for future in concurrent.futures.as_completed(future_to_domain):
-                      d = future_to_domain[future]
-                      try:
-                          if future.result():
-                              removed_count += 1
-                          else:
-                              filtered_domains.append(d)
-                      except Exception:
-                          filtered_domains.append(d)
+              print('Начинаем многопоточный резолв и проверку...')
+              
+              # Запуск с 100 рабочими потоками для быстрого сетевого ввода/вывода
+              with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
+                  results = list(executor.map(check_domain, raw_domains))
+
+              for domain, is_ignored, reason in results:
+                  if is_ignored:
+                      if reason == 'TLD':
+                          tld_filtered += 1
+                      else:
+                          geoip_filtered += 1
+                  else:
+                      filtered_domains.append(domain)
 
               # Сохраняем результат
               with open(dst_lst, 'w', encoding='utf-8') as out_f:
                   for d in sorted(filtered_domains):
                       out_f.write(f'{d}\n')
 
-              print('Завершено!')
-              print(f'Исключено доменов (RU/BY/KZ): {removed_count}')
-              print(f'Сохранено чистого списка: {len(filtered_domains)} доменов в {dst_lst}')
+              print('\n--- ИТОГИ ПРОВЕРКИ ---')
+              print(f'Всего обработано: {len(raw_domains)}')
+              print(f'Удалено по TLD (.ru/.by/.kz и т.д.): {tld_filtered}')
+              print(f'Удалено по GeoIP (IP из RU/BY/KZ): {geoip_filtered}')
+              print(f'Всего исключено: {tld_filtered + geoip_filtered}')
+              print(f'Сохранено в список: {len(filtered_domains)}')
           else:
               print(f'Ошибка: Файл {src_csv} не найден в корне репозитория!')
           "
