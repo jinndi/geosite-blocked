@@ -31,9 +31,9 @@ jobs:
           import geoip2.database
           import dns.resolver
 
-          src_csv = 'cloudflare-radar_top-5000-domains_20260720-20260727.csv'
+          src_csv = 'cloudflare-radar_top-10000-domains.csv'
           folder = 'data'
-          dst_lst = os.path.join(folder, 'cloudflare.top5000.lst')
+          dst_lst = os.path.join(folder, 'cloudflare.top10000.lst')
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           ignored_tlds = (
