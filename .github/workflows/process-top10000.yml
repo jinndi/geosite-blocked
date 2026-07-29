@@ -34,7 +34,7 @@ jobs:
           src_csv = 'cloudflare-radar_top-10000-domains.csv'
           folder = 'data'
           dst_lst = os.path.join(folder, 'cloudflare.top10000.lst')
-          excluded_lst = 'excluded_cloudflare-radar_top-10000-domains.lst'
+          excluded_lst = 'excluded_domains.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           ignored_tlds = (
@@ -157,7 +157,7 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst excluded_cloudflare-radar_top-10000-domains.lst)" ]; then
+          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst excluded_domains.lst)" ]; then
             echo "Изменений в файлах нет."
           else
             git config --global user.name "github-actions[bot]"
