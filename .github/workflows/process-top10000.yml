@@ -1,4 +1,4 @@
-name: Process Top5000 CSV
+name: Process Top10000 CSV
 
 on:
   workflow_dispatch: # Ручной запуск
@@ -23,7 +23,7 @@ jobs:
         run: |
           pip install geoip2 dnspython
 
-      - name: Process top5000.csv and filter RU, BY, KZ domains
+      - name: Process cloudflare-radar_top-10000-domains.csv and filter RU, BY, KZ domains
         run: |
           python -c "
           import os
@@ -54,7 +54,7 @@ jobs:
                       domain = line.strip().lower()
                       if domain:
                           raw_domains.append(domain)
-                      if len(raw_domains) >= 5000:
+                      if len(raw_domains) >= 10000:
                           break
 
               print(f'Прочитано из CSV: {len(raw_domains)} доменов.')
@@ -133,12 +133,12 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/cloudflare.top5000.lst)" ]; then
-            echo "Изменений в файле cloudflare.top5000.lst нет."
+          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst)" ]; then
+            echo "Изменений в файле cloudflare.top10000.lst нет."
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/cloudflare.top5000.lst
-            git commit -m "[auto] Process top5000.csv without RU/BY/KZ domains $(date '+%Y-%m-%d %H:%M:%S')"
+            git add data/cloudflare.top10000.lst
+            git commit -m "[auto] Process top10000.csv without RU/BY/KZ domains $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi
