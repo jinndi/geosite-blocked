@@ -1,4 +1,4 @@
-0101.co.jp # NO_RESOLVE
+0101.co.jp # TLD
 0123tt.ru # TLD
 0kkkkkt.com # NO_RESOLVE
 100.in-addr.arpa # NO_RESOLVE
@@ -29,6 +29,7 @@
 1e100.net # NO_RESOLVE
 1filmyfly.dad # NO_RESOLVE
 1gb.ru # TLD
+1geki.jp # TLD
 1internet.tv # GeoIP (RU)
 1passwordservices.com # NO_RESOLVE
 1rx.io # NO_RESOLVE
@@ -41,6 +42,7 @@
 22t8zyluzwaa.shop # NO_RESOLVE
 23.in-addr.arpa # NO_RESOLVE
 24h.tv # GeoIP (RU)
+24tv.ua # TLD
 24xxxx.win # NO_RESOLVE
 2gis.com # GeoIP (RU)
 2gis.ru # TLD
@@ -64,6 +66,7 @@
 3dnews.ru # TLD
 3gppnetwork.org # NO_RESOLVE
 44.in-addr.arpa # NO_RESOLVE
+47news.jp # TLD
 4cun.com # NO_RESOLVE
 4dex.io # NO_RESOLVE
 4dvertible.com # NO_RESOLVE
@@ -114,10 +117,12 @@ aadrm.com # NO_RESOLVE
 aaplimg.com # NO_RESOLVE
 aarki.net # NO_RESOLVE
 aarnet.net.au # NO_RESOLVE
+abadis.ir # TLD
 abcp.ru # TLD
 abebookscdn.com # NO_RESOLVE
 absolutbank.ru # TLD
 absrivers.com # NO_RESOLVE
+abzarek.ir # TLD
 academic.ru # TLD
 accdab.net # NO_RESOLVE
 accounts.dev # NO_RESOLVE
@@ -129,6 +134,7 @@ acoustic-adm.com # NO_RESOLVE
 action-media.ru # TLD
 activemetering.com # NO_RESOLVE
 activtrak.net # NO_RESOLVE
+ad-contents.jp # TLD
 ad-m.asia # NO_RESOLVE
 ad-m.net # NO_RESOLVE
 ad-tech.ru # TLD
@@ -139,9 +145,11 @@ adguard-vpn.online # NO_RESOLVE
 adguard.org # NO_RESOLVE
 adhigh.net # GeoIP (RU)
 adiam.tech # GeoIP (RU)
+adingo.jp # TLD
 adipolo.co # NO_RESOLVE
 adipolo.live # NO_RESOLVE
 adjust.world # NO_RESOLVE
+adliran.ir # TLD
 adlook.online # GeoIP (RU)
 admhmao.ru # TLD
 adminml.com # NO_RESOLVE
@@ -179,6 +187,7 @@ advanced-web-analytics.com # NO_RESOLVE
 advmusic.com # GeoIP (RU)
 adyenpayments.com # NO_RESOLVE
 adzerk.net # NO_RESOLVE
+aeon.co.jp # TLD
 aeon.com # NO_RESOLVE
 aerdns.ru # TLD
 aeroflot.ru # TLD
@@ -190,6 +199,7 @@ afilias-nst.info # NO_RESOLVE
 afilias-nst.org # NO_RESOLVE
 afisha.ru # TLD
 afp.com # NO_RESOLVE
+afranet.ir # TLD
 aftvrsys.com # NO_RESOLVE
 agenciatributaria.gob.es # NO_RESOLVE
 agkn.com # NO_RESOLVE
@@ -236,6 +246,7 @@ al-adtech.com # GeoIP (RU)
 alania.net # NO_RESOLVE
 alarmnet.com # NO_RESOLVE
 albss.com # NO_RESOLVE
+alerts.in.ua # TLD
 alexistogel.link # NO_RESOLVE
 alexistogel.mobi # NO_RESOLVE
 alexistogel.news # NO_RESOLVE
@@ -254,21 +265,28 @@ aliyuncsslbintl.com # NO_RESOLVE
 aliyunga0017.com # NO_RESOLVE
 aliyunga0018.com # NO_RESOLVE
 aliyunga0019.com # NO_RESOLVE
+allabout.co.jp # TLD
 allawnos.com # NO_RESOLVE
 allsaints.tv # NO_RESOLVE
 alltel24.ru # TLD
 allyonoapp.in # NO_RESOLVE
-alpha-prm.jp # NO_RESOLVE
+alpen-group.jp # TLD
+alpha-prm.jp # TLD
 alphadnszone.com # NO_RESOLVE
+alphapolis.co.jp # TLD
 alphashareit.works # NO_RESOLVE
 alrosa.ru # TLD
 alta.ru # TLD
+altema.jp # TLD
 amazon-ads-attestation.com # NO_RESOLVE
 amazon-dss.com # NO_RESOLVE
+amazon.co.jp # TLD
 amazon.dev # NO_RESOLVE
 amazoncognito.com # NO_RESOLVE
 amazoncrl.com # NO_RESOLVE
+ameba.jp # TLD
 amebaownd.com # NO_RESOLVE
+ameblo.jp # TLD
 amnupower.com # NO_RESOLVE
 amocrm.ru # TLD
 amp-endpoint1.com # NO_RESOLVE
@@ -284,9 +302,13 @@ amurobl.ru # TLD
 amzndns.co.uk # NO_RESOLVE
 amzndns.com # NO_RESOLVE
 amzndns.net # NO_RESOLVE
+ana.co.jp # TLD
+andpad.jp # TLD
 androidapplications.store # GeoIP (RU)
 anduril.dev # NO_RESOLVE
+ani-lab.jp # TLD
 anikai.to # NO_RESOLVE
+animate-onlineshop.jp # TLD
 animego.me # GeoIP (RU)
 aniwaves.ru # TLD
 anl.gov # NO_RESOLVE
@@ -325,6 +347,7 @@ apple-mapkit.com # NO_RESOLVE
 apple-studies.com # NO_RESOLVE
 applvn.com # NO_RESOLVE
 apply-csbc.com # NO_RESOLVE
+appmedia.jp # TLD
 appnexusgslb.com # NO_RESOLVE
 approovr.io # NO_RESOLVE
 apps.mil # NO_RESOLVE
@@ -346,9 +369,13 @@ armadaservers.com # NO_RESOLVE
 armgs.team # GeoIP (RU)
 army.mil # NO_RESOLVE
 arnes.si # NO_RESOLVE
-arpanet.jp # NO_RESOLVE
-asahibeer-cp.jp # NO_RESOLVE
+arpanet.jp # TLD
+arvancdn.ir # TLD
+asahi-net.or.jp # TLD
+asahibeer-cp.jp # TLD
+ascii.jp # TLD
 asianet.co.th # NO_RESOLVE
+askul.co.jp # TLD
 asna.link # NO_RESOLVE
 asna.ru # TLD
 asnapieu.com # NO_RESOLVE
@@ -359,8 +386,9 @@ astockcdn.net # NO_RESOLVE
 astrum.team # NO_RESOLVE
 astrumnival.com # NO_RESOLVE
 at-o.net # NO_RESOLVE
-at.ua # GeoIP (RU)
+at.ua # TLD
 athena.io # NO_RESOLVE
+athome.co.jp # TLD
 ati.su # TLD
 aticdn.net # NO_RESOLVE
 atidevs.com # NO_RESOLVE
@@ -381,20 +409,23 @@ atudo.io # NO_RESOLVE
 auappservice.com # NO_RESOLVE
 auchan.ru # TLD
 auerproxy.de # NO_RESOLVE
+auone.jp # TLD
 auth0.net # NO_RESOLVE
 auth0app.com # NO_RESOLVE
 auth0edge.com # NO_RESOLVE
 author.today # GeoIP (RU)
 auto.ru # TLD
 autodeskplm360.net # NO_RESOLVE
+autozone.com # Keyword
 av.by # TLD
 avcdn.net # NO_RESOLVE
 avct.cloud # NO_RESOLVE
 aviasales.ru # TLD
 avidreaders.ru # TLD
 avira.net # NO_RESOLVE
+avito.ma # Keyword
 avito.ru # TLD
-avito.st # GeoIP (RU)
+avito.st # Keyword
 avsee.ru # TLD
 awmcdn.net # NO_RESOLVE
 awmdm.com # NO_RESOLVE
@@ -646,8 +677,11 @@ b2c.com # NO_RESOLVE
 b2clogin.com # NO_RESOLVE
 backend-capital.com # NO_RESOLVE
 backend-hypertube-app.com # NO_RESOLVE
+bahalmag.ir # TLD
+bahesab.ir # TLD
 baidu-itm.com # NO_RESOLVE
 baifentan.com # NO_RESOLVE
+bama.ir # TLD
 bamgrid.com # NO_RESOLVE
 bamper.by # TLD
 bancoestado.cl # NO_RESOLVE
@@ -662,6 +696,7 @@ banvenez.com # NO_RESOLVE
 barbars.ru # TLD
 bashtel.ru # TLD
 batmanapollo.ru # TLD
+baycrews.jp # TLD
 bbox.fr # NO_RESOLVE
 bbsecure.com # NO_RESOLVE
 bc-sys.com # NO_RESOLVE
@@ -685,21 +720,27 @@ becloudby.tech # NO_RESOLVE
 bedrock.tech # NO_RESOLVE
 beeline.ru # TLD
 beelinegprs.ru # TLD
+beforward.jp # TLD
 beget.com # GeoIP (RU)
 beget.pro # GeoIP (RU)
 beget.ru # TLD
 beget.tech # GeoIP (RU)
 beian.gov.cn # NO_RESOLVE
+bellemaison.jp # TLD
+belluna.jp # TLD
 belregion.ru # TLD
 belta.by # TLD
+benesse.ne.jp # TLD
 beniculturali.it # NO_RESOLVE
 bentoo.net # NO_RESOLVE
 benzuber.ru # TLD
+bestname.com.ua # TLD
 bet2africa.ml # NO_RESOLVE
 beta-bank.ru # TLD
 betboom.ru # TLD
 betcity.by # TLD
 betcity.ru # TLD
+betking.com.ua # TLD
 betrad.com # NO_RESOLVE
 betweendigital.com # GeoIP (RU)
 beyla.site # NO_RESOLVE
@@ -719,6 +760,7 @@ bidswitch.net # NO_RESOLVE
 bidvol.com # GeoIP (RU)
 biess.fin.ec # NO_RESOLVE
 bigboss.rodeo # NO_RESOLVE
+biglobe.ne.jp # TLD
 bigrockservers.com # NO_RESOLVE
 bihar.gov.in # NO_RESOLVE
 biisk.ru # TLD
@@ -735,7 +777,7 @@ bitrix24.ru # TLD
 bitrix24.tech # GeoIP (RU)
 bitrixphone.com # NO_RESOLVE
 bixbyllm.com # NO_RESOLVE
-biz.ua # NO_RESOLVE
+biz.ua # TLD
 bizmrg.com # NO_RESOLVE
 bk6bba-resources.com # NO_RESOLVE
 bk6bba-resources.ru # TLD
@@ -747,22 +789,29 @@ blackrussia.online # GeoIP (RU)
 blackus-triton.com # NO_RESOLVE
 blazingcdn.net # NO_RESOLVE
 bldrdoc.gov # NO_RESOLVE
+ble.ir # TLD
 blncvpn4u.cc # NO_RESOLVE
+blog.jp # TLD
+blogspot.jp # TLD
 blogspot.ru # TLD
 blogtalkradio.com # NO_RESOLVE
 bloomreach.co # NO_RESOLVE
 bluecore.app # NO_RESOLVE
 blueduckredapple.com # NO_RESOLVE
 blxrbdn.com # NO_RESOLVE
+bmi.ir # TLD
 bmw.cloud # NO_RESOLVE
 bnbstatic.com # NO_RESOLVE
 bng-ns.com # NO_RESOLVE
 bngf.ru # TLD
 bnovo.ru # TLD
 bnxz.net # NO_RESOLVE
+boatrace.jp # TLD
 boc.cn # NO_RESOLVE
 bodis.com # NO_RESOLVE
 boltdns.net # NO_RESOLVE
+booklive.jp # TLD
+bookoff.co.jp # TLD
 boosty.to # GeoIP (RU)
 bose.io # NO_RESOLVE
 botfaqtor.ru # TLD
@@ -788,6 +837,7 @@ brightspotcdn.com # NO_RESOLVE
 brilliantchap.com # NO_RESOLVE
 brinkpos.net # NO_RESOLVE
 bronze.systems # NO_RESOLVE
+brother.co.jp # TLD
 brsrvr.com # NO_RESOLVE
 bspb.ru # TLD
 bt.co # NO_RESOLVE
@@ -797,11 +847,14 @@ btcentralplus.com # NO_RESOLVE
 btcl.net.bd # NO_RESOLVE
 bts.gov # NO_RESOLVE
 btsgtm.com # NO_RESOLVE
+buffalo.jp # TLD
 buffbuff.top # NO_RESOLVE
 bumlam.com # NO_RESOLVE
 bunnyinfra.net # NO_RESOLVE
+bunshun.jp # TLD
 burgerkingrus.ru # TLD
 businessinsider.in # NO_RESOLVE
+buyee.jp # TLD
 buzzoola.com # GeoIP (RU)
 bvfcdn.com # NO_RESOLVE
 bvfcdn2.com # NO_RESOLVE
@@ -855,13 +908,15 @@ c1oudfront.com # NO_RESOLVE
 ca-servers.ca # NO_RESOLVE
 cachefly.net # NO_RESOLVE
 cafe24data.com # NO_RESOLVE
+cafebazaar.ir # TLD
 cainet.ru # TLD
 cakeisalie.co.uk # NO_RESOLVE
 calldorado-api.com # NO_RESOLVE
 calltouch.ru # TLD
+camp-fire.jp # TLD
 canva-apps.com # NO_RESOLVE
 canvas-user-content.com # NO_RESOLVE
-cao.go.jp # NO_RESOLVE
+cao.go.jp # TLD
 capcutapi.com # NO_RESOLVE
 capcutapi.us # NO_RESOLVE
 capcutcdn-us.com # NO_RESOLVE
@@ -877,6 +932,7 @@ carezen.net # NO_RESOLVE
 cariad.digital # NO_RESOLVE
 carrotquest.app # GeoIP (RU)
 cartocdn.com # NO_RESOLVE
+carview.co.jp # TLD
 cashappapi.com # NO_RESOLVE
 catonet.works # NO_RESOLVE
 catsonictp.com # NO_RESOLVE
@@ -900,6 +956,7 @@ cdn-vk.net # NO_RESOLVE
 cdn-vk.ru # TLD
 cdn-wal.net # NO_RESOLVE
 cdn-website.com # NO_RESOLVE
+cdn.ir # TLD
 cdn20.com # NO_RESOLVE
 cdn20.info # NO_RESOLVE
 cdn28.com # NO_RESOLVE
@@ -955,6 +1012,7 @@ cgnx.net # NO_RESOLVE
 cgood.ru # TLD
 championat.com # GeoIP (RU)
 championat.ru # TLD
+championcross.jp # TLD
 channelcom.tech # NO_RESOLVE
 channelexco.com # NO_RESOLVE
 chapturist.com # NO_RESOLVE
@@ -969,6 +1027,7 @@ chinanews.com.cn # NO_RESOLVE
 chinatax.gov.cn # NO_RESOLVE
 chnsrv.com # NO_RESOLVE
 chuangcdn.com # NO_RESOLVE
+chunichi.co.jp # TLD
 ci-servers.net # NO_RESOLVE
 ci-servers.org # NO_RESOLVE
 cian.ru # TLD
@@ -986,6 +1045,7 @@ citrt.ru # TLD
 cjb.net # NO_RESOLVE
 cjmpxylza.com # NO_RESOLVE
 ck-ie.com # NO_RESOLVE
+ck444app.net # NO_RESOLVE
 clan.su # TLD
 clarium.io # NO_RESOLVE
 claro.net.br # NO_RESOLVE
@@ -1025,15 +1085,17 @@ cloudsink.net # NO_RESOLVE
 cloudwaysapps.com # NO_RESOLVE
 cmd.su # TLD
 cmediahub.ru # TLD
-cmoa.jp # NO_RESOLVE
+cmoa.jp # TLD
 cnc.cn # NO_RESOLVE
 cnews.ru # TLD
 cninfo.com.cn # NO_RESOLVE
 cninfo.net # NO_RESOLVE
 cnmobile.net # NO_RESOLVE
+cnn.co.jp # TLD
 cnn.io # NO_RESOLVE
 cnrd.io # NO_RESOLVE
 cntd.ru # TLD
+cocacola.co.jp # TLD
 cocolog-nifty.com # NO_RESOLVE
 codebig2.net # NO_RESOLVE
 codefusion.technology # NO_RESOLVE
@@ -1044,6 +1106,7 @@ com.be # NO_RESOLVE
 com.ru # TLD
 comagic.ru # TLD
 cometchat.io # NO_RESOLVE
+comfy.ua # TLD
 component-world.com # NO_RESOLVE
 conde.digital # NO_RESOLVE
 condenastdigital.com # NO_RESOLVE
@@ -1059,6 +1122,7 @@ contentdelivery.net # NO_RESOLVE
 contentsquare.net # NO_RESOLVE
 convertexperiments.com # NO_RESOLVE
 coocaa.asia # NO_RESOLVE
+coocan.jp # TLD
 coolzcloud.com # NO_RESOLVE
 corbina.net # GeoIP (RU)
 cordkit.online # GeoIP (RU)
@@ -1075,6 +1139,7 @@ coupahost.com # NO_RESOLVE
 coupangcdn.com # NO_RESOLVE
 court.gov.cn # NO_RESOLVE
 cpanel.site # NO_RESOLVE
+cpi.ad.jp # TLD
 cpkservice.ru # TLD
 cpoms.net # NO_RESOLVE
 cprapid.com # NO_RESOLVE
@@ -1087,8 +1152,10 @@ crcdn.pro # NO_RESOLVE
 creatium.io # GeoIP (RU)
 creative-serving.com # NO_RESOLVE
 creditchina.gov.cn # NO_RESOLVE
+creema.jp # TLD
 criteo.net # NO_RESOLVE
 croc.ru # TLD
+crowdworks.jp # TLD
 crpt.ru # TLD
 crptech.ru # TLD
 crsspxl.com # NO_RESOLVE
@@ -1118,11 +1185,12 @@ cvs-a.com # GeoIP (RU)
 cwa.gov.tw # NO_RESOLVE
 cyberleninka.ru # TLD
 d-53.info # NO_RESOLVE
-d-53.jp # NO_RESOLVE
+d-53.jp # TLD
 d-53.net # NO_RESOLVE
 d2ns-nbl.com # NO_RESOLVE
+daily.co.jp # TLD
 daioncdn.net # NO_RESOLVE
-daiwa.co.jp # NO_RESOLVE
+daiwa.co.jp # TLD
 dancuquocgia.gov.vn # NO_RESOLVE
 darktracesensor.com # NO_RESOLVE
 dashapi.com # NO_RESOLVE
@@ -1158,7 +1226,7 @@ dellin.ru # TLD
 demandware.net # NO_RESOLVE
 demdex.net # NO_RESOLVE
 demon.co.uk # NO_RESOLVE
-denfaminicogamer.jp # NO_RESOLVE
+denfaminicogamer.jp # TLD
 detmir.ru # TLD
 dev.microsoft # NO_RESOLVE
 devicetask.com # NO_RESOLVE
@@ -1169,6 +1237,7 @@ devvit.net # NO_RESOLVE
 dewrain.life # NO_RESOLVE
 dfmc.com.cn # NO_RESOLVE
 dhresource.com # NO_RESOLVE
+diamond.jp # TLD
 dian.gov.co # NO_RESOLVE
 dicedreams.app # NO_RESOLVE
 dicelaboratory.com # NO_RESOLVE
@@ -1177,13 +1246,15 @@ digbearings.com # NO_RESOLVE
 digicert.cn # NO_RESOLVE
 digicertdns.com # NO_RESOLVE
 digicertdns.net # NO_RESOLVE
+digiform.ir # TLD
 diginetica.net # NO_RESOLVE
 digital.com # NO_RESOLVE
 digitalcaramel.com # GeoIP (RU)
 digitalgov.gov # NO_RESOLVE
+digitalstage.jp # TLD
 digitaltarget.ru # TLD
 digitalvideoplatform.com # NO_RESOLVE
-dion.ne.jp # NO_RESOLVE
+dion.ne.jp # TLD
 dion.vc # GeoIP (RU)
 discomax.com # NO_RESOLVE
 discordapp.net # NO_RESOLVE
@@ -1191,14 +1262,17 @@ discourse-cdn.com # NO_RESOLVE
 discourse.cloud # NO_RESOLVE
 dishtech.org # NO_RESOLVE
 disney-plus.net # NO_RESOLVE
+disney.co.jp # TLD
 disquscdn.com # NO_RESOLVE
 distmed.com # GeoIP (RU)
 dittoparty.com # NO_RESOLVE
+divar.ir # TLD
 diwa-pay.com # NO_RESOLVE
 dixy.ru # TLD
 dkinternal.com # NO_RESOLVE
 dkitrxmdwoqruvsi.net # NO_RESOLVE
 dmed.kz # TLD
+dmm.co.jp # TLD
 dmxleo.com # NO_RESOLVE
 dnevnik.ru # TLD
 dns-expired.com # NO_RESOLVE
@@ -1211,10 +1285,10 @@ dns.ar # NO_RESOLVE
 dns.br # NO_RESOLVE
 dns.eu # NO_RESOLVE
 dns.it # NO_RESOLVE
-dns.jp # NO_RESOLVE
+dns.jp # TLD
 dns.kr # NO_RESOLVE
 dns.lv # NO_RESOLVE
-dns.ne.jp # NO_RESOLVE
+dns.ne.jp # TLD
 dns.net.nz # NO_RESOLVE
 dns.nl # NO_RESOLVE
 dns.sa # NO_RESOLVE
@@ -1233,11 +1307,13 @@ dnsnode.net # NO_RESOLVE
 dnsowl.com # NO_RESOLVE
 dnssmarthost.net # NO_RESOLVE
 dnsswitch.net # NO_RESOLVE
-dnsv.jp # NO_RESOLVE
+dnsv.jp # TLD
 dnsv2.com # NO_RESOLVE
 dnsv3.com # NO_RESOLVE
 dnsv4.com # NO_RESOLVE
 docdoc.ru # TLD
+docomo.ne.jp # TLD
+doda.jp # TLD
 dodois.io # NO_RESOLVE
 dolynkcloud.com # NO_RESOLVE
 domain.by # TLD
@@ -1269,26 +1345,31 @@ downloadpage.xyz # NO_RESOLVE
 dpbolvw.net # NO_RESOLVE
 dpd.ru # TLD
 dramaverses.com # NO_RESOLVE
+dreammail.jp # TLD
+drecom.jp # TLD
 drive2.ru # TLD
 drivecentric.io # NO_RESOLVE
 drom.ru # TLD
 dropbox-dns.com # NO_RESOLVE
 dropboxapi.com # NO_RESOLVE
 dropboxusercontent.com # NO_RESOLVE
+dropgame.jp # TLD
 dropz-k.com # NO_RESOLVE
 drugvokrug.ru # TLD
 drweb.com # GeoIP (RU)
 dsmcdn.com # NO_RESOLVE
 dsname.ru # TLD
 dssedge.com # NO_RESOLVE
+dssott.com # NO_RESOLVE
 dstatbot.win # NO_RESOLVE
 dsts.cloud # GeoIP (RU)
 dstud.io # NO_RESOLVE
 dtf.ru # TLD
-dti.ne.jp # NO_RESOLVE
+dti.ne.jp # TLD
 dtignite.com # NO_RESOLVE
 dtkn.ru # TLD
 dtln.ru # TLD
+dto.jp # TLD
 dtscdn.com # NO_RESOLVE
 dtssrv.com # NO_RESOLVE
 dtvcdn.com # NO_RESOLVE
@@ -1310,7 +1391,7 @@ dyupbydns.com # NO_RESOLVE
 dzdas.com # NO_RESOLVE
 dzen.ru # TLD
 dzeninfra.ru # TLD
-e-gov.go.jp # NO_RESOLVE
+e-gov.go.jp # TLD
 e-msedge.net # NO_RESOLVE
 e1.ru # TLD
 e2ma.net # NO_RESOLVE
@@ -1326,6 +1407,7 @@ easebar.com # NO_RESOLVE
 easy4ip.com # NO_RESOLVE
 easy4ipcloud.com # NO_RESOLVE
 easynet.co.uk # NO_RESOLVE
+easytrader.ir # TLD
 ebally.co.uk # NO_RESOLVE
 ebaycdn.net # NO_RESOLVE
 ebaydesc.com # NO_RESOLVE
@@ -1336,6 +1418,7 @@ ecbsn.com # NO_RESOLVE
 ecdnx.com # NO_RESOLVE
 echosat.net # NO_RESOLVE
 echostarcdn.com # NO_RESOLVE
+ecnavi.jp # TLD
 ecnl.ru # TLD
 ecombdapi.com # NO_RESOLVE
 ecombdimg.com # NO_RESOLVE
@@ -1362,13 +1445,14 @@ edu-servers.net # NO_RESOLVE
 edu.gob.sv # NO_RESOLVE
 educacao.pe.gov.br # NO_RESOLVE
 education.dz # NO_RESOLVE
-education.ne.jp # NO_RESOLVE
+education.ne.jp # TLD
 eduquestzone.pro # NO_RESOLVE
 effirst.com # NO_RESOLVE
 efko.ru # TLD
 egais.ru # TLD
 eganet.go.tz # NO_RESOLVE
 ei.aero # NO_RESOLVE
+eitaa.ir # TLD
 eki-net.com # NO_RESOLVE
 elastic-cloud.com # NO_RESOLVE
 elastic.dev # NO_RESOLVE
@@ -1379,17 +1463,21 @@ elsevierhealth.com # NO_RESOLVE
 elsevierpure.com # NO_RESOLVE
 elstc.co # NO_RESOLVE
 ema.md # NO_RESOLVE
+emalls.ir # TLD
 emb-api.com # NO_RESOLVE
-emb-japan.go.jp # NO_RESOLVE
+emb-japan.go.jp # TLD
 emgsound.ru # TLD
 emqxcloudpro.com # NO_RESOLVE
 emrata.top # NO_RESOLVE
 emu-dns.com # NO_RESOLVE
 enacdn.net # NO_RESOLVE
-env.go.jp # NO_RESOLVE
+entekhab.ir # TLD
+env.go.jp # TLD
 envato.market # NO_RESOLVE
-eonet.ne.jp # NO_RESOLVE
+eonet.ne.jp # TLD
+epicentrk.ua # TLD
 epicgamescdn.com # NO_RESOLVE
+eplus.jp # TLD
 epluscdn.com # NO_RESOLVE
 epson.net # NO_RESOLVE
 eqtv.io # NO_RESOLVE
@@ -1401,6 +1489,7 @@ es.io # NO_RESOLVE
 eset.systems # NO_RESOLVE
 esimdiscovery.com # NO_RESOLVE
 espritgames.ru # TLD
+estama.jp # TLD
 etagi.com # GeoIP (RU)
 ethdisco.net # NO_RESOLVE
 ethicsdinnerpave.online # NO_RESOLVE
@@ -1411,6 +1500,7 @@ eu-4-id5-sync.com # NO_RESOLVE
 eum-appdynamics.com # NO_RESOLVE
 europa.eu.int # NO_RESOLVE
 ev2-msedge.net # NO_RESOLVE
+eva.ua # TLD
 evapqnina.com # NO_RESOLVE
 everestop.io # NO_RESOLVE
 everlastting.com # NO_RESOLVE
@@ -1418,6 +1508,8 @@ evgnet.com # NO_RESOLVE
 evo-games.com # NO_RESOLVE
 evotor.ru # TLD
 evraz.com # GeoIP (RU)
+exblog.jp # TLD
+excite.co.jp # TLD
 exp-tas.com # NO_RESOLVE
 expirenotification.com # NO_RESOLVE
 export.gov # NO_RESOLVE
@@ -1442,8 +1534,14 @@ facebook.net # NO_RESOLVE
 faceit-cdn.net # NO_RESOLVE
 falais.com # NO_RESOLVE
 falconnet.app # NO_RESOLVE
-familyclub.jp # NO_RESOLVE
+famikura-store.jp # TLD
+family.co.jp # TLD
+familyclub.jp # TLD
+fanotech.ir # TLD
+fantia.jp # TLD
+fardayetaze.ir # TLD
 farpost.ru # TLD
+farsnews.ir # TLD
 fast-dl.org # NO_RESOLVE
 fastclick.net # NO_RESOLVE
 fastebridge.com # NO_RESOLVE
@@ -1466,6 +1564,7 @@ fcatvps.de # GeoIP (RU)
 fcdynamo.ru # TLD
 fcomet.com # NO_RESOLVE
 fctg.cloud # NO_RESOLVE
+felissimo.co.jp # TLD
 ffbbbdc6d3c353211fe2ba39c9f744cd.com # NO_RESOLVE
 fhcdngroup.online # NO_RESOLVE
 filesdl.top # NO_RESOLVE
@@ -1491,6 +1590,8 @@ five64dmv.com # NO_RESOLVE
 fivecdm.com # NO_RESOLVE
 fizzopic.org # NO_RESOLVE
 fjsdn.com # NO_RESOLVE
+flashscore.com.ua # TLD
+flashscore.ua # TLD
 flexbe.ru # TLD
 flippback.com # NO_RESOLVE
 flixcart.com # NO_RESOLVE
@@ -1502,10 +1603,12 @@ fmprc.gov.cn # NO_RESOLVE
 fn-pz.com # NO_RESOLVE
 fn7game7v9.com # NO_RESOLVE
 fn7zone5v1.com # NO_RESOLVE
+fnn.jp # TLD
 foggymorningmist.com # NO_RESOLVE
 fon.bet # GeoIP (RU)
 fontanka.ru # TLD
-football360.ir # NO_RESOLVE
+football.ua # TLD
+football360.ir # TLD
 footprint.net # NO_RESOLVE
 footprintdns.com # NO_RESOLVE
 forbes.ru # TLD
@@ -1515,21 +1618,25 @@ fortigslb.com # NO_RESOLVE
 fortum.ru # TLD
 fotostrana.ru # TLD
 found.io # NO_RESOLVE
+fout.jp # TLD
 foxdor.cc # NO_RESOLVE
 foxdoua.com # NO_RESOLVE
 foxkitcloud.ru # TLD
 foxplus.com # NO_RESOLVE
+foxtrot.com.ua # TLD
 fqnovel.com # NO_RESOLVE
 fqnovelpic.com # NO_RESOLVE
 fr.ru # TLD
 freebit.net # NO_RESOLVE
 freedom1.ru # TLD
+freee.co.jp # TLD
 freefiremobile.com # NO_RESOLVE
 freeserve.co.uk # NO_RESOLVE
 freetds.org # NO_RESOLVE
 frequency.stream # NO_RESOLVE
 freshedge.net # NO_RESOLVE
 freshworksapi.com # NO_RESOLVE
+fril.jp # TLD
 frontol.ru # TLD
 fsapi.com # NO_RESOLVE
 fsrv.io # NO_RESOLVE
@@ -1540,10 +1647,14 @@ fti.net # NO_RESOLVE
 ftpub.net # NO_RESOLVE
 ftstatic.com # NO_RESOLVE
 fujitsu.com # NO_RESOLVE
+fujitv.co.jp # TLD
+fujoho.jp # TLD
+fullcast.jp # TLD
 funcaptcha.com # NO_RESOLVE
 funet.fi # NO_RESOLVE
 funmora.com # NO_RESOLVE
 funtime.su # TLD
+furusato-tax.jp # TLD
 furycloud.io # NO_RESOLVE
 fuseplatform.net # NO_RESOLVE
 fusion-platform.com # NO_RESOLVE
@@ -1556,6 +1667,7 @@ fwdcdn.net # NO_RESOLVE
 fwpixel.com # NO_RESOLVE
 fwwgo.com # NO_RESOLVE
 g-cloud.by # TLD
+g123.jp # TLD
 g2afse.com # NO_RESOLVE
 gainsightcloud.com # NO_RESOLVE
 galaxy-cdn.biz # NO_RESOLVE
@@ -1563,9 +1675,13 @@ galaxy-cdn.com # NO_RESOLVE
 galaxycloud.ru # TLD
 galaxydata.ru # TLD
 galleryvalery.com # NO_RESOLVE
+gama.ir # TLD
 game-mode.net # NO_RESOLVE
+game8.jp # TLD
 gameassists.co.uk # NO_RESOLVE
+gamecity.ne.jp # TLD
 gamer-network.uk # NO_RESOLVE
+gamewith.jp # TLD
 gamifyspace.com # NO_RESOLVE
 gamoshi.io # NO_RESOLVE
 gandi-ns.fr # NO_RESOLVE
@@ -1591,10 +1707,12 @@ gdflpr.com # NO_RESOLVE
 gdz-raketa.ru # TLD
 gdz.ru # TLD
 gearupportal.com # NO_RESOLVE
+gekisaka.jp # TLD
+genieesspv.jp # TLD
 geoadnxs.com # NO_RESOLVE
 geobasket.net # NO_RESOLVE
 geobasket.ru # TLD
-geocities.jp # NO_RESOLVE
+geocities.jp # TLD
 geocomply.net # NO_RESOLVE
 geodns.me # NO_RESOLVE
 geoedge.be # NO_RESOLVE
@@ -1619,6 +1737,7 @@ gismeteo.ru # TLD
 githubassets.com # NO_RESOLVE
 githubusercontent.com # NO_RESOLVE
 gitlab.net # NO_RESOLVE
+gizmodo.jp # TLD
 gjacky.com # NO_RESOLVE
 gjhyss.com # NO_RESOLVE
 gksmdns.com # NO_RESOLVE
@@ -1644,6 +1763,7 @@ gmru.net # NO_RESOLVE
 gn-dns.com # NO_RESOLVE
 gn-dns.org # NO_RESOLVE
 gname-dns.com # NO_RESOLVE
+gnavi.co.jp # TLD
 gnezdo.ru # TLD
 go-mpulse.net # NO_RESOLVE
 goairgap.com # NO_RESOLVE
@@ -1656,11 +1776,15 @@ gogodns.com # NO_RESOLVE
 gojekapi.com # NO_RESOLVE
 gold-usergeneratedcontent.net # NO_RESOLVE
 goldapple.ru # TLD
+golux.com # NO_RESOLVE
 gonewsvod.com # NO_RESOLVE
-goo.ne.jp # NO_RESOLVE
+goo.ne.jp # TLD
 goo.su # TLD
 goodnotes-devops.com # NO_RESOLVE
 google.by # TLD
+google.co.jp # TLD
+google.com.cu # TLD
+google.com.ua # TLD
 google.kz # TLD
 google.ru # TLD
 googleapis.cn # NO_RESOLVE
@@ -1684,9 +1808,12 @@ gpubgm.com # NO_RESOLVE
 grabpay.com # NO_RESOLVE
 grammarly.io # NO_RESOLVE
 grammarlyaws.com # NO_RESOLVE
+granbluefantasy.jp # TLD
 grandpashabet8201.com # NO_RESOLVE
+grapee.jp # TLD
 gree-apps.net # NO_RESOLVE
 gree-pf.net # NO_RESOLVE
+gree.jp # TLD
 greenend.org.uk # NO_RESOLVE
 greylabeldelivery.com # NO_RESOLVE
 grofer.io # NO_RESOLVE
@@ -1698,7 +1825,8 @@ gshifen.com # NO_RESOLVE
 gslb.com # NO_RESOLVE
 gslbjpmchase.com # NO_RESOLVE
 gslbnspk.ru # TLD
-gssprt.jp # NO_RESOLVE
+gsspat.jp # TLD
+gssprt.jp # TLD
 gsupport.support # NO_RESOLVE
 gsxt.gov.cn # NO_RESOLVE
 gtimg.com # NO_RESOLVE
@@ -1715,15 +1843,20 @@ gwu.edu # NO_RESOLVE
 gygtest.com # NO_RESOLVE
 h-cdn.com # NO_RESOLVE
 h264.io # NO_RESOLVE
-habr.com # GeoIP (RU)
+habr.com # Keyword
 hadronid.net # NO_RESOLVE
 haecdn.com # NO_RESOLVE
 hakunaymatata.com # NO_RESOLVE
 halykbank.kz # TLD
+hamshahrionline.ir # TLD
+hange.jp # TLD
 haplat.net # NO_RESOLVE
 haplorrhini.com # NO_RESOLVE
 happ.su # TLD
+happymail.co.jp # TLD
+hardoff.co.jp # TLD
 harknmav.fun # NO_RESOLVE
+hatena.ne.jp # TLD
 haufedev.systems # NO_RESOLVE
 hbidc.net # NO_RESOLVE
 hbrd.io # NO_RESOLVE
@@ -1733,6 +1866,7 @@ hdhub4u.fo # NO_RESOLVE
 hdhub4u.insure # NO_RESOLVE
 hdhub4u.limo # NO_RESOLVE
 hdslb.com # NO_RESOLVE
+healmate.jp # TLD
 healthfusionclaims.com # NO_RESOLVE
 heap-api.com # NO_RESOLVE
 hearstapps.com # NO_RESOLVE
@@ -1775,12 +1909,15 @@ hitv.com # NO_RESOLVE
 hiyaapi.com # NO_RESOLVE
 hkirc.net.hk # NO_RESOLVE
 hlx.page # NO_RESOLVE
-hokudai.ac.jp # NO_RESOLVE
+hmv.co.jp # TLD
+hokudai.ac.jp # TLD
 hol.gr # NO_RESOLVE
-home.ne.jp # NO_RESOLVE
+home.ne.jp # TLD
 homeconnectegw.com # NO_RESOLVE
 homeconnecthca.com # NO_RESOLVE
-honda.co.jp # NO_RESOLVE
+homes.co.jp # TLD
+honda.co.jp # TLD
+honto.jp # TLD
 hookspf.com # NO_RESOLVE
 host-food.ru # TLD
 host-redirect.com # NO_RESOLVE
@@ -1797,6 +1934,7 @@ hostingradio.ru # TLD
 hostland.ru # TLD
 hostpapavps.net # NO_RESOLVE
 hotjar.io # NO_RESOLVE
+hotpepper.jp # TLD
 hpanalytics.net # NO_RESOLVE
 hpcl.co.in # NO_RESOLVE
 hr-link.ru # TLD
@@ -1825,6 +1963,7 @@ hubspotfeedback.com # NO_RESOLVE
 hubspotlinks.com # NO_RESOLVE
 hubspotusercontent-na1.net # NO_RESOLVE
 huedatastore.com # NO_RESOLVE
+huffingtonpost.jp # TLD
 hugedomainsdns.com # NO_RESOLVE
 huk-coburg.cloud # NO_RESOLVE
 hulustream.com # NO_RESOLVE
@@ -1833,6 +1972,7 @@ huntflow.ru # TLD
 huoma-cname.shop # NO_RESOLVE
 huoshanlive.com # NO_RESOLVE
 huyatvns.com # NO_RESOLVE
+hvosting.ua # TLD
 hwcdn.ru # TLD
 hwclouds-dns.com # NO_RESOLVE
 hwrescdn.com # NO_RESOLVE
@@ -1841,15 +1981,20 @@ hyperbolicglobal.com # NO_RESOLVE
 hypermart.net # NO_RESOLVE
 hyperotics.com # NO_RESOLVE
 hzmklvdieo.com # NO_RESOLVE
+i-mobile.co.jp # TLD
+i.ua # TLD
 i18n-pglstatp.com # NO_RESOLVE
 iamcook.ru # TLD
 iana-servers.net # NO_RESOLVE
+iau.ir # TLD
+ib-game.jp # TLD
 ib-ibi.com # NO_RESOLVE
 ibaldr.ru # TLD
 ibscorp.ru # TLD
 ibspark.com # NO_RESOLVE
 ibytedtos.com # NO_RESOLVE
 ibyteimg.com # NO_RESOLVE
+icfi.ir # TLD
 icg-in.com # NO_RESOLVE
 icloseli.com # NO_RESOLVE
 icmp0.ru # TLD
@@ -1859,7 +2004,7 @@ icq.com # GeoIP (RU)
 idea-connect.net # NO_RESOLVE
 idlixku.com # NO_RESOLVE
 idnscloud.com # NO_RESOLVE
-ielove.jp # NO_RESOLVE
+ielove.jp # TLD
 iesdev.com # NO_RESOLVE
 iflvopx.net # NO_RESOLVE
 igamecj.com # NO_RESOLVE
@@ -1871,6 +2016,7 @@ ihost.com # NO_RESOLVE
 ihrhls.com # NO_RESOLVE
 ihuoshanlive.com # NO_RESOLVE
 iiko.it # NO_RESOLVE
+ikco.ir # TLD
 ilex.by # TLD
 illusionblack.com # NO_RESOLVE
 ilogy.ru # TLD
@@ -1887,9 +2033,11 @@ immedia-semi.com # NO_RESOLVE
 imoim.net # NO_RESOLVE
 imolive2.com # NO_RESOLVE
 imostatic.com # NO_RESOLVE
+impact-ad.jp # TLD
 impactcdn.com # NO_RESOLVE
 impervadns.net # NO_RESOLVE
 impervasecuredns.net # NO_RESOLVE
+impress.co.jp # TLD
 imrworldwide.com # NO_RESOLVE
 in.net # NO_RESOLVE
 in2p3.fr # NO_RESOLVE
@@ -1902,10 +2050,13 @@ indriverapp.com # NO_RESOLVE
 inep.gov.br # NO_RESOLVE
 inf0.net # NO_RESOLVE
 infeng.site # NO_RESOLVE
+infomart.co.jp # TLD
 infomatix.tech # NO_RESOLVE
+infopanel.jp # TLD
 inforcloudsuite.com # NO_RESOLVE
 informatic.ru # TLD
-infoweb.ne.jp # NO_RESOLVE
+infoseek.co.jp # TLD
+infoweb.ne.jp # TLD
 infura.org # NO_RESOLVE
 ingos.ru # TLD
 inhostedns.com # NO_RESOLVE
@@ -1922,6 +2073,7 @@ insales.ru # TLD
 insalesteam.ru # TLD
 inscloudgate.net # NO_RESOLVE
 insiad.com # NO_RESOLVE
+inside-games.jp # TLD
 instrumentidlyadoma.com # NO_RESOLVE
 intellimize.co # NO_RESOLVE
 interfax.ru # TLD
@@ -1943,25 +2095,31 @@ iot-dns.com # NO_RESOLVE
 iot334.com # NO_RESOLVE
 iotbing.com # NO_RESOLVE
 ip-ptr.tech # NO_RESOLVE
-ipa.go.jp # NO_RESOLVE
+ipa.go.jp # TLD
 iphmx.com # NO_RESOLVE
 iportal.ru # TLD
 ipredictive.com # NO_RESOLVE
 iptv2022.com # GeoIP (RU)
 iql.ru # TLD
 iqolsys.com # NO_RESOLVE
+irancell.ir # TLD
+iranjib.ir # TLD
+iranlms.ir # TLD
 irecommend.ru # TLD
+irna.ir # TLD
 irobotapi.com # NO_RESOLVE
 is74.ru # TLD
 isappcloud.com # NO_RESOLVE
 isharing-gps.com # NO_RESOLVE
 isimple.ru # TLD
+isna.ir # TLD
 isnssdk.com # NO_RESOLVE
 iso.ch # NO_RESOLVE
 isp.sky # NO_RESOLVE
 ispringlearn.ru # TLD
 itbakit.com # NO_RESOLVE
 iti.br # NO_RESOLVE
+itmedia.co.jp # TLD
 itoolabs.net # GeoIP (KZ)
 itotolink.net # NO_RESOLVE
 itspro.team # GeoIP (RU)
@@ -1974,11 +2132,14 @@ ixbt.com # GeoIP (RU)
 iz.ru # TLD
 izbirkom.ru # TLD
 jagex.network # NO_RESOLVE
+jal.co.jp # TLD
 jalshamoviez.coupons # NO_RESOLVE
 jamfcloud.com # NO_RESOLVE
-japanpost.jp # NO_RESOLVE
-jaxa.jp # NO_RESOLVE
-jcb.co.jp # NO_RESOLVE
+japanet.co.jp # TLD
+japanpost.jp # TLD
+japantimes.co.jp # TLD
+jaxa.jp # TLD
+jcb.co.jp # TLD
 jcplatform.dev # NO_RESOLVE
 jdoqocy.com # NO_RESOLVE
 jet-external.com # NO_RESOLVE
@@ -1995,22 +2156,30 @@ jiveip.net # NO_RESOLVE
 jivo.ru # TLD
 jjlxoi.cn # NO_RESOLVE
 jksolapp.com # NO_RESOLVE
-jma.go.jp # NO_RESOLVE
+jma.go.jp # TLD
+jmty.jp # TLD
+jobcan.jp # TLD
 jobs.nhs.uk # NO_RESOLVE
 johndeerecloud.com # NO_RESOLVE
 joinserver.xyz # GeoIP (RU)
 jomodns.com # NO_RESOLVE
 joomcdn.net # NO_RESOLVE
+jorudan.co.jp # TLD
+joshinweb.jp # TLD
 jpn.org # NO_RESOLVE
 jr-odekake.net # NO_RESOLVE
-jra.go.jp # NO_RESOLVE
-jreast.co.jp # NO_RESOLVE
+jra.go.jp # TLD
+jra.jp # TLD
+jreast.co.jp # TLD
 jscrambler.com # Keyword
 jsmsat.com # NO_RESOLVE
-jst.go.jp # NO_RESOLVE
+jst.go.jp # TLD
+jtb.co.jp # TLD
 jtvnw.net # NO_RESOLVE
+jugem.jp # TLD
 juicyscore.com # GeoIP (RU)
 jussieu.fr # NO_RESOLVE
+just-smilenext.jp # TLD
 just.ro # NO_RESOLVE
 justhost.ru # TLD
 justservingfiles.net # NO_RESOLVE
@@ -2018,44 +2187,57 @@ jut.su # TLD
 jw-cdn.org # NO_RESOLVE
 jwpcdn.com # NO_RESOLVE
 k-img.com # NO_RESOLVE
+k-manga.jp # TLD
 k2.cloud # GeoIP (RU)
+kabutan.jp # TLD
 kabutoservices.com # NO_RESOLVE
 kakaocdn.net # NO_RESOLVE
+kakuyomu.jp # TLD
 kaluzaplatform.net # NO_RESOLVE
 kama.gs # NO_RESOLVE
 kamaz.ru # TLD
 kambicdn.com # NO_RESOLVE
 kameleoon.eu # NO_RESOLVE
 kameleoon.io # NO_RESOLVE
+kamigame.jp # TLD
 kanamic.net # NO_RESOLVE
+kanoon.ir # TLD
+kantei.go.jp # TLD
 kaptcha.com # NO_RESOLVE
 kartoshka.co.uk # NO_RESOLVE
 kas-labs.com # NO_RESOLVE
+kaspersky-labs.com # Keyword
+kaspersky.com # Keyword
 kaspersky.ru # TLD
-kasperskylabs.com # NO_RESOLVE
+kasperskylabs.com # Keyword
 kaspi.kz # TLD
 kazanexpress.ru # TLD
-kddi.ne.jp # NO_RESOLVE
+kddi.ne.jp # TLD
+kdreams.jp # TLD
 keenetic.io # NO_RESOLVE
 keenetic.ru # TLD
 keepverify.net # NO_RESOLVE
-keiba.go.jp # NO_RESOLVE
-keibabook.co.jp # NO_RESOLVE
-keio.ac.jp # NO_RESOLVE
+keiba.go.jp # TLD
+keibabook.co.jp # TLD
+keibalab.jp # TLD
+keio.ac.jp # TLD
+keirin.jp # TLD
 kent.edu # NO_RESOLVE
 ketchjs.com # NO_RESOLVE
 keydisk.ru # TLD
 kgns1.com # NO_RESOLVE
 kgns3.com # NO_RESOLVE
+khabaronline.ir # TLD
 khelo24bet88.com # NO_RESOLVE
 khl.ru # TLD
 kickoffo.site # NO_RESOLVE
-kikkoman.co.jp # NO_RESOLVE
+kikkoman.co.jp # TLD
 kill-bot.ru # TLD
 kimberlite.io # GeoIP (RU)
+kingoftime.jp # TLD
 kino-teatr.ru # TLD
 kinoafisha.info # GeoIP (RU)
-kinokuniya.co.jp # NO_RESOLVE
+kinokuniya.co.jp # TLD
 kinopoisk.ru # TLD
 kion.ru # TLD
 kl9sov4.com # NO_RESOLVE
@@ -2109,7 +2291,8 @@ kufar.by # TLD
 kuiniuca.com # NO_RESOLVE
 kundelik.kz # TLD
 kuper.ru # TLD
-kuronekoyamato.co.jp # NO_RESOLVE
+kuronekoyamato.co.jp # TLD
+kuruma-news.jp # TLD
 kustomerapp.com # NO_RESOLVE
 kvaedit.site # NO_RESOLVE
 kvant-telecom.ru # TLD
@@ -2122,8 +2305,10 @@ kwcdn.com # NO_RESOLVE
 kwikdns.com # NO_RESOLVE
 kwork.ru # TLD
 kxmp.cf # NO_RESOLVE
+kyoto-np.co.jp # TLD
+kyoto-u.ac.jp # TLD
 kytira.cc # NO_RESOLVE
-kyushu-u.ac.jp # NO_RESOLVE
+kyushu-u.ac.jp # TLD
 kzhi.tech # NO_RESOLVE
 l-agent.me # NO_RESOLVE
 l-cdn.com # NO_RESOLVE
@@ -2137,6 +2322,7 @@ labour.gov.za # NO_RESOLVE
 lamoda.ru # TLD
 langame.ru # TLD
 lastwarapp.net # NO_RESOLVE
+lawson.co.jp # TLD
 lazcdn.com # NO_RESOLVE
 laztys.tech # NO_RESOLVE
 lazybumblebee.com # NO_RESOLVE
@@ -2165,6 +2351,7 @@ libreview.io # NO_RESOLVE
 libria.fun # NO_RESOLVE
 licdn.com # NO_RESOLVE
 licensingstack.com # NO_RESOLVE
+life-n.jp # TLD
 life.ru # TLD
 liftoff-creatives.io # NO_RESOLVE
 liftyad.xyz # NO_RESOLVE
@@ -2188,6 +2375,7 @@ litres.ru # TLD
 live-video.net # NO_RESOLVE
 live-website.com # NO_RESOLVE
 live.net # NO_RESOLVE
+livedoor.jp # TLD
 liveinternet.ru # TLD
 livejournal.com # GeoIP (RU)
 livekit.cloud # NO_RESOLVE
@@ -2200,10 +2388,13 @@ ln-msedge.net # NO_RESOLVE
 lnkdns.net # NO_RESOLVE
 loadedfiles.org # NO_RESOLVE
 localnowapi.com # NO_RESOLVE
+locondo.jp # TLD
 locum.ru # TLD
 logicnow.us # NO_RESOLVE
 logitech.io # NO_RESOLVE
+logly.co.jp # TLD
 loja.li # NO_RESOLVE
+lolipop.jp # TLD
 lomanovo.com # NO_RESOLVE
 longmingdns.com # NO_RESOLVE
 lookout-life.com # NO_RESOLVE
@@ -2216,6 +2407,7 @@ loveprogram.tech # NO_RESOLVE
 lovetrue.co.uk # NO_RESOLVE
 lowescdn.com # NO_RESOLVE
 loxonecloud.com # NO_RESOLVE
+lpga.or.jp # TLD
 lporirxe.com # NO_RESOLVE
 lstprod.net # NO_RESOLVE
 ltguevmavv.com # NO_RESOLVE
@@ -2230,9 +2422,11 @@ lxdns.com # NO_RESOLVE
 lxdns.info # NO_RESOLVE
 lyft.net # NO_RESOLVE
 m2y8hkjw.com # NO_RESOLVE
+macaro-ni.jp # TLD
 macomnet.ru # TLD
 madrid.org # NO_RESOLVE
-maff.go.jp # NO_RESOLVE
+maff.go.jp # TLD
+magerta.ir # TLD
 magnit.ru # TLD
 magnite-audience-prod.com # NO_RESOLVE
 magonet.ru # TLD
@@ -2243,8 +2437,12 @@ mailgun.net # NO_RESOLVE
 mailpulse.best # GeoIP (RU)
 mailshell.net # NO_RESOLVE
 mailspike.net # NO_RESOLVE
+main.jp # TLD
+mainichi.jp # TLD
 majordomo.ru # TLD
+makeup.com.ua # TLD
 mam.dev # NO_RESOLVE
+mamastar.jp # TLD
 mamba.ru # TLD
 managed-vps.net # NO_RESOLVE
 mangabuff.ru # TLD
@@ -2253,6 +2451,7 @@ mangapicgallery.com # NO_RESOLVE
 mangaraw.ac # GeoIP (RU)
 mango-office.ru # TLD
 mangosip.ru # TLD
+mantan-web.jp # TLD
 manual.canon # NO_RESOLVE
 marines.mil # NO_RESOLVE
 marketing-hub.net # GeoIP (RU)
@@ -2269,20 +2468,26 @@ mawartotokimi.com # NO_RESOLVE
 max.ru # TLD
 maxesads.com # NO_RESOLVE
 maxwinexch365.com # NO_RESOLVE
+mbga.jp # TLD
 mbrd.ru # TLD
 mcas.ms # NO_RESOLVE
+mcdonalds.co.jp # TLD
 mchost.ru # TLD
 mchs.ru # TLD
+mci.ir # TLD
 mcn.ru # TLD
 mcr-msedge.net # NO_RESOLVE
 mcx.ru # TLD
 mczbf.com # NO_RESOLVE
+mdpr.jp # TLD
 mearicloud.com # NO_RESOLVE
+mechacomic.jp # TLD
 media-amazon.com # NO_RESOLVE
 media-imdb.com # NO_RESOLVE
 mediadelivery.net # NO_RESOLVE
 mediavitrina.ru # TLD
 mediawallahscript.com # NO_RESOLVE
+medu.ir # TLD
 meeshoapi.com # NO_RESOLVE
 meetcircle-netgear.co # NO_RESOLVE
 megafon.ru # TLD
@@ -2292,7 +2497,10 @@ megapbx.ru # TLD
 megaupload.com # NO_RESOLVE
 megoplan.ru # TLD
 meli.com # NO_RESOLVE
+melody98.ir # TLD
 melolostatic.com # NO_RESOLVE
+melonbooks.co.jp # TLD
+mensnet.jp # TLD
 meoodata01.com # NO_RESOLVE
 mephi.ru # TLD
 meraki-sdavc-saas.com # NO_RESOLVE
@@ -2303,20 +2511,23 @@ mercusyscloud.com # NO_RESOLVE
 mergeab.com # NO_RESOLVE
 mergecola.com # NO_RESOLVE
 mergesigma.com # NO_RESOLVE
-mesh.ad.jp # NO_RESOLVE
+mesh.ad.jp # TLD
 meshify.cloud # NO_RESOLVE
 metacafe.com # NO_RESOLVE
-meti.go.jp # NO_RESOLVE
+meteofor.com.ua # TLD
+meti.go.jp # TLD
+metrix.ir # TLD
 meusitehostgator.com.br # NO_RESOLVE
-mext.go.jp # NO_RESOLVE
+mext.go.jp # TLD
 mfms.ru # TLD
 mgp.ninja # NO_RESOLVE
 mgts.ru # TLD
-mhlw.go.jp # NO_RESOLVE
+mhlw.go.jp # TLD
 mhverifier.ru # TLD
 mi-dun.com # NO_RESOLVE
 mi-fds.com # NO_RESOLVE
 mi-img.com # NO_RESOLVE
+microad.jp # TLD
 microsoft.us # NO_RESOLVE
 microsoftapp.net # NO_RESOLVE
 microsoftazuread-sso.com # NO_RESOLVE
@@ -2333,14 +2544,17 @@ miit.gov.cn # NO_RESOLVE
 miitbeian.gov.cn # NO_RESOLVE
 mijia.tech # NO_RESOLVE
 mijndnsserver.nl # NO_RESOLVE
+mil.gov.ua # TLD
 mil.ru # TLD
 mimecastprotect.com # NO_RESOLVE
 mindbox.ru # TLD
 minecraft-inside.ru # TLD
 minecraft-services.net # NO_RESOLVE
 minecraftservices.com # NO_RESOLVE
+minfin.com.ua # TLD
 miniclippt.com # NO_RESOLVE
 minionplatform.com # NO_RESOLVE
+minkabu.jp # TLD
 minutemedia-prebid.com # NO_RESOLVE
 mioffice.cn # NO_RESOLVE
 mir-chitki.ru # TLD
@@ -2352,13 +2566,14 @@ misp.ru # TLD
 misumi-ec.com # NO_RESOLVE
 mitelis.cc # NO_RESOLVE
 mitvos.com # NO_RESOLVE
-mizuhobank.co.jp # NO_RESOLVE
+mixi.jp # TLD
+mizuhobank.co.jp # TLD
 mizulina.top # NO_RESOLVE
 mk.ru # TLD
 mkb.ru # TLD
 mlbinfra.com # NO_RESOLVE
 mlcdn.com.br # NO_RESOLVE
-mlit.go.jp # NO_RESOLVE
+mlit.go.jp # TLD
 mlrnd.ru # TLD
 mlstatic.com # NO_RESOLVE
 mmscloudtest.com # NO_RESOLVE
@@ -2374,16 +2589,18 @@ moe.gov.cn # NO_RESOLVE
 moe.video # GeoIP (RU)
 moex.com # GeoIP (RU)
 mof.gov.cn # NO_RESOLVE
-mofa.go.jp # NO_RESOLVE
+mofa.go.jp # TLD
 mofcom.gov.cn # NO_RESOLVE
 mohrss.gov.cn # NO_RESOLVE
 mohurd.gov.cn # NO_RESOLVE
-moj.go.jp # NO_RESOLVE
+moj.go.jp # TLD
 moneta.ru # TLD
 monetate.net # NO_RESOLVE
+monex.co.jp # TLD
 mongodb.net # NO_RESOLVE
 monikerdns.net # NO_RESOLVE
 mopera.net # NO_RESOLVE
+moppy.jp # TLD
 mos.ru # TLD
 mosmedzdrav.ru # TLD
 mosreg.ru # TLD
@@ -2418,6 +2635,7 @@ mps.gov.cn # NO_RESOLVE
 mpsuadv.ru # TLD
 mradx.net # NO_RESOLVE
 mrgcdn.ru # TLD
+mriia.gov.ua # TLD
 mrktmtrcs.net # NO_RESOLVE
 mrush.mobi # GeoIP (RU)
 msappproxy.net # NO_RESOLVE
@@ -2435,6 +2653,7 @@ msmartlife.net # NO_RESOLVE
 msocdn.com # NO_RESOLVE
 mstea.ms # NO_RESOLVE
 msu.ru # TLD
+mt98.ir # TLD
 mtgglobals.com # NO_RESOLVE
 mtmeprod.com # NO_RESOLVE
 mtproto.ru # TLD
@@ -2445,12 +2664,16 @@ mtsbank.ru # TLD
 mtu-net.ru # TLD
 mtu.ru # TLD
 mtvnservices.com # NO_RESOLVE
-mufg.jp # NO_RESOLVE
+mufg.jp # TLD
 multiscreensite.com # NO_RESOLVE
 mundo-co.com # NO_RESOLVE
 mundo-promote.cc # NO_RESOLVE
+musasi.jp # TLD
 muscache.com # NO_RESOLVE
 music-name-servers.com # NO_RESOLVE
+musicdel.ir # TLD
+musicsweb.ir # TLD
+musicviral.ir # TLD
 muzofond.fm # GeoIP (RU)
 mvasuper.click # NO_RESOLVE
 mvideo.ru # TLD
@@ -2460,6 +2683,8 @@ mx-ns.mx # NO_RESOLVE
 mxpnl.com # NO_RESOLVE
 my-ihor.ru # TLD
 my.com # NO_RESOLVE
+my.games # Keyword
+my.gov.ir # TLD
 my3w.com # NO_RESOLVE
 myangular.life # NO_RESOLVE
 mybsn.com.my # NO_RESOLVE
@@ -2478,7 +2703,10 @@ myhuaweicloud.ru # TLD
 myinsales.ru # TLD
 mykajabi.com # NO_RESOLVE
 mykeeta.com # NO_RESOLVE
+myket.ir # TLD
 mykomon.com # NO_RESOLVE
+myna.go.jp # TLD
+mynavi.jp # TLD
 mynetname.net # NO_RESOLVE
 myoas.net # NO_RESOLVE
 myoffice.ru # TLD
@@ -2495,8 +2723,9 @@ n5t3vrjp.com # NO_RESOLVE
 nabu.casa # NO_RESOLVE
 nag.kz # TLD
 nag.ru # TLD
-nagoya-u.ac.jp # NO_RESOLVE
+nagoya-u.ac.jp # TLD
 naiadsystems.com # NO_RESOLVE
+nakanohito.jp # TLD
 naked-science.ru # TLD
 nalog.ru # TLD
 name-servers.ch # NO_RESOLVE
@@ -2511,8 +2740,11 @@ narwaltech.com # NO_RESOLVE
 nashjournal.ru # TLD
 naukanet.ru # TLD
 naumen.ru # TLD
-naver.jp # NO_RESOLVE
+naurok.com.ua # TLD
+naver.jp # TLD
 naverncp.com # NO_RESOLVE
+navima.jp # TLD
+navitime.co.jp # TLD
 navy.mil # NO_RESOLVE
 nbcuott.com # NO_RESOLVE
 nc0.co # NO_RESOLVE
@@ -2520,6 +2752,7 @@ ncloudgtm.com # NO_RESOLVE
 ndash.net # NO_RESOLVE
 ndcpp-os.com # NO_RESOLVE
 ndcpp.com # NO_RESOLVE
+ndl.go.jp # TLD
 ndmdhs.com # NO_RESOLVE
 ndrc.gov.cn # NO_RESOLVE
 nebo.mobi # GeoIP (RU)
@@ -2572,8 +2805,10 @@ ngtv.io # NO_RESOLVE
 ngxcld.com # NO_RESOLVE
 nhc.gov.cn # NO_RESOLVE
 nheos.com # NO_RESOLVE
-nhk.or.jp # NO_RESOLVE
+nhk.jp # TLD
+nhk.or.jp # TLD
 nic.bg # NO_RESOLVE
+nic.ir # TLD
 nic.kz # TLD
 nic.no # NO_RESOLVE
 nic.rs # NO_RESOLVE
@@ -2583,22 +2818,29 @@ nic.uk # NO_RESOLVE
 nice-incontact.com # NO_RESOLVE
 nicecloudsvc.com # NO_RESOLVE
 nickfinder.com # GeoIP (RU)
+nicovideo.jp # TLD
 nielsencollections.com # NO_RESOLVE
-nii.ac.jp # NO_RESOLVE
-nikkei.co.jp # NO_RESOLVE
+nii.ac.jp # TLD
+nikkei.co.jp # TLD
+nikkeibp.co.jp # TLD
+nintendo.co.jp # TLD
 nintendo.net # NO_RESOLVE
 nipr.mil # NO_RESOLVE
-nitori-net.jp # NO_RESOLVE
+nishinippon.co.jp # TLD
+nissan.co.jp # TLD
+nissen.co.jp # TLD
+nitori-net.jp # TLD
 nix.ru # TLD
 nju.edu.cn # NO_RESOLVE
 nmrodam.com # NO_RESOLVE
 nnppffccddggdd.com # NO_RESOLVE
+nobat.ir # TLD
 nocookie.net # NO_RESOLVE
 nodacdn.net # GeoIP (RU)
 nodes.ac # NO_RESOLVE
 nominaltechno.com # GeoIP (RU)
 nominetdns.uk # NO_RESOLVE
-nomura.co.jp # NO_RESOLVE
+nomura.co.jp # TLD
 nontonanimeid.boats # NO_RESOLVE
 nontondrama.my # NO_RESOLVE
 nooncdn.com # NO_RESOLVE
@@ -2622,6 +2864,7 @@ novotelecom.ru # TLD
 nox.ru # TLD
 np-internal.ru # TLD
 np-sr.ru # TLD
+npb.jp # TLD
 npttech.com # NO_RESOLVE
 nr-data.net # NO_RESOLVE
 nrel.gov # NO_RESOLVE
@@ -2633,7 +2876,7 @@ ns.il # NO_RESOLVE
 ns.ph # NO_RESOLVE
 ns.se # NO_RESOLVE
 ns.tr # NO_RESOLVE
-ns.ua # NO_RESOLVE
+ns.ua # TLD
 ns14.net # NO_RESOLVE
 ns1pcdn.net # NO_RESOLVE
 nsatc.net # NO_RESOLVE
@@ -2646,7 +2889,7 @@ nssvc.net # NO_RESOLVE
 nstld.com # NO_RESOLVE
 nsu.ru # TLD
 nt.technology # GeoIP (RU)
-nta.go.jp # NO_RESOLVE
+nta.go.jp # TLD
 ntdb.su # TLD
 nthu.edu.tw # NO_RESOLVE
 ntnu.edu.tw # NO_RESOLVE
@@ -2654,18 +2897,23 @@ ntp-fireos.com # NO_RESOLVE
 ntp-servers.net # GeoIP (RU)
 ntp.org.cn # NO_RESOLVE
 ntpc.edu.tw # NO_RESOLVE
-nttdocomo.co.jp # NO_RESOLVE
+nttdocomo.co.jp # TLD
+nttpc.ne.jp # TLD
 ntu.edu.tw # NO_RESOLVE
+ntv.co.jp # TLD
 ntv.io # NO_RESOLVE
 ntv.ru # TLD
 nu.international # NO_RESOLVE
 nuancemobility.net # NO_RESOLVE
 numericable.fr # NO_RESOLVE
 nur.kz # TLD
+nuro.jp # TLD
+nv.ua # TLD
 nvcam.net # NO_RESOLVE
 nvidiagrid.net # NO_RESOLVE
 nvts.co # NO_RESOLVE
 nwu.ac.za # NO_RESOLVE
+nz.ua # TLD
 o3.ru # TLD
 o365filtering.com # NO_RESOLVE
 o3t.ru # TLD
@@ -2676,11 +2924,13 @@ obihai.com # NO_RESOLVE
 obr55.ru # TLD
 observeit.net # NO_RESOLVE
 ocmthood.com # NO_RESOLVE
+ocn.ne.jp # TLD
 ocsp-certum.com # NO_RESOLVE
 oculuscdn.com # NO_RESOLVE
+odn.ne.jp # TLD
 odnoklassniki.ru # TLD
 office.net # NO_RESOLVE
-officestation.jp # NO_RESOLVE
+officestation.jp # TLD
 officialyonogames.com # NO_RESOLVE
 offshor.co.uk # NO_RESOLVE
 oghost.com.br # NO_RESOLVE
@@ -2690,7 +2940,7 @@ ohthree.com # NO_RESOLVE
 ok.ru # TLD
 okcdn.ru # TLD
 okjds8z.com # NO_RESOLVE
-okko.tv # GeoIP (RU)
+okko.tv # Keyword
 okmeter.io # GeoIP (RU)
 okolo.app # GeoIP (RU)
 oktacdn.com # NO_RESOLVE
@@ -2699,6 +2949,7 @@ okvmm.tech # NO_RESOLVE
 olimpbet.kz # TLD
 olx.kz # TLD
 olx.org # NO_RESOLVE
+olx.ua # TLD
 olxcdn.com # NO_RESOLVE
 olxtak.com # NO_RESOLVE
 omni.ru # TLD
@@ -2729,7 +2980,7 @@ onmicrosoft.com # NO_RESOLVE
 ono.com # NO_RESOLVE
 onthestage.ru # TLD
 ontvtime.ru # TLD
-onward.co.jp # NO_RESOLVE
+onward.co.jp # TLD
 ooklaserver.net # NO_RESOLVE
 oos.ru # TLD
 opecloud.com # NO_RESOLVE
@@ -2738,6 +2989,7 @@ opendsp.ru # TLD
 openssp.ru # TLD
 opentowers.net # NO_RESOLVE
 openwebmp.com # NO_RESOLVE
+openwork.jp # TLD
 opoxv.com # NO_RESOLVE
 opti-digital.com # NO_RESOLVE
 optvz.com # NO_RESOLVE
@@ -2748,11 +3000,13 @@ orastreaming.net # NO_RESOLVE
 orbsrv.com # NO_RESOLVE
 orderbox-dns.com # NO_RESOLVE
 org.ru # TLD
+oricon.co.jp # TLD
 ortb.net # NO_RESOLVE
 os-lb.com # NO_RESOLVE
-osaka-u.ac.jp # NO_RESOLVE
+osaka-u.ac.jp # TLD
 osd.mil # NO_RESOLVE
 ostrovok.ru # TLD
+osvita.ua # TLD
 otidapi.com # NO_RESOLVE
 otm-r.com # GeoIP (RU)
 otpbank.ru # TLD
@@ -2770,15 +3024,17 @@ ovotech.org.uk # NO_RESOLVE
 ovscdns.com # NO_RESOLVE
 ovscdns.net # NO_RESOLVE
 ozon.by # TLD
-ozon.com # GeoIP (RU)
+ozon.com # Keyword
 ozon.kz # TLD
 ozon.ru # TLD
 ozone.ru # TLD
-ozonusercontent.com # NO_RESOLVE
+ozonusercontent.com # Keyword
+p-bandai.jp # TLD
 p-cdn.com # NO_RESOLVE
 p-cdn.us # NO_RESOLVE
 p-msedge.net # NO_RESOLVE
 p-n.io # NO_RESOLVE
+p-world.co.jp # TLD
 p2bld.vip # NO_RESOLVE
 p76prod.systems # NO_RESOLVE
 p7cloud.net # NO_RESOLVE
@@ -2788,14 +3044,17 @@ pacer.cc # NO_RESOLVE
 pacloudflare.com # NO_RESOLVE
 pakonlinepayment.com # NO_RESOLVE
 palantirfoundry.com # NO_RESOLVE
+palcloset.jp # TLD
 palmmerchant.com # NO_RESOLVE
 palmst0re.com # NO_RESOLVE
 palworldgame.com # NO_RESOLVE
+panasonic.jp # TLD
 pangle-ads.com # NO_RESOLVE
 pangle-b.io # NO_RESOLVE
 pangle.io # NO_RESOLVE
 pangolin-sdk-toutiao.com # NO_RESOLVE
 pangolin-sdk-toutiao1.com # NO_RESOLVE
+papy.co.jp # TLD
 pareci.net # NO_RESOLVE
 parpos.com # NO_RESOLVE
 parrot-flow.com # NO_RESOLVE
@@ -2813,10 +3072,11 @@ pbiaas.com # NO_RESOLVE
 pbstck.com # NO_RESOLVE
 pcdn.co # NO_RESOLVE
 pclead.co.uk # NO_RESOLVE
+pcmax.jp # TLD
 pddpic.com # NO_RESOLVE
 pdscrb.com # NO_RESOLVE
 peer.run # NO_RESOLVE
-peers.tv # NO_RESOLVE
+peers.tv # GeoIP (RU)
 pelotalibretv.su # TLD
 pemsrv.com # NO_RESOLVE
 pending-renewal-domain.com # NO_RESOLVE
@@ -2826,11 +3086,14 @@ perekrestok.ru # TLD
 perfdrive.com # NO_RESOLVE
 permkrai.ru # TLD
 petrovich.ru # TLD
+pex.jp # TLD
 pf.gov.br # NO_RESOLVE
 pglstatp-toutiao.com # NO_RESOLVE
 phncdn.com # NO_RESOLVE
 phosagro.ru # TLD
 photonengine.io # NO_RESOLVE
+photozou.jp # TLD
+pia.jp # TLD
 pidetupop.com # NO_RESOLVE
 pik-digital.ru # TLD
 pik-service.ru # TLD
@@ -2845,6 +3108,7 @@ pitaya-clientai.com # NO_RESOLVE
 pixhost.to # NO_RESOLVE
 pixlates.com # NO_RESOLVE
 pkb.ru # TLD
+plala.or.jp # TLD
 planday.cloud # NO_RESOLVE
 planfix.ru # TLD
 plati.market # GeoIP (RU)
@@ -2872,14 +3136,17 @@ pochta.ru # TLD
 podigee.io # NO_RESOLVE
 pogovorim.by # TLD
 poig.ru # TLD
+point-news.jp # TLD
 pointmediatracker.com # NO_RESOLVE
 pointtoserver.com # NO_RESOLVE
 pokemoncenter-online.com # NO_RESOLVE
+pokepara.jp # TLD
 poki-cdn.com # NO_RESOLVE
 poki.io # NO_RESOLVE
 polargrizzly.com # NO_RESOLVE
 polymetal.ru # TLD
 pomxd.com # NO_RESOLVE
+ponta.jp # TLD
 ponyexpress.ru # TLD
 ponyexpress.tech # NO_RESOLVE
 poolbinance.com # NO_RESOLVE
@@ -2895,21 +3162,27 @@ postimg.org # NO_RESOLVE
 powerappsportals.com # NO_RESOLVE
 powercam365.com # NO_RESOLVE
 pp.ru # TLD
+pp.ua # TLD
 ppbdev.com # NO_RESOLVE
 ppe-hosted.com # NO_RESOLVE
 pphosted.com # NO_RESOLVE
 ppppay.xyz # NO_RESOLVE
 pragmaticplaylive.net # NO_RESOLVE
+pravda.com.ua # TLD
 pravda.ru # TLD
 prebid-server.com # NO_RESOLVE
 prebid.cloud # NO_RESOLVE
 prelude.dev # NO_RESOLVE
+president.gov.ua # TLD
+president.jp # TLD
+presinet.ne.jp # TLD
 primis-tech.org # NO_RESOLVE
 printercloud.com # NO_RESOLVE
 prismaaccess.com # NO_RESOLVE
 privacy-center.org # NO_RESOLVE
 privacy-mgmt.com # NO_RESOLVE
 privacysandboxservices.com # NO_RESOLVE
+privatbank.ua # TLD
 prmovies.health # NO_RESOLVE
 prmutv.co # NO_RESOLVE
 pro-market.net # NO_RESOLVE
@@ -2920,6 +3193,7 @@ prodoctorov.ru # TLD
 profi.ru # TLD
 profinance.ru # TLD
 programmatica.com # GeoIP (RU)
+prom.ua # TLD
 proofpoint.us # NO_RESOLVE
 prosv.ru # TLD
 protek.ru # TLD
@@ -2929,9 +3203,11 @@ proxit.ru # TLD
 proxytg.ink # NO_RESOLVE
 proxytg.space # NO_RESOLVE
 prserv.net # NO_RESOLVE
+prtimes.jp # TLD
 pruffme.com # GeoIP (RU)
 ps.kz # TLD
 psbank.ru # TLD
+pscube.jp # TLD
 psdops.com # NO_RESOLVE
 pstatp.com # NO_RESOLVE
 pstmn.io # NO_RESOLVE
@@ -2970,6 +3246,7 @@ qihucdn.com # NO_RESOLVE
 qiniucloud.net # NO_RESOLVE
 qlivecdn.com # NO_RESOLVE
 qlogo.cn # NO_RESOLVE
+qoo10.jp # TLD
 qprod2.net # NO_RESOLVE
 qq-os.com # NO_RESOLVE
 qqq-ttss.su # TLD
@@ -3002,17 +3279,19 @@ queniuum.com # NO_RESOLVE
 queniuwk.cn # NO_RESOLVE
 queniuyk.com # NO_RESOLVE
 queuebox.online # GeoIP (RU)
+qvc.jp # TLD
 qwarta.ru # TLD
 qznovelvod.com # NO_RESOLVE
 qzwxrtyk.com # NO_RESOLVE
 r-line.ru # TLD
 r01.ru # TLD
-r10s.jp # NO_RESOLVE
+r10s.jp # TLD
 r7ops.com # NO_RESOLVE
 rabo.cloud # NO_RESOLVE
 rackcdn.com # NO_RESOLVE
 rackspace-cloud.com # NO_RESOLVE
 rackspaceclouddb.com # NO_RESOLVE
+rada.gov.ua # TLD
 radikal.ru # TLD
 radiopotok.ru # TLD
 radwarecloud.net # NO_RESOLVE
@@ -3021,13 +3300,19 @@ raiffeisen.ru # TLD
 railsc.ru # TLD
 rajabandotdamai61.com # NO_RESOLVE
 rajatogelidr.com # NO_RESOLVE
-rakuten.ne.jp # NO_RESOLVE
+rakuten-bank.co.jp # TLD
+rakuten-card.co.jp # TLD
+rakuten-sec.co.jp # TLD
+rakuten.co.jp # TLD
+rakuten.ne.jp # TLD
 rambler.ru # TLD
 randewoo.ru # TLD
+ranking-deli.jp # TLD
 rapidedge.io # NO_RESOLVE
 ras.ru # TLD
 ratutogelidr.com # NO_RESOLVE
 rbc.ru # TLD
+rbc.ua # TLD
 rbk.ru # TLD
 rbstsystems.live # NO_RESOLVE
 rbxcdn.com # NO_RESOLVE
@@ -3037,6 +3322,7 @@ rdcnw.net # NO_RESOLVE
 rdcpix.com # NO_RESOLVE
 realsrv.com # NO_RESOLVE
 reasonlabsapi.com # NO_RESOLVE
+recruit.co.jp # TLD
 redbubble.net # NO_RESOLVE
 redcdn.pl # NO_RESOLVE
 redditspace.com # NO_RESOLVE
@@ -3056,6 +3342,7 @@ remote.management # NO_RESOLVE
 remotewd.com # NO_RESOLVE
 ren.tv # GeoIP (RU)
 renater.fr # NO_RESOLVE
+research-panel.jp # TLD
 resolver.arpa # NO_RESOLVE
 restream-media.net # NO_RESOLVE
 retailrocket.ru # TLD
@@ -3071,7 +3358,7 @@ rhinternal.net # NO_RESOLVE
 ria.ru # TLD
 rian.ru # TLD
 rigla.ru # TLD
-riken.jp # NO_RESOLVE
+riken.jp # TLD
 rikunabi.com # NO_RESOLVE
 rima-tde.net # NO_RESOLVE
 ring.net # NO_RESOLVE
@@ -3101,14 +3388,17 @@ rospotrebnadzor.ru # TLD
 rostaxi.org # GeoIP (RU)
 rostelecom.ru # TLD
 roszdravnadzor.ru # TLD
+rozetka.com.ua # TLD
 rp5.ru # TLD
 rpdns.net # NO_RESOLVE
 rqmob.com # NO_RESOLVE
 rqtrk.eu # NO_RESOLVE
 rsasecurity.com # NO_RESOLVE
+rsch.jp # TLD
 rshb.ru # TLD
 rsl.ru # TLD
 rssi.ru # TLD
+rst.ua # TLD
 rt.com # GeoIP (RU)
 rt.ru # TLD
 rtactivate.com # NO_RESOLVE
@@ -3127,6 +3417,7 @@ ru-tld.ru # TLD
 ru.actor # NO_RESOLVE
 ru.com # NO_RESOLVE
 ru.net # GeoIP (RU)
+rubika.ir # TLD
 rubrik-lab.com # NO_RESOLVE
 rudn.ru # TLD
 ruidongcloud.com # NO_RESOLVE
@@ -3155,11 +3446,12 @@ saby.ru # TLD
 sacdnssedge.com # NO_RESOLVE
 safebrowsing.apple # NO_RESOLVE
 safedk.com # NO_RESOLVE
-sagawa-exp.co.jp # NO_RESOLVE
+sagawa-exp.co.jp # TLD
 sail-horizon.com # NO_RESOLVE
 sail-personalize.com # NO_RESOLVE
 sail-track.com # NO_RESOLVE
 sailfishx.live # NO_RESOLVE
+sakura.ne.jp # TLD
 salesforce-dns.com # NO_RESOLVE
 salute.ru # TLD
 samokat.ru # TLD
@@ -3204,12 +3496,14 @@ sb-cd.com # NO_RESOLVE
 sb.by # TLD
 sbcglobal.net # NO_RESOLVE
 sber.ru # TLD
-sberbank-tele.com # GeoIP (RU)
-sberbank.com # GeoIP (RU)
+sberbank-tele.com # Keyword
+sberbank.com # Keyword
 sberbank.ru # TLD
 sbercloud.ru # TLD
 sberdevices.ru # TLD
+sberkassa.site # Keyword
 sbis.ru # TLD
+sbisec.co.jp # TLD
 sbixby.com # NO_RESOLVE
 sblogistica.ru # TLD
 sbrf.ru # TLD
@@ -3240,13 +3534,14 @@ second-ns.com # NO_RESOLVE
 second-ns.de # NO_RESOLVE
 securebrowser.com # NO_RESOLVE
 securityeco.com # NO_RESOLVE
+seesaawiki.jp # TLD
 sefan.ru # TLD
 seg-social.es # NO_RESOLVE
 seg-social.gob.es # NO_RESOLVE
 segmentapis.com # NO_RESOLVE
 segmento.ru # TLD
 segreencolumn.com # NO_RESOLVE
-sej.co.jp # NO_RESOLVE
+sej.co.jp # TLD
 selcdn.net # NO_RESOLVE
 selcdn.ru # TLD
 selcloud.ru # TLD
@@ -3256,6 +3551,7 @@ semasio.net # NO_RESOLVE
 semrush.net # NO_RESOLVE
 sendibm1.com # NO_RESOLVE
 sendsay.ru # TLD
+sengokuixa.jp # TLD
 sentry-cdn.com # NO_RESOLVE
 seondnsresolve.com # NO_RESOLVE
 sepe.gob.es # NO_RESOLVE
@@ -3293,19 +3589,28 @@ sgg.fi # NO_RESOLVE
 sgmbocast.com # NO_RESOLVE
 sgsnssdk.com # NO_RESOLVE
 sh-tencentclb.com # NO_RESOLVE
+shad.ir # TLD
+shafa.ua # TLD
 shandong.gov.cn # NO_RESOLVE
+shaparak.ir # TLD
 share-dns.com # NO_RESOLVE
 share-dns.net # NO_RESOLVE
 sharesdns.com # NO_RESOLVE
 sharethis.net # NO_RESOLVE
+shatel.ir # TLD
 shiftapis.com # NO_RESOLVE
+shinobi.jp # TLD
+shiseido.co.jp # TLD
+shop-pro.jp # TLD
 shop-shimamura.com # NO_RESOLVE
+shopch.jp # TLD
 shopee.io # NO_RESOLVE
 shopifyapps.com # NO_RESOLVE
 shopifycdn.com # NO_RESOLVE
 shopifyinc.com # NO_RESOLVE
 shopifysvc.com # NO_RESOLVE
 showvid.ws # NO_RESOLVE
+shueisha.co.jp # TLD
 sibnet.ru # TLD
 siege-amazon.com # NO_RESOLVE
 sify.net # NO_RESOLVE
@@ -3320,8 +3625,10 @@ singtelchina.cn # NO_RESOLVE
 sinica.edu.tw # NO_RESOLVE
 sinn.ru # TLD
 sinopec.com # NO_RESOLVE
+sinoptik.ua # TLD
 sintecgroup.ru # TLD
 sistema.gov.br # NO_RESOLVE
+site777.jp # TLD
 sitecore-staging.cloud # NO_RESOLVE
 sitecorecloud.io # NO_RESOLVE
 siteimproveanalytics.io # NO_RESOLVE
@@ -3340,7 +3647,7 @@ sky1x.com # NO_RESOLVE
 skycdn.it # NO_RESOLVE
 skyegloup.com # NO_RESOLVE
 skyeng.ru # TLD
-skylark.co.jp # NO_RESOLVE
+skylark.co.jp # TLD
 skymovieshd.free # NO_RESOLVE
 skypeassets.com # NO_RESOLVE
 skyscannerplatform.net # NO_RESOLVE
@@ -3348,7 +3655,7 @@ skysound7.com # GeoIP (RU)
 sl-reverse.com # NO_RESOLVE
 slack-edge.com # NO_RESOLVE
 slatic.net # NO_RESOLVE
-sld.cu # NO_RESOLVE
+sld.cu # TLD
 slidesharecdn.com # NO_RESOLVE
 smaato.net # NO_RESOLVE
 smailru.net # NO_RESOLVE
@@ -3361,7 +3668,8 @@ smartlook.cloud # NO_RESOLVE
 smartytouch.co # NO_RESOLVE
 smassets.net # NO_RESOLVE
 smbc-card.com # NO_RESOLVE
-smbc.co.jp # NO_RESOLVE
+smbc.co.jp # TLD
+smbcnikko.co.jp # TLD
 smi2.net # GeoIP (RU)
 smi2.ru # TLD
 smotrim.ru # TLD
@@ -3369,15 +3677,18 @@ smoxycdn.net # NO_RESOLVE
 smtcdns.com # NO_RESOLVE
 smyorm.site # NO_RESOLVE
 snapcraftcontent.com # NO_RESOLVE
+snapp.ir # TLD
 snaptube.app # NO_RESOLVE
 snarutox.com # NO_RESOLVE
 sng.link # NO_RESOLVE
 snooguts.net # NO_RESOLVE
 snplow.net # NO_RESOLVE
+so-net.ne.jp # TLD
 soc-club.ru # TLD
 soccer365.ru # TLD
 socialpointgames.com # NO_RESOLVE
 socure.io # NO_RESOLVE
+softbank.jp # TLD
 softether-network.net # NO_RESOLVE
 sogirl.so # NO_RESOLVE
 sohu01.com # NO_RESOLVE
@@ -3385,6 +3696,8 @@ soika.site # GeoIP (RU)
 solidbroker.ru # TLD
 solodcdn.com # NO_RESOLVE
 sonicsads.com # NO_RESOLVE
+sony.co.jp # TLD
+sony.jp # TLD
 sony.tv # NO_RESOLVE
 sophosupd.com # NO_RESOLVE
 sophosxl.net # NO_RESOLVE
@@ -3394,7 +3707,7 @@ sorokodin.co.uk # NO_RESOLVE
 soton.ac.uk # NO_RESOLVE
 sotoon53.com # NO_RESOLVE
 souh6.com # NO_RESOLVE
-soumu.go.jp # NO_RESOLVE
+soumu.go.jp # TLD
 soundcloud.cloud # NO_RESOLVE
 sovcombank.group # NO_RESOLVE
 sovcombank.ru # TLD
@@ -3417,8 +3730,11 @@ spinnovax.org # NO_RESOLVE
 splio.name # NO_RESOLVE
 splunkdev.net # NO_RESOLVE
 splunkdns.net # NO_RESOLVE
+splus.ir # TLD
 spo-msedge.net # NO_RESOLVE
+sponichi.co.jp # TLD
 sport-express.ru # TLD
+sport.ua # TLD
 sport24.ru # TLD
 sportbox.ru # TLD
 sportmail.ru # TLD
@@ -3445,6 +3761,7 @@ srmdata-eur.com # NO_RESOLVE
 srmdata-us.com # NO_RESOLVE
 srmdata.com # NO_RESOLVE
 ss2.us # NO_RESOLVE
+sse.com.cn # NO_RESOLVE
 ssiloc.com # NO_RESOLVE
 ssl-images-amazon.com # NO_RESOLVE
 sspnet.tech # GeoIP (RU)
@@ -3452,6 +3769,7 @@ sss.gov.ph # NO_RESOLVE
 sssrvpn.pro # GeoIP (RU)
 stackdns.com # NO_RESOLVE
 star4live.com # NO_RESOLVE
+starbucks.co.jp # TLD
 starkgames.app # NO_RESOLVE
 starline.ru # TLD
 starott.com # NO_RESOLVE
@@ -3468,12 +3786,13 @@ steamstatic.com # NO_RESOLVE
 steamusercontent.com # NO_RESOLVE
 steptofsvo.com # NO_RESOLVE
 stihi.ru # TLD
-stnet.ad.jp # NO_RESOLVE
+stnet.ad.jp # TLD
 stocrm.ru # TLD
 stoloto.ru # TLD
-storage-yahoo.jp # NO_RESOLVE
+storage-yahoo.jp # TLD
 storagejsstrategiesfabulous.com # NO_RESOLVE
 storeland.ru # TLD
+stores.jp # TLD
 storify.com # NO_RESOLVE
 storjapi.io # NO_RESOLVE
 storjshare.io # NO_RESOLVE
@@ -3494,12 +3813,15 @@ strpst.com # NO_RESOLVE
 stspg-customer.com # NO_RESOLVE
 stubhub.net # NO_RESOLVE
 studilka.ru # TLD
+studying.jp # TLD
 stvidtest.net # NO_RESOLVE
 submitdata.top # NO_RESOLVE
 sucursalelectronica.com # NO_RESOLVE
 sudrf.ru # TLD
 summerbeestest.work # NO_RESOLVE
+sumo.or.jp # TLD
 sunat.gob.pe # NO_RESOLVE
+suntory.co.jp # TLD
 supercdn.ru # TLD
 superdnsserver.net # NO_RESOLVE
 superfastgame.com # NO_RESOLVE
@@ -3510,11 +3832,13 @@ supersonicads.com # NO_RESOLVE
 supertms.com # NO_RESOLVE
 surepay1.com # NO_RESOLVE
 surfeasy.mobi # NO_RESOLVE
+suruga-ya.jp # TLD
 surveyenquete.net # NO_RESOLVE
 susercontent.com # NO_RESOLVE
 suspended-domain.com # NO_RESOLVE
 sutochno.ru # TLD
-suzuki.co.jp # NO_RESOLVE
+suumo.jp # TLD
+suzuki.co.jp # TLD
 svc.ms # NO_RESOLVE
 svcmot.com # NO_RESOLVE
 svmkinfra.com # NO_RESOLVE
@@ -3525,6 +3849,7 @@ swi-rc.com # NO_RESOLVE
 swiftycdn.net # NO_RESOLVE
 swisscom.net # NO_RESOLVE
 switchbot.net # NO_RESOLVE
+syapp.jp # TLD
 symcb.com # NO_RESOLVE
 symcd.com # NO_RESOLVE
 syndigo.cloud # NO_RESOLVE
@@ -3545,6 +3870,8 @@ t1chat.com # NO_RESOLVE
 t2.ru # TLD
 t2z4rphk.com # NO_RESOLVE
 t72.ru # TLD
+tabletki.ua # TLD
+tabnak.ir # TLD
 taboola-ocm.com # NO_RESOLVE
 tabor.ru # TLD
 tacdn.com # NO_RESOLVE
@@ -3552,31 +3879,40 @@ tacticalrmm.io # NO_RESOLVE
 tages.dev # GeoIP (RU)
 taichung.gov.tw # NO_RESOLVE
 tailscale.io # NO_RESOLVE
-takarakuji-official.jp # NO_RESOLVE
-takashimaya.co.jp # NO_RESOLVE
+takarakuji-official.jp # TLD
+takashimaya.co.jp # TLD
 takbet.com # GeoIP (RU)
 tal.com # NO_RESOLVE
+tala.ir # TLD
 talkdeskapp.com # NO_RESOLVE
+tamin.ir # TLD
 tamtam.chat # GeoIP (RU)
 tander.ru # TLD
 tanki.su # TLD
 tanksblitz.ru # TLD
+tantora.jp # TLD
 tapioni.com # NO_RESOLVE
 taplink.cc # GeoIP (RU)
+tapsell.ir # TLD
 targetads.io # GeoIP (RU)
 targetimg1.com # NO_RESOLVE
+tasnimnews.ir # TLD
 tass.com # GeoIP (RU)
 tass.ru # TLD
 tatar.ru # TLD
 tatarstan.ru # TLD
 tatneft.ru # TLD
+taw-bio.ir # TLD
+tax.gov.ir # TLD
 taxcom.ru # TLD
 taxssp.com # NO_RESOLVE
 taxtelecom.net # NO_RESOLVE
 taxtelecom.ru # TLD
 taz.bz # NO_RESOLVE
 tbank.ru # TLD
+tbs.co.jp # TLD
 tcdn.com.br # NO_RESOLVE
+tci.ir # TLD
 tclking.com # NO_RESOLVE
 tcllauncher.com # NO_RESOLVE
 tconnect.services # GeoIP (RU)
@@ -3602,6 +3938,7 @@ telecid.ru # TLD
 telecom.kz # TLD
 telecom.net.ar # NO_RESOLVE
 teleport.media # GeoIP (RU)
+telewebion.ir # TLD
 telia.net # NO_RESOLVE
 telkomadsl.co.za # NO_RESOLVE
 telmexla.net.co # NO_RESOLVE
@@ -3612,6 +3949,7 @@ tencentyun.com # NO_RESOLVE
 tendawifi.com # NO_RESOLVE
 tendplatform.com # NO_RESOLVE
 tengrinews.kz # TLD
+tenki.jp # TLD
 tennoudai.net # NO_RESOLVE
 tensor.ru # TLD
 tera.space # NO_RESOLVE
@@ -3623,6 +3961,8 @@ testuk.org # NO_RESOLVE
 tfbnw.net # NO_RESOLVE
 tgstat.ru # TLD
 thdstatic.com # NO_RESOLVE
+the-ans.jp # TLD
+the-ozone-project.com # Keyword
 thecatmachine.com # NO_RESOLVE
 thecontentserver.com # NO_RESOLVE
 thedd.online # NO_RESOLVE
@@ -3631,6 +3971,7 @@ themsic.com # NO_RESOLVE
 theplanet.com # NO_RESOLVE
 thepoizon.ru # TLD
 thepure.app # NO_RESOLVE
+thetv.jp # TLD
 threatseeker.com # NO_RESOLVE
 tiktok-minis.com # NO_RESOLVE
 tiktok-minis.us # NO_RESOLVE
@@ -3659,9 +4000,10 @@ tingot.com # NO_RESOLVE
 tinkoff.ru # TLD
 tinypass.com # NO_RESOLVE
 tiqcdn.com # NO_RESOLVE
+titech.ac.jp # TLD
 tivoservice.com # NO_RESOLVE
 tiwar.ru # TLD
-tkc.co.jp # NO_RESOLVE
+tkc.co.jp # TLD
 tkpusjc86.com # NO_RESOLVE
 tkqlhce.com # NO_RESOLVE
 tktube.com # NO_RESOLVE
@@ -3681,17 +4023,24 @@ tns-counter.ru # TLD
 tnt-ea.com # NO_RESOLVE
 toastoven.net # NO_RESOLVE
 tobsnssdk.com # NO_RESOLVE
+tohoku.ac.jp # TLD
+tohotheater.jp # TLD
 toiyeu-vlxx.co # NO_RESOLVE
 tokeon.ru # TLD
 tokopedia-static.net # NO_RESOLVE
 tokopediax.com # NO_RESOLVE
-tokyo.lg.jp # NO_RESOLVE
+tokubai.co.jp # TLD
+tokyo-sports.co.jp # TLD
+tokyo.lg.jp # TLD
+tokyodisneyresort.jp # TLD
 tomsk.ru # TLD
 toolmatrix.plus # NO_RESOLVE
 toonblast.net # NO_RESOLVE
 topdns.me # NO_RESOLVE
 topgirl.co # NO_RESOLVE
 topwar.ru # TLD
+toranet.jp # TLD
+toranoana.jp # TLD
 tospotify.com # NO_RESOLVE
 tostarsbuilding.com # NO_RESOLVE
 toto12sena.com # NO_RESOLVE
@@ -3699,6 +4048,8 @@ touchstatistics.com # NO_RESOLVE
 tourvisor.ru # TLD
 toutiaoapi.com # NO_RESOLVE
 toutiaoimg.com # NO_RESOLVE
+tower.jp # TLD
+toyota.jp # TLD
 tp.edu.tw # NO_RESOLVE
 tpd-soe.com # NO_RESOLVE
 tplinknbu.com # NO_RESOLVE
@@ -3713,6 +4064,7 @@ tradesoft.ru # TLD
 trafficconverter.biz # NO_RESOLVE
 trafficmanager.cn # NO_RESOLVE
 trafficmanager.net # NO_RESOLVE
+trafficnews.jp # TLD
 trahkino.co # NO_RESOLVE
 trahkino.life # NO_RESOLVE
 traincdn.com # NO_RESOLVE
@@ -3725,6 +4077,9 @@ trasre.com # NO_RESOLVE
 travel-assets.com # NO_RESOLVE
 travelline.ru # TLD
 trbcdn.net # GeoIP (RU)
+trendmicro.co.jp # TLD
+trepy.jp # TLD
+trilltrill.jp # TLD
 trione.cc # NO_RESOLVE
 tripcdn.com # NO_RESOLVE
 tripledotapi.com # NO_RESOLVE
@@ -3739,7 +4094,9 @@ truecallerstatic.com # NO_RESOLVE
 trueconf.ru # TLD
 truefitcorp.com # NO_RESOLVE
 tsinghua.edu.cn # NO_RESOLVE
-tsukuba.ac.jp # NO_RESOLVE
+tsite.jp # TLD
+tsn.ua # TLD
+tsukuba.ac.jp # TLD
 ttcdn-us.com # NO_RESOLVE
 ttdns2.com # NO_RESOLVE
 ttdns3.com # NO_RESOLVE
@@ -3750,6 +4107,8 @@ ttvnw.net # NO_RESOLVE
 ttwstatic.com # NO_RESOLVE
 tubi.io # NO_RESOLVE
 tubi.video # NO_RESOLVE
+tuma.jp # TLD
+tumadouga.jp # TLD
 tunefindforfans.com # NO_RESOLVE
 tunnex.xyz # NO_RESOLVE
 turn.com # NO_RESOLVE
@@ -3757,6 +4116,9 @@ tutu.ru # TLD
 tuyacn.com # NO_RESOLVE
 tuyaeu.com # NO_RESOLVE
 tuyaus.com # NO_RESOLVE
+tv-asahi.co.jp # TLD
+tv-tokyo.co.jp # TLD
+tver.jp # TLD
 tvip-media.net # GeoIP (RU)
 tw1.ru # TLD
 twimg.com # NO_RESOLVE
@@ -3771,7 +4133,7 @@ typesense.net # NO_RESOLVE
 typicode.com # NO_RESOLVE
 tyxcdn.com # NO_RESOLVE
 u-strasbg.fr # NO_RESOLVE
-u-tokyo.ac.jp # NO_RESOLVE
+u-tokyo.ac.jp # TLD
 u5fgb.com # NO_RESOLVE
 u69v85ecs.com # NO_RESOLVE
 ua.es # NO_RESOLVE
@@ -3785,7 +4147,7 @@ ucaasnetwork.com # NO_RESOLVE
 uceprotect.net # NO_RESOLVE
 uchi.ru # TLD
 ucnaming.com # NO_RESOLVE
-ucom.ne.jp # NO_RESOLVE
+ucom.ne.jp # TLD
 ucoz.ru # TLD
 udmr.ru # TLD
 ufanet.ru # TLD
@@ -3811,10 +4173,13 @@ umengcloud.com # NO_RESOLVE
 umetrip.com # NO_RESOLVE
 uminho.pt # NO_RESOLVE
 unbxdapi.com # NO_RESOLVE
+uncn.jp # TLD
+unext.jp # TLD
 uni-kl.de # NO_RESOLVE
 uni-mannheim.de # NO_RESOLVE
 uni-muenchen.de # NO_RESOLVE
 uni-trier.de # NO_RESOLVE
+unian.ua # TLD
 unicomcdn.com.cn # NO_RESOLVE
 unicontext.ru # TLD
 unicredit.ru # TLD
@@ -3822,6 +4187,7 @@ unimo.it # NO_RESOLVE
 unina.it # NO_RESOLVE
 unirioja.es # NO_RESOLVE
 uniroma1.it # NO_RESOLVE
+unitedcinemas.jp # TLD
 unity3dusercontent.com # NO_RESOLVE
 univesalsrv.com # NO_RESOLVE
 uniview.com # NO_RESOLVE
@@ -3830,6 +4196,7 @@ uonohubone.com # NO_RESOLVE
 upcloudlb.com # NO_RESOLVE
 upi9.pro # NO_RESOLVE
 upravel.com # GeoIP (RU)
+uqmobile.jp # TLD
 ura.news # GeoIP (RU)
 ureca-lab.com # NO_RESOLVE
 urfu.ru # TLD
@@ -3922,7 +4289,7 @@ vk-apps.com # GeoIP (RU)
 vk-cdn.net # Keyword
 vk-portal.net # GeoIP (RU)
 vk-proxy.com # NO_RESOLVE
-vk.com # Keyword
+vk.com # GeoIP (RU)
 vk.me # GeoIP (RU)
 vk.ru # TLD
 vk.team # GeoIP (RU)
@@ -3962,11 +4329,13 @@ voodoo-tech.io # NO_RESOLVE
 voskhod.ru # TLD
 voxicheck.com # NO_RESOLVE
 vp3n.ru # TLD
+vpngate2.jp # TLD
 vpnpplvpn.top # NO_RESOLVE
 vpsvc.com # NO_RESOLVE
 vrchat.cloud # NO_RESOLVE
 vscode-cdn.net # NO_RESOLVE
 vseinstrumenti.ru # TLD
+vseosvita.ua # TLD
 vshowapi.com # NO_RESOLVE
 vstserv.com # NO_RESOLVE
 vtb.ru # TLD
@@ -3985,11 +4354,14 @@ w390.net # NO_RESOLVE
 w55c.net # NO_RESOLVE
 wac-dc-msedge.net # NO_RESOLVE
 wac-msedge.net # NO_RESOLVE
+wacoal.jp # TLD
+wadax-sv.jp # TLD
 wall-box.com # NO_RESOLVE
 walmartimages.com # NO_RESOLVE
 wambacdn.net # GeoIP (RU)
 wanakadns.net # NO_RESOLVE
 wandzapi.com # NO_RESOLVE
+warau.jp # TLD
 warnermediacdn.com # NO_RESOLVE
 wartank.ru # TLD
 wb.ru # TLD
@@ -4000,8 +4372,10 @@ wcdnga.com # NO_RESOLVE
 wdckeystone.com # NO_RESOLVE
 we-api.com # NO_RESOLVE
 we-stats.com # NO_RESOLVE
+wear.jp # TLD
 weatherbug.net # NO_RESOLVE
 weatherkit.net # GeoIP (RU)
+weathernews.jp # TLD
 web.nhk # NO_RESOLVE
 web54.net # NO_RESOLVE
 webexcontent.com # NO_RESOLVE
@@ -4009,6 +4383,7 @@ webguard.pro # GeoIP (RU)
 webhostbox.net # NO_RESOLVE
 webim.ru # TLD
 webinar.ru # TLD
+weblio.jp # TLD
 webofcomics.top # GeoIP (RU)
 weborama-tech.ru # TLD
 webrootcloudav.com # NO_RESOLVE
@@ -4028,6 +4403,7 @@ whiskergalaxy.com # NO_RESOLVE
 whost-solutions.ru # TLD
 wicknetwork.pro # NO_RESOLVE
 wikispaces.com # NO_RESOLVE
+wikiwiki.jp # TLD
 wildberries.ru # TLD
 wildixin.com # NO_RESOLVE
 wildred.tv # GeoIP (RU)
@@ -4048,9 +4424,13 @@ wnacloud.com # NO_RESOLVE
 woman.ru # TLD
 wordunscrambler.me # Keyword
 wordunscrambler.net # Keyword
+work.ua # TLD
 workbox.dk # NO_RESOLVE
 workdaysuvcareers.com # NO_RESOLVE
+workman.jp # TLD
+world.co.jp # TLD
 worldfcdn2.com # NO_RESOLVE
+wowma.jp # TLD
 wowscale.com # NO_RESOLVE
 wp2p.link # NO_RESOLVE
 wpadmngr.com # NO_RESOLVE
@@ -4080,6 +4460,7 @@ wurl.tv # NO_RESOLVE
 wwiops.io # NO_RESOLVE
 wwsga.me # NO_RESOLVE
 wwstat.com # NO_RESOLVE
+www.ne.jp # TLD
 wx4.top # NO_RESOLVE
 wxlivecdn.com # NO_RESOLVE
 x-plarium.com # NO_RESOLVE
@@ -4102,6 +4483,8 @@ xn--ngstr-lra8j.com # NO_RESOLVE
 xnxxen.org # NO_RESOLVE
 xoalt.com # NO_RESOLVE
 xperia-gaming.site # NO_RESOLVE
+xserver.jp # TLD
+xsrv.jp # TLD
 xtracloud.net # NO_RESOLVE
 xvservice.net # NO_RESOLVE
 xvtest.net # NO_RESOLVE
@@ -4118,9 +4501,11 @@ yadro.com # GeoIP (RU)
 yadro.ru # TLD
 yaeby.work # NO_RESOLVE
 yahoo.cloud # NO_RESOLVE
-yahooapis.jp # NO_RESOLVE
+yahoo.co.jp # TLD
+yahooapis.jp # TLD
 yahoodns.net # NO_RESOLVE
 yaklass.ru # TLD
+yama96.jp # TLD
 yandex-net.ru # TLD
 yandex-team.ru # TLD
 yandex.by # TLD
@@ -4135,9 +4520,10 @@ yandex.uz # Keyword
 yandexadexchange.net # Keyword
 yandexcloud.net # Keyword
 yangyi19.com # NO_RESOLVE
+yanmaga.jp # TLD
 yantp.net # NO_RESOLVE
 yarnet.ru # TLD
-yastatic.net # GeoIP (RU)
+yastatic.net # Keyword
 yccdn.ru # TLD
 yclients.com # GeoIP (RU)
 ycyd123.com # NO_RESOLVE
@@ -4149,11 +4535,14 @@ ygles.com # NO_RESOLVE
 yieldlove-ad-serving.net # NO_RESOLVE
 yieldoptimizer.com # NO_RESOLVE
 yields.site # NO_RESOLVE
-yimg.jp # NO_RESOLVE
+yimg.jp # TLD
 yingt.fun # NO_RESOLVE
+yjc.ir # TLD
 yksdks.com # NO_RESOLVE
 ymaws.com # NO_RESOLVE
+ymobile.jp # TLD
 yo-digital.com # NO_RESOLVE
+yomiuri.co.jp # TLD
 yoomoney.ru # TLD
 yota.ru # TLD
 yotpoapi.com # NO_RESOLVE
@@ -4164,7 +4553,7 @@ youla.ru # TLD
 youngjoygame.com # NO_RESOLVE
 youngle.site # NO_RESOLVE
 youngle.tech # NO_RESOLVE
-yournet.ne.jp # NO_RESOLVE
+yournet.ne.jp # TLD
 yp.to # NO_RESOLVE
 ypncdn.com # NO_RESOLVE
 ytimg.com # NO_RESOLVE
@@ -4178,6 +4567,8 @@ zadns.vn # NO_RESOLVE
 zakon.kz # TLD
 zalando.net # NO_RESOLVE
 zani64.com # NO_RESOLVE
+zaq.ne.jp # TLD
+zardfilm.in # NO_RESOLVE
 zazaza.me # GeoIP (RU)
 zcvh.net # NO_RESOLVE
 zd-dns.com # NO_RESOLVE
@@ -4209,9 +4600,11 @@ zju.edu.cn # NO_RESOLVE
 zmcyu9ypy.com # NO_RESOLVE
 zohocdn.com # NO_RESOLVE
 zonatelecom.ru # TLD
+zoomit.ir # TLD
 zoon.ru # TLD
 zooplus.io # NO_RESOLVE
 zooplus.net # NO_RESOLVE
+zozo.jp # TLD
 zpath.net # NO_RESOLVE
 zpatwo.net # NO_RESOLVE
 zprk.io # NO_RESOLVE
