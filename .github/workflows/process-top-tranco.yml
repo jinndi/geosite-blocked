@@ -1,7 +1,10 @@
-name: Process Top10000 Tranco
+name: Process Top20000 Tranco
 
 on:
-  workflow_dispatch: # Ручной запуск
+  workflow_dispatch:
+  schedule:
+    # Запуск каждый понедельник в 06:37 UTC (09:37 МСК)
+    - cron: '37 6 * * 1'
 
 jobs:
   process-csv:
@@ -23,7 +26,7 @@ jobs:
         run: |
           pip install geoip2 dnspython tranco
 
-      - name: Process Tranco Top 10000 domains and filter RU, BY, KZ domains
+      - name: Process Tranco Top 20000 domains and filter RU, BY, KZ domains
         run: |
           python -c "
           import os
@@ -33,9 +36,9 @@ jobs:
           from tranco import Tranco
 
           folder = 'data'
-          dst_lst = os.path.join(folder, 'tranco.top10000.lst')
-          excluded_lst = 'top10000_raw_excluded.txt'
-          raw_lst = 'top10000_raw.txt'
+          dst_lst = os.path.join(folder, 'tranco.top20000.lst')
+          excluded_lst = 'top20000_raw_excluded.txt'
+          raw_lst = 'top20000_raw.txt'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           ignored_tlds = (
@@ -54,10 +57,10 @@ jobs:
           if not os.path.exists(folder):
               os.makedirs(folder)
 
-          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-10000 ИЗ TRANCO ---
-          print('Загрузка свежего списка Tranco Top 10000...')
+          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-20000 ИЗ TRANCO ---
+          print('Загрузка свежего списка Tranco Top 20000...')
           t = Tranco(cache=True, cache_dir='.tranco_cache')
-          raw_domains = t.list().top(10000)
+          raw_domains = t.list().top(20000)
 
           print(f'Получено из Tranco: {len(raw_domains)} доменов.')
 
@@ -177,12 +180,12 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/tranco.top10000.lst top10000_raw_excluded.txt top10000_raw.txt)" ]; then
+          if [ -z "$(git status --porcelain data/tranco.top20000.lst top20000_raw_excluded.txt top20000_raw.txt)" ]; then
             echo "Изменений в файлах нет."
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/tranco.top10000.lst top10000_raw_excluded.txt top10000_raw.txt
-            git commit -m "[auto] Process tranco top10000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
+            git add data/tranco.top20000.lst top20000_raw_excluded.txt top20000_raw.txt
+            git commit -m "[auto] Process tranco top20000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi

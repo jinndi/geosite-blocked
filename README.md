@@ -14,7 +14,7 @@
 
 - https://github.com/itdoginfo/allow-domains (Russia inside)
 
-- https://radar.cloudflare.com/domains?dateRange=24w (топ 10 тыс доменов за пол. года.)
+- https://tranco-list.eu/ (топ 20 тыс доменов через https://pypi.org/project/tranco/)
 
 - Файл с доменами в `data/community.lst` (можно предложить свои.)
 
