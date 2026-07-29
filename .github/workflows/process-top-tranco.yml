@@ -1,4 +1,4 @@
-name: Process Top20000 Tranco
+name: Process Top Tranco domains
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     - cron: '37 6 * * 0'
 
 jobs:
-  process-csv:
+  process-tranco:
     runs-on: ubuntu-latest
 
     permissions:
@@ -26,7 +26,7 @@ jobs:
         run: |
           pip install geoip2 dnspython tranco
 
-      - name: Process Tranco Top 20000 domains and filter RU, BY, KZ domains
+      - name: Process Tranco Top domains and filter
         run: |
           python -c "
           import os
@@ -47,23 +47,31 @@ jobs:
               '.moscow', '.москва', '.xn--80adxhks',
               '.дети', '.xn--d1acj3b', '.yandex',
 
-              # --- БЕЛАРУСЬ ---
-              '.by',
-
-              # --- КАЗАХСТАН ---
-              '.kz',
-
-              # --- УКРАИНА ---
-              '.ua',
-
-              # --- ЯПОНИЯ ---
-              '.jp',
-
-              # --- КНДР ---
-              '.kp',
-
-              # --- ИРАН / СИРИЯ / КУБА ---
-              '.ir', '.sy', '.cu'
+              # Основной список всех ccTLD
+              '.ac', '.ad', '.ae', '.af', '.ag', '.ai', '.al', '.am', '.ao', '.aq',
+              '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
+              '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
+              '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
+              '.ch', '.ci', '.ck', '.cl', '.cm', '.cr', '.cu', '.cv', '.cw', '.cx',
+              '.cy', '.cz', '.de', '.dj', '.dk', '.dm', '.do', '.dz', '.ec', '.ee',
+              '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
+              '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
+              '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
+              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', '.io',
+              '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
+              '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
+              '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
+              '.ma', '.mc', '.md', '.mg', '.mh', '.mk', '.ml', '.mm', '.mn', '.mo',
+              '.mp', '.mq', '.mr', '.ms', '.mt', '.mu', '.mv', '.mw', '.mx', '.my',
+              '.mz', '.na', '.nc', '.ne', '.nf', '.ng', '.ni', '.nl', '.no', '.np',
+              '.nr', '.nu', '.nz', '.om', '.pa', '.pe', '.pf', '.pg', '.ph', '.pk',
+              '.pl', '.pm', '.pn', '.pr', '.ps', '.pt', '.py', '.qa', '.re', '.ro',
+              '.rs', '.rw', '.sa', '.sb', '.sc', '.sd', '.se', '.sg', '.sh', '.si',
+              '.sj', '.sk', '.sl', '.sm', '.sn', '.so', '.sr', '.ss', '.st', '.sv',
+              '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
+              '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
+              '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
+              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw'
           )
 
           ignored_keywords = (
