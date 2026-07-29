@@ -42,14 +42,47 @@ jobs:
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           ignored_tlds = (
-              '.ru', '.su', '.рф', '.xn--p1ai',      # Россия
-              '.by', '.бел', '.xn--90ais',           # Беларусь
-              '.kz', '.каз', '.xn--80ao2b'           # Казахстан
+              # --- ОСНОВНЫЕ TLD РФ ---
+              '.ru', '.su', '.рф', '.xn--p1ai', 
+              '.moscow', '.москва', '.xn--80adxhks',
+              '.дети', '.xn--d1acj3b', '.yandex',
+
+              # --- БЕЛАРУСЬ ---
+              '.by', '.бел', '.xn--90ais',
+
+              # --- КАЗАХСТАН ---
+              '.kz', '.каз', '.xn--80ao2b',
+
+              # --- УКРАИНА ---
+              '.ua', '.укр', '.xn--j1amh',
+
+              # --- ЯПОНИЯ ---
+              '.jp',
+
+              # --- КНДР ---
+              '.kp',
+
+              # --- ИРАН / СИРИЯ / КУБА ---
+              '.ir', '.xn--mgba3a4f16a', '.sy', '.cu'
           )
 
           ignored_keywords = (
-              'vk-cdn', 'vkontakte', 'vkuser', 'yandex', 'ya.ru', 'mail.ru', 
-              'rambler', 'vk.com', 'ok.ru'
+              # VK & Mail.ru Infrastructure
+              'vk-cdn', 'vkontakte', 'vkuser',
+              'my.games', 'ok.ru', 'odnoklassniki',
+
+              # Yandex Infrastructure
+              'yandex', 'ya.ru', 'yamedialabs', 'yastatic', 
+              'kinopoisk', 'dzen',
+
+              # Rambler & Sber Infrastructure
+              'rambler', 'sber', 'sberbank', 'sberprime', 'sbercdns', 
+              'okko', 'lenta.ru', 'gazeta.ru',
+
+              # Telecoms & CDNs
+              'kaspersky', 'selectel', 'beeline', 'mts.ru', 'megafon', 
+              'rostelecom', 'tinkoff', 'tbank', 'ozon', 'wildberries', 
+              'avito', 'rutube', 'habr', 'headhunter', 'hh.ru'
           )
           
           ignored_country_codes = {'RU', 'BY', 'KZ'}
