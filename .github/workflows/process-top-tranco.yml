@@ -3,8 +3,8 @@ name: Process Top20000 Tranco
 on:
   workflow_dispatch:
   schedule:
-    # Запуск каждый понедельник в 06:37 UTC (09:37 МСК)
-    - cron: '37 6 * * 1'
+    # Запуск каждое воскресенье в 06:37 UTC (09:37 МСК)
+    - cron: '37 6 * * 0'
 
 jobs:
   process-csv:

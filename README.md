@@ -2,6 +2,8 @@
 
 Список популярных зарубежных доменов, независимо от того, заблокированы они в РФ или нет. Представляет собой аналог geolocation-!cn для России и предназначен для безопасной и эффективной маршрутизации на основе FakeIP.
 
+**Обновление по понедельникам.**
+
 ### Источники данных
 
 - https://community.antifilter.download
@@ -14,7 +16,7 @@
 
 - https://github.com/itdoginfo/allow-domains (Russia inside)
 
-- https://tranco-list.eu/ (топ 20 тыс доменов через https://pypi.org/project/tranco/)
+- https://tranco-list.eu/ (топ 20 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв)
 
 - Файл с доменами в `data/community.lst` (можно предложить свои.)
 
