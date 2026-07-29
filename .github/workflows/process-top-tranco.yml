@@ -71,7 +71,10 @@ jobs:
               '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
               '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
               '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
-              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw'
+              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
+
+              # Дополнительный список TLD
+              '.cn', '.edu', 'gov', '.arpa'
           )
 
           ignored_keywords = (
