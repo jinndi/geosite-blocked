@@ -2,9 +2,6 @@ name: Update GeoIP Database
 
 on:
   workflow_dispatch: # Для ручного запуска
-  schedule:
-    # Запуск в 03:00 UTC каждые 5 дней
-    - cron: '0 3 */5 * *'
 
 jobs:
   update-geoip:

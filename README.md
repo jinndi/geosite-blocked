@@ -14,6 +14,8 @@
 
 - https://github.com/itdoginfo/allow-domains (Russia inside)
 
+- https://radar.cloudflare.com/domains?dateRange=24w (топ 5 тыс доменов за пол. года.)
+
 - Файл с доменами в `data/community.lst` (можно предложить свои.)
 
 

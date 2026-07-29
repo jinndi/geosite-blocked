@@ -2,9 +2,6 @@ name: Process Top5000 CSV
 
 on:
   workflow_dispatch: # Ручной запуск
-  schedule:
-    # Каждый понедельник в 03:00 UTC (06:00 по МСК)
-    - cron: '0 3 * * 1'
 
 jobs:
   process-csv:
@@ -26,65 +23,18 @@ jobs:
         run: |
           pip install geoip2 dnspython
 
-      - name: Download fresh top5000.csv and filter RU, BY, KZ domains
+      - name: Process top5000.csv and filter RU, BY, KZ domains
         run: |
           python -c "
           import os
-          import subprocess
-          import datetime
-          import urllib.request
           import concurrent.futures
           import geoip2.database
           import dns.resolver
 
-          src_csv = 'top5000.csv'
+          src_csv = 'cloudflare-radar_top-5000-domains_20260720-20260727.csv'
           folder = 'data'
           dst_lst = os.path.join(folder, 'cloudflare.top5000.lst')
           geoip_db_path = 'GeoLite2-Country.mmdb'
-
-          # 1. Высчитываем динамические даты за прошлую неделю
-          today = datetime.date.today()
-          week_ago = today - datetime.timedelta(days=7)
-          date_end = today.strftime('%Y-%m-%d')
-          date_start = week_ago.strftime('%Y-%m-%d')
-
-          download_url = f'https://radar.cloudflare.com/charts/TopDomainsTable/attachment?id=2825&value=5000&dateStart={date_start}&dateEnd={date_end}'
-
-          print(f'Скачиваем свежий top5000.csv за период: {date_start} — {date_end}...')
-
-          # Попытка 1: через urllib с полными браузерными заголовками
-          download_success = False
-          headers = {
-              'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-              'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-              'Accept-Language': 'en-US,en;q=0.5',
-              'Referer': 'https://radar.cloudflare.com/'
-          }
-
-          try:
-              req = urllib.request.Request(download_url, headers=headers)
-              with urllib.request.urlopen(req) as response, open(src_csv, 'wb') as out_file:
-                  out_file.write(response.read())
-              download_success = True
-              print('Успешно скачано через urllib!')
-          except Exception as e:
-              print(f'urllib вернул ошибку ({e}), пробуем скачивание через curl...')
-
-          # Попытка 2: Резервное скачивание через системный curl (если urllib заблокирован)
-          if not download_success:
-              curl_cmd = [
-                  'curl', '-s', '-L',
-                  '-A', headers['User-Agent'],
-                  '-H', 'Referer: https://radar.cloudflare.com/',
-                  download_url,
-                  '-o', src_csv
-              ]
-              res = subprocess.run(curl_cmd)
-              if res.returncode == 0 and os.path.exists(src_csv) and os.path.getsize(src_csv) > 0:
-                  download_success = True
-                  print('Успешно скачано через curl!')
-              else:
-                  print('Ошибка скачивания через curl.')
 
           ignored_tlds = (
               '.ru', '.su', '.рф', '.xn--p1ai',      # Россия
@@ -97,13 +47,12 @@ jobs:
           if not os.path.exists(folder):
               os.makedirs(folder)
 
-          if os.path.exists(src_csv) and os.path.getsize(src_csv) > 0:
+          if os.path.exists(src_csv):
               raw_domains = []
               with open(src_csv, 'r', encoding='utf-8') as f:
                   for line in f:
                       domain = line.strip().lower()
-                      domain = domain.replace('\"', '').split(',')[0].strip()
-                      if domain and not domain.startswith('#') and domain != 'domain':
+                      if domain:
                           raw_domains.append(domain)
                       if len(raw_domains) >= 5000:
                           break
@@ -119,7 +68,7 @@ jobs:
                   except Exception as e:
                       print(f'Ошибка загрузки GeoIP: {e}')
               else:
-                  print(f'Предупреждение: Файл {geoip_db_path} не найден в корне!')
+                  print(f'Предупреждение: Файл {geoip_db_path} не найден!')
 
               # Настройка DNS резолвера
               resolver = dns.resolver.Resolver()
@@ -142,7 +91,7 @@ jobs:
                               if response.country.iso_code in ignored_country_codes:
                                   return domain, True, f'GeoIP ({response.country.iso_code})'
                       except Exception:
-                          pass
+                          pass  # Не удалось резолвить или нет A-записи
                   
                   return domain, False, 'OK'
 
@@ -152,6 +101,7 @@ jobs:
 
               print('Начинаем многопоточный резолв и проверку...')
               
+              # Запуск с 100 рабочими потоками для быстрого сетевого ввода/вывода
               with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
                   results = list(executor.map(check_domain, raw_domains))
 
@@ -164,7 +114,7 @@ jobs:
                   else:
                       filtered_domains.append(domain)
 
-              # Сохраняем результат в cloudflare.top5000.lst
+              # Сохраняем результат
               with open(dst_lst, 'w', encoding='utf-8') as out_f:
                   for d in sorted(filtered_domains):
                       out_f.write(f'{d}\n')
@@ -176,19 +126,19 @@ jobs:
               print(f'Всего исключено: {tld_filtered + geoip_filtered}')
               print(f'Сохранено в список: {len(filtered_domains)}')
           else:
-              print(f'Ошибка: Файл {src_csv} пуст или не найден!')
+              print(f'Ошибка: Файл {src_csv} не найден в корне репозитория!')
           "
 
       - name: Commit and Push changes
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain top5000.csv data/cloudflare.top5000.lst)" ]; then
-            echo "Изменений в файлах нет."
+          if [ -z "$(git status --porcelain data/cloudflare.top5000.lst)" ]; then
+            echo "Изменений в файле cloudflare.top5000.lst нет."
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add top5000.csv data/cloudflare.top5000.lst
-            git commit -m "[auto] Update top5000.csv and cloudflare.top5000.lst $(date '+%Y-%m-%d %H:%M:%S')"
+            git add data/cloudflare.top5000.lst
+            git commit -m "[auto] Process top5000.csv without RU/BY/KZ domains $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi
