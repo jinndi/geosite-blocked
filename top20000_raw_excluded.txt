@@ -190,7 +190,6 @@ afilias-nst.info # NO_RESOLVE
 afilias-nst.org # NO_RESOLVE
 afisha.ru # TLD
 afp.com # NO_RESOLVE
-afranet.ir # NO_RESOLVE
 aftvrsys.com # NO_RESOLVE
 agenciatributaria.gob.es # NO_RESOLVE
 agkn.com # NO_RESOLVE
@@ -1657,7 +1656,6 @@ gogodns.com # NO_RESOLVE
 gojekapi.com # NO_RESOLVE
 gold-usergeneratedcontent.net # NO_RESOLVE
 goldapple.ru # TLD
-golux.com # NO_RESOLVE
 gonewsvod.com # NO_RESOLVE
 goo.ne.jp # NO_RESOLVE
 goo.su # TLD
@@ -2818,7 +2816,7 @@ pclead.co.uk # NO_RESOLVE
 pddpic.com # NO_RESOLVE
 pdscrb.com # NO_RESOLVE
 peer.run # NO_RESOLVE
-peers.tv # GeoIP (RU)
+peers.tv # NO_RESOLVE
 pelotalibretv.su # TLD
 pemsrv.com # NO_RESOLVE
 pending-renewal-domain.com # NO_RESOLVE
@@ -3300,7 +3298,6 @@ share-dns.com # NO_RESOLVE
 share-dns.net # NO_RESOLVE
 sharesdns.com # NO_RESOLVE
 sharethis.net # NO_RESOLVE
-shiabank.com # NO_RESOLVE
 shiftapis.com # NO_RESOLVE
 shop-shimamura.com # NO_RESOLVE
 shopee.io # NO_RESOLVE
