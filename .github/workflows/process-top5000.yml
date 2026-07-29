@@ -1,0 +1,129 @@
+name: Process Top5000 CSV
+
+on:
+  workflow_dispatch: # Ручной запуск
+
+jobs:
+  process-csv:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install geoip2
+
+      - name: Process top5000.csv and filter RU, BY, KZ domains
+        run: |
+          python -c "
+          import os
+          import socket
+          import concurrent.futures
+          import geoip2.database
+
+          src_csv = 'cloudflare.top5000.csv'
+          folder = 'data'
+          dst_lst = os.path.join(folder, 'cloudflare.top5000.lst')
+          geoip_db_path = 'GeoLite2-Country.mmdb'
+
+          # TLD домены для RU, BY, KZ (включая IDN/Punycode)
+          ignored_tlds = (
+              '.ru', '.su', '.рф', '.xn--p1ai',      # Россия
+              '.by', '.бел', '.xn--90ais',           # Беларусь
+              '.kz', '.каз', '.xn--80ao2b'           # Казахстан
+          )
+          
+          # Коды стран по GeoIP
+          ignored_country_codes = {'RU', 'BY', 'KZ'}
+
+          if not os.path.exists(folder):
+              os.makedirs(folder)
+
+          if os.path.exists(src_csv):
+              raw_domains = []
+              with open(src_csv, 'r', encoding='utf-8') as f:
+                  for line in f:
+                      domain = line.strip().lower()
+                      if domain:
+                          raw_domains.append(domain)
+                      if len(raw_domains) >= 5000:
+                          break
+
+              print(f'Прочитано из CSV: {len(raw_domains)} доменов. Начинаем резолв и фильтрацию RU/BY/KZ...')
+
+              # Подключаем GeoIP
+              reader = None
+              if os.path.exists(geoip_db_path):
+                  try:
+                      reader = geoip2.database.Reader(geoip_db_path)
+                  except Exception as e:
+                      print(f'Ошибка базы GeoIP ({e}), фильтрация только по TLD.')
+              else:
+                  print(f'База {geoip_db_path} не найдена в корне, фильтрация только по TLD.')
+
+              def is_ignored_domain(domain):
+                  # 1. Проверка по доменным зонам
+                  if domain.endswith(ignored_tlds):
+                      return True
+                  # 2. Резолв IP и проверка по GeoIP
+                  if reader:
+                      try:
+                          ip = socket.gethostbyname(domain)
+                          response = reader.country(ip)
+                          if response.country.iso_code in ignored_country_codes:
+                              return True
+                      except Exception:
+                          pass
+                  return False
+
+              filtered_domains = []
+              removed_count = 0
+
+              # Запуск проверки в 50 параллельных потоков
+              with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+                  future_to_domain = {executor.submit(is_ignored_domain, d): d for d in raw_domains}
+                  for future in concurrent.futures.as_completed(future_to_domain):
+                      d = future_to_domain[future]
+                      try:
+                          if future.result():
+                              removed_count += 1
+                          else:
+                              filtered_domains.append(d)
+                      except Exception:
+                          filtered_domains.append(d)
+
+              # Сохраняем результат
+              with open(dst_lst, 'w', encoding='utf-8') as out_f:
+                  for d in sorted(filtered_domains):
+                      out_f.write(f'{d}\n')
+
+              print('Завершено!')
+              print(f'Исключено доменов (RU/BY/KZ): {removed_count}')
+              print(f'Сохранено чистого списка: {len(filtered_domains)} доменов в {dst_lst}')
+          else:
+              print(f'Ошибка: Файл {src_csv} не найден в корне репозитория!')
+          "
+
+      - name: Commit and Push changes
+        env:
+          TZ: "Europe/Moscow"
+        run: |
+          if [ -z "$(git status --porcelain data/cloudflare.top5000.lst)" ]; then
+            echo "Изменений в файле cloudflare.top5000.lst нет."
+          else
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/cloudflare.top5000.lst
+            git commit -m "[auto] Process top5000.csv without RU/BY/KZ domains $(date '+%Y-%m-%d %H:%M:%S')"
+            git push
+          fi
