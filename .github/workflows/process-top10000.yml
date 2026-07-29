@@ -157,7 +157,7 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst excluded_domains.lst)" ]; then
+          if [ -z "$(git status --porcelain data/cloudflare.top10000.lst excluded_cloudflare-radar_top-10000-domains.lst)" ]; then
             echo "Изменений в файлах нет."
           else
             git config --global user.name "github-actions[bot]"
