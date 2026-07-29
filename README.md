@@ -12,8 +12,6 @@
 
 - https://iplist.opencck.org (все категории)
 
-- https://beta.iplist.opencck.org (все категории)
-
 - https://github.com/itdoginfo/allow-domains (Russia inside)
 
 - https://tranco-list.eu/ (топ 20 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв)
