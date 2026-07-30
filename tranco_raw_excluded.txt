@@ -2083,6 +2083,7 @@ bx-msedge.net # NO_RESOLVE
 bxcdn.net # NO_RESOLVE
 byabcde.com # NO_RESOLVE
 byapps.net # NO_RESOLVE
+bybanking.com # NO_RESOLVE
 bybdc6.com # NO_RESOLVE
 bycs.de # TLD
 byd3c3.com # NO_RESOLVE
@@ -2137,6 +2138,7 @@ bytetcdn.com # NO_RESOLVE
 bytetos.com # NO_RESOLVE
 bytevcloud.com # NO_RESOLVE
 bytevcloudapi.com # NO_RESOLVE
+bytexns.com # NO_RESOLVE
 byu.edu # TLD
 bz-berlin.de # TLD
 bzsn.ru # TLD
@@ -3480,6 +3482,7 @@ dskdirect.bg # TLD
 dsmcdn.com # NO_RESOLVE
 dsname.ru # TLD
 dssedge.com # NO_RESOLVE
+dssott.com # NO_RESOLVE
 dstatbot.win # NO_RESOLVE
 dsts.cloud # GeoIP (RU)
 dstud.io # NO_RESOLVE
@@ -3939,6 +3942,7 @@ excite.co.jp # TLD
 exclusivetvs.com # NO_RESOLVE
 exco-pb.com # NO_RESOLVE
 exeter.ac.uk # TLD
+exhera.com # NO_RESOLVE
 exist.ru # TLD
 exoscale.ch # TLD
 exosrv.com # NO_RESOLVE
@@ -4626,7 +4630,6 @@ gnavi.co.jp # TLD
 gnezdo.ru # TLD
 go-esim.com # NO_RESOLVE
 go-mpulse.net # NO_RESOLVE
-go-optic.com # NO_RESOLVE
 go2affise.com # NO_RESOLVE
 go2sdk.com # NO_RESOLVE
 goairgap.com # NO_RESOLVE
@@ -4654,6 +4657,7 @@ goldbet.it # TLD
 goldengate.hu # TLD
 golem.de # TLD
 golfdigest.co.jp # TLD
+golux.com # NO_RESOLVE
 goneo.de # TLD
 gonewsvod.com # NO_RESOLVE
 goo.gl # TLD
@@ -4942,7 +4946,6 @@ gsa.gov # TLD
 gscdn.com # NO_RESOLVE
 gscdn.net # NO_RESOLVE
 gscontxt.net # NO_RESOLVE
-gseb.org # NO_RESOLVE
 gshdw.cyou # NO_RESOLVE
 gshifen.com # NO_RESOLVE
 gsis.gr # TLD
@@ -6726,6 +6729,7 @@ mailguard.com.au # TLD
 mailgun.net # NO_RESOLVE
 mailin.fr # TLD
 mailpulse.best # GeoIP (RU)
+mailshell.net # NO_RESOLVE
 mailspike.net # NO_RESOLVE
 main.jp # TLD
 maine.edu # TLD
