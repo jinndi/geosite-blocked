@@ -101,10 +101,10 @@ jobs:
           if not os.path.exists(folder):
               os.makedirs(folder)
 
-          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-50000 ИЗ TRANCO ---
-          print('Загрузка свежего списка Tranco Top 50000...')
+          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-40000 ИЗ TRANCO ---
+          print('Загрузка свежего списка Tranco Top 40000...')
           t = Tranco(cache=True, cache_dir='.tranco_cache')
-          raw_domains = t.list().top(50000)
+          raw_domains = t.list().top(40000)
 
           print(f'Получено из Tranco: {len(raw_domains)} доменов.')
 
@@ -230,6 +230,6 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/tranco.top.lst tranco_raw_excluded.txt tranco_raw.txt
-            git commit -m "[auto] Process tranco top50000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Process tranco top40000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi
