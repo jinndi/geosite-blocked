@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install dnspython geoip2
+          pip install dnspython
 
       - name: Download, resolve and filter domains
         run: |
@@ -33,32 +33,25 @@ jobs:
           import urllib.request
           import concurrent.futures
           import dns.resolver
-          import geoip2.database
 
-          url = 'https://raw.githubusercontent.com/1andrevich/Re-filter-lists/refs/heads/main/domains_all.lst'
+          url = 'https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/domains_all.lst'
           folder = 'data'
           dst_lst = os.path.join(folder, 'refilter_resolved.lst')
           raw_lst = 'refilter_all.lst'
           excluded_lst = 'refilter_no_resolve.lst'
-          geoip_db_path = 'GeoLite2-Country.mmdb'
 
-          target_country_codes = {'RU', 'BY', 'KZ'}
+          # Разрешенные зоны (РФ)
+          allowed_tlds = (
+            '.moscow', '.ru', '.su', '.tatar', 
+            '.xn--80adxhks', '.xn--80asehdb', '.xn--80aswg', 
+            '.xn--c1avg', '.xn--d1acj3b', 'xn--p1acf', 'xn--p1ai'
+            '.ru.com', '.ru.net'
+          )
 
           if not os.path.exists(folder):
               os.makedirs(folder)
 
-          # 1. Подключение GeoIP базы
-          reader = None
-          if os.path.exists(geoip_db_path):
-              try:
-                  reader = geoip2.database.Reader(geoip_db_path)
-                  print('База GeoIP успешно загружена.')
-              except Exception as e:
-                  print(f'Ошибка загрузки GeoIP: {e}')
-          else:
-              print(f'Предупреждение: Файл {geoip_db_path} не найден!')
-
-          # 2. Скачивание списка доменов
+          # 1. Скачивание списка доменов
           print(f'Скачивание списка доменов из: {url}')
           try:
               req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -77,16 +70,21 @@ jobs:
               for d in raw_domains:
                   raw_f.write(f'{d}\n')
 
-          # 3. Настройка DNS-резолвера
+          # 2. Настройка DNS-резолвера
           resolver = dns.resolver.Resolver()
           resolver.timeout = 2.5
           resolver.lifetime = 4.0
 
           def check_domain(domain):
-              # Фильтр 1: Проверка на наличие 4 и более цифр в НАЗВАНИИ домена
-              # Декодируем Punycode (IDN), чтобы не считать цифры в служебных 'xn--...'
+              domain_lower = domain.lower()
+
+              # Фильтр 1: Оставляем ТОЛЬКО домены в зонах РУ
+              if not domain_lower.endswith(allowed_tlds):
+                  return domain, False, 'NOT_RU_TLD'
+
+              # Фильтр 2: Проверка на наличие 4 и более цифр в НАЗВАНИИ домена
               try:
-                  decoded_domain = domain.encode('idna').decode('utf-8') if not domain.startswith('xn--') else domain.encode('utf-8').decode('idna')
+                  decoded_domain = domain.encode('idna').decode('utf-8') if not domain_lower.startswith('xn--') else domain.encode('utf-8').decode('idna')
               except Exception:
                   decoded_domain = domain
 
@@ -97,50 +95,27 @@ jobs:
               if digit_count >= 4:
                   return domain, False, f'TOO_MANY_DIGITS ({digit_count})'
 
-              # Фильтр 2: DNS Резолв и GeoIP проверка
-              answers = None
+              # Фильтр 3: DNS Резолв (A-запись)
               for attempt in range(2):
                   try:
                       answers = resolver.resolve(domain, 'A')
-                      break
+                      if answers:
+                          return domain, True, 'OK'
                   except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
                       return domain, False, 'NO_RESOLVE'
                   except Exception:
                       continue
 
-              if answers:
-                  if reader:
-                      ip_country = None
-                      for rdata in answers:
-                          ip = rdata.to_text()
-                          try:
-                              response = reader.country(ip)
-                              iso_code = response.country.iso_code
-                              if iso_code in target_country_codes:
-                                  # Найдено совпадение с RU/BY/KZ -> оставляем
-                                  return domain, True, f'GeoIP ({iso_code})'
-                              elif iso_code:
-                                  ip_country = iso_code
-                          except Exception:
-                              pass
-                      
-                      # Ни один IP-адрес домена не попал в RU/BY/KZ -> исключаем
-                      country_str = ip_country if ip_country else 'UNKNOWN'
-                      return domain, False, f'GeoIP_OUT ({country_str})'
-                  else:
-                      # Если базы GeoIP нет, не можем гарантировать принадлежность
-                      return domain, False, 'NO_GEOIP_DB'
-              else:
-                  return domain, False, 'NO_RESOLVE'
+              return domain, False, 'NO_RESOLVE'
 
           resolved_domains = []
           failed_domains = []
 
+          not_ru_tld_filtered = 0
           digits_filtered = 0
-          geoip_out_filtered = 0
           no_resolve_filtered = 0
 
-          print('Начинаем многопоточную проверку, DNS-резолв и GeoIP-фильтрацию (оставляем RU/BY/KZ)...')
+          print('Начинаем многопоточную проверку и DNS-резолв (только .RU / .РФ)...')
           
           # 50 параллельных потоков
           with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
@@ -151,14 +126,14 @@ jobs:
                   resolved_domains.append(domain)
               else:
                   failed_domains.append((domain, reason))
-                  if reason.startswith('TOO_MANY_DIGITS'):
+                  if reason == 'NOT_RU_TLD':
+                      not_ru_tld_filtered += 1
+                  elif reason.startswith('TOO_MANY_DIGITS'):
                       digits_filtered += 1
-                  elif reason.startswith('GeoIP_OUT'):
-                      geoip_out_filtered += 1
                   else:
                       no_resolve_filtered += 1
 
-          # 4. Сохранение результатов
+          # 3. Сохранение результатов
           with open(dst_lst, 'w', encoding='utf-8') as out_f:
               for d in sorted(resolved_domains):
                   out_f.write(f'{d}\n')
@@ -169,11 +144,11 @@ jobs:
 
           print('\n--- ИТОГИ ПРОВЕРКИ ---')
           print(f'Всего обработано доменов: {len(raw_domains)}')
+          print(f'Удалено (не зоны .ru/.рф): {not_ru_tld_filtered}')
           print(f'Удалено из-за >= 4 цифр: {digits_filtered}')
-          print(f'Удалено т.к. IP НЕ из RU/BY/KZ: {geoip_out_filtered}')
           print(f'Удалено из-за ошибок резолва (NO_RESOLVE): {no_resolve_filtered}')
           print(f'Оригинальный список сохранен в: {raw_lst}')
-          print(f'Сохранено доменов с IP из RU/BY/KZ в: {dst_lst} ({len(resolved_domains)} шт.)')
+          print(f'Успешно сохранено доменов в: {dst_lst} ({len(resolved_domains)} шт.)')
           print(f'Исключения сохранены в: {excluded_lst}')
           "
 
@@ -187,6 +162,6 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/refilter_resolved.lst refilter_all.lst refilter_no_resolve.lst
-            git commit -m "[auto] Check external domains resolve & keep RU/BY/KZ IP $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Check external domains resolve & filter RU TLD / digits $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi
