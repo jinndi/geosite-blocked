@@ -8,7 +8,7 @@
 
 - https://community.antifilter.download
 
-- https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst с фильтрацией по TLD и через резолв с проверкой через базу GeoLite2-Country.mmdb отавляя только RU/BY/KZ домены.)
+- https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst через резолв с проверкой через базу GeoLite2-Country.mmdb оcтавляя только RU/BY/KZ домены.)
 
 - https://iplist.opencck.org (все категории)
 

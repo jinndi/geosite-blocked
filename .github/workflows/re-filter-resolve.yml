@@ -42,33 +42,6 @@ jobs:
           excluded_lst = 'refilter_no_resolve.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
-          ignored_tlds = (
-              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq', '.arpa',
-              '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
-              '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
-              '.bs', '.bt', '.bv', '.bw', '.bz', '.ca', '.cd', '.cf', '.cg', '.cn',
-              '.ch', '.ci', '.ck', '.cl', '.cm', '.cr', '.cu', '.cv', '.cw', '.cx',
-              '.cy', '.cz', '.de', '.dj', '.dk', '.dm', '.do', '.dz', '.ec', '.ee',
-              '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
-              '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
-              '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
-              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', 
-              '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
-              '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
-              '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
-              '.ma', '.mc', '.md', '.mg', '.mh', '.mk', '.ml', '.mm', '.mn', '.mo',
-              '.mp', '.mq', '.mr', '.ms', '.mt', '.mu', '.mv', '.mw', '.mx', '.my',
-              '.mz', '.na', '.nc', '.ne', '.nf', '.ng', '.ni', '.nl', '.no', '.np',
-              '.nr', '.nu', '.nz', '.om', '.pa', '.pe', '.pf', '.pg', '.ph', '.pk',
-              '.pl', '.pm', '.pn', '.pr', '.ps', '.pt', '.py', '.qa', '.re', '.ro',
-              '.rs', '.rw', '.sa', '.sb', '.sc', '.sd', '.se', '.sg', '.sh', '.si',
-              '.sj', '.sk', '.sl', '.sm', '.sn', '.so', '.sr', '.ss', '.st', '.sv',
-              '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
-              '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
-              '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
-              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw'
-          )
-
           target_country_codes = {'RU', 'BY', 'KZ'}
 
           if not os.path.exists(folder):
@@ -110,16 +83,12 @@ jobs:
           resolver.lifetime = 4.0
 
           def check_domain(domain):
-              # Фильтр 1: Проверка по TLD
-              if domain.endswith(ignored_tlds):
-                  return domain, False, 'TLD'
-
-              # Фильтр 2: Проверка на наличие 4 и более цифр в названии домена
+              # Фильтр 1: Проверка на наличие 4 и более цифр в названии домена
               digit_count = sum(c.isdigit() for c in domain)
               if digit_count >= 4:
                   return domain, False, f'TOO_MANY_DIGITS ({digit_count})'
 
-              # Фильтр 3: DNS Резолв и GeoIP проверка
+              # Фильтр 2: DNS Резолв и GeoIP проверка
               answers = None
               for attempt in range(2):
                   try:
@@ -158,7 +127,6 @@ jobs:
           resolved_domains = []
           failed_domains = []
 
-          tld_filtered = 0
           digits_filtered = 0
           geoip_out_filtered = 0
           no_resolve_filtered = 0
@@ -174,9 +142,7 @@ jobs:
                   resolved_domains.append(domain)
               else:
                   failed_domains.append((domain, reason))
-                  if reason == 'TLD':
-                      tld_filtered += 1
-                  elif reason.startswith('TOO_MANY_DIGITS'):
+                  if reason.startswith('TOO_MANY_DIGITS'):
                       digits_filtered += 1
                   elif reason.startswith('GeoIP_OUT'):
                       geoip_out_filtered += 1
@@ -194,7 +160,6 @@ jobs:
 
           print('\n--- ИТОГИ ПРОВЕРКИ ---')
           print(f'Всего обработано доменов: {len(raw_domains)}')
-          print(f'Удалено по TLD: {tld_filtered}')
           print(f'Удалено из-за >= 4 цифр: {digits_filtered}')
           print(f'Удалено т.к. IP НЕ из RU/BY/KZ: {geoip_out_filtered}')
           print(f'Удалено из-за ошибок резолва (NO_RESOLVE): {no_resolve_filtered}')
