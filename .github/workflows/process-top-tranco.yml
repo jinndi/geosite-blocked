@@ -153,30 +153,41 @@ jobs:
           print(f'Исключено по Keyword: {keyword_filtered}')
           print(f'Отправляется на DNS-резолв и GeoIP: {len(domains_to_resolve)}')
 
-          # --- 2. НАСТРОЙКА DNS-РЕЗОЛВЕРА ---
-          resolver = dns.resolver.Resolver(configure=False)
-          resolver.nameservers = ['1.1.1.1', '8.8.8.8', '1.0.0.1', '8.8.4.4']
-          resolver.timeout = 2.5
-          resolver.lifetime = 4.0
+          # Получаем системные DNS из /etc/resolv.conf
+          system_resolver = dns.resolver.Resolver()
+          system_nameservers = system_resolver.nameservers
 
+          # Объединяем локальные DNS с надежными публичными (убирая дубли)
+          combined_nameservers = list(dict.fromkeys(system_nameservers + [
+              '1.1.1.1', '1.0.0.1',           # Cloudflare
+              '8.8.8.8', '8.8.4.4'            # Google
+          ]))
+
+          # --- 2. ФУНКЦИЯ ПРОВЕРКИ С СЕРАЛЬНЫМ РЕЗОЛВЕРОМ И RETRY ---
           def check_domain_dns(domain):
-              try:
-                  answers = resolver.resolve(domain, 'A')
-                  if answers:
-                      if reader:
-                          for rdata in answers:
-                              ip = rdata.to_text()
-                              try:
-                                  response = reader.country(ip)
-                                  if response.country.iso_code in ignored_country_codes:
-                                      return domain, True, f'GeoIP ({response.country.iso_code})'
-                              except Exception:
-                                  pass
-                      return domain, False, 'OK'
-              except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
-                  return domain, True, 'NO_RESOLVE'
-              except Exception:
-                  pass
+              resolver = dns.resolver.Resolver(configure=False)
+              resolver.nameservers = combined_nameservers
+              resolver.timeout = 2.0
+              resolver.lifetime = 3.0
+
+              for attempt in range(3):
+                  try:
+                      answers = resolver.resolve(domain, 'A')
+                      if answers:
+                          if reader:
+                              for rdata in answers:
+                                  ip = rdata.to_text()
+                                  try:
+                                      response = reader.country(ip)
+                                      if response.country.iso_code in ignored_country_codes:
+                                          return domain, True, f'GeoIP ({response.country.iso_code})'
+                                  except Exception:
+                                      pass
+                          return domain, False, 'OK'
+                  except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
+                      return domain, True, 'NO_RESOLVE'
+                  except Exception:
+                      pass
 
               return domain, True, 'NO_RESOLVE'
 
@@ -184,9 +195,9 @@ jobs:
           geoip_filtered = 0
           no_resolve_filtered = 0
 
-          print('Начинаем многопоточный резолв (300 потоков)...')
+          print('Начинаем многопоточный резолв (150 потоков)...')
           
-          with concurrent.futures.ThreadPoolExecutor(max_workers=300) as executor:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=150) as executor:
               results = list(executor.map(check_domain_dns, domains_to_resolve))
 
           for domain, is_ignored, reason in results:
