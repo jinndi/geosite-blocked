@@ -3215,6 +3215,7 @@ digitaltarget.ru # TLD
 digitalvideoplatform.com # NO_RESOLVE
 digitec.ch # TLD
 digitgaming.com # NO_RESOLVE
+digmawifi.com # NO_RESOLVE
 diia.gov.ua # TLD
 dilib.vn # TLD
 din.de # TLD
@@ -3529,7 +3530,6 @@ dynatracelabs.com # NO_RESOLVE
 dynotech.io # GeoIP (RU)
 dynv6.net # NO_RESOLVE
 dyson.it # TLD
-dyupbydns.com # NO_RESOLVE
 dzdas.com # NO_RESOLVE
 dzen.ru # TLD
 dzeninfra.ru # TLD
@@ -4942,7 +4942,6 @@ gsa.gov # TLD
 gscdn.com # NO_RESOLVE
 gscdn.net # NO_RESOLVE
 gscontxt.net # NO_RESOLVE
-gseb.org # NO_RESOLVE
 gshdw.cyou # NO_RESOLVE
 gshifen.com # NO_RESOLVE
 gsis.gr # TLD
@@ -10533,7 +10532,6 @@ switch.ch # TLD
 switchbot.net # NO_RESOLVE
 swp.de # TLD
 swr.de # TLD
-syakouba.com # NO_RESOLVE
 syapp.jp # TLD
 sydney.edu.au # TLD
 symantecliveupdate.com # NO_RESOLVE
