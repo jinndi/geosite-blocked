@@ -3,8 +3,8 @@ name: Check and Filter External Domains
 on:
   workflow_dispatch:
   schedule:
-    # Запуск каждое воскресенье в 06:37 UTC (09:37 МСК)
-    - cron: '37 6 * * 0'
+    # Запуск 1 и 15 числа каждого месяца в 06:37 UTC
+    - cron: '37 6 1,15 * *'
 
 jobs:
   process-external-domains:
