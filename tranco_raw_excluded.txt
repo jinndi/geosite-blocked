@@ -2137,6 +2137,7 @@ bytetcdn.com # NO_RESOLVE
 bytetos.com # NO_RESOLVE
 bytevcloud.com # NO_RESOLVE
 bytevcloudapi.com # NO_RESOLVE
+bytexns.com # NO_RESOLVE
 byu.edu # TLD
 bz-berlin.de # TLD
 bzsn.ru # TLD
@@ -3844,6 +3845,7 @@ esic.gov.in # TLD
 esimdiscovery.com # NO_RESOLVE
 esm.sh # TLD
 esocial.gov.br # TLD
+espace-citoyens.net # NO_RESOLVE
 esphere.ru # TLD
 espn.co.uk # TLD
 espn.com.ar # TLD
@@ -5178,6 +5180,7 @@ hitv.com # NO_RESOLVE
 hiyaapi.com # NO_RESOLVE
 hj2k2.com # NO_RESOLVE
 hjwd685.net # NO_RESOLVE
+hkexnews.hk # NO_RESOLVE
 hkirc.net.hk # NO_RESOLVE
 hko.gov.hk # NO_RESOLVE
 hl.co.uk # TLD
@@ -6724,7 +6727,6 @@ mailguard.com.au # TLD
 mailgun.net # NO_RESOLVE
 mailin.fr # TLD
 mailpulse.best # GeoIP (RU)
-mailshell.net # NO_RESOLVE
 mailspike.net # NO_RESOLVE
 main.jp # TLD
 maine.edu # TLD
@@ -10531,6 +10533,7 @@ switch.ch # TLD
 switchbot.net # NO_RESOLVE
 swp.de # TLD
 swr.de # TLD
+syakouba.com # NO_RESOLVE
 syapp.jp # TLD
 sydney.edu.au # TLD
 symantecliveupdate.com # NO_RESOLVE
@@ -12773,6 +12776,7 @@ zardfilm.in # TLD
 zarebin.ir # TLD
 zattini.com.br # TLD
 zazaza.me # GeoIP (RU)
+zcache.com # NO_RESOLVE
 zcool.com.cn # TLD
 zcu.cz # TLD
 zcvh.net # NO_RESOLVE
