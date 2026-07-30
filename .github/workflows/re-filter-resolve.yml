@@ -40,6 +40,33 @@ jobs:
           raw_lst = 'refilter_all.lst'
           excluded_lst = 'refilter_no_resolve.lst'
 
+          ignored_tlds = (
+              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq', '.arpa',
+              '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
+              '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
+              '.bs', '.bt', '.bv', '.bw', '.bz', '.ca', '.cd', '.cf', '.cg', '.cn',
+              '.ch', '.ci', '.ck', '.cl', '.cm', '.cr', '.cu', '.cv', '.cw', '.cx',
+              '.cy', '.cz', '.de', '.dj', '.dk', '.dm', '.do', '.dz', '.ec', '.ee',
+              '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
+              '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
+              '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
+              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', 
+              '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
+              '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
+              '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
+              '.ma', '.mc', '.md', '.mg', '.mh', '.mk', '.ml', '.mm', '.mn', '.mo',
+              '.mp', '.mq', '.mr', '.ms', '.mt', '.mu', '.mv', '.mw', '.mx', '.my',
+              '.mz', '.na', '.nc', '.ne', '.nf', '.ng', '.ni', '.nl', '.no', '.np',
+              '.nr', '.nu', '.nz', '.om', '.pa', '.pe', '.pf', '.pg', '.ph', '.pk',
+              '.pl', '.pm', '.pn', '.pr', '.ps', '.pt', '.py', '.qa', '.re', '.ro',
+              '.rs', '.rw', '.sa', '.sb', '.sc', '.sd', '.se', '.sg', '.sh', '.si',
+              '.sj', '.sk', '.sl', '.sm', '.sn', '.so', '.sr', '.ss', '.st', '.sv',
+              '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
+              '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
+              '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
+              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw'
+          )
+
           if not os.path.exists(folder):
               os.makedirs(folder)
 
@@ -68,9 +95,9 @@ jobs:
           resolver.lifetime = 4.0
 
           def check_domain(domain):
-              # Фильтр 1: Проверка на доменную зону .ua
-              if domain.endswith('.ua'):
-                  return domain, False, 'TLD_UA'
+              # Фильтр 1: Проверка по TLD
+              if domain.endswith(ignored_tlds):
+                  return domain, False, 'TLD'
 
               # Фильтр 2: Проверка на наличие 4 и более цифр в названии домена
               digit_count = sum(c.isdigit() for c in domain)
@@ -95,7 +122,7 @@ jobs:
           resolved_domains = []
           failed_domains = []
 
-          tld_ua_filtered = 0
+          tld_filtered = 0
           digits_filtered = 0
           no_resolve_filtered = 0
 
@@ -110,8 +137,8 @@ jobs:
                   resolved_domains.append(domain)
               else:
                   failed_domains.append((domain, reason))
-                  if reason == 'TLD_UA':
-                      tld_ua_filtered += 1
+                  if reason == 'TLD':
+                      tld_filtered += 1
                   elif reason.startswith('TOO_MANY_DIGITS'):
                       digits_filtered += 1
                   else:
@@ -128,7 +155,7 @@ jobs:
 
           print('\n--- ИТОГИ ПРОВЕРКИ ---')
           print(f'Всего обработано доменов: {len(raw_domains)}')
-          print(f'Удалено из-за зоны .ua: {tld_ua_filtered}')
+          print(f'Удалено по TLD: {tld_filtered}')
           print(f'Удалено из-за >= 4 цифр: {digits_filtered}')
           print(f'Удалено из-за ошибок резолва (NO_RESOLVE): {no_resolve_filtered}')
           print(f'Оригинальный список сохранен в: {raw_lst}')
@@ -146,6 +173,6 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/refilter_resolved.lst refilter_all.lst refilter_no_resolve.lst
-            git commit -m "[auto] Check external domains resolve & filter .ua / digits $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Check external domains resolve & filter TLD / digits $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi

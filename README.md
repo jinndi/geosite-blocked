@@ -8,7 +8,7 @@
 
 - https://community.antifilter.download
 
-- https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst с фильтрацией через резолв)
+- https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst с фильтрацией по TLD и через резолв)
 
 - https://iplist.opencck.org (все категории)
 

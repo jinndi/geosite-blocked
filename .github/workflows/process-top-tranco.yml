@@ -48,7 +48,7 @@ jobs:
               '.дети', '.xn--d1acj3b', '.yandex',
 
               # Основной список всех ccTLD
-              '.ac', '.ad', '.ae', '.af', '.ag', '.ai', '.al', '.am', '.ao', '.aq',
+              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq',
               '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
               '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
               '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
