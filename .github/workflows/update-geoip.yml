@@ -33,5 +33,6 @@ jobs:
             
             git add GeoLite2-Country.mmdb
             git commit -m "[auto] Update GeoLite2-Country.mmdb $(date '+%Y-%m-%d %H:%M:%S')"
+            git pull origin main --rebase
             git push
           fi
