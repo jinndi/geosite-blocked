@@ -1,4 +1,4 @@
-name: Process Top Tranco domains
+name: Process Top Tranco Domains
 
 on:
   workflow_dispatch:
