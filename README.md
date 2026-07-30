@@ -12,7 +12,7 @@
 
 - https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst оставляя Russian TLDs после удачного резолва.)
 
-- https://tranco-list.eu/ (топ 25 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв исключая RU домены.)
+- https://tranco-list.eu/ (топ 30 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через удачный резолв исключая RU домены.)
 
 - Файл с доменами в `data/community.lst` (можно предложить свои.)
 

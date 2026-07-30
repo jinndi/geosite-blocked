@@ -102,10 +102,10 @@ jobs:
           if not os.path.exists(folder):
               os.makedirs(folder)
 
-          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-25000 ИЗ TRANCO ---
-          print('Загрузка свежего списка Tranco Top 25000...')
+          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-30000 ИЗ TRANCO ---
+          print('Загрузка свежего списка Tranco Top 30000...')
           t = Tranco(cache=True, cache_dir='.tranco_cache')
-          raw_domains = t.list().top(25000)
+          raw_domains = t.list().top(30000)
 
           print(f'Получено из Tranco: {len(raw_domains)} доменов.')
 
@@ -151,59 +151,64 @@ jobs:
 
           print(f'Исключено по TLD: {tld_filtered}')
           print(f'Исключено по Keyword: {keyword_filtered}')
-          print(f'Отправляется на GeoIP проверку: {len(domains_to_resolve)}')
+          print(f'Отправляется на DNS-резолв и GeoIP: {len(domains_to_resolve)}')
 
-          # Настройка системного резолвера
+          # Настройка сверхбыстрого системного резолвера
           sys_resolver = dns.resolver.Resolver()
           sys_resolver.timeout = 1.0
           sys_resolver.lifetime = 2.0
 
-          # Резервный публичный резолвер
+          # Резервный публичный резолвер на случай сетевых сбоев
           fallback_resolver = dns.resolver.Resolver(configure=False)
           fallback_resolver.nameservers = ['1.1.1.1', '8.8.8.8']
           fallback_resolver.timeout = 1.5
           fallback_resolver.lifetime = 2.5
 
           def check_domain_dns(domain):
-              answers = None
-
-              # 1. Попытки через системный DNS
+              # 1. Попытки через системный DNS (быстро)
               for _ in range(2):
                   try:
                       answers = sys_resolver.resolve(domain, 'A')
                       if answers:
-                          break
+                          if reader:
+                              for rdata in answers:
+                                  ip = rdata.to_text()
+                                  try:
+                                      response = reader.country(ip)
+                                      if response.country.iso_code in ignored_country_codes:
+                                          return domain, True, f'GeoIP ({response.country.iso_code})'
+                                  except Exception:
+                                      pass
+                          return domain, False, 'OK'
                   except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
-                      # Домен точно не существует/нет A-записи -> оставляем его
+                      return domain, True, 'NO_RESOLVE'
+                  except Exception:
+                      pass
+
+              # 2. Fallback через публичный DNS (если системный отбросил пакет)
+              try:
+                  answers = fallback_resolver.resolve(domain, 'A')
+                  if answers:
+                      if reader:
+                          for rdata in answers:
+                              ip = rdata.to_text()
+                              try:
+                                  response = reader.country(ip)
+                                  if response.country.iso_code in ignored_country_codes:
+                                      return domain, True, f'GeoIP ({response.country.iso_code})'
+                              except Exception:
+                                  pass
                       return domain, False, 'OK'
-                  except Exception:
-                      pass
+              except Exception:
+                  pass
 
-              # 2. Fallback через публичный DNS (если системный упал по таймауту)
-              if not answers:
-                  try:
-                      answers = fallback_resolver.resolve(domain, 'A')
-                  except Exception:
-                      pass
-
-              # 3. Проверка полученных IP-адресов по GeoIP
-              if answers and reader:
-                  for rdata in answers:
-                      ip = rdata.to_text()
-                      try:
-                          response = reader.country(ip)
-                          if response.country.iso_code in ignored_country_codes:
-                              return domain, True, f'GeoIP ({response.country.iso_code})'
-                      except Exception:
-                          pass
-
-              # Если не зарезолвился или не попал под GeoIP — не исключаем домен
-              return domain, False, 'OK'
+              return domain, True, 'NO_RESOLVE'
 
           filtered_domains = []
           geoip_filtered = 0
+          no_resolve_filtered = 0
 
-          print('Начинаем многопоточную проверку GeoIP (40 потоков)...')
+          print('Начинаем скоростной многопоточный резолв (40 потоков)...')
           
           with concurrent.futures.ThreadPoolExecutor(max_workers=40) as executor:
               results = list(executor.map(check_domain_dns, domains_to_resolve))
@@ -211,7 +216,10 @@ jobs:
           for domain, is_ignored, reason in results:
               if is_ignored:
                   excluded_domains.append((domain, reason))
-                  geoip_filtered += 1
+                  if reason == 'NO_RESOLVE':
+                      no_resolve_filtered += 1
+                  else:
+                      geoip_filtered += 1
               else:
                   filtered_domains.append(domain)
 
@@ -232,6 +240,7 @@ jobs:
           print(f'Удалено по TLD (.ru/.by и т.д.): {tld_filtered}')
           print(f'Удалено по Keyword: {keyword_filtered}')
           print(f'Удалено по GeoIP (IP из RU): {geoip_filtered}')
+          print(f'Удалено из-за ошибок резолва (NO_RESOLVE): {no_resolve_filtered}')
           print(f'Всего исключено: {total_excluded}')
           print(f'Сохранено в чистый список: {len(filtered_domains)}')
           "
@@ -246,7 +255,7 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/tranco.top.lst tranco_raw_excluded.lst tranco_raw.lst
-            git commit -m "[auto] Process tranco top25000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Process tranco top30000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi
