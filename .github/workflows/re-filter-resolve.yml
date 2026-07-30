@@ -30,6 +30,8 @@ jobs:
         run: |
           python -c "
           import os
+          import time
+          import random
           import urllib.request
           import concurrent.futures
           import dns.resolver
@@ -105,21 +107,24 @@ jobs:
           print(f'Отсеяно по цифрам: {digits_filtered}')
           print(f'Отправляется на DNS-резолв: {len(domains_to_resolve)}')
 
-          # Получаем системные DNS из /etc/resolv.conf
-          system_resolver = dns.resolver.Resolver()
-          system_nameservers = system_resolver.nameservers
-
-          # Объединяем локальные DNS с надежными публичными (убирая дубли)
-          combined_nameservers = list(dict.fromkeys(system_nameservers + [
+          # Пул надежных публичных DNS (без локального 127.0.0.53)
+          PUBLIC_NAMESERVERS = [
               '1.1.1.1', '1.0.0.1',           # Cloudflare
-              '8.8.8.8', '8.8.4.4'            # Google
-          ]))
+              '8.8.8.8', '8.8.4.4',           # Google
+              '9.9.9.9', '149.112.112.112',   # Quad9
+              '94.140.14.14', '94.140.15.15'  # AdGuard
+          ]
 
-          # 3. ФУНКЦИЯ ПРОВЕРКИ ТОЛЬКО ПО A-ЗАПИСИ С RETRY
+          # 3. ФУНКЦИЯ ПРОВЕРКИ ТОЛЬКО ПО A-ЗАПИСИ С РАНОМИЗАЦИЕЙ И RETRY
           def resolve_domain(domain):
-              # Локальный резолвер для каждого потока (предотвращает внутренние блокировки)
+              # Локальный резолвер для каждого потока
               resolver = dns.resolver.Resolver(configure=False)
-              resolver.nameservers = combined_nameservers
+              
+              # Перемешиваем публичные DNS для равномерной нагрузки
+              ns_list = PUBLIC_NAMESERVERS.copy()
+              random.shuffle(ns_list)
+              resolver.nameservers = ns_list
+
               resolver.timeout = 2.0
               resolver.lifetime = 3.0
 
@@ -133,18 +138,18 @@ jobs:
                       # Если DNS строго ответил, что домена/A-записи нет — мгновенный отказ
                       return domain, False, 'NO_RESOLVE'
                   except Exception:
-                      # При таймауте пробуем еще раз
-                      pass
+                      # При сетевом таймауте делаем паузу перед следующей попыткой
+                      time.sleep(0.2)
 
-              # Если за 3 попытки A-запись так и не вернулась — жестко выносим NO_RESOLVE
+              # Если за 3 попытки A-запись так и не вернулась — выносим NO_RESOLVE
               return domain, False, 'NO_RESOLVE'
 
           resolved_domains = []
           no_resolve_filtered = 0
 
-          print('Начинаем многопоточный DNS-резолв (150 потоков)...')
+          print('Начинаем многопоточный DNS-резолв (50 потоков)...')
           
-          with concurrent.futures.ThreadPoolExecutor(max_workers=150) as executor:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
               results = list(executor.map(resolve_domain, domains_to_resolve))
 
           for domain, is_ok, reason in results:

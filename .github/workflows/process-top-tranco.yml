@@ -30,6 +30,8 @@ jobs:
         run: |
           python -c "
           import os
+          import time
+          import random
           import concurrent.futures
           import geoip2.database
           import dns.resolver
@@ -153,20 +155,23 @@ jobs:
           print(f'Исключено по Keyword: {keyword_filtered}')
           print(f'Отправляется на DNS-резолв и GeoIP: {len(domains_to_resolve)}')
 
-          # Получаем системные DNS из /etc/resolv.conf
-          system_resolver = dns.resolver.Resolver()
-          system_nameservers = system_resolver.nameservers
-
-          # Объединяем локальные DNS с надежными публичными (убирая дубли)
-          combined_nameservers = list(dict.fromkeys(system_nameservers + [
+          # Пул надежных публичных DNS (без локального 127.0.0.53)
+          PUBLIC_NAMESERVERS = [
               '1.1.1.1', '1.0.0.1',           # Cloudflare
-              '8.8.8.8', '8.8.4.4'            # Google
-          ]))
+              '8.8.8.8', '8.8.4.4',           # Google
+              '9.9.9.9', '149.112.112.112',   # Quad9
+              '94.140.14.14', '94.140.15.15'  # AdGuard
+          ]
 
-          # --- 2. ФУНКЦИЯ ПРОВЕРКИ С СЕРАЛЬНЫМ РЕЗОЛВЕРОМ И RETRY ---
+          # --- 2. ФУНКЦИЯ ПРОВЕРКИ С РАНДОМИЗАЦИЕЙ DNS И RETRY-ЗАДЕРЖКОЙ ---
           def check_domain_dns(domain):
               resolver = dns.resolver.Resolver(configure=False)
-              resolver.nameservers = combined_nameservers
+              
+              # Перемешиваем публичные DNS для случайного распределения нагрузки
+              ns_list = PUBLIC_NAMESERVERS.copy()
+              random.shuffle(ns_list)
+              resolver.nameservers = ns_list
+              
               resolver.timeout = 2.0
               resolver.lifetime = 3.0
 
@@ -185,9 +190,11 @@ jobs:
                                       pass
                           return domain, False, 'OK'
                   except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
+                      # DNS строго ответил, что домена/A-записи не существует
                       return domain, True, 'NO_RESOLVE'
                   except Exception:
-                      pass
+                      # При сетевом таймауте делаем паузу перед следующей попыткой
+                      time.sleep(0.2)
 
               return domain, True, 'NO_RESOLVE'
 
@@ -195,9 +202,9 @@ jobs:
           geoip_filtered = 0
           no_resolve_filtered = 0
 
-          print('Начинаем многопоточный резолв (150 потоков)...')
+          print('Начинаем многопоточный резолв (50 потоков)...')
           
-          with concurrent.futures.ThreadPoolExecutor(max_workers=150) as executor:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
               results = list(executor.map(check_domain_dns, domains_to_resolve))
 
           for domain, is_ignored, reason in results:
