@@ -3,8 +3,8 @@ name: Check and Filter External Domains
 on:
   workflow_dispatch:
   schedule:
-    # Запуск 1 и 15 числа каждого месяца в 06:37 UTC
-    - cron: '37 6 1,15 * *'
+    # Запуск 1 и 15 числа каждого месяца в 03:37 UTC
+    - cron: '37 3 1,15 * *'
 
 jobs:
   process-external-domains:
@@ -125,11 +125,11 @@ jobs:
               random.shuffle(ns_list)
               resolver.nameservers = ns_list
 
-              resolver.timeout = 2.0
-              resolver.lifetime = 3.0
+              resolver.timeout = 1.0
+              resolver.lifetime = 2.0
 
               # До 3-х попыток в случае сетевого таймаута
-              for attempt in range(3):
+              for attempt in range(2):
                   try:
                       answers = resolver.resolve(domain, 'A')
                       if answers:
@@ -147,9 +147,9 @@ jobs:
           resolved_domains = []
           no_resolve_filtered = 0
 
-          print('Начинаем многопоточный DNS-резолв (50 потоков)...')
+          print('Начинаем многопоточный DNS-резолв (100 потоков)...')
           
-          with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
               results = list(executor.map(resolve_domain, domains_to_resolve))
 
           for domain, is_ok, reason in results:

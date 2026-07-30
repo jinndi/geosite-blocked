@@ -2,8 +2,8 @@ name: Cleanup old releases
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * 0"
+    # Запуск 1 и 15 числа каждого месяца в 9:37 UTC
+    - cron: '37 9 1,15 * *'
 
 permissions:
   contents: write

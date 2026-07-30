@@ -3,8 +3,8 @@ name: Process Top Tranco domains
 on:
   workflow_dispatch:
   schedule:
-    # Запуск каждое воскресенье в 06:37 UTC (09:37 МСК)
-    - cron: '37 6 * * 0'
+    # Запуск 1 и 15 числа каждого месяца в 04:37 UTC
+    - cron: '37 4 1,15 * *'
 
 jobs:
   process-tranco:
@@ -172,10 +172,10 @@ jobs:
               random.shuffle(ns_list)
               resolver.nameservers = ns_list
               
-              resolver.timeout = 2.0
-              resolver.lifetime = 3.0
+              resolver.timeout = 1.0
+              resolver.lifetime = 2.0
 
-              for attempt in range(3):
+              for attempt in range(2):
                   try:
                       answers = resolver.resolve(domain, 'A')
                       if answers:
@@ -202,9 +202,9 @@ jobs:
           geoip_filtered = 0
           no_resolve_filtered = 0
 
-          print('Начинаем многопоточный резолв (50 потоков)...')
+          print('Начинаем многопоточный резолв (100 потоков)...')
           
-          with concurrent.futures.ThreadPoolExecutor(max_workers=50) as executor:
+          with concurrent.futures.ThreadPoolExecutor(max_workers=100) as executor:
               results = list(executor.map(check_domain_dns, domains_to_resolve))
 
           for domain, is_ignored, reason in results:
