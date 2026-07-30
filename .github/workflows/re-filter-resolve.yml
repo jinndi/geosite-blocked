@@ -83,8 +83,17 @@ jobs:
           resolver.lifetime = 4.0
 
           def check_domain(domain):
-              # Фильтр 1: Проверка на наличие 4 и более цифр в названии домена
-              digit_count = sum(c.isdigit() for c in domain)
+              # Фильтр 1: Проверка на наличие 4 и более цифр в НАЗВАНИИ домена
+              # Декодируем Punycode (IDN), чтобы не считать цифры в служебных 'xn--...'
+              try:
+                  decoded_domain = domain.encode('idna').decode('utf-8') if not domain.startswith('xn--') else domain.encode('utf-8').decode('idna')
+              except Exception:
+                  decoded_domain = domain
+
+              # Считаем цифры только в имени без TLD (доменной зоны)
+              main_name = decoded_domain.rsplit('.', 1)[0]
+              digit_count = sum(c.isdigit() for c in main_name)
+
               if digit_count >= 4:
                   return domain, False, f'TOO_MANY_DIGITS ({digit_count})'
 

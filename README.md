@@ -14,7 +14,7 @@
 
 - https://github.com/itdoginfo/allow-domains (Russia inside)
 
-- https://tranco-list.eu/ (топ 30 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв исключая RU/BY/KZ домены.)
+- https://tranco-list.eu/ (топ 50 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв исключая RU/BY/KZ домены.)
 
 - Файл с доменами в `data/community.lst` (можно предложить свои.)
 
