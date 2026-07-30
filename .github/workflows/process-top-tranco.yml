@@ -37,8 +37,8 @@ jobs:
 
           folder = 'data'
           dst_lst = os.path.join(folder, 'tranco.top.lst')
-          excluded_lst = 'tranco_raw_excluded.txt'
-          raw_lst = 'tranco_raw.txt'
+          excluded_lst = 'tranco_raw_excluded.lst'
+          raw_lst = 'tranco_raw.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           ignored_tlds = (
@@ -249,12 +249,12 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/tranco.top.lst tranco_raw_excluded.txt tranco_raw.txt)" ]; then
+          if [ -z "$(git status --porcelain data/tranco.top.lst tranco_raw_excluded.lst tranco_raw.lst)" ]; then
             echo "Изменений в файлах нет."
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/tranco.top.lst tranco_raw_excluded.txt tranco_raw.txt
+            git add data/tranco.top.lst tranco_raw_excluded.lst tranco_raw.lst
             git commit -m "[auto] Process tranco top30000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
