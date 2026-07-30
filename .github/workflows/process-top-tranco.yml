@@ -3,8 +3,8 @@ name: Process Top Tranco Domains
 on:
   workflow_dispatch:
   schedule:
-    # Запуск 1 и 15 числа каждого месяца в 04:37 UTC
-    - cron: '37 4 1,15 * *'
+    # Запуск каждый понедельник в 05:37 UTC (08:37 МСК)
+    - cron: '37 5 * * 1'
 
 jobs:
   process-tranco:
