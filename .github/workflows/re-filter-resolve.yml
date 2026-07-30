@@ -42,7 +42,7 @@ jobs:
 
           # Разрешенные зоны (РФ)
           allowed_tlds = (
-            '.moscow', '.ru', '.su', '.tatar', 
+            '.moscow', '.ru', '.su', '.tatar', '.рф', '.москва', '.дети',
             '.xn--80adxhks', '.xn--80asehdb', '.xn--80aswg', 
             '.xn--c1avg', '.xn--d1acj3b', 'xn--p1acf', 'xn--p1ai'
             '.ru.com', '.ru.net'

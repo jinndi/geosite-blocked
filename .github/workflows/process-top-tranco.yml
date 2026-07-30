@@ -43,9 +43,10 @@ jobs:
 
           ignored_tlds = (
               # --- ОСНОВНЫЕ TLD РФ ---
-              '.ru', '.su', '.рф', '.xn--p1ai', 
-              '.moscow', '.москва', '.xn--80adxhks',
-              '.дети', '.xn--d1acj3b', '.yandex',
+              '.moscow', '.ru', '.su', '.tatar', '.рф', '.москва', '.дети',
+              '.xn--80adxhks', '.xn--80asehdb', '.xn--80aswg', 
+              '.xn--c1avg', '.xn--d1acj3b', 'xn--p1acf', 'xn--p1ai'
+              '.ru.com', '.ru.net',
 
               # Основной список всех ccTLD
               '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq',
@@ -96,15 +97,15 @@ jobs:
               'avito', 'rutube', 'habr', 'headhunter', 'hh.ru'
           )
           
-          ignored_country_codes = {'RU', 'BY', 'KZ'}
+          ignored_country_codes = {'RU'}
 
           if not os.path.exists(folder):
               os.makedirs(folder)
 
-          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-40000 ИЗ TRANCO ---
-          print('Загрузка свежего списка Tranco Top 40000...')
+          # --- ПОЛУЧЕНИЕ СВЕЖЕГО TOP-30000 ИЗ TRANCO ---
+          print('Загрузка свежего списка Tranco Top 30000...')
           t = Tranco(cache=True, cache_dir='.tranco_cache')
-          raw_domains = t.list().top(40000)
+          raw_domains = t.list().top(30000)
 
           print(f'Получено из Tranco: {len(raw_domains)} доменов.')
 
@@ -230,6 +231,6 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/tranco.top.lst tranco_raw_excluded.txt tranco_raw.txt
-            git commit -m "[auto] Process tranco top40000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Process tranco top30000, update raw and excluded lists $(date '+%Y-%m-%d %H:%M:%S')"
             git push
           fi

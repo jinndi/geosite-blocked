@@ -8,13 +8,11 @@
 
 - https://community.antifilter.download
 
-- https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst через резолв с проверкой через базу GeoLite2-Country.mmdb оcтавляя только RU/BY/KZ домены.)
+- https://github.com/1andrevich/Re-filter-lists (community.lst + domains_all.lst оставляя Russian TLDs после резолва.)
 
 - https://iplist.opencck.org (все категории)
 
-- https://github.com/itdoginfo/allow-domains (Russia inside)
-
-- https://tranco-list.eu/ (топ 40 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв исключая RU/BY/KZ домены.)
+- https://tranco-list.eu/ (топ 30 тыс доменов через https://pypi.org/project/tranco/ с фильтрацией по TLD, keywords и базе GeoLite2-Country.mmdb через резолв исключая RU домены.)
 
 - Файл с доменами в `data/community.lst` (можно предложить свои.)
 
