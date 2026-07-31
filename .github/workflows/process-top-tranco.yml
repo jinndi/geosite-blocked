@@ -126,7 +126,7 @@ jobs:
               print(f'Предупреждение: Файл {geoip_db_path} не найден!')
 
           # --- 1. ЛОКАЛЬНАЯ ПРЕДВАРИТЕЛЬНАЯ ФИЛЬТРАЦИЯ (Без сети) ---
-          domains_to_resolve = []
+          domains_to_check = []
           excluded_domains = []
 
           tld_filtered = 0
@@ -147,79 +147,70 @@ jobs:
                   keyword_filtered += 1
                   continue
 
-              domains_to_resolve.append(domain)
+              domains_to_check.append(domain)
 
           print(f'Исключено по TLD: {tld_filtered}')
           print(f'Исключено по Keyword: {keyword_filtered}')
-          print(f'Отправляется на DNS-резолв и GeoIP: {len(domains_to_resolve)}')
+          print(f'Отправляется на GeoIP проверку: {len(domains_to_check)}')
 
-          # Настройка сверхбыстрого системного резолвера
+          # Настройка системного резолвера
           sys_resolver = dns.resolver.Resolver()
           sys_resolver.timeout = 1.0
           sys_resolver.lifetime = 2.0
 
-          # Резервный публичный резолвер на случай сетевых сбоев
+          # Резервный публичный резолвер
           fallback_resolver = dns.resolver.Resolver(configure=False)
           fallback_resolver.nameservers = ['1.1.1.1', '8.8.8.8']
           fallback_resolver.timeout = 1.5
           fallback_resolver.lifetime = 2.5
 
-          def check_domain_dns(domain):
-              # 1. Попытки через системный DNS (быстро)
+          def check_domain_geoip(domain):
+              answers = None
+
+              # Резолвим только для получения IP с целью GeoIP-проверки
               for _ in range(2):
                   try:
                       answers = sys_resolver.resolve(domain, 'A')
                       if answers:
-                          if reader:
-                              for rdata in answers:
-                                  ip = rdata.to_text()
-                                  try:
-                                      response = reader.country(ip)
-                                      if response.country.iso_code in ignored_country_codes:
-                                          return domain, True, f'GeoIP ({response.country.iso_code})'
-                                  except Exception:
-                                      pass
-                          return domain, False, 'OK'
+                          break
                   except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
-                      return domain, True, 'NO_RESOLVE'
+                      # Если записи нет — просто пропускаем GeoIP (домен остается)
+                      return domain, False, 'OK'
                   except Exception:
                       pass
 
-              # 2. Fallback через публичный DNS (если системный отбросил пакет)
-              try:
-                  answers = fallback_resolver.resolve(domain, 'A')
-                  if answers:
-                      if reader:
-                          for rdata in answers:
-                              ip = rdata.to_text()
-                              try:
-                                  response = reader.country(ip)
-                                  if response.country.iso_code in ignored_country_codes:
-                                      return domain, True, f'GeoIP ({response.country.iso_code})'
-                              except Exception:
-                                  pass
-                      return domain, False, 'OK'
-              except Exception:
-                  pass
+              if not answers:
+                  try:
+                      answers = fallback_resolver.resolve(domain, 'A')
+                  except Exception:
+                      pass
 
-              return domain, True, 'NO_RESOLVE'
+              # Если получили IP — проверяем страну
+              if answers and reader:
+                  for rdata in answers:
+                      ip = rdata.to_text()
+                      try:
+                          response = reader.country(ip)
+                          if response.country.iso_code in ignored_country_codes:
+                              return domain, True, f'GeoIP ({response.country.iso_code})'
+                      except Exception:
+                          pass
+
+              # Если домен не зарезолвился или его IP не из RU — сохраняем домен
+              return domain, False, 'OK'
 
           filtered_domains = []
           geoip_filtered = 0
-          no_resolve_filtered = 0
 
-          print('Начинаем скоростной многопоточный резолв (40 потоков)...')
+          print('Начинаем многопоточную проверку GeoIP (40 потоков)...')
           
           with concurrent.futures.ThreadPoolExecutor(max_workers=40) as executor:
-              results = list(executor.map(check_domain_dns, domains_to_resolve))
+              results = list(executor.map(check_domain_geoip, domains_to_check))
 
           for domain, is_ignored, reason in results:
               if is_ignored:
                   excluded_domains.append((domain, reason))
-                  if reason == 'NO_RESOLVE':
-                      no_resolve_filtered += 1
-                  else:
-                      geoip_filtered += 1
+                  geoip_filtered += 1
               else:
                   filtered_domains.append(domain)
 
@@ -240,7 +231,6 @@ jobs:
           print(f'Удалено по TLD (.ru/.by и т.д.): {tld_filtered}')
           print(f'Удалено по Keyword: {keyword_filtered}')
           print(f'Удалено по GeoIP (IP из RU): {geoip_filtered}')
-          print(f'Удалено из-за ошибок резолва (NO_RESOLVE): {no_resolve_filtered}')
           print(f'Всего исключено: {total_excluded}')
           print(f'Сохранено в чистый список: {len(filtered_domains)}')
           "

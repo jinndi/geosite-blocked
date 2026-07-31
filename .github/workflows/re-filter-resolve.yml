@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install dnspython
+          pip install geoip2 dnspython
 
       - name: Download, resolve and filter domains
         run: |
@@ -32,6 +32,7 @@ jobs:
           import os
           import urllib.request
           import concurrent.futures
+          import geoip2.database
           import dns.resolver
 
           url = 'https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/domains_all.lst'
@@ -39,13 +40,38 @@ jobs:
           dst_lst = os.path.join(folder, 'refilter_resolved.lst')
           raw_lst = 'refilter_raw.lst.lst'
           excluded_lst = 'refilter_raw_excluded.lst'
+          geoip_db_path = 'GeoLite2-Country.mmdb'
 
-          # Разрешенные зоны (РФ)
-          allowed_tlds = (
-            '.moscow', '.ru', '.su', '.tatar', '.рф', '.москва', '.дети',
-            '.xn--80adxhks', '.xn--80asehdb', '.xn--80aswg', 
-            '.xn--c1avg', '.xn--d1acj3b', '.xn--p1acf', '.xn--p1ai',
-            '.ru.com', '.ru.net'
+          # Список TLD для исключения
+          ignored_tlds = (
+              # Основной список всех ccTLD
+              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq',
+              '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
+              '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
+              '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
+              '.ch', '.ci', '.ck', '.cl', '.cm', '.cr', '.cu', '.cv', '.cw', '.cx',
+              '.cy', '.cz', '.de', '.dj', '.dk', '.dm', '.do', '.dz', '.ec', '.ee',
+              '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
+              '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
+              '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
+              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', 
+              '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
+              '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
+              '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
+              '.ma', '.mc', '.md', '.mg', '.mh', '.mk', '.ml', '.mm', '.mn', '.mo',
+              '.mp', '.mq', '.mr', '.ms', '.mt', '.mu', '.mv', '.mw', '.mx', '.my',
+              '.mz', '.na', '.nc', '.ne', '.nf', '.ng', '.ni', '.nl', '.no', '.np',
+              '.nr', '.nu', '.nz', '.om', '.pa', '.pe', '.pf', '.pg', '.ph', '.pk',
+              '.pl', '.pm', '.pn', '.pr', '.ps', '.pt', '.py', '.qa', '.re', '.ro',
+              '.rs', '.rw', '.sa', '.sb', '.sc', '.sd', '.se', '.sg', '.sh', '.si',
+              '.sj', '.sk', '.sl', '.sm', '.sn', '.so', '.sr', '.ss', '.st', '.sv',
+              '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
+              '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
+              '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
+              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
+
+              # Дополнительный список TLD
+              '.cn', '.edu', 'gov', '.arpa'
           )
 
           if not os.path.exists(folder):
@@ -69,20 +95,31 @@ jobs:
               for d in raw_domains:
                   raw_f.write(f'{d}\n')
 
+          # Подключаем GeoIP
+          reader = None
+          if os.path.exists(geoip_db_path):
+              try:
+                  reader = geoip2.database.Reader(geoip_db_path)
+                  print('База GeoIP успешно загружена.')
+              except Exception as e:
+                  print(f'Ошибка загрузки GeoIP: {e}')
+          else:
+              print(f'Предупреждение: Файл {geoip_db_path} не найден!')
+
           # 2. БЫСТРАЯ ПРЕДВАРИТЕЛЬНАЯ ФИЛЬТРАЦИЯ (Без сети)
-          domains_to_resolve = []
+          domains_to_check = []
           failed_domains = []
 
-          not_ru_tld_filtered = 0
+          tld_filtered = 0
           digits_filtered = 0
 
           for domain in raw_domains:
               domain_lower = domain.lower()
 
-              # Фильтр 1: Зона
-              if not domain_lower.endswith(allowed_tlds):
-                  failed_domains.append((domain, 'NOT_RU_TLD'))
-                  not_ru_tld_filtered += 1
+              # Фильтр 1: Исключение по TLD
+              if domain_lower.endswith(ignored_tlds):
+                  failed_domains.append((domain, 'IGNORED_TLD'))
+                  tld_filtered += 1
                   continue
 
               # Фильтр 2: Цифры
@@ -99,13 +136,13 @@ jobs:
                   digits_filtered += 1
                   continue
 
-              domains_to_resolve.append(domain)
+              domains_to_check.append(domain)
 
-          print(f'Отсеяно по TLD: {not_ru_tld_filtered}')
+          print(f'Отсеяно по TLD: {tld_filtered}')
           print(f'Отсеяно по цифрам: {digits_filtered}')
-          print(f'Отправляется на DNS-резолв: {len(domains_to_resolve)}')
+          print(f'Отправляется на DNS-резолв и GeoIP: {len(domains_to_check)}')
 
-          # Системный резолвер с агрессивными таймаутами
+          # Настройка системного резолвера
           sys_resolver = dns.resolver.Resolver()
           sys_resolver.timeout = 1.0
           sys_resolver.lifetime = 2.0
@@ -116,46 +153,62 @@ jobs:
           fallback_resolver.timeout = 1.5
           fallback_resolver.lifetime = 2.5
 
-          def resolve_domain(domain):
-              # 1. Попытки через системный DNS
+          def check_domain_dns_and_geoip(domain):
+              answers = None
+
+              # Резолвим для получения IP
               for _ in range(2):
                   try:
                       answers = sys_resolver.resolve(domain, 'A')
                       if answers:
-                          return domain, True, 'OK'
+                          break
                   except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
-                      return domain, False, 'NO_RESOLVE'
+                      # Если не резолвится - оставляем
+                      return domain, False, 'OK'
                   except Exception:
                       pass
 
-              # 2. Fallback через Cloudflare/Google
-              try:
-                  answers = fallback_resolver.resolve(domain, 'A')
-                  if answers:
-                      return domain, True, 'OK'
-              except Exception:
-                  pass
+              if not answers:
+                  try:
+                      answers = fallback_resolver.resolve(domain, 'A')
+                  except Exception:
+                      pass
 
-              return domain, False, 'NO_RESOLVE'
+              # Если отрезолвился и есть база GeoIP - проверяем страну
+              if answers and reader:
+                  for rdata in answers:
+                      ip = rdata.to_text()
+                      try:
+                          response = reader.country(ip)
+                          country_code = response.country.iso_code
+                          
+                          # Исключаем ТОЛЬКО если страна определилась и она НЕ RU
+                          if country_code and country_code != 'RU':
+                              return domain, True, f'GeoIP Not RU ({country_code})'
+                      except Exception:
+                          pass
 
-          resolved_domains = []
-          no_resolve_filtered = 0
+              # Во всех остальных случаях (RU, неизвестная страна, ошибки DNS) - оставляем домен
+              return domain, False, 'OK'
 
-          print('Начинаем скоростной многопоточный DNS-резолв (40 потоков)...')
+          filtered_domains = []
+          not_ru_geoip_filtered = 0
+
+          print('Начинаем многопоточную проверку DNS & GeoIP (40 потоков)...')
           
           with concurrent.futures.ThreadPoolExecutor(max_workers=40) as executor:
-              results = list(executor.map(resolve_domain, domains_to_resolve))
+              results = list(executor.map(check_domain_dns_and_geoip, domains_to_check))
 
-          for domain, is_ok, reason in results:
-              if is_ok:
-                  resolved_domains.append(domain)
-              else:
+          for domain, is_ignored, reason in results:
+              if is_ignored:
                   failed_domains.append((domain, reason))
-                  no_resolve_filtered += 1
+                  not_ru_geoip_filtered += 1
+              else:
+                  filtered_domains.append(domain)
 
-          # 4. Сохранение результатов
+          # 3. Сохранение результатов
           with open(dst_lst, 'w', encoding='utf-8') as out_f:
-              for d in sorted(resolved_domains):
+              for d in sorted(filtered_domains):
                   out_f.write(f'{d}\n')
 
           with open(excluded_lst, 'w', encoding='utf-8') as ex_f:
@@ -164,11 +217,11 @@ jobs:
 
           print('\n--- ИТОГИ ПРОВЕРКИ ---')
           print(f'Всего обработано доменов: {len(raw_domains)}')
-          print(f'Удалено (не зоны РФ): {not_ru_tld_filtered}')
+          print(f'Удалено по TLD: {tld_filtered}')
           print(f'Удалено из-за >= 4 цифр: {digits_filtered}')
-          print(f'Удалено из-за ошибок резолва (NO_RESOLVE): {no_resolve_filtered}')
+          print(f'Удалено по GeoIP (IP НЕ из RU): {not_ru_geoip_filtered}')
           print(f'Оригинальный список сохранен в: {raw_lst}')
-          print(f'Успешно сохранено доменов в: {dst_lst} ({len(resolved_domains)} шт.)')
+          print(f'Успешно сохранено доменов в: {dst_lst} ({len(filtered_domains)} шт.)')
           print(f'Исключения сохранены в: {excluded_lst}')
           "
 
@@ -182,7 +235,7 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/refilter_resolved.lst refilter_raw.lst.lst refilter_raw_excluded.lst
-            git commit -m "[auto] Check external domains resolve & filter RU TLD / digits $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Filter external domains, keep RU and unresolved $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi
