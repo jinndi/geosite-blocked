@@ -20,8 +20,8 @@
       * Нерезолвящиеся записи (ошибки DNS, `NXDOMAIN`, таймауты или отсутствие `A`-записей).
     * **Оставляем:** Случаи, когда GeoIP не смог определить код страны после успешного резолва.
 
-* **Источники Tranco Top 50k и Geolocation JSON:**
-  * [Tranco List](https://tranco-list.eu/) (топ-50 тыс. доменов через PyPI-пакет `tranco`)
+* **Источники Tranco Top 30k и Geolocation JSON:**
+  * [Tranco List](https://tranco-list.eu/) (топ-30 тыс. доменов через PyPI-пакет `tranco`)
   * [KaringX Ruleset](https://github.com/KaringX/karing-ruleset) (`geolocation-!cn.json` — списки `domain` и `domain_suffix`)
 
 * **Общая логика фильтрации:**

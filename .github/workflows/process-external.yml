@@ -235,10 +235,10 @@ jobs:
               print(f'Удалено по DNS/GeoIP (нерезолвящиеся или IP из RU): {dns_geoip_filtered}')
               print(f'Сохранено в чистый список ({dst_path}): {len(filtered_domains)}')
 
-          # --- 1. ОБРАБОТКА TRANCO TOP 50000 ---
-          print('\n=== 1. Обработка Tranco Top 50000 ===')
+          # --- 1. ОБРАБОТКА TRANCO TOP 30000 ---
+          print('\n=== 1. Обработка Tranco Top 30000 ===')
           t = Tranco(cache=True, cache_dir='.tranco_cache')
-          tranco_raw = t.list().top(50000)
+          tranco_raw = t.list().top(30000)
           print(f'Получено из Tranco: {len(tranco_raw)} доменов.')
           process_domains_pipeline(tranco_raw, dst_lst, excluded_lst, raw_lst)
 
@@ -278,7 +278,7 @@ jobs:
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "[auto] Process Tranco top50000 & Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Process Tranco top30000 & Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi
