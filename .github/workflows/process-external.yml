@@ -1,0 +1,278 @@
+name: Process Top Tranco Domains & Geolocation JSON
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Запуск каждый понедельник в 05:37 UTC (08:37 МСК)
+    - cron: '37 5 * * 1'
+
+jobs:
+  process-external:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: |
+          pip install geoip2 dnspython tranco
+
+      - name: Process Tranco Top domains and filter
+        run: |
+          python -c "
+          import os
+          import json
+          import urllib.request
+          import concurrent.futures
+          import geoip2.database
+          import dns.resolver
+          from tranco import Tranco
+
+          folder = 'data'
+          dst_lst = os.path.join(folder, 'tranco.top.lst')
+          excluded_lst = 'tranco_raw_excluded.lst'
+          raw_lst = 'tranco_raw.lst'
+          geoip_db_path = 'GeoLite2-Country.mmdb'
+
+          json_url = 'https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/geolocation-!cn.json'
+          json_raw_lst = 'geolocation-!cn_raw.lst'
+          json_excluded_lst = 'geolocation-!cn_raw_excluded.lst'
+          json_dst_lst = os.path.join(folder, 'geolocation-!cn.lst')
+
+          ignored_tlds = (
+              # --- ОСНОВНЫЕ TLD РФ ---
+              '.moscow', '.ru', '.su', '.tatar', '.рф', '.москва', '.дети',
+              '.xn--80adxhks', '.xn--80asehdb', '.xn--80aswg', 
+              '.xn--c1avg', '.xn--d1acj3b', '.xn--p1acf', '.xn--p1ai',
+              '.ru.com', '.ru.net',
+
+              # Основной список всех ccTLD
+              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq',
+              '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
+              '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
+              '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
+              '.ch', '.ci', '.ck', '.cl', '.cm', '.cr', '.cu', '.cv', '.cw', '.cx',
+              '.cy', '.cz', '.de', '.dj', '.dk', '.dm', '.do', '.dz', '.ec', '.ee',
+              '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
+              '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
+              '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
+              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', 
+              '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
+              '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
+              '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
+              '.ma', '.mc', '.md', '.mg', '.mh', '.mk', '.ml', '.mm', '.mn', '.mo',
+              '.mp', '.mq', '.mr', '.ms', '.mt', '.mu', '.mv', '.mw', '.mx', '.my',
+              '.mz', '.na', '.nc', '.ne', '.nf', '.ng', '.ni', '.nl', '.no', '.np',
+              '.nr', '.nu', '.nz', '.om', '.pa', '.pe', '.pf', '.pg', '.ph', '.pk',
+              '.pl', '.pm', '.pn', '.pr', '.ps', '.pt', '.py', '.qa', '.re', '.ro',
+              '.rs', '.rw', '.sa', '.sb', '.sc', '.sd', '.se', '.sg', '.sh', '.si',
+              '.sj', '.sk', '.sl', '.sm', '.sn', '.so', '.sr', '.ss', '.st', '.sv',
+              '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
+              '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
+              '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
+              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
+
+              # Дополнительный список TLD
+              '.cn', '.edu', '.gov', '.arpa',
+
+              # Дополнительный список TLD из geolocation-!cn
+              '.adult', '.zappos', '.youtube', '.yamaxun', '.yahoo', '.xn--qcka1pmc',
+              '.xn--jlq480n2rg', '.xn--flw351e', '.xn--cg4bki', '.xn--cckwcxetd', '.xbox', 
+              '.windows', '.weatherchannel', '.weather', '.walmart', '.volvo', '.target', 
+              '.sony', '.softbank', '.skype', '.sky', '.samsung', '.porn', '.playstation', 
+              '.panasonic', '.oracle', '.office', '.nike', '.nico', '.nhk', '.nexus', '.mit', 
+              '.mini', '.microsoft', '.kindle', '.java', '.intuit', '.imdb', '.ibm', '.hsbc', 
+              '.hotmail', '.hbo', '.hangout', '.guge', '.gucci', '.google', '.goog', '.godaddy',
+              '.gmo', '.gmail', '.gle', '.gbiz', '.fox', '.flickr', '.dell', '.dclk', '.cisco', 
+              '.chrome', '.cern', '.canon', '.bridgestone', '.bmw', '.bloomberg', '.bing', '.bbc', 
+              '.azure', '.aws', '.apple', '.android', '.amazon'
+          )
+
+          ignored_keywords = (
+              # VK & Mail.ru Infrastructure
+              'vk-cdn', 'vkontakte', 'vkuser',
+              'my.games', 'ok.ru', 'odnoklassniki',
+
+              # Yandex Infrastructure
+              'yandex', 'ya.ru', 'yamedialabs', 'yastatic', 
+              'kinopoisk', 'dzen',
+
+              # Rambler & Sber Infrastructure
+              'rambler', 'sber', 'sberbank', 'sberprime', 'sbercdns', 
+              'okko', 'lenta.ru', 'gazeta.ru',
+
+              # Telecoms & CDNs
+              'kaspersky', 'selectel', 'beeline', 'mts.ru', 'megafon', 
+              'rostelecom', 'tinkoff', 'tbank', 'ozon', 'wildberries', 
+              'avito', 'rutube', 'habr', 'headhunter', 'hh.ru'
+          )
+          
+          ignored_country_codes = {'RU'}
+
+          if not os.path.exists(folder):
+              os.makedirs(folder)
+
+          # Настройка системного и fallback резолвера
+          sys_resolver = dns.resolver.Resolver()
+          sys_resolver.timeout = 1.0
+          sys_resolver.lifetime = 2.0
+
+          fallback_resolver = dns.resolver.Resolver(configure=False)
+          fallback_resolver.nameservers = ['1.1.1.1', '8.8.8.8']
+          fallback_resolver.timeout = 1.5
+          fallback_resolver.lifetime = 2.5
+
+          # Подключаем GeoIP
+          reader = None
+          if os.path.exists(geoip_db_path):
+              try:
+                  reader = geoip2.database.Reader(geoip_db_path)
+                  print('База GeoIP успешно загружена.')
+              except Exception as e:
+                  print(f'Ошибка загрузки GeoIP: {e}')
+          else:
+              print(f'Предупреждение: Файл {geoip_db_path} не найден!')
+
+          def check_domain_geoip(domain):
+              answers = None
+
+              for resolver in (sys_resolver, fallback_resolver):
+                  try:
+                      answers = resolver.resolve(domain, 'A')
+                      if answers:
+                          break
+                  except Exception:
+                      pass
+
+              if answers and reader:
+                  for rdata in answers:
+                      ip = rdata.to_text()
+                      try:
+                          response = reader.country(ip)
+                          if response.country.iso_code in ignored_country_codes:
+                              return domain, True, f'GeoIP ({response.country.iso_code})'
+                      except Exception:
+                          pass
+
+              return domain, False, 'OK'
+
+          def process_domains_pipeline(raw_domains, dst_path, excluded_path, raw_path):
+              # Сохраняем необработанный список
+              with open(raw_path, 'w', encoding='utf-8') as raw_f:
+                  for d in raw_domains:
+                      raw_f.write(f'{d}\n')
+
+              domains_to_check = []
+              excluded_domains = []
+              tld_filtered = 0
+              keyword_filtered = 0
+              no_dot_filtered = 0
+
+              for domain in raw_domains:
+                  domain_lower = domain.lower()
+
+                  # Проверка на наличие точки
+                  if '.' not in domain_lower:
+                      excluded_domains.append((domain, 'NO_DOT'))
+                      no_dot_filtered += 1
+                      continue
+
+                  # Проверка по TLD
+                  if domain_lower.endswith(ignored_tlds):
+                      excluded_domains.append((domain, 'TLD'))
+                      tld_filtered += 1
+                      continue
+
+                  # Проверка по ключевым словам
+                  if any(keyword in domain_lower for keyword in ignored_keywords):
+                      excluded_domains.append((domain, 'Keyword'))
+                      keyword_filtered += 1
+                      continue
+
+                  domains_to_check.append(domain)
+
+              print(f'Исключено без точки: {no_dot_filtered}')
+              print(f'Исключено по TLD: {tld_filtered}')
+              print(f'Исключено по Keyword: {keyword_filtered}')
+              print(f'Отправляется на GeoIP проверку: {len(domains_to_check)}')
+
+              filtered_domains = []
+              geoip_filtered = 0
+
+              with concurrent.futures.ThreadPoolExecutor(max_workers=40) as executor:
+                  results = list(executor.map(check_domain_geoip, domains_to_check))
+
+              for domain, is_ignored, reason in results:
+                  if is_ignored:
+                      excluded_domains.append((domain, reason))
+                      geoip_filtered += 1
+                  else:
+                      filtered_domains.append(domain)
+
+              with open(dst_path, 'w', encoding='utf-8') as out_f:
+                  for d in sorted(set(filtered_domains)):
+                      out_f.write(f'{d}\n')
+
+              with open(excluded_path, 'w', encoding='utf-8') as ex_f:
+                  for d, reason in sorted(excluded_domains):
+                      ex_f.write(f'{d} # {reason}\n')
+
+              print(f'Удалено по GeoIP (IP из RU): {geoip_filtered}')
+              print(f'Сохранено в чистый список ({dst_path}): {len(filtered_domains)}')
+
+          # --- 1. ОБРАБОТКА TRANCO TOP 50000 ---
+          print('\n=== 1. Обработка Tranco Top 50000 ===')
+          t = Tranco(cache=True, cache_dir='.tranco_cache')
+          tranco_raw = t.list().top(50000)
+          print(f'Получено из Tranco: {len(tranco_raw)} доменов.')
+          process_domains_pipeline(tranco_raw, dst_lst, excluded_lst, raw_lst)
+
+          # --- 2. ОБРАБОТКА GEOLOCATION JSON ---
+          print('\n=== 2. Обработка Geolocation JSON ===')
+          print(f'Скачивание JSON: {json_url}')
+          try:
+              req = urllib.request.Request(json_url, headers={'User-Agent': 'Mozilla/5.0'})
+              with urllib.request.urlopen(req) as resp:
+                  json_data = json.loads(resp.read().decode('utf-8'))
+
+              extracted_domains = []
+              for rule in json_data.get('rules', []):
+                  extracted_domains.extend(rule.get('domain', []))
+                  extracted_domains.extend(rule.get('domain_suffix', []))
+
+              # Очищаем от пробелов и дубликатов с сохранением уникальности
+              raw_json_domains = list(dict.fromkeys([d.strip() for d in extracted_domains if d and isinstance(d, str)]))
+              print(f'Извлечено доменов/суффиксов из JSON: {len(raw_json_domains)}')
+
+              process_domains_pipeline(raw_json_domains, json_dst_lst, json_excluded_lst, json_raw_lst)
+          except Exception as e:
+              print(f'Ошибка при обработке JSON: {e}')
+              exit(1)
+          "
+
+      - name: Commit and Push changes
+        env:
+          TZ: "Europe/Moscow"
+        run: |
+          # 1. Сначала добавляем все созданные/измененные файлы в индекс
+          git add data/ tranco_raw*.lst geolocation-\!cn_raw*.lst
+
+          # 2. Проверяем, есть ли что коммитить в индексе
+          if git diff --staged --quiet; then
+            echo "Изменений в файлах нет."
+          else
+            git config --global user.name "github-actions[bot]"
+            git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "[auto] Process Tranco top50000 & Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
+            git pull origin main --rebase
+            git push
+          fi
