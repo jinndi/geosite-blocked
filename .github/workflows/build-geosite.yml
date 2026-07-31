@@ -33,27 +33,47 @@ jobs:
         import urllib.request
         import urllib.error
 
-        # ПАРАМЕТРЫ
+        # Текстовые .lst источники
         urls = {
             "community.antifilter.lst": "https://community.antifilter.download/list/domains.lst",
             "community.1andrevich.lst": "https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/community.lst",
             "opencck.all.lst": "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&group=ai&group=anime&group=art&group=casino&group=discord&group=education&group=finance&group=games&group=hosting&group=jetbrains&group=messengers&group=news&group=porn&group=shop&group=socials&group=tools&group=torrent&group=video&group=youtube"
         }
+
+        # JSON источники, из которых извлекаются domain и domain_suffix
+        json_urls = {
+            "ai.lst": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/ai.json",
+            "games.lst": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/games.json",
+            "networktest.lst": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/networktest.json",
+            "youtube.lst": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/youtube.json",
+            "media.lst": "https://raw.githubusercontent.com/DustinWin/ruleset_geodata/sing-box-ruleset/media.json",
+            "meta.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/meta.json",
+            "cdn.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-cdn-!cn.json",
+            "communication.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-communication.json",
+            "crypto.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-cryptocurrency.json",
+            "google.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/google.json",
+            "steam.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/steam.json",
+            "telegram.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/telegram.json",
+            "twitter.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/twitter.json",
+            "tiktok.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/tiktok.json",
+            "reddit.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/reddit.json",
+            "github.lst": https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/github.json"
+        }
+
         folder = 'data'
         # ------------------------
 
         if not os.path.exists(folder):
             os.makedirs(folder)
 
-        print("--- Старт скачивания файлов ---")
+        headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
+
+        print("--- Старт скачивания LST файлов ---")
         for filename, url in urls.items():
             filepath = os.path.join(folder, filename)
             print(f"Скачиваю/Обновляю: {url} -> {filepath}")
             try:
-                req = urllib.request.Request(
-                    url, 
-                    headers={'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64)'}
-                )
+                req = urllib.request.Request(url, headers=headers)
                 with urllib.request.urlopen(req, timeout=30) as response, open(filepath, 'wb') as out_file:
                     out_file.write(response.read())
                 print(f"Успешно обновлен: {filename}")
@@ -62,9 +82,34 @@ jobs:
             except Exception as e:
                 print(f"Непредвиденная ошибка для {url}: {e}")
 
+        print("\n--- Скачивание и парсинг JSON источников ---")
+        for filename, url in json_urls.items():
+            filepath = os.path.join(folder, filename)
+            print(f"Парсинг JSON: {url} -> {filepath}")
+            try:
+                req = urllib.request.Request(url, headers=headers)
+                with urllib.request.urlopen(req, timeout=30) as response:
+                    json_data = json.loads(response.read().decode('utf-8'))
+
+                extracted_domains = []
+                for rule in json_data.get('rules', []):
+                    extracted_domains.extend(rule.get('domain', []))
+                    extracted_domains.extend(rule.get('domain_suffix', []))
+
+                # Извлечение уникальных непустых записей
+                unique_extracted = sorted(list(set(d.strip() for d in extracted_domains if d and isinstance(d, str))))
+
+                with open(filepath, 'w', encoding='utf-8') as out_file:
+                    for d in unique_extracted:
+                        out_file.write(f"{d}\n")
+
+                print(f"Успешно извлечено {len(unique_extracted)} доменов в {filename}")
+            except Exception as e:
+                print(f"Ошибка при обработке JSON {url}: {e}")
+
         print("--- Скачивание завершено ---\n")
 
-        # --- Обработка ---
+        # --- Обработка всех LST в папке data ---
         domains = set()
         stats = {"total_lines": 0}
 
