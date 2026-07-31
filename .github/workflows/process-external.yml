@@ -56,7 +56,7 @@ jobs:
               '.ru.com', '.ru.net',
 
               # Основной список всех ccTLD
-              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq',
+              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq', '.ai',
               '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
               '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
               '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
@@ -65,7 +65,7 @@ jobs:
               '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
               '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
               '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
-              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', 
+              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', '.io',
               '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
               '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
               '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
@@ -82,7 +82,7 @@ jobs:
               '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
 
               # Дополнительный список TLD
-              '.cn', '.edu', '.gov', '.arpa',
+              '.cn', '.hk', '.edu', '.gov', '.arpa',
 
               # Дополнительный список TLD из geolocation-!cn
               '.adult', '.zappos', '.youtube', '.yamaxun', '.yahoo', '.xn--qcka1pmc',
@@ -153,7 +153,12 @@ jobs:
                   except Exception:
                       pass
 
-              if answers and reader:
+              # 1. Если домен НЕ резолвится (нет A-записей, NXDOMAIN, таймаут) -> ИСКЛЮЧАЕМ
+              if not answers:
+                  return domain, True, 'DNS_RESOLVE_FAILED'
+
+              # 2. Если домен резолвится — проверяем полученные IP через GeoIP
+              if reader:
                   for rdata in answers:
                       ip = rdata.to_text()
                       try:
@@ -163,6 +168,7 @@ jobs:
                       except Exception:
                           pass
 
+              # 3. Домен успешно резолвится и IP не принадлежит RU -> ОСТАВЛЯЕМ
               return domain, False, 'OK'
 
           def process_domains_pipeline(raw_domains, dst_path, excluded_path, raw_path):
@@ -203,10 +209,10 @@ jobs:
               print(f'Исключено без точки: {no_dot_filtered}')
               print(f'Исключено по TLD: {tld_filtered}')
               print(f'Исключено по Keyword: {keyword_filtered}')
-              print(f'Отправляется на GeoIP проверку: {len(domains_to_check)}')
+              print(f'Отправляется на GeoIP/DNS проверку: {len(domains_to_check)}')
 
               filtered_domains = []
-              geoip_filtered = 0
+              dns_geoip_filtered = 0
 
               with concurrent.futures.ThreadPoolExecutor(max_workers=40) as executor:
                   results = list(executor.map(check_domain_geoip, domains_to_check))
@@ -214,7 +220,7 @@ jobs:
               for domain, is_ignored, reason in results:
                   if is_ignored:
                       excluded_domains.append((domain, reason))
-                      geoip_filtered += 1
+                      dns_geoip_filtered += 1
                   else:
                       filtered_domains.append(domain)
 
@@ -226,7 +232,7 @@ jobs:
                   for d, reason in sorted(excluded_domains):
                       ex_f.write(f'{d} # {reason}\n')
 
-              print(f'Удалено по GeoIP (IP из RU): {geoip_filtered}')
+              print(f'Удалено по DNS/GeoIP (нерезолвящиеся или IP из RU): {dns_geoip_filtered}')
               print(f'Сохранено в чистый список ({dst_path}): {len(filtered_domains)}')
 
           # --- 1. ОБРАБОТКА TRANCO TOP 50000 ---

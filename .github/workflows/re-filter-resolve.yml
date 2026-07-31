@@ -45,7 +45,7 @@ jobs:
           # Список TLD для исключения
           ignored_tlds = (
               # Основной список всех ccTLD
-              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq',
+              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq', '.ai',
               '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
               '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
               '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
@@ -54,7 +54,7 @@ jobs:
               '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
               '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
               '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
-              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', 
+              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', '.io',
               '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
               '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
               '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
@@ -71,7 +71,7 @@ jobs:
               '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
 
               # Дополнительный список TLD
-              '.cn', '.edu', '.gov', '.arpa',
+              '.cn', '.hk', '.edu', '.gov', '.arpa',
 
               # Дополнительный список TLD из geolocation-!cn
               '.adult', '.zappos', '.youtube', '.yamaxun', '.yahoo', '.xn--qcka1pmc',

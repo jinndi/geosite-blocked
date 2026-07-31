@@ -7,6 +7,7 @@
 .am
 .ao
 .aq
+.ai
 .ar
 .as
 .at
@@ -97,6 +98,7 @@
 .il
 .im
 .in
+.io
 .iq
 .ir
 .is
@@ -235,6 +237,7 @@
 .za
 .zm
 .zw
+.hk
 .adult
 .zappos
 .youtube
@@ -305,7 +308,6 @@
 .apple
 .android
 .amazon
-2ch.hk
 2ch.org
 ajay.app
 cityhost.se
