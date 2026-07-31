@@ -75,7 +75,7 @@ jobs:
               '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
 
               # Дополнительный список TLD
-              '.cn', '.edu', 'gov', '.arpa'
+              '.cn', '.edu', '.gov', '.arpa'
           )
 
           ignored_keywords = (

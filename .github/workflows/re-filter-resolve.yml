@@ -38,7 +38,7 @@ jobs:
           url = 'https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/domains_all.lst'
           folder = 'data'
           dst_lst = os.path.join(folder, 'refilter_resolved.lst')
-          raw_lst = 'refilter_raw.lst.lst'
+          raw_lst = 'refilter_raw.lst'
           excluded_lst = 'refilter_raw_excluded.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
@@ -71,7 +71,7 @@ jobs:
               '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
 
               # Дополнительный список TLD
-              '.cn', '.edu', 'gov', '.arpa'
+              '.cn', '.edu', '.gov', '.arpa'
           )
 
           if not os.path.exists(folder):
@@ -157,41 +157,45 @@ jobs:
               answers = None
 
               # Резолвим для получения IP
-              for _ in range(2):
+              for resolver in (sys_resolver, fallback_resolver):
                   try:
-                      answers = sys_resolver.resolve(domain, 'A')
+                      answers = resolver.resolve(domain, 'A')
                       if answers:
                           break
-                  except (dns.resolver.NXDOMAIN, dns.resolver.NoAnswer):
-                      # Если не резолвится - оставляем
-                      return domain, False, 'OK'
                   except Exception:
                       pass
 
+              # Если не отрезолвился — ИСКЛЮЧАЕМ
               if not answers:
-                  try:
-                      answers = fallback_resolver.resolve(domain, 'A')
-                  except Exception:
-                      pass
+                  return domain, True, 'DNS_RESOLVE_FAILED'
 
-              # Если отрезолвился и есть база GeoIP - проверяем страну
-              if answers and reader:
-                  for rdata in answers:
-                      ip = rdata.to_text()
+              # Если отрезолвился — проверяем страну через GeoIP
+              for rdata in answers:
+                  ip = rdata.to_text()
+                  country_code = None
+
+                  if reader:
                       try:
                           response = reader.country(ip)
                           country_code = response.country.iso_code
-                          
-                          # Исключаем ТОЛЬКО если страна определилась и она НЕ RU
-                          if country_code and country_code != 'RU':
-                              return domain, True, f'GeoIP Not RU ({country_code})'
                       except Exception:
-                          pass
+                          country_code = None
 
-              # Во всех остальных случаях (RU, неизвестная страна, ошибки DNS) - оставляем домен
+                  # Если код не вернулся (некорректное значение/ошибка GeoIP) — ОСТАВЛЯЕМ
+                  if not country_code:
+                      return domain, False, 'OK'
+
+                  # Если код RU — ОСТАВЛЯЕМ
+                  if country_code == 'RU':
+                      return domain, False, 'OK'
+
+                  # Если код определился и это НЕ RU — ИСКЛЮЧАЕМ
+                  return domain, True, f'GeoIP Not RU ({country_code})'
+
               return domain, False, 'OK'
 
           filtered_domains = []
+          dns_failed_filtered = 0
           not_ru_geoip_filtered = 0
 
           print('Начинаем многопоточную проверку DNS & GeoIP (40 потоков)...')
@@ -202,7 +206,10 @@ jobs:
           for domain, is_ignored, reason in results:
               if is_ignored:
                   failed_domains.append((domain, reason))
-                  not_ru_geoip_filtered += 1
+                  if reason == 'DNS_RESOLVE_FAILED':
+                      dns_failed_filtered += 1
+                  else:
+                      not_ru_geoip_filtered += 1
               else:
                   filtered_domains.append(domain)
 
@@ -219,6 +226,7 @@ jobs:
           print(f'Всего обработано доменов: {len(raw_domains)}')
           print(f'Удалено по TLD: {tld_filtered}')
           print(f'Удалено из-за >= 4 цифр: {digits_filtered}')
+          print(f'Удалено из-за ошибок DNS (не резолвятся): {dns_failed_filtered}')
           print(f'Удалено по GeoIP (IP НЕ из RU): {not_ru_geoip_filtered}')
           print(f'Оригинальный список сохранен в: {raw_lst}')
           print(f'Успешно сохранено доменов в: {dst_lst} ({len(filtered_domains)} шт.)')
@@ -229,13 +237,13 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          if [ -z "$(git status --porcelain data/refilter_resolved.lst refilter_raw.lst.lst refilter_raw_excluded.lst)" ]; then
+          if [ -z "$(git status --porcelain data/refilter_resolved.lst refilter_raw.lst refilter_raw_excluded.lst)" ]; then
             echo "Изменений в файлах нет."
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git add data/refilter_resolved.lst refilter_raw.lst.lst refilter_raw_excluded.lst
-            git commit -m "[auto] Filter external domains, keep RU and unresolved $(date '+%Y-%m-%d %H:%M:%S')"
+            git add data/refilter_resolved.lst refilter_raw.lst refilter_raw_excluded.lst
+            git commit -m "[auto] Filter external domains, keep RU and empty GeoIP $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi
