@@ -216,6 +216,7 @@
 74.ru # TLD
 75.in-addr.arpa # TLD
 76.in-addr.arpa # TLD
+777.porn # TLD
 777.ua # TLD
 7777.md # TLD
 7a0.com.br # TLD
@@ -228,6 +229,8 @@
 81.cn # TLD
 8684.cn # TLD
 8888.bg # TLD
+8888.google # TLD
+8888.porn # TLD
 888bets.co.mz # TLD
 8x8.vc # TLD
 90minut.pl # TLD
@@ -296,6 +299,8 @@ abload.de # TLD
 abnamro.nl # TLD
 abo.fi # TLD
 abola.pt # TLD
+about.google # TLD
+about.youtube # TLD
 aboutyou.de # TLD
 aboutyou.nl # TLD
 abr.ge # TLD
@@ -444,6 +449,7 @@ adspend.space # GeoIP (RU)
 adtarget.com.tr # TLD
 adtec.ru # TLD
 adtimaserver.vn # TLD
+adtrafficquality.google # TLD
 adv084.in # TLD
 adv094.in # TLD
 advantagetvs.in # TLD
@@ -509,6 +515,7 @@ agibank.com.br # TLD
 agid.gov.it # TLD
 agirc-arrco.fr # TLD
 agma-analytics.de # TLD
+agnss.goog # TLD
 agones.gr # TLD
 agoravox.fr # TLD
 agpd.es # TLD
@@ -529,6 +536,7 @@ ahram.org.eg # TLD
 ahrq.gov # TLD
 ahszu.edu.cn # TLD
 ai-dns.de # TLD
+ai.google # TLD
 aib.ie # TLD
 aida.de # TLD
 aidating.am # TLD
@@ -729,6 +737,7 @@ amazon.sg # TLD
 amazonaws.cn # TLD
 amazonaws.com.cn # TLD
 amazonaws.eu # TLD
+amazonbot.amazon # TLD
 amazonlogistics.eu # TLD
 amcdn.vn # TLD
 amdm.ru # TLD
@@ -830,6 +839,8 @@ anten.ir # TLD
 antena3.ro # TLD
 antenna.gr # TLD
 antenne.de # TLD
+antigravity-unleash.goog # TLD
+antigravity.google # TLD
 antik.sk # TLD
 antt.gov.br # TLD
 antwerpen.be # TLD
@@ -861,6 +872,7 @@ apec.fr # TLD
 aph.gov.au # TLD
 aphp.fr # TLD
 api-yandex.net # Keyword
+api.aws # TLD
 apiauto.ru # TLD
 apiblink.ru # TLD
 apk.tw # TLD
@@ -871,6 +883,7 @@ aposta.la # TLD
 apotea.se # TLD
 apotheke-adhoc.de # TLD
 apotheken-umschau.de # TLD
+app.google # TLD
 appboy.eu # TLD
 appcenter.ms # TLD
 appguard.co.kr # TLD
@@ -881,6 +894,7 @@ applepie-recipe.ru # TLD
 appliancesdirect.co.uk # TLD
 applilink.jp # TLD
 appmedia.jp # TLD
+apps.chrome # TLD
 appstate.edu # TLD
 appsto.re # TLD
 apptracer.ru # TLD
@@ -925,6 +939,7 @@ ardentnews.co.kr # TLD
 ardmediathek.de # TLD
 ardsounds.de # TLD
 are.na # TLD
+area51.porn # TLD
 areait.lv # TLD
 arena.im # TLD
 arenabg.ch # TLD
@@ -1036,6 +1051,7 @@ ato.gov.au # TLD
 atol.ru # TLD
 atorus.ru # TLD
 atosorigin.de # TLD
+atp.fox # TLD
 atpress.ne.jp # TLD
 atrbpn.go.id # TLD
 atrc.jp # TLD
@@ -1465,6 +1481,7 @@ bdkgroup.cn # TLD
 bdo.com.ph # TLD
 bdris.gov.bd # TLD
 bdt.com.ve # TLD
+bdtelemetry.amazon # TLD
 bdydns.cn # TLD
 bdysgz.cn # TLD
 be.ch # TLD
@@ -1477,6 +1494,7 @@ becasbenitojuarez.gob.mx # TLD
 beck.de # TLD
 bedandbreakfast.eu # TLD
 beechtree.pk # TLD
+beeg.porn # TLD
 beehidden.ru # TLD
 beeline.kz # TLD
 beeline.ru # TLD
@@ -1744,10 +1762,12 @@ blizzard.cn # TLD
 blm.gov # TLD
 blocket.se # TLD
 blocklist.de # TLD
+blog.google # TLD
 blog.gov.uk # TLD
 blog.hu # TLD
 blog.ir # TLD
 blog.jp # TLD
+blog.youtube # TLD
 blogcms.jp # TLD
 blogg.se # TLD
 bloggersdelight.dk # TLD
@@ -1899,6 +1919,7 @@ boston.gov # TLD
 bot.com.tw # TLD
 botfaqtor.ru # TLD
 boticario.com.br # TLD
+botinok.porn # TLD
 boun.edu.tr # TLD
 bournemouth.ac.uk # TLD
 bournemouthecho.co.uk # TLD
@@ -2466,6 +2487,7 @@ chileautos.cl # TLD
 chiletrabajos.cl # TLD
 chilevision.cl # TLD
 chillibeans.com.br # TLD
+chime.aws # TLD
 china-embassy.gov.cn # TLD
 china-heating.org.cn # TLD
 china.com.cn # TLD
@@ -2606,8 +2628,10 @@ clinica-plus.ru # TLD
 clinicaltrials.gov # TLD
 clodo.ru # TLD
 closermag.fr # TLD
+cloud.goog # TLD
 cloud.gov # TLD
 cloud.ir # TLD
+cloud.microsoft # TLD
 cloud.ru # TLD
 cloud.us # TLD
 cloud4box.com # GeoIP (RU)
@@ -2765,6 +2789,7 @@ conhos.ru # TLD
 conicet.gov.ar # TLD
 conjur.com.br # TLD
 conn3ct.space # GeoIP (RU)
+connect.aws # TLD
 connectmedia.hu # TLD
 conrad.de # TLD
 conseil-constitutionnel.fr # TLD
@@ -2809,6 +2834,7 @@ corbina.net # GeoIP (RU)
 corbina.ru # TLD
 cordkit.online # GeoIP (RU)
 core.ac.uk # TLD
+core.microsoft # TLD
 coremail.cn # TLD
 cornell.edu # TLD
 cornelsen.de # TLD
@@ -3191,7 +3217,9 @@ deccoria.pl # TLD
 decitre.fr # TLD
 deckhouse.ru # TLD
 dedeman.ro # TLD
+dedmazay.porn # TLD
 deeplol.gg # TLD
+deepmind.google # TLD
 defence.gov.au # TLD
 defense.gov # TLD
 defenseurdesdroits.fr # TLD
@@ -3274,6 +3302,7 @@ deutschlandfunk.de # TLD
 deutschlandfunkkultur.de # TLD
 deutschlandradio.de # TLD
 dev-my.games # Keyword
+dev.microsoft # TLD
 dev.to # TLD
 develsoftware.com # GeoIP (RU)
 deviceprotect.eu # TLD
@@ -3455,10 +3484,10 @@ dnevno.hr # TLD
 dnews.gr # TLD
 dni.gov # TLD
 dnipro-m.ua # TLD
+dnrs.godaddy # TLD
 dns-diplom.ru # TLD
 dns-domain.jp # TLD
 dns-root.ru # TLD
-dns-rus.net # GeoIP (RU)
 dns-server.jp # TLD
 dns-servers.vn # TLD
 dns-servicios.es # TLD
@@ -3473,6 +3502,7 @@ dns.com.cn # TLD
 dns.ec # TLD
 dns.edu.cn # TLD
 dns.eu # TLD
+dns.google # TLD
 dns.id # TLD
 dns.it # TLD
 dns.jp # TLD
@@ -3590,6 +3620,7 @@ donland.ru # TLD
 donmai.us # TLD
 donotcall.gov # TLD
 dontworry.su # TLD
+doodles.google # TLD
 doorblog.jp # TLD
 doorkeeper.jp # TLD
 dopa.go.th # TLD
@@ -3644,7 +3675,6 @@ drexel.edu # TLD
 drive-data.ru # TLD
 drive.com.au # TLD
 drive2.ru # TLD
-driverscollection.com # GeoIP (RU)
 drk.de # TLD
 drmax.cz # TLD
 drmax.ro # TLD
@@ -3667,6 +3697,7 @@ dsname.ru # TLD
 dsp-rambler.ru # TLD
 dsssbonline.nic.in # TLD
 dsts.cloud # GeoIP (RU)
+dt.fox # TLD
 dtac.co.th # TLD
 dtag.de # TLD
 dtf.ru # TLD
@@ -3816,6 +3847,7 @@ econstor.eu # TLD
 ecopsy.com # GeoIP (RU)
 ecopsy.ru # TLD
 ecourts.gov.in # TLD
+ecr.aws # TLD
 ectostroy.ru # TLD
 ecu.edu # TLD
 ecu.edu.au # TLD
@@ -3830,6 +3862,7 @@ edaily.co.kr # TLD
 eddie4.nl # TLD
 edeka.de # TLD
 edf.fr # TLD
+edge.apple # TLD
 edgecdn.co # GeoIP (RU)
 edgecdn.ru # TLD
 edgedns-tm.cn # TLD
@@ -4542,6 +4575,7 @@ flo.com.tr # TLD
 flocktory.com # GeoIP (RU)
 flomni.com # GeoIP (RU)
 floridahealth.gov # TLD
+flow-content.google # TLD
 flow.com.ar # TLD
 flowwow.com # GeoIP (RU)
 flsenate.gov # TLD
@@ -4607,6 +4641,7 @@ ford.com.tr # TLD
 fordham.edu # TLD
 foreca.fi # TLD
 form-mailer.jp # TLD
+forms.gle # TLD
 forpsi.cz # TLD
 forsakringskassan.se # TLD
 forsal.pl # TLD
@@ -4921,6 +4956,7 @@ gelbeseiten.de # TLD
 gelderlander.nl # TLD
 gelocal.it # TLD
 gem.gov.in # TLD
+gemini.google # TLD
 gemius.pl # TLD
 gemo.fr # TLD
 gemos-management.de # TLD
@@ -5032,6 +5068,7 @@ glavkniga.ru # TLD
 glnet.edu.cn # TLD
 global-hotspot.ru # TLD
 global-x.ru # TLD
+global.canon # TLD
 global.gc.ca # TLD
 globalchange.gov # TLD
 globalnews.ca # TLD
@@ -5387,6 +5424,7 @@ grid.id # TLD
 griffith.edu.au # TLD
 grinnell.edu # TLD
 grnet.gr # TLD
+grow.google # TLD
 growone.sg # TLD
 growthrx.in # TLD
 groww.in # TLD
@@ -5556,6 +5594,7 @@ hdfilmcehennemi.nl # TLD
 hdhub4u.cl # TLD
 hdhub4u.fo # TLD
 hdmaal.to # TLD
+hdtube.porn # TLD
 headframe.io # GeoIP (RU)
 healmate.jp # TLD
 health.gov # TLD
@@ -5579,6 +5618,7 @@ hekko.net.pl # TLD
 hel.fi # TLD
 helios-gesundheit.de # TLD
 helix.ru # TLD
+hello.porn # TLD
 hellorayo.co.uk # TLD
 helm.sh # TLD
 helpdeskeddy.com # GeoIP (RU)
@@ -5674,6 +5714,7 @@ holidaycheck.de # TLD
 holidaycottages.co.uk # TLD
 holst.so # TLD
 holyworld.ru # TLD
+home.cern # TLD
 home.ne.jp # TLD
 home.nl # TLD
 home.pl # TLD
@@ -6151,6 +6192,7 @@ indstate.edu # TLD
 industry.gov.au # TLD
 ine.es # TLD
 ine.mx # TLD
+ineed.porn # TLD
 inegi.org.mx # TLD
 inep.gov.br # TLD
 inet.co.th # TLD
@@ -6301,6 +6343,7 @@ investor.gov # TLD
 invitro.ru # TLD
 inwx.de # TLD
 inx.net.za # TLD
+io.google # TLD
 ioam.de # TLD
 iob.com.br # TLD
 iodata.jp # TLD
@@ -6400,6 +6443,7 @@ isnet.ru # TLD
 isnic.is # TLD
 iso.ch # TLD
 isolarcloud.eu # TLD
+isp.sky # TLD
 ispring.ru # TLD
 ispringlearn.ru # TLD
 ispvds.com # GeoIP (RU)
@@ -6522,6 +6566,7 @@ jehost.ru # TLD
 jeito.nl # TLD
 jekabpils.lv # TLD
 jemogfix.dk # TLD
+jet.amazon # TLD
 jet.co.id # TLD
 jet.su # TLD
 jetbrains.com.cn # TLD
@@ -7028,6 +7073,7 @@ kth.se # TLD
 ktmb.com.my # TLD
 ktnet.kg # TLD
 ktoeto.online # GeoIP (RU)
+kts.fox # TLD
 ktu.edu.in # TLD
 ktv.jp # TLD
 ku.ac.th # TLD
@@ -7095,6 +7141,7 @@ labanquepostale.fr # TLD
 labirint.ru # TLD
 labour.gov.za # TLD
 labour.org.uk # TLD
+labs.google # TLD
 labsystech.ru # TLD
 lacapital.com.ar # TLD
 laccd.edu # TLD
@@ -7239,6 +7286,7 @@ lenobl.ru # TLD
 lenovo.com.cn # TLD
 lenovomm.cn # TLD
 lenreg.ru # TLD
+lens.google # TLD
 lenta.com # GeoIP (RU)
 lenta.ru # TLD
 lenta.tech # GeoIP (RU)
@@ -7574,6 +7622,7 @@ macomnet.ru # TLD
 macour.jp # TLD
 macroscop.com # GeoIP (RU)
 madavi.de # TLD
+made.porn # TLD
 madeiramadeira.com.br # TLD
 madisoft.it # TLD
 madrasati.sa # TLD
@@ -7610,6 +7659,7 @@ mai.ru # TLD
 maidonanews.jp # TLD
 maif.fr # TLD
 mail.bg # TLD
+mail.microsoft # TLD
 mail.ru # TLD
 mail.tm # TLD
 mailchi.mp # TLD
@@ -7683,6 +7733,7 @@ manomano.it # TLD
 manor.ch # TLD
 mantan-web.jp # TLD
 mantoo.com.cn # TLD
+manual.canon # TLD
 manualslib.de # TLD
 manualslib.fr # TLD
 manulife.ca # TLD
@@ -7758,6 +7809,7 @@ matsuyafoods.co.jp # TLD
 mature.nl # TLD
 maudau.com.ua # TLD
 mave.digital # GeoIP (RU)
+max.porn # TLD
 max.ru # TLD
 maxifoot.fr # TLD
 maximonline.ru # TLD
@@ -7851,6 +7903,7 @@ mediaset.it # TLD
 mediasetinfinity.es # TLD
 mediasmart.es # TLD
 mediasquare.fr # TLD
+mediation.goog # TLD
 mediatoday.ru # TLD
 mediavitrina.ru # TLD
 mediaworld.it # TLD
@@ -7934,6 +7987,7 @@ mercadopago.com.mx # TLD
 mercari.jp # TLD
 mercedes-benz.com.cn # TLD
 mercedes-benz.de # TLD
+merchant-center-analytics.goog # TLD
 mergecola.uk # TLD
 mergesigma.uk # TLD
 merinfo.se # TLD
@@ -8463,6 +8517,7 @@ mwr.gov.cn # TLD
 mws.ru # TLD
 mwscdn.ru # TLD
 mx-ns.mx # TLD
+mx.microsoft # TLD
 mxplayer.in # TLD
 mxserver.ro # TLD
 my-ihor.ru # TLD
@@ -8686,6 +8741,7 @@ neh.gov # TLD
 neixin.cn # TLD
 nekobt.to # TLD
 nekomi.cn # TLD
+nel.goog # TLD
 nelogica.com.br # TLD
 nemo.aero # GeoIP (RU)
 nemo.travel # GeoIP (RU)
@@ -8824,6 +8880,7 @@ ni.ac.rs # TLD
 ni.net.tr # TLD
 nia.gov.cn # TLD
 nic.ac # TLD
+nic.aws # TLD
 nic.bg # TLD
 nic.bi # TLD
 nic.br # TLD
@@ -8850,11 +8907,13 @@ nic.kz # TLD
 nic.la # TLD
 nic.lk # TLD
 nic.lv # TLD
+nic.microsoft # TLD
 nic.ml # TLD
 nic.my # TLD
 nic.net.mm # TLD
 nic.net.ng # TLD
 nic.no # TLD
+nic.office # TLD
 nic.pn # TLD
 nic.rs # TLD
 nic.ru # TLD
@@ -9007,6 +9066,7 @@ noskomnadzor.co.uk # TLD
 nosok-top.com # GeoIP (RU)
 notaires.fr # TLD
 notamedia.ru # TLD
+notebooklm.google # TLD
 notebooksbilliger.de # TLD
 notelega.co.uk # TLD
 nothingthere.co.uk # TLD
@@ -9312,6 +9372,7 @@ oisrf.ru # TLD
 ojogo.pt # TLD
 ojp.gov # TLD
 ok.gov # TLD
+ok.porn # TLD
 ok.ru # TLD
 okairos.gr # TLD
 okayama-u.ac.jp # TLD
@@ -9368,6 +9429,7 @@ omroepbrabant.nl # TLD
 omroepwest.nl # TLD
 omskportal.ru # TLD
 omu.edu.tr # TLD
+on.aws # TLD
 on3cx.de # TLD
 onb.ac.at # TLD
 ondacero.es # TLD
@@ -9597,6 +9659,7 @@ p.hu # TLD
 p24.hu # TLD
 p7.de # TLD
 pa.gov # TLD
+paa-reporting-advertising.amazon # TLD
 pac.ru # TLD
 pace.edu # TLD
 pacific.edu # TLD
@@ -9867,6 +9930,7 @@ pk-live.cn # TLD
 pk.edu.pl # TLD
 pkb.ru # TLD
 pkbonline.ru # TLD
+pki.goog # TLD
 pknic.pk # TLD
 pkobp.pl # TLD
 pku.edu.cn # TLD
@@ -9893,6 +9957,7 @@ platformalp.ru # TLD
 platformaofd.ru # TLD
 plati.market # GeoIP (RU)
 platon.sk # TLD
+play.google # TLD
 play.pl # TLD
 playarenax.in # TLD
 playcasinoonline.ca # TLD
@@ -10244,7 +10309,6 @@ psu.ac.th # TLD
 psu.edu # TLD
 psyco.fr # TLD
 psynet.gg # TLD
-psytests.org # GeoIP (RU)
 pt.lu # TLD
 ptb.de # TLD
 ptcl.net.pk # TLD
@@ -10483,8 +10547,8 @@ rbi.org.in # TLD
 rbk.ru # TLD
 rbl.ms # TLD
 rbldns.ru # TLD
+rbm.goog # TLD
 rbs.co.uk # TLD
-rbth.com # GeoIP (RU)
 rc-network.de # TLD
 rcaap.pt # TLD
 rci.fm # TLD
@@ -10557,6 +10621,7 @@ rediris.es # TLD
 redlights.be # TLD
 redmagic.gg # TLD
 rednet.cn # TLD
+redporn.porn # TLD
 redsara.es # TLD
 redspell.ru # TLD
 redsys.es # TLD
@@ -10613,6 +10678,7 @@ renu.ac.ug # TLD
 repco.com.au # TLD
 repetitors.info # GeoIP (RU)
 report.az # TLD
+repost.aws # TLD
 repubblica.it # TLD
 republicain-lorrain.fr # TLD
 republika.co.id # TLD
@@ -10621,6 +10687,7 @@ reqres.in # TLD
 rero.ch # TLD
 resanta.ru # TLD
 research-panel.jp # TLD
+research.google # TLD
 researchmap.jp # TLD
 reserva.be # TLD
 reservix.de # TLD
@@ -10947,7 +11014,9 @@ saechsische.de # TLD
 safaricom.co.ke # TLD
 safaricombusiness.co.ke # TLD
 safebrands.fr # TLD
+safebrowsing.apple # TLD
 safedog.cn # TLD
+safety.google # TLD
 safra.com.br # TLD
 saga.co.uk # TLD
 sagawa-exp.co.jp # TLD
@@ -11188,6 +11257,7 @@ se.com.sa # TLD
 se.pl # TLD
 seabank.co.id # TLD
 search.ch # TLD
+search.google # TLD
 searchtor.to # TLD
 sears.com.mx # TLD
 seasonvar.ru # TLD
@@ -11359,6 +11429,7 @@ shang-nan.cn # TLD
 shanghai.gov.cn # TLD
 shanxi.gov.cn # TLD
 shaparak.ir # TLD
+share.google # TLD
 sharepoint-mil.us # TLD
 sharepoint.cn # TLD
 sharepoint.us # TLD
@@ -11465,6 +11536,7 @@ sigeduc.rn.gov.br # TLD
 sigma.ru # TLD
 sigmaparking.ru # TLD
 sigmob.cn # TLD
+signin.aws # TLD
 sii.cl # TLD
 silpo.ua # TLD
 sima-land.ru # TLD
@@ -11543,6 +11615,8 @@ skcrtxr.com # GeoIP (RU)
 skelbiu.lt # TLD
 skillbox.pro # GeoIP (RU)
 skillbox.ru # TLD
+skillbuilder.aws # TLD
+skills.google # TLD
 skku.edu # TLD
 sklavenitis.gr # TLD
 sknt.ru # TLD
@@ -11712,6 +11786,7 @@ soloway.ru # TLD
 solseed.cn # TLD
 solta.io # GeoIP (RU)
 solverweb.ru # TLD
+some.porn # TLD
 somon.tj # TLD
 sompo-japan.co.jp # TLD
 sonera.fi # TLD
@@ -11935,6 +12010,7 @@ state.ny.us # TLD
 state.or.us # TLD
 state.tx.us # TLD
 stateofenergy.com.au # TLD
+static.microsoft # TLD
 statmedia.ru # TLD
 stats.fm # TLD
 stats.gov.cn # TLD
@@ -12006,11 +12082,14 @@ streamimdb.ru # TLD
 streamshop.com.br # TLD
 streamzy.to # TLD
 strefa.pl # TLD
+strike.fox # TLD
 strikeout.im # TLD
 strip2.in # TLD
 stripchat.be # TLD
 stripchat.cx # TLD
 stripchat.dk # TLD
+stripchat.nexus # TLD
+stripchat.porn # TLD
 strmd.st # TLD
 stroeerdigitalgroup.de # TLD
 stroeermb.de # TLD
@@ -12174,6 +12253,7 @@ sykescottages.co.uk # TLD
 sympatico.ca # TLD
 sympla.com.br # TLD
 syncweb.ru # TLD
+syndicatedsearch.goog # TLD
 syr.edu # TLD
 syracuse.edu # TLD
 systembolaget.se # TLD
@@ -12410,6 +12490,7 @@ telenor.se # TLD
 telenormobil.no # TLD
 teleos.ru # TLD
 telepac.pt # TLD
+telephony.goog # TLD
 telepolis.de # TLD
 teleport.media # GeoIP (RU)
 teleport.sh # TLD
@@ -12618,6 +12699,7 @@ tiendapanini.com.mx # TLD
 tienphong.vn # TLD
 tigo.com.gt # TLD
 tijd.be # TLD
+tik.porn # TLD
 tiki.ne.jp # TLD
 tiki.vn # TLD
 tiktok-minis.us # TLD
@@ -12859,6 +12941,7 @@ transip.eu # TLD
 transip.nl # TLD
 transistor.fm # TLD
 transitcard.ru # TLD
+translate.goog # TLD
 transneft.ru # TLD
 transportation.gov # TLD
 transportgzm.pl # TLD
@@ -13009,6 +13092,7 @@ tui.nl # TLD
 tuik.gov.tr # TLD
 tujugada.com.ar # TLD
 tuke.sk # TLD
+tukif.porn # TLD
 tuko.co.ke # TLD
 tulane.edu # TLD
 tum.de # TLD
@@ -13085,6 +13169,7 @@ tweedekamer.nl # TLD
 twiket.com # GeoIP (RU)
 twinby.ru # TLD
 twinkl.co.uk # TLD
+twister.porn # TLD
 twnic.net.tw # TLD
 twnic.tw # TLD
 twojapogoda.pl # TLD
@@ -13094,6 +13179,7 @@ txdmv.gov # TLD
 txdot.gov # TLD
 txjlsh.cn # TLD
 txstate.edu # TLD
+txxx.porn # TLD
 tyc.edu.tw # TLD
 tycg.gov.tw # TLD
 tz.de # TLD
@@ -13745,6 +13831,8 @@ usedesk.ru # TLD
 usembassy.gov # TLD
 userapi.com # GeoIP (RU)
 usercentrics.eu # TLD
+usercontent.goog # TLD
+usercontent.microsoft # TLD
 userede.com.br # TLD
 usergate.com # GeoIP (RU)
 userlocal.jp # TLD
@@ -13752,6 +13840,8 @@ userx.pro # GeoIP (RU)
 usf.edu # TLD
 usfca.edu # TLD
 usg.edu # TLD
+usgovcloud-static.microsoft # TLD
+usgovcloud.microsoft # TLD
 usgs.gov # TLD
 usherbrooke.ca # TLD
 usi.ch # TLD
@@ -13970,6 +14060,7 @@ vgc.no # TLD
 vgtimes.ru # TLD
 vgwort.de # TLD
 vi.nl # TLD
+via.google # TLD
 viadata.store # GeoIP (RU)
 viaggiatreno.it # TLD
 viamichelin.fr # TLD
@@ -13986,6 +14077,7 @@ vidara.to # TLD
 videa.hu # TLD
 videasy.to # TLD
 video-mech.ru # TLD
+video.fox # TLD
 videohead.tech # GeoIP (RU)
 videonow.ru # TLD
 videoroll.net # GeoIP (RU)
@@ -14323,6 +14415,7 @@ weatherzone.com.au # TLD
 web.ad.jp # TLD
 web.de # TLD
 web.money # GeoIP (RU)
+web.nhk # TLD
 web24.net.au # TLD
 web4ce.cz # TLD
 web4u.cz # TLD
@@ -14625,6 +14718,7 @@ xbato.co.uk # TLD
 xbit.jp # TLD
 xbiz.ne.jp # TLD
 xbox-dns.ru # TLD
+xcal.sky # TLD
 xcar.com.cn # TLD
 xdate.ch # TLD
 xdomain.ne.jp # TLD
@@ -14693,6 +14787,7 @@ xvix.eu # TLD
 xxxarabsex.to # TLD
 xxxclub.to # TLD
 xxxhindi.to # TLD
+xxxi.porn # TLD
 xxxlutz.at # TLD
 xxxlutz.de # TLD
 xysa.com.cn # TLD
@@ -14913,6 +15008,7 @@ zdn.vn # TLD
 zdnet.co.kr # TLD
 zdnet.co.uk # TLD
 zdnet.fr # TLD
+zdns.google # TLD
 zdnscloud.cn # TLD
 zdravcity.ru # TLD
 zedal.de # TLD
