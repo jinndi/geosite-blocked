@@ -23,7 +23,7 @@
       * Домены, IP-адрес которых определился как страна, отличная от `RU` (`NOT_RU_GEOIP`).
       * Домены, для IP-адресов которых GeoIP не смог определить страну — пустой ответ или ошибка базы (`UNKNOWN_GEOIP`).
     * **Оставляем:** Только домены, успешно прошедшие DNS-резолвинг с IP-адресами, явно принадлежащими РФ (`RU`).
-* **Источники Tranco Top 10k и Geolocation JSON:**
+* **Источники Tranco Top 20k и Geolocation JSON:**
   * [Tranco List](https://tranco-list.eu/) (топ-10 тыс. доменов через PyPI-пакет `tranco`)
   * [KaringX Ruleset](https://github.com/KaringX/karing-ruleset) (`geolocation-!cn.json` - списки `domain` и `domain_suffix`)
 
