@@ -42,48 +42,12 @@ jobs:
           excluded_lst = 'refilter_raw_excluded.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
-          # Список TLD для исключения
-          ignored_tlds = (
-              # Основной список всех ccTLD
-              '.ac', '.ad', '.ae', '.af', '.ag', '.al', '.am', '.ao', '.aq', '.ai',
-              '.ar', '.as', '.at', '.au', '.aw', '.ax', '.az', '.ba', '.bb', '.bd',
-              '.be', '.bf', '.bg', '.bh', '.bi', '.bj', '.bm', '.bn', '.bo', '.br',
-              '.bs', '.bt', '.bv', '.bw', '.by', '.bz', '.ca', '.cd', '.cf', '.cg',
-              '.ch', '.ci', '.ck', '.cl', '.cm', '.cr', '.cu', '.cv', '.cw', '.cx',
-              '.cy', '.cz', '.de', '.dj', '.dk', '.dm', '.do', '.dz', '.ec', '.ee',
-              '.eg', '.er', '.es', '.et', '.eu', '.fi', '.fj', '.fk', '.fm', '.fo',
-              '.fr', '.ga', '.gb', '.gd', '.ge', '.gf', '.gg', '.gh', '.gi', '.gl',
-              '.gm', '.gn', '.gp', '.gr', '.gs', '.gt', '.gu', '.gw', '.gy', '.hm',
-              '.hn', '.hr', '.ht', '.hu', '.id', '.ie', '.il', '.im', '.in', '.io',
-              '.iq', '.ir', '.is', '.it', '.je', '.jm', '.jo', '.jp', '.ke', '.kg',
-              '.kh', '.ki', '.km', '.kn', '.kp', '.kr', '.kw', '.ky', '.kz', '.la',
-              '.lb', '.lc', '.li', '.lk', '.lr', '.ls', '.lt', '.lu', '.lv', '.ly',
-              '.ma', '.mc', '.md', '.mg', '.mh', '.mk', '.ml', '.mm', '.mn', '.mo',
-              '.mp', '.mq', '.mr', '.ms', '.mt', '.mu', '.mv', '.mw', '.mx', '.my',
-              '.mz', '.na', '.nc', '.ne', '.nf', '.ng', '.ni', '.nl', '.no', '.np',
-              '.nr', '.nu', '.nz', '.om', '.pa', '.pe', '.pf', '.pg', '.ph', '.pk',
-              '.pl', '.pm', '.pn', '.pr', '.ps', '.pt', '.py', '.qa', '.re', '.ro',
-              '.rs', '.rw', '.sa', '.sb', '.sc', '.sd', '.se', '.sg', '.sh', '.si',
-              '.sj', '.sk', '.sl', '.sm', '.sn', '.so', '.sr', '.ss', '.st', '.sv',
-              '.sx', '.sy', '.sz', '.tc', '.td', '.tf', '.tg', '.th', '.tj', '.tk',
-              '.tl', '.tm', '.tn', '.to', '.tr', '.tt', '.tw', '.tz', '.ua', '.ug',
-              '.uk', '.us', '.uy', '.uz', '.va', '.vc', '.ve', '.vg', '.vi', '.vn',
-              '.vu', '.wf', '.ws', '.ye', '.yt', '.za', '.zm', '.zw',
-
-              # Дополнительный список TLD
-              '.cn', '.hk', '.edu', '.gov', '.arpa',
-
-              # Дополнительный список TLD из geolocation-!cn
-              '.adult', '.zappos', '.youtube', '.yamaxun', '.yahoo', '.xn--qcka1pmc',
-              '.xn--jlq480n2rg', '.xn--flw351e', '.xn--cg4bki', '.xn--cckwcxetd', '.xbox', 
-              '.windows', '.weatherchannel', '.weather', '.walmart', '.volvo', '.target', 
-              '.sony', '.softbank', '.skype', '.sky', '.samsung', '.porn', '.playstation', 
-              '.panasonic', '.oracle', '.office', '.nike', '.nico', '.nhk', '.nexus', '.mit', 
-              '.mini', '.microsoft', '.kindle', '.java', '.intuit', '.imdb', '.ibm', '.hsbc', 
-              '.hotmail', '.hbo', '.hangout', '.guge', '.gucci', '.google', '.goog', '.godaddy',
-              '.gmo', '.gmail', '.gle', '.gbiz', '.fox', '.flickr', '.dell', '.dclk', '.cisco', 
-              '.chrome', '.cern', '.canon', '.bridgestone', '.bmw', '.bloomberg', '.bing', '.bbc', 
-              '.azure', '.aws', '.apple', '.android', '.amazon'
+          # Белый список TLD РФ (оставляем ТОЛЬКО их)
+          allowed_ru_tlds = (
+              '.moscow', '.ru', '.su', '.tatar', '.рф', '.москва', '.дети',
+              '.xn--80adxhks', '.xn--80asehdb', '.xn--80aswg', 
+              '.xn--c1avg', '.xn--d1acj3b', '.xn--p1acf', '.xn--p1ai',
+              '.ru.com', '.ru.net'
           )
 
           if not os.path.exists(folder):
@@ -128,9 +92,9 @@ jobs:
           for domain in raw_domains:
               domain_lower = domain.lower()
 
-              # Фильтр 1: Исключение по TLD
-              if domain_lower.endswith(ignored_tlds):
-                  failed_domains.append((domain, 'IGNORED_TLD'))
+              # Фильтр 1: Проверка по белым TLD РФ
+              if not domain_lower.endswith(allowed_ru_tlds):
+                  failed_domains.append((domain, 'NOT_RU_TLD'))
                   tld_filtered += 1
                   continue
 
@@ -144,13 +108,13 @@ jobs:
               digit_count = sum(c.isdigit() for c in main_name)
 
               if digit_count >= 4:
-                  failed_domains.append((domain, f'TOO_MANY_DIGITS ({digit_count})'))
+                  failed_domains.append((domain, 'TOO_MANY_DIGITS'))
                   digits_filtered += 1
                   continue
 
               domains_to_check.append(domain)
 
-          print(f'Отсеяно по TLD: {tld_filtered}')
+          print(f'Отсеяно (не РФ TLD): {tld_filtered}')
           print(f'Отсеяно по цифрам: {digits_filtered}')
           print(f'Отправляется на DNS-резолв и GeoIP: {len(domains_to_check)}')
 
@@ -193,22 +157,23 @@ jobs:
                       except Exception:
                           country_code = None
 
-                  # Если код не вернулся (некорректное значение/ошибка GeoIP) — ОСТАВЛЯЕМ
+                  # Если код не определился — ИСКЛЮЧАЕМ
                   if not country_code:
-                      return domain, False, 'OK'
+                      return domain, True, 'UNKNOWN_GEOIP'
 
                   # Если код RU — ОСТАВЛЯЕМ
                   if country_code == 'RU':
                       return domain, False, 'OK'
 
                   # Если код определился и это НЕ RU — ИСКЛЮЧАЕМ
-                  return domain, True, f'GeoIP Not RU ({country_code})'
+                  return domain, True, 'NOT_RU_GEOIP'
 
-              return domain, False, 'OK'
+              return domain, True, 'UNKNOWN_GEOIP'
 
           filtered_domains = []
           dns_failed_filtered = 0
           not_ru_geoip_filtered = 0
+          unknown_geoip_filtered = 0
 
           print('Начинаем многопоточную проверку DNS & GeoIP (40 потоков)...')
           
@@ -220,8 +185,10 @@ jobs:
                   failed_domains.append((domain, reason))
                   if reason == 'DNS_RESOLVE_FAILED':
                       dns_failed_filtered += 1
-                  else:
+                  elif reason == 'NOT_RU_GEOIP':
                       not_ru_geoip_filtered += 1
+                  elif reason == 'UNKNOWN_GEOIP':
+                      unknown_geoip_filtered += 1
               else:
                   filtered_domains.append(domain)
 
@@ -236,10 +203,11 @@ jobs:
 
           print('\n--- ИТОГИ ПРОВЕРКИ ---')
           print(f'Всего обработано доменов: {len(raw_domains)}')
-          print(f'Удалено по TLD: {tld_filtered}')
+          print(f'Удалено (не РФ TLD): {tld_filtered}')
           print(f'Удалено из-за >= 4 цифр: {digits_filtered}')
           print(f'Удалено из-за ошибок DNS (не резолвятся): {dns_failed_filtered}')
-          print(f'Удалено по GeoIP (IP НЕ из RU): {not_ru_geoip_filtered}')
+          print(f'Удалено по GeoIP (не RU страна): {not_ru_geoip_filtered}')
+          print(f'Удалено по GeoIP (неизвестный IP): {unknown_geoip_filtered}')
           print(f'Оригинальный список сохранен в: {raw_lst}')
           print(f'Успешно сохранено доменов в: {dst_lst} ({len(filtered_domains)} шт.)')
           print(f'Исключения сохранены в: {excluded_lst}')
@@ -255,7 +223,7 @@ jobs:
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add data/refilter_resolved.lst refilter_raw.lst refilter_raw_excluded.lst
-            git commit -m "[auto] Filter external domains, keep RU and empty GeoIP $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Filter external domains, keep RU TLDs and RU GeoIP $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi
