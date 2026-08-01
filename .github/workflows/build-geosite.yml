@@ -53,7 +53,6 @@ jobs:
             "news.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-media-ru-blocked.json",
             "crypto.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-cryptocurrency.json",
             "apple.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/apple.json",
-            "android.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/android.json",
             "firefox.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/firefox.json",
             "google.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/google.json",
             "microsoft.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/microsoft.json",
