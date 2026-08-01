@@ -94,7 +94,7 @@ jobs:
               '.hotmail', '.hbo', '.hangout', '.guge', '.gucci', '.google', '.goog', '.godaddy',
               '.gmo', '.gmail', '.gle', '.gbiz', '.fox', '.flickr', '.dell', '.dclk', '.cisco', 
               '.chrome', '.cern', '.canon', '.bridgestone', '.bmw', '.bloomberg', '.bing', '.bbc', 
-              '.azure', '.aws', '.apple', '.android', '.amazon'
+              '.azure', '.aws', '.apple', '.android', '.amazon', '.onedriveupdater', '.onedrive'
           )
 
           ignored_keywords = (
@@ -113,10 +113,8 @@ jobs:
               # Telecoms & CDNs
               'kaspersky', 'selectel', 'beeline', 'mts.ru', 'megafon', 
               'rostelecom', 'tinkoff', 'tbank', 'ozon', 'wildberries', 
-              'avito', 'rutube', 'habr', 'headhunter', 'hh.ru'
+              'avito', 'rutube', 'habr', 'headhunter'
           )
-          
-          ignored_country_codes = {'RU'}
 
           if not os.path.exists(folder):
               os.makedirs(folder)
@@ -153,23 +151,34 @@ jobs:
                   except Exception:
                       pass
 
-              # 1. Если домен НЕ резолвится (нет A-записей, NXDOMAIN, таймаут) -> ИСКЛЮЧАЕМ
+              # 1. Если домен НЕ резолвится -> ИСКЛЮЧАЕМ
               if not answers:
                   return domain, True, 'DNS_RESOLVE_FAILED'
 
               # 2. Если домен резолвится — проверяем полученные IP через GeoIP
-              if reader:
-                  for rdata in answers:
-                      ip = rdata.to_text()
+              for rdata in answers:
+                  ip = rdata.to_text()
+                  country_code = None
+
+                  if reader:
                       try:
                           response = reader.country(ip)
-                          if response.country.iso_code in ignored_country_codes:
-                              return domain, True, f'GeoIP ({response.country.iso_code})'
+                          country_code = response.country.iso_code
                       except Exception:
-                          pass
+                          country_code = None
 
-              # 3. Домен успешно резолвится и IP не принадлежит RU -> ОСТАВЛЯЕМ
-              return domain, False, 'OK'
+                  # Если GeoIP не смог определить код страны -> ИСКЛЮЧАЕМ
+                  if not country_code:
+                      return domain, True, 'UNKNOWN_GEOIP'
+
+                  # Если IP относится к RU -> ИСКЛЮЧАЕМ
+                  if country_code == 'RU':
+                      return domain, True, 'NOT_RU_GEOIP'
+
+                  # Иначе (IP определился и это не RU) -> ОСТАВЛЯЕМ
+                  return domain, False, 'OK'
+
+              return domain, True, 'UNKNOWN_GEOIP'
 
           def process_domains_pipeline(raw_domains, dst_path, excluded_path, raw_path):
               # Сохраняем необработанный список
@@ -232,13 +241,13 @@ jobs:
                   for d, reason in sorted(excluded_domains):
                       ex_f.write(f'{d} # {reason}\n')
 
-              print(f'Удалено по DNS/GeoIP (нерезолвящиеся или IP из RU): {dns_geoip_filtered}')
+              print(f'Удалено по DNS/GeoIP (нерезолвящиеся, неизвестные или IP из RU): {dns_geoip_filtered}')
               print(f'Сохранено в чистый список ({dst_path}): {len(filtered_domains)}')
 
-          # --- 1. ОБРАБОТКА TRANCO TOP 30000 ---
-          print('\n=== 1. Обработка Tranco Top 30000 ===')
+          # --- 1. ОБРАБОТКА TRANCO TOP 10000 ---
+          print('\n=== 1. Обработка Tranco Top 10000 ===')
           t = Tranco(cache=True, cache_dir='.tranco_cache')
-          tranco_raw = t.list().top(30000)
+          tranco_raw = t.list().top(10000)
           print(f'Получено из Tranco: {len(tranco_raw)} доменов.')
           process_domains_pipeline(tranco_raw, dst_lst, excluded_lst, raw_lst)
 
@@ -278,7 +287,7 @@ jobs:
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "[auto] Process Tranco top30000 & Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Process Tranco top10000 & Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi

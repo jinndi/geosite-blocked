@@ -36,6 +36,7 @@ jobs:
         urls = {
             "community.antifilter.lst": "https://community.antifilter.download/list/domains.lst",
             "community.1andrevich.lst": "https://raw.githubusercontent.com/1andrevich/Re-filter-lists/main/community.lst",
+            "itdoginfo.russia.inside.lst": "https://raw.githubusercontent.com/itdoginfo/allow-domains/main/Russia/inside-raw.lst",
             "opencck.all.lst": "https://iplist.opencck.org/?format=text&data=domains&wildcard=1&group=ai&group=anime&group=art&group=casino&group=discord&group=education&group=finance&group=games&group=hosting&group=jetbrains&group=messengers&group=news&group=porn&group=shop&group=socials&group=tools&group=torrent&group=video&group=youtube"
         }
 
@@ -49,8 +50,14 @@ jobs:
             "meta.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/meta.json",
             "cdn.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-cdn-!cn.json",
             "communication.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-communication.json",
+            "news.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-media-ru-blocked.json",
             "crypto.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/category-cryptocurrency.json",
+            "apple.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/apple.json",
+            "android.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/android.json",
+            "firefox.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/firefox.json",
             "google.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/google.json",
+            "microsoft.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/microsoft.json",
+            "ubuntu.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/ubuntu.json",
             "steam.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/steam.json",
             "telegram.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/telegram.json",
             "twitter.lst": "https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/twitter.json",
