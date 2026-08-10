@@ -60,6 +60,7 @@
 159i.com # UNKNOWN_GEOIP
 161sex.com # NOT_RU_GEOIP
 1688.com.au # TLD
+16885858.com # DNS_RESOLVE_FAILED
 168sex.top # DNS_RESOLVE_FAILED
 16fhgdty.xyz # DNS_RESOLVE_FAILED
 16honeys.com # UNKNOWN_GEOIP
@@ -149,7 +150,6 @@
 2371tom.com # UNKNOWN_GEOIP
 24h.tv # NOT_RU_GEOIP
 24hbook.com # UNKNOWN_GEOIP
-24hjav.com # DNS_RESOLVE_FAILED
 24hrs.ca # TLD
 24porn.pro # UNKNOWN_GEOIP
 265sdwe3.com # DNS_RESOLVE_FAILED
@@ -159,9 +159,13 @@
 2bit8.com # DNS_RESOLVE_FAILED
 2buybeatsbydre.com # DNS_RESOLVE_FAILED
 2ch.hk # TLD
+2ch.life # UNKNOWN_GEOIP
 2ch.net # UNKNOWN_GEOIP
+2ch.org # UNKNOWN_GEOIP
+2ch.su # TLD
 2chav.com # UNKNOWN_GEOIP
 2drdrebeats.com # DNS_RESOLVE_FAILED
+2dust.link # UNKNOWN_GEOIP
 2gis.ae # TLD
 2gis.am # TLD
 2gis.az # TLD
@@ -190,6 +194,7 @@
 360nexus.net # DNS_RESOLVE_FAILED
 360plm.com # DNS_RESOLVE_FAILED
 360trailers.com # DNS_RESOLVE_FAILED
+365buymy.com # DNS_RESOLVE_FAILED
 36717.info # UNKNOWN_GEOIP
 3animalsextube.com # UNKNOWN_GEOIP
 3devilattack.net # UNKNOWN_GEOIP
@@ -292,7 +297,6 @@
 69loli.com # UNKNOWN_GEOIP
 69luolie.com # DNS_RESOLVE_FAILED
 69shuba.cx # TLD
-69tubesex.com # DNS_RESOLVE_FAILED
 69xporn.com # UNKNOWN_GEOIP
 69xx.one # UNKNOWN_GEOIP
 69xx560.xyz # UNKNOWN_GEOIP
@@ -329,6 +333,7 @@
 8xxx.net # DNS_RESOLVE_FAILED
 8z1.net # DNS_RESOLVE_FAILED
 90seconds.asia # UNKNOWN_GEOIP
+91-cg.com # DNS_RESOLVE_FAILED
 91av.one # UNKNOWN_GEOIP
 91dasai.com # UNKNOWN_GEOIP
 91fans.org # UNKNOWN_GEOIP
@@ -344,7 +349,7 @@
 91pornvideo.com # UNKNOWN_GEOIP
 91porny.com # UNKNOWN_GEOIP
 91qk41rf.com # DNS_RESOLVE_FAILED
-91sew.xyz # DNS_RESOLVE_FAILED
+91sesex.xyz # DNS_RESOLVE_FAILED
 91sew40.buzz # DNS_RESOLVE_FAILED
 920share.com # UNKNOWN_GEOIP
 922tp.com # UNKNOWN_GEOIP
@@ -542,7 +547,6 @@ adidasspecialtysports.pl # TLD
 adidasspecialtysports.ru # TLD
 adidasspecialtysports.se # TLD
 adidasspecialtysports.sk # TLD
-adidasusnews.com # DNS_RESOLVE_FAILED
 adobe-dns-1.adobe.com # DNS_RESOLVE_FAILED
 adobe-dns-2.adobe.com # DNS_RESOLVE_FAILED
 adobe-dns-3.adobe.com # DNS_RESOLVE_FAILED
@@ -827,6 +831,7 @@ akile.io # TLD
 akinator.com # UNKNOWN_GEOIP
 akita-bank.co.jp # TLD
 akstat.io # TLD
+albagals.com # UNKNOWN_GEOIP
 albeats.com # DNS_RESOLVE_FAILED
 alefbank.com # NOT_RU_GEOIP
 alfa.me # NOT_RU_GEOIP
@@ -1105,6 +1110,7 @@ anxiangxing.com # DNS_RESOLVE_FAILED
 anybunny.org # UNKNOWN_GEOIP
 anybunny.tv # UNKNOWN_GEOIP
 anydesk.com # UNKNOWN_GEOIP
+anypornhd.com # DNS_RESOLVE_FAILED
 anysex.com # UNKNOWN_GEOIP
 anythingllm.com # UNKNOWN_GEOIP
 anyxxx.me # UNKNOWN_GEOIP
@@ -1414,7 +1420,6 @@ archive.is # TLD
 archive.li # TLD
 archive.md # TLD
 archive.ph # TLD
-archive.today # DNS_RESOLVE_FAILED
 archive.vn # TLD
 archiveofourown.com # UNKNOWN_GEOIP
 archiveofourown.net # UNKNOWN_GEOIP
@@ -1628,7 +1633,6 @@ avdby-up.buzz # DNS_RESOLVE_FAILED
 avdudu.top # DNS_RESOLVE_FAILED
 avdwang.xyz # DNS_RESOLVE_FAILED
 avelip.com # UNKNOWN_GEOIP
-avermedia.com # DNS_RESOLVE_FAILED
 aversbank.ru # TLD
 avfox.cc # UNKNOWN_GEOIP
 avgigi.com # UNKNOWN_GEOIP
@@ -1640,7 +1644,6 @@ avinin.com # UNKNOWN_GEOIP
 avistaz.to # TLD
 avito.ru # TLD
 avito.st # TLD
-avizoon.site # DNS_RESOLVE_FAILED
 avizoone.com # UNKNOWN_GEOIP
 avjiasu.com # DNS_RESOLVE_FAILED
 avjzy67.xyz # DNS_RESOLVE_FAILED
@@ -1735,7 +1738,6 @@ babes34.pro # UNKNOWN_GEOIP
 babesandstars.com # UNKNOWN_GEOIP
 babestube.com # UNKNOWN_GEOIP
 babki.ru # TLD
-babushky.club # DNS_RESOLVE_FAILED
 babycondom.com # UNKNOWN_GEOIP
 babylonbee.com # UNKNOWN_GEOIP
 babylongirls.co.uk # TLD
@@ -1756,7 +1758,6 @@ baidu.jp # TLD
 baixing.me # DNS_RESOLVE_FAILED
 baizhi.org # DNS_RESOLVE_FAILED
 ballbustingtube.com # UNKNOWN_GEOIP
-baltimorebmw.com # DNS_RESOLVE_FAILED
 baltnews.com # NOT_RU_GEOIP
 baltnews.lt # TLD
 bamgrid.com # DNS_RESOLVE_FAILED
@@ -2124,7 +2125,7 @@ beescrm.ru # TLD
 befuck.net # UNKNOWN_GEOIP
 beget.com # NOT_RU_GEOIP
 beget.ru # TLD
-beijing1989.com # DNS_RESOLVE_FAILED
+beijing1989.com # UNKNOWN_GEOIP
 bejav.net # DNS_RESOLVE_FAILED
 bekijkporno.nl # TLD
 bellesa.co # UNKNOWN_GEOIP
@@ -2134,21 +2135,18 @@ benaughty.fun # DNS_RESOLVE_FAILED
 berizaryad.ru # TLD
 berkeley.edu # TLD
 berlinerbericht.de # TLD
-best-sex-games.com # DNS_RESOLVE_FAILED
+best-sex-games.com # UNKNOWN_GEOIP
 best2pay.net # NOT_RU_GEOIP
 best4bim.com # DNS_RESOLVE_FAILED
 bestbeats4u.com # DNS_RESOLVE_FAILED
 bestbim.com # DNS_RESOLVE_FAILED
 bestbuy.ca # TLD
 bestbuy.com.mx # TLD
-bestbuy24x7solutions.com # DNS_RESOLVE_FAILED
-bestbuybusinessadvantageaccount.com # DNS_RESOLVE_FAILED
 bestbuycanada.ca # TLD
 bestbuycanadaltd.ca # TLD
 bestbuycharityclassic.com # UNKNOWN_GEOIP
 bestbuyforbusiness.ca # TLD
 bestbuyrewardzone.ca # TLD
-bestbuys.com # DNS_RESOLVE_FAILED
 bestcamsites.net # UNKNOWN_GEOIP
 bestchange.com # UNKNOWN_GEOIP
 bestchange.ru # TLD
@@ -2170,7 +2168,7 @@ bestjavporn.net # UNKNOWN_GEOIP
 bestlistofporn.com # UNKNOWN_GEOIP
 bestmallawards.com # DNS_RESOLVE_FAILED
 bestporn.su # TLD
-bestporncomix.com # DNS_RESOLVE_FAILED
+bestporncomix.com # UNKNOWN_GEOIP
 bestporngames.com # UNKNOWN_GEOIP
 bestpornsites.eu # TLD
 bestrecipes.com.au # TLD
@@ -2211,7 +2209,7 @@ bidvestbank.co.za # TLD
 biedian.me # DNS_RESOLVE_FAILED
 bienvenuechezbestbuy.ca # TLD
 bigassporn.tv # UNKNOWN_GEOIP
-bigbeans.solutions # DNS_RESOLVE_FAILED
+bigbeans.solutions # UNKNOWN_GEOIP
 bigbigchannel.com.hk # TLD
 bigbigshop.com # DNS_RESOLVE_FAILED
 bigboobsonline.org # UNKNOWN_GEOIP
@@ -2233,7 +2231,6 @@ bikaios.xyz # DNS_RESOLVE_FAILED
 bild.de # TLD
 bili888.com # DNS_RESOLVE_FAILED
 bilinovel.com # UNKNOWN_GEOIP
-billmelater.com # DNS_RESOLVE_FAILED
 billpoint.us # TLD
 bim.ir # TLD
 bim360ops.com # DNS_RESOLVE_FAILED
@@ -2787,6 +2784,7 @@ brazzers.xxx # UNKNOWN_GEOIP
 brazzersporn.mobi # DNS_RESOLVE_FAILED
 breached.to # TLD
 breakgfw.com # UNKNOWN_GEOIP
+breakwall.net # UNKNOWN_GEOIP
 breasthealthinfo.com # DNS_RESOLVE_FAILED
 brew.sh # TLD
 brewmp.com # DNS_RESOLVE_FAILED
@@ -2845,6 +2843,7 @@ bsxm1213.pro # DNS_RESOLVE_FAILED
 bt4g.org # UNKNOWN_GEOIP
 bt4gprx.com # UNKNOWN_GEOIP
 btbit.net # DNS_RESOLVE_FAILED
+btc98.com # DNS_RESOLVE_FAILED
 btcbank.bank # UNKNOWN_GEOIP
 btcbox.co.jp # TLD
 btctrade.im # TLD
@@ -2856,6 +2855,7 @@ btwrdn.co # DNS_RESOLVE_FAILED
 bubbaporn.com # UNKNOWN_GEOIP
 buckbuild.com # UNKNOWN_GEOIP
 bucketeer.jp # TLD
+budatt.com # DNS_RESOLVE_FAILED
 bugzilla.org # UNKNOWN_GEOIP
 buhidoh.net # UNKNOWN_GEOIP
 buicha.social # UNKNOWN_GEOIP
@@ -2932,7 +2932,6 @@ byrut.org # UNKNOWN_GEOIP
 byspotify.com # DNS_RESOLVE_FAILED
 bystys.tech # DNS_RESOLVE_FAILED
 bytedapm.com # DNS_RESOLVE_FAILED
-byteoversea.com # DNS_RESOLVE_FAILED
 c-ij.com # DNS_RESOLVE_FAILED
 c-msedge.net # DNS_RESOLVE_FAILED
 c.ppy.sh # TLD
@@ -3068,6 +3067,7 @@ cartoonmovement.com # UNKNOWN_GEOIP
 cartoonporn.com # UNKNOWN_GEOIP
 cartoonpornonly.com # DNS_RESOLVE_FAILED
 cartoonpornvideos.com # UNKNOWN_GEOIP
+cartoonscity.com # DNS_RESOLVE_FAILED
 cartoonsexfantazy.com # UNKNOWN_GEOIP
 cartoontube.com # UNKNOWN_GEOIP
 cartoonville.net # DNS_RESOLVE_FAILED
@@ -3124,7 +3124,6 @@ cccat.cc # DNS_RESOLVE_FAILED
 cccat.co # DNS_RESOLVE_FAILED
 ccfd.org.tw # TLD
 cchere.com # UNKNOWN_GEOIP
-cchostvps.xyz # DNS_RESOLVE_FAILED
 ccstatic.org # UNKNOWN_GEOIP
 ccthere.com # UNKNOWN_GEOIP
 ccthere.net # UNKNOWN_GEOIP
@@ -3376,7 +3375,9 @@ ckcdn.com # DNS_RESOLVE_FAILED
 ckss98.com # DNS_RESOLVE_FAILED
 clannad-movie.jp # TLD
 claravenger.com # UNKNOWN_GEOIP
+clashmi.app # UNKNOWN_GEOIP
 clashroyaleapp.com # DNS_RESOLVE_FAILED
+clashverge.dev # UNKNOWN_GEOIP
 clasporno.org # UNKNOWN_GEOIP
 classymomsex.com # DNS_RESOLVE_FAILED
 clau.de # TLD
@@ -3406,9 +3407,11 @@ cloudflare-gateway.com # DNS_RESOLVE_FAILED
 cloudflare-ipfs.com # DNS_RESOLVE_FAILED
 cloudflare-quic.com # UNKNOWN_GEOIP
 cloudflare-terms-of-service-abuse.com # DNS_RESOLVE_FAILED
+cloudflare.app # UNKNOWN_GEOIP
 cloudflare.com # UNKNOWN_GEOIP
 cloudflare.dev # UNKNOWN_GEOIP
 cloudflare.net # UNKNOWN_GEOIP
+cloudflare.pay # UNKNOWN_GEOIP
 cloudflare.tv # UNKNOWN_GEOIP
 cloudflareaccess.com # UNKNOWN_GEOIP
 cloudflareapps.com # DNS_RESOLVE_FAILED
@@ -3531,6 +3534,7 @@ comicsporno.es # TLD
 comicunivers.com # DNS_RESOLVE_FAILED
 comm-verse.com # DNS_RESOLVE_FAILED
 commerzbank.ru # TLD
+comodo.com # UNKNOWN_GEOIP
 comodoca2.com # DNS_RESOLVE_FAILED
 comodoca3.com # DNS_RESOLVE_FAILED
 comodoca4.com # DNS_RESOLVE_FAILED
@@ -3584,6 +3588,7 @@ couriermail.com.au # TLD
 coursehero.com # UNKNOWN_GEOIP
 coursera-for-business.org # DNS_RESOLVE_FAILED
 covenantswatch.org.tw # TLD
+covid19rx.org # DNS_RESOLVE_FAILED
 cowboom.com # UNKNOWN_GEOIP
 cozydrdrebeats.com # DNS_RESOLVE_FAILED
 cp44.net # DNS_RESOLVE_FAILED
@@ -3596,7 +3601,6 @@ cqcorea.com # DNS_RESOLVE_FAILED
 crates.io # TLD
 crazy-amateurs.com # DNS_RESOLVE_FAILED
 crazyav.xyz # UNKNOWN_GEOIP
-crazybook.xyz # DNS_RESOLVE_FAILED
 crazycloud.ru # TLD
 crazynovel.xyz # UNKNOWN_GEOIP
 crazypool.org # UNKNOWN_GEOIP
@@ -3682,7 +3686,6 @@ customercontrolpanel.de # TLD
 customizedbeatbydre.com # DNS_RESOLVE_FAILED
 customizedbeatsbydre.com # DNS_RESOLVE_FAILED
 customizedbeatsdre.com # DNS_RESOLVE_FAILED
-cutscenes.net # DNS_RESOLVE_FAILED
 cutt.ly # TLD
 cw.com.tw # TLD
 cy22.tv # DNS_RESOLVE_FAILED
@@ -3756,6 +3759,7 @@ dashlane.com # UNKNOWN_GEOIP
 dashly.io # TLD
 dashlytrack.app # DNS_RESOLVE_FAILED
 dashwood360.com # DNS_RESOLVE_FAILED
+dastanhisexy.cc # DNS_RESOLVE_FAILED
 data-tscbank.ru # TLD
 databank.worldbank.org # UNKNOWN_GEOIP
 database.asahi.com # DNS_RESOLVE_FAILED
@@ -3967,7 +3971,6 @@ dellpowersolutions.com # DNS_RESOLVE_FAILED
 dellsupportcenter.com # UNKNOWN_GEOIP
 deltacredit.ru # TLD
 deluxe.com.hk # TLD
-demdex.net # DNS_RESOLVE_FAILED
 demo.unlock-music.dev # UNKNOWN_GEOIP
 demonoid.is # TLD
 demoprint.com # DNS_RESOLVE_FAILED
@@ -4050,6 +4053,7 @@ digicert-validation.com # DNS_RESOLVE_FAILED
 digicert.co.jp # TLD
 digicert.eu # TLD
 digiland.tw # TLD
+digital-anime.com # DNS_RESOLVE_FAILED
 digital-id.ch # TLD
 digital-wb.ru # TLD
 digitalcertvalidation.com # DNS_RESOLVE_FAILED
@@ -4226,7 +4230,9 @@ dnsserver1.de # TLD
 dnsserver2.de # TLD
 dnsvisa.com # DNS_RESOLVE_FAILED
 dnvod.tv # UNKNOWN_GEOIP
+dobbyporn.com # DNS_RESOLVE_FAILED
 dobendan.de # TLD
+docker-images-prod.6aa30f8b08e16409b46e0173d6de2f56.r2.cloudflarestorage.com # UNKNOWN_GEOIP
 docker.io # TLD
 dockerizer.com # DNS_RESOLVE_FAILED
 doclercdn.com # DNS_RESOLVE_FAILED
@@ -4404,7 +4410,6 @@ ducksear.ch # TLD
 dudethrill.com # UNKNOWN_GEOIP
 duga.jp # TLD
 duihuahrjournal.org # UNKNOWN_GEOIP
-dulceecuador.com # DNS_RESOLVE_FAILED
 dump.xxx # UNKNOWN_GEOIP
 duolaapian126.xyz # DNS_RESOLVE_FAILED
 duolaapian127.xyz # UNKNOWN_GEOIP
@@ -4480,6 +4485,7 @@ e5.sk # TLD
 e621.net # UNKNOWN_GEOIP
 eac-cdn.com # DNS_RESOLVE_FAILED
 eacodigos.com # DNS_RESOLVE_FAILED
+eadultgames.com # DNS_RESOLVE_FAILED
 eakorea.co.kr # TLD
 eaptechka.online # NOT_RU_GEOIP
 eapteka.ru # TLD
@@ -4594,7 +4600,7 @@ efukt.com # UNKNOWN_GEOIP
 egghead.io # TLD
 egmontbooks.co.uk # TLD
 egta.com # UNKNOWN_GEOIP
-ehv.cc # UNKNOWN_GEOIP
+ehv.cc # DNS_RESOLVE_FAILED
 eighteen-store18x.jp # TLD
 eiu.com # UNKNOWN_GEOIP
 ekiten.jp # TLD
@@ -4653,7 +4659,6 @@ eneba.com # UNKNOWN_GEOIP
 eneba.games # UNKNOWN_GEOIP
 enema-porn.com # DNS_RESOLVE_FAILED
 enemabasics.com # DNS_RESOLVE_FAILED
-enemaexperiences.com # DNS_RESOLVE_FAILED
 enemahistory.com # UNKNOWN_GEOIP
 enemainformation.com # DNS_RESOLVE_FAILED
 enemasexfetish.com # DNS_RESOLVE_FAILED
@@ -4746,7 +4751,6 @@ ereg.wip3.adobe.com # DNS_RESOLVE_FAILED
 ereg.wip4.adobe.com # DNS_RESOLVE_FAILED
 erights.net # UNKNOWN_GEOIP
 eriversoft.com # UNKNOWN_GEOIP
-erlang.org # DNS_RESOLVE_FAILED
 ero-anime.net # DNS_RESOLVE_FAILED
 ero-comic-hunter.net # UNKNOWN_GEOIP
 ero-labs.io # TLD
@@ -5145,6 +5149,7 @@ flare.network # UNKNOWN_GEOIP
 flaru.com # UNKNOWN_GEOIP
 flashtranny.com # UNKNOWN_GEOIP
 flatmates.com.au # TLD
+flclashx.app # UNKNOWN_GEOIP
 fldz8.buzz # UNKNOWN_GEOIP
 flecheinthepeche.fr # TLD
 fleshbot.com # UNKNOWN_GEOIP
@@ -5158,15 +5163,17 @@ flipnotestudio.com # DNS_RESOLVE_FAILED
 fljmh.com # UNKNOWN_GEOIP
 flog.tw # TLD
 floorp.app # UNKNOWN_GEOIP
-floppy-tits.com # UNKNOWN_GEOIP
 flow.dev # DNS_RESOLVE_FAILED
 flowgpt.com # UNKNOWN_GEOIP
 flowtype.org # DNS_RESOLVE_FAILED
+flowvy.io # TLD
 flowwow-images.com # DNS_RESOLVE_FAILED
 flowwow.com # NOT_RU_GEOIP
 fluffychat.im # TLD
 fluidfxapp.com # DNS_RESOLVE_FAILED
+fly.io # TLD
 flyingjizz.com # UNKNOWN_GEOIP
+flyio.net # DNS_RESOLVE_FAILED
 flypool.org # DNS_RESOLVE_FAILED
 flyyindh-cc.sbs # DNS_RESOLVE_FAILED
 flyzy2005.com # UNKNOWN_GEOIP
@@ -5192,6 +5199,7 @@ foreignaffairs.com # UNKNOWN_GEOIP
 foreignpolicy.com # UNKNOWN_GEOIP
 forgecdn.net # DNS_RESOLVE_FAILED
 forhertube.com # UNKNOWN_GEOIP
+forpojie.pics # DNS_RESOLVE_FAILED
 forshtadt.ru # TLD
 forthebadge.com # UNKNOWN_GEOIP
 fotiolia.com # DNS_RESOLVE_FAILED
@@ -5250,6 +5258,7 @@ foxtvdvd.com # DNS_RESOLVE_FAILED
 foxuv.com # DNS_RESOLVE_FAILED
 fpmtmexico.org # UNKNOWN_GEOIP
 fptolia.com # DNS_RESOLVE_FAILED
+fqrouter.com # DNS_RESOLVE_FAILED
 fr-beatsbydrestore.com # DNS_RESOLVE_FAILED
 fragment.com # UNKNOWN_GEOIP
 framerstatic.com # DNS_RESOLVE_FAILED
@@ -5277,7 +5286,7 @@ freebrowser.org # UNKNOWN_GEOIP
 freechatnow.com # UNKNOWN_GEOIP
 freechinaweibo.com # DNS_RESOLVE_FAILED
 freecodecamp.org # UNKNOWN_GEOIP
-freede.tech # DNS_RESOLVE_FAILED
+freede.tech # NOT_RU_GEOIP
 freedert.online # NOT_RU_GEOIP
 freedirecttvspecial.com # DNS_RESOLVE_FAILED
 freedom.gov # TLD
@@ -5304,7 +5313,7 @@ freesexvideos2k.com # UNKNOWN_GEOIP
 freesexyindians.com # UNKNOWN_GEOIP
 freesexyindians.org # UNKNOWN_GEOIP
 freessh.us # TLD
-freetribe.me # UNKNOWN_GEOIP
+freetribe.me # DNS_RESOLVE_FAILED
 freeviewplus.net.au # TLD
 freevpn.me # UNKNOWN_GEOIP
 freewallpaper4.me # DNS_RESOLVE_FAILED
@@ -5422,6 +5431,7 @@ gamer2-cds.cdn.hinet.net # DNS_RESOLVE_FAILED
 gamerotic.com # DNS_RESOLVE_FAILED
 gamesathletes.com # UNKNOWN_GEOIP
 gamescup.ru # TLD
+gamesfuckgirls.com # DNS_RESOLVE_FAILED
 gamespark.jp # TLD
 gamesplanet.com # UNKNOWN_GEOIP
 gameuxmasterguide.com # UNKNOWN_GEOIP
@@ -5456,10 +5466,10 @@ gateio.services # DNS_RESOLVE_FAILED
 gateway.dev # DNS_RESOLVE_FAILED
 gateway.pinata.cloud # UNKNOWN_GEOIP
 gatewaytorussia.ru # TLD
-gauleporno.xxx # DNS_RESOLVE_FAILED
 gay1069sex.com # UNKNOWN_GEOIP
 gay4tube.com # DNS_RESOLVE_FAILED
 gayboystube.com # UNKNOWN_GEOIP
+gaycock4u.com # UNKNOWN_GEOIP
 gayforit.eu # TLD
 gayfuckporn.com # UNKNOWN_GEOIP
 gayfuror.com # UNKNOWN_GEOIP
@@ -5601,7 +5611,7 @@ gimy.to # TLD
 gimy.tv # UNKNOWN_GEOIP
 ginmoe.com # UNKNOWN_GEOIP
 ginzasonypark.jp # TLD
-girl7942.com # UNKNOWN_GEOIP
+girl7942.com # DNS_RESOLVE_FAILED
 girlfuckshorse.net # UNKNOWN_GEOIP
 girls2see.ch # TLD
 girlsdelta.com # UNKNOWN_GEOIP
@@ -5637,6 +5647,7 @@ gladporn.com # DNS_RESOLVE_FAILED
 glarity.app # UNKNOWN_GEOIP
 glass8.eu # TLD
 gle # NO_DOT
+glitchwave.com # UNKNOWN_GEOIP
 global-sci.org # UNKNOWN_GEOIP
 globaljihad.net # UNKNOWN_GEOIP
 globalrescue.net # UNKNOWN_GEOIP
@@ -5671,6 +5682,7 @@ gmo-c.jp # TLD
 gmo-digitalpay.jp # TLD
 gmo-insight.jp # TLD
 gmo-mobilepay.jp # TLD
+gmo-pa.com # DNS_RESOLVE_FAILED
 gmo-pg.com # DNS_RESOLVE_FAILED
 gmo-ps.com # DNS_RESOLVE_FAILED
 gmo-rakurakuhp.jp # TLD
@@ -5994,7 +6006,6 @@ greatgame.asia # UNKNOWN_GEOIP
 green-box-tv.com # NOT_RU_GEOIP
 greenbuildingstudio.com # DNS_RESOLVE_FAILED
 greenend.org.uk # TLD
-greenlakehybridcloud.com # DNS_RESOLVE_FAILED
 grok.com # UNKNOWN_GEOIP
 grokipedia.com # UNKNOWN_GEOIP
 group-ib.ae # TLD
@@ -6274,12 +6285,13 @@ hentaiprn.com # UNKNOWN_GEOIP
 hentaiprno.com # UNKNOWN_GEOIP
 hentairead.com # UNKNOWN_GEOIP
 hentairox.com # UNKNOWN_GEOIP
+hentairules.net # UNKNOWN_GEOIP
 hentais.tube # UNKNOWN_GEOIP
 hentaisea.com # UNKNOWN_GEOIP
 hentaiseason.com # UNKNOWN_GEOIP
 hentaispark.com # UNKNOWN_GEOIP
 hentaistream.tv # UNKNOWN_GEOIP
-hentaistube.com # DNS_RESOLVE_FAILED
+hentaistube.com # UNKNOWN_GEOIP
 hentaitalk.com # UNKNOWN_GEOIP
 hentaitube.online # UNKNOWN_GEOIP
 hentaiverse.org # UNKNOWN_GEOIP
@@ -6292,6 +6304,7 @@ hentaiworld.tv # UNKNOWN_GEOIP
 hentaiworldporn.com # DNS_RESOLVE_FAILED
 hentaiyes.com # UNKNOWN_GEOIP
 hentaiz.mobi # UNKNOWN_GEOIP
+hentaiz.vip # DNS_RESOLVE_FAILED
 hentaizap.com # UNKNOWN_GEOIP
 hentaizilla.com # UNKNOWN_GEOIP
 hentaizz.net # UNKNOWN_GEOIP
@@ -6355,7 +6368,6 @@ hkchronicles.com # UNKNOWN_GEOIP
 hkcnews.com # UNKNOWN_GEOIP
 hkcoc.weather.com.hk # TLD
 hkdc.us # TLD
-hkedcity.net # DNS_RESOLVE_FAILED
 hkej.com # UNKNOWN_GEOIP
 hkf2023.lat # DNS_RESOLVE_FAILED
 hkf202311.site # DNS_RESOLVE_FAILED
@@ -6519,7 +6531,7 @@ hpsoftware.com # DNS_RESOLVE_FAILED
 hpsso.com # DNS_RESOLVE_FAILED
 hpstore-emea.com # DNS_RESOLVE_FAILED
 hpstorethailand.com # DNS_RESOLVE_FAILED
-hptrainingcenter.com # DNS_RESOLVE_FAILED
+hptrainingcenter.com # UNKNOWN_GEOIP
 hpveer.com # DNS_RESOLVE_FAILED
 hpwsn.com # DNS_RESOLVE_FAILED
 hqbutt.com # UNKNOWN_GEOIP
@@ -6691,7 +6703,6 @@ iccf.com # UNKNOWN_GEOIP
 icedrive.net # UNKNOWN_GEOIP
 iceporncasting.com # UNKNOWN_GEOIP
 ichat.co.in # TLD
-ichigocandy.com # DNS_RESOLVE_FAILED
 ichineseporn.com # DNS_RESOLVE_FAILED
 icloud-isupport.com # DNS_RESOLVE_FAILED
 icloud-sandbox.com # DNS_RESOLVE_FAILED
@@ -6989,7 +7000,6 @@ infoq.jp # TLD
 informs.org # UNKNOWN_GEOIP
 infotimes.com.tw # TLD
 infowars.com # UNKNOWN_GEOIP
-infowarsmedia.com # UNKNOWN_GEOIP
 infura.io # TLD
 ingka.com # UNKNOWN_GEOIP
 ingka.dev # DNS_RESOLVE_FAILED
@@ -7011,6 +7021,7 @@ inside.com.tw # TLD
 insideok.ru # TLD
 instantfap.com # UNKNOWN_GEOIP
 instantfapgay.com # UNKNOWN_GEOIP
+institut-tibetain.org # UNKNOWN_GEOIP
 intel.ac # TLD
 intel.ae # TLD
 intel.af # TLD
@@ -7310,7 +7321,6 @@ iqqtv.net # UNKNOWN_GEOIP
 irangov.ir # TLD
 iranlms.ir # TLD
 iransextv.com # DNS_RESOLVE_FAILED
-iranx.net # DNS_RESOLVE_FAILED
 ird.co.jp # TLD
 iridiumbrowser.de # TLD
 irna.ir # TLD
@@ -7375,7 +7385,6 @@ iwara.tv # UNKNOWN_GEOIP
 iwatebank.co.jp # TLD
 iwork.se # TLD
 iwork.wang # DNS_RESOLVE_FAILED
-ixnxx.tv # DNS_RESOLVE_FAILED
 ixquick.com # DNS_RESOLVE_FAILED
 ixxx.com # UNKNOWN_GEOIP
 iyalc.com # UNKNOWN_GEOIP
@@ -7406,6 +7415,7 @@ japanfist.org # UNKNOWN_GEOIP
 japantimes.co.jp # TLD
 japanxxxfilms.com # UNKNOWN_GEOIP
 japon-girls.com # DNS_RESOLVE_FAILED
+japteenx.com # UNKNOWN_GEOIP
 japxtube.com # UNKNOWN_GEOIP
 jasa3dmax.com # DNS_RESOLVE_FAILED
 jasaautocad.com # DNS_RESOLVE_FAILED
@@ -7504,7 +7514,6 @@ javsex.asia # UNKNOWN_GEOIP
 javsin.tv # UNKNOWN_GEOIP
 javsky.tv # UNKNOWN_GEOIP
 javstore.net # UNKNOWN_GEOIP
-javsx.com # DNS_RESOLVE_FAILED
 javtasty.com # DNS_RESOLVE_FAILED
 javtiful.com # UNKNOWN_GEOIP
 javtorrent.me # UNKNOWN_GEOIP
@@ -7526,6 +7535,7 @@ jdavsp.info # DNS_RESOLVE_FAILED
 jdavsp.pw # DNS_RESOLVE_FAILED
 jdavsp.xyz # UNKNOWN_GEOIP
 jdbstatic.com # UNKNOWN_GEOIP
+jdforum.net # UNKNOWN_GEOIP
 jenkins.io # TLD
 jenporno.cz # TLD
 jerk-porn.com # UNKNOWN_GEOIP
@@ -7603,6 +7613,7 @@ jmcomic1.city # DNS_RESOLVE_FAILED
 jmcomic1.me # UNKNOWN_GEOIP
 jmvbt.com # UNKNOWN_GEOIP
 jobmarket.com.hk # TLD
+jodic-forum.org # UNKNOWN_GEOIP
 joeswall.com # DNS_RESOLVE_FAILED
 joinclubhouse.com # UNKNOWN_GEOIP
 joinside.org # DNS_RESOLVE_FAILED
@@ -7698,6 +7709,7 @@ karafarinbank.ir # TLD
 karayou.com # UNKNOWN_GEOIP
 karechat.ai # TLD
 karger.com # UNKNOWN_GEOIP
+karing.app # UNKNOWN_GEOIP
 karmahelp.ru # TLD
 karta-banka-rf.ru # TLD
 kaspersky-labs.com # Keyword
@@ -7800,6 +7812,7 @@ kingf-av.sbs # DNS_RESOLVE_FAILED
 kingf-tv.buzz # DNS_RESOLVE_FAILED
 kingfav.sbs # DNS_RESOLVE_FAILED
 kingkong.com.tw # TLD
+kingkongapp.com # DNS_RESOLVE_FAILED
 kingofpics.com # UNKNOWN_GEOIP
 kingstone.com.tw # TLD
 kinguin.net # UNKNOWN_GEOIP
@@ -7855,7 +7868,6 @@ konamionline.com # DNS_RESOLVE_FAILED
 konamiopen.jp # TLD
 konamisportsclub.jp # TLD
 konamistyle.jp # TLD
-koolsolutions.com # DNS_RESOLVE_FAILED
 kopfhorergunstigshop.com # DNS_RESOLVE_FAILED
 koreanpornmovie.com # UNKNOWN_GEOIP
 koshelek.app # NOT_RU_GEOIP
@@ -8116,6 +8128,7 @@ loli.net # UNKNOWN_GEOIP
 lolibus.top # UNKNOWN_GEOIP
 lolipop.jp # TLD
 lolislove.info # DNS_RESOLVE_FAILED
+lollipopescorts.com # DNS_RESOLVE_FAILED
 lolshop.co.kr # TLD
 lolstatic.com # DNS_RESOLVE_FAILED
 lolusercontent.com # DNS_RESOLVE_FAILED
@@ -8147,6 +8160,7 @@ loveparents.org # UNKNOWN_GEOIP
 lovepartners.life # DNS_RESOLVE_FAILED
 loverslab.com # UNKNOWN_GEOIP
 lovesexbody.com # UNKNOWN_GEOIP
+lovesexdurex.com # DNS_RESOLVE_FAILED
 lovethiscity.com # DNS_RESOLVE_FAILED
 lovex.life # UNKNOWN_GEOIP
 lovina.app # DNS_RESOLVE_FAILED
@@ -8171,6 +8185,7 @@ ltsports.com.tw # TLD
 lu2100.com # DNS_RESOLVE_FAILED
 lu2200.com # DNS_RESOLVE_FAILED
 lu23.com # UNKNOWN_GEOIP
+lu2300.cc # DNS_RESOLVE_FAILED
 luanlunmv.cc # DNS_RESOLVE_FAILED
 lubetube.com # UNKNOWN_GEOIP
 lucahmelayu.club # UNKNOWN_GEOIP
@@ -8414,6 +8429,7 @@ mate-desktop.org # UNKNOWN_GEOIP
 material.io # TLD
 matrix.org # UNKNOWN_GEOIP
 matrix.to # TLD
+matsuridayo.github.io # TLD
 matters.news # UNKNOWN_GEOIP
 matters.one # DNS_RESOLVE_FAILED
 matters.town # UNKNOWN_GEOIP
@@ -8557,6 +8573,7 @@ meripet.com # UNKNOWN_GEOIP
 merit-times.com.tw # TLD
 meta.ai # TLD
 metabora.io # TLD
+metacubex.github.io # TLD
 metacubex.one # DNS_RESOLVE_FAILED
 metafilter.com # UNKNOWN_GEOIP
 metalpha.finance # UNKNOWN_GEOIP
@@ -8645,7 +8662,6 @@ microsoftsiteselection.com # DNS_RESOLVE_FAILED
 microsoftstore.com.hk # TLD
 micstl.com # DNS_RESOLVE_FAILED
 midjourney.com # UNKNOWN_GEOIP
-midoushe.com # DNS_RESOLVE_FAILED
 mie.co.jp # TLD
 miexnoviadesnuda.com # UNKNOWN_GEOIP
 mihua.org # DNS_RESOLVE_FAILED
@@ -8796,6 +8812,7 @@ minidealernet.com # DNS_RESOLVE_FAILED
 minidowntown.ca # TLD
 minidurham.ca # TLD
 minigeorgian.ca # TLD
+minigrandriver.com # DNS_RESOLVE_FAILED
 minihalifax.ca # TLD
 miniinvasion.ca # TLD
 minikelowna.ca # TLD
@@ -8919,6 +8936,7 @@ mmftb.gov.mm # TLD
 mminsurance.gov.mm # TLD
 mmonsterheadphones.net # DNS_RESOLVE_FAILED
 mmscdh.one # DNS_RESOLVE_FAILED
+mmtv.life # DNS_RESOLVE_FAILED
 mmwxl27.top # DNS_RESOLVE_FAILED
 mo.nightlife141.com # UNKNOWN_GEOIP
 mobile-icq.com # NOT_RU_GEOIP
@@ -8937,6 +8955,7 @@ modoo.at # TLD
 modperl.pl # TLD
 modrinth.com # UNKNOWN_GEOIP
 modular.im # TLD
+moedigi.com # DNS_RESOLVE_FAILED
 moeero-library.com # UNKNOWN_GEOIP
 moefuns.co # UNKNOWN_GEOIP
 moeimg.net # UNKNOWN_GEOIP
@@ -9160,6 +9179,7 @@ muji.eu # TLD
 muji.net # DNS_RESOLVE_FAILED
 muji.tw # TLD
 muji.us # TLD
+mulheresafoder.com # DNS_RESOLVE_FAILED
 mult34.com # UNKNOWN_GEOIP
 multiply.com # UNKNOWN_GEOIP
 multiplydiversity.com # DNS_RESOLVE_FAILED
@@ -9261,7 +9281,6 @@ mypornstarbook.net # UNKNOWN_GEOIP
 myradio.com.hk # TLD
 myradio.hk # TLD
 myrimmingporn.com # UNKNOWN_GEOIP
-mysexygfs.com # DNS_RESOLVE_FAILED
 mysinchew.com # UNKNOWN_GEOIP
 myspacecdn.com # DNS_RESOLVE_FAILED
 myteamspeak.com # UNKNOWN_GEOIP
@@ -9331,6 +9350,8 @@ naydex.net # NOT_RU_GEOIP
 nbbb1bb7.pmhcjk.com # UNKNOWN_GEOIP
 nbdh15.buzz # DNS_RESOLVE_FAILED
 nbtvpn.com # DNS_RESOLVE_FAILED
+nbyy.tv # UNKNOWN_GEOIP
+ncbi.nlm.nih.gov # TLD
 ncl.edu.tw # TLD
 ndi.org # UNKNOWN_GEOIP
 near.by # TLD
@@ -9475,7 +9496,7 @@ nhncorp.jp # TLD
 nic.gov # TLD
 nic.ru # TLD
 niceanimegames.com # UNKNOWN_GEOIP
-nicegram.app # UNKNOWN_GEOIP
+nicegram.app # DNS_RESOLVE_FAILED
 nicegram.cloud # UNKNOWN_GEOIP
 niceporn.tv # UNKNOWN_GEOIP
 nicesrv.de # TLD
@@ -9522,7 +9543,7 @@ nineentertainmentco.com.au # TLD
 ninemediaroom.com.au # TLD
 ninemsn.com.au # TLD
 ninjaproxy.ninja # DNS_RESOLVE_FAILED
-ninpu.cyou # DNS_RESOLVE_FAILED
+ninpu.cyou # UNKNOWN_GEOIP
 nintendo.at # TLD
 nintendo.be # TLD
 nintendo.ch # TLD
@@ -9569,6 +9590,7 @@ nodequality.com # UNKNOWN_GEOIP
 nodereal.io # TLD
 nodeseek.com # UNKNOWN_GEOIP
 noisullifb.com # DNS_RESOLVE_FAILED
+nokola.com # DNS_RESOLVE_FAILED
 nomadlandmovie.ch # TLD
 nomadproject.io # TLD
 nomyne.com # UNKNOWN_GEOIP
@@ -9587,7 +9609,6 @@ notimundo.press # NOT_RU_GEOIP
 notion-static.com # DNS_RESOLVE_FAILED
 notion.so # TLD
 notionusercontent.com # DNS_RESOLVE_FAILED
-novids.com # NOT_RU_GEOIP
 novinhabucetuda.com # UNKNOWN_GEOIP
 novinhagostosa10.com # UNKNOWN_GEOIP
 now-ashare.com # UNKNOWN_GEOIP
@@ -9877,6 +9898,7 @@ omtrdc.net # DNS_RESOLVE_FAILED
 on-media.ru # TLD
 on.cc # UNKNOWN_GEOIP
 onamae-desktop.com # UNKNOWN_GEOIP
+onamae-office.com # UNKNOWN_GEOIP
 onamae.com # UNKNOWN_GEOIP
 onbeatsbydresale.com # DNS_RESOLVE_FAILED
 oncars.in # TLD
@@ -9899,6 +9921,7 @@ onesiterip.com # UNKNOWN_GEOIP
 onestore.ms # TLD
 onetrust.com # UNKNOWN_GEOIP
 onevps.com # UNKNOWN_GEOIP
+onexray.com # UNKNOWN_GEOIP
 onfinality.io # TLD
 onion.ly # TLD
 onkakao.net # DNS_RESOLVE_FAILED
@@ -10008,14 +10031,17 @@ ozeex.com # UNKNOWN_GEOIP
 ozon-credit.ru # TLD
 ozon-dostavka.ru # TLD
 ozon-tech.ru # TLD
+ozon.app # Keyword
 ozon.by # TLD
 ozon.com # Keyword
 ozon.com.by # TLD
 ozon.com.kz # TLD
 ozon.dev # Keyword
 ozon.express # Keyword
+ozon.global # Keyword
 ozon.kz # TLD
 ozon.li # TLD
+ozon.market # Keyword
 ozon.ru # TLD
 ozon.tech # Keyword
 ozon.tm # TLD
@@ -10090,6 +10116,7 @@ patreonusercontent.com # DNS_RESOLVE_FAILED
 paulsimon-music.com # DNS_RESOLVE_FAILED
 pawchive.pw # UNKNOWN_GEOIP
 pawchive.st # TLD
+pawoo.net # DNS_RESOLVE_FAILED
 paxful.com # UNKNOWN_GEOIP
 payecom.ru # TLD
 payget.pro # UNKNOWN_GEOIP
@@ -10255,6 +10282,7 @@ pinflix.com # UNKNOWN_GEOIP
 ping.fm # TLD
 ping.pe # TLD
 ping.sx # TLD
+pingguotv.xyz # DNS_RESOLVE_FAILED
 pinggy.io # TLD
 pingxiangpuer.com # DNS_RESOLVE_FAILED
 pinkcore.net # DNS_RESOLVE_FAILED
@@ -10314,8 +10342,6 @@ pixiv.co.jp # TLD
 pixiv.help # DNS_RESOLVE_FAILED
 pixivision.net # UNKNOWN_GEOIP
 pixivsketch.net # DNS_RESOLVE_FAILED
-pixnet.cc # DNS_RESOLVE_FAILED
-pixnet.pro # DNS_RESOLVE_FAILED
 pixnet.tw # TLD
 pixplug.in # TLD
 pjbyj.top # DNS_RESOLVE_FAILED
@@ -10387,6 +10413,7 @@ pokemonwifi.net # DNS_RESOLVE_FAILED
 pokerstars.com # UNKNOWN_GEOIP
 polymarket.com # UNKNOWN_GEOIP
 polyu.hk # TLD
+ponyanimalsex.com # UNKNOWN_GEOIP
 poofetish.com # UNKNOWN_GEOIP
 poolbinance.com # DNS_RESOLVE_FAILED
 poopeegirls.com # UNKNOWN_GEOIP
@@ -10607,7 +10634,7 @@ postyourgirls.ws # TLD
 potato.im # TLD
 potatso.com # UNKNOWN_GEOIP
 potenza.jp # TLD
-potvpn.com # DNS_RESOLVE_FAILED
+potvpn.com # UNKNOWN_GEOIP
 poudobnee.com # NOT_RU_GEOIP
 pourquoi.tw # TLD
 povpornonly.com # DNS_RESOLVE_FAILED
@@ -10671,6 +10698,7 @@ privatetunnel.com # UNKNOWN_GEOIP
 privatevpn.com # UNKNOWN_GEOIP
 privilege.hk # TLD
 privilege.tw # TLD
+prizrak.app # DNS_RESOLVE_FAILED
 proctoscopeexam.com # DNS_RESOLVE_FAILED
 prod-my.games # Keyword
 prodcontest.com # NOT_RU_GEOIP
@@ -10728,7 +10756,6 @@ pulsebrowser.app # DNS_RESOLVE_FAILED
 punishbang.com # UNKNOWN_GEOIP
 punishworld.com # UNKNOWN_GEOIP
 pureapk.com # UNKNOWN_GEOIP
-puredns.org # DNS_RESOLVE_FAILED
 purelov5.com # DNS_RESOLVE_FAILED
 purelyceleb.com # DNS_RESOLVE_FAILED
 purenudism.com # UNKNOWN_GEOIP
@@ -10856,6 +10883,7 @@ r18.clickme.net # UNKNOWN_GEOIP
 r18lu-avi.shop # DNS_RESOLVE_FAILED
 r2.dev # UNKNOWN_GEOIP
 r34porn.net # UNKNOWN_GEOIP
+rabbit-hole-1.gitbook.io # TLD
 rabbitcounter.com # DNS_RESOLVE_FAILED
 rabota.by # TLD
 radeon.com # DNS_RESOLVE_FAILED
@@ -11121,6 +11149,7 @@ rsshub.email-once.com # DNS_RESOLVE_FAILED
 rsshub.henry.wang # DNS_RESOLVE_FAILED
 rsshub.isrss.com # UNKNOWN_GEOIP
 rsshub.pseudoyu.com # UNKNOWN_GEOIP
+rsshub.umzzz.com # UNKNOWN_GEOIP
 rsshub2.asailor.org # UNKNOWN_GEOIP
 rstatic.net # DNS_RESOLVE_FAILED
 rt-school.online # NOT_RU_GEOIP
@@ -11223,12 +11252,14 @@ rutracker.nl # TLD
 rutracker.org # UNKNOWN_GEOIP
 rutrk.org # UNKNOWN_GEOIP
 rutube.ru # TLD
+rutube.sport # Keyword
 rutubelist.ru # TLD
 ruvideos.net # UNKNOWN_GEOIP
 rwb.ru # TLD
 rwbautomation.ru # TLD
 rwbautomation.tech # NOT_RU_GEOIP
 rwbgeo.ru # TLD
+rym.fm # TLD
 ryokoyomiuri.co.jp # TLD
 ryukyubank.co.jp # TLD
 rzr.to # TLD
@@ -11480,6 +11511,7 @@ sculpoly.com # DNS_RESOLVE_FAILED
 sdnice.one # DNS_RESOLVE_FAILED
 sdnitube.buzz # DNS_RESOLVE_FAILED
 seaporn.org # UNKNOWN_GEOIP
+searchlightpictures.com # UNKNOWN_GEOIP
 seb.ru # TLD
 secom.co.jp # TLD
 secomtrust.net # DNS_RESOLVE_FAILED
@@ -11559,7 +11591,6 @@ sex3.com # UNKNOWN_GEOIP
 sex3.mobi # DNS_RESOLVE_FAILED
 sex4arabxxx.com # UNKNOWN_GEOIP
 sex588.net # DNS_RESOLVE_FAILED
-sexaidh.com # DNS_RESOLVE_FAILED
 sexalarab.com # UNKNOWN_GEOIP
 sexanimalvideos.com # UNKNOWN_GEOIP
 sexanime.net # UNKNOWN_GEOIP
@@ -11588,6 +11619,7 @@ sexinsex.net # UNKNOWN_GEOIP
 sexiranian.party # UNKNOWN_GEOIP
 sexjobs.it # TLD
 sexkomix2.com # UNKNOWN_GEOIP
+sexlikereal.com # UNKNOWN_GEOIP
 sexmerci.com # UNKNOWN_GEOIP
 sexmix.net # UNKNOWN_GEOIP
 sexmomsex.com # DNS_RESOLVE_FAILED
@@ -11648,6 +11680,7 @@ sgspt.buzz # DNS_RESOLVE_FAILED
 sh83.xyz # DNS_RESOLVE_FAILED
 shadbase.com # UNKNOWN_GEOIP
 shadeyouvpn.com # UNKNOWN_GEOIP
+shadowlaunch.com # UNKNOWN_GEOIP
 shadowsocks.be # TLD
 shadowsocks.com # UNKNOWN_GEOIP
 shadowsocks.com.hk # TLD
@@ -11856,10 +11889,8 @@ slotbitches.com # UNKNOWN_GEOIP
 slutmoonbeam.com # DNS_RESOLVE_FAILED
 sluts.xyz # UNKNOWN_GEOIP
 sluttyrat.com # DNS_RESOLVE_FAILED
-sm-miracle.com # DNS_RESOLVE_FAILED
 sm.ms # TLD
 smailru.net # DNS_RESOLVE_FAILED
-smallteenpussy.com # DNS_RESOLVE_FAILED
 smart-edge.com # DNS_RESOLVE_FAILED
 smart-edge.io # TLD
 smartexpos.com # DNS_RESOLVE_FAILED
@@ -11894,6 +11925,7 @@ sni1dcb6gl.wpc.edgecastcdn.net # DNS_RESOLVE_FAILED
 snk-corp.co.jp # TLD
 snk-corp.info # DNS_RESOLVE_FAILED
 snkplaymore.info # DNS_RESOLVE_FAILED
+snmc.io # TLD
 so-net.ne.jp # TLD
 so-net.net.tw # TLD
 sobees.com # DNS_RESOLVE_FAILED
@@ -11940,6 +11972,7 @@ solid.ru # TLD
 solostudioksale.com # DNS_RESOLVE_FAILED
 solscan.io # TLD
 solv.finance # UNKNOWN_GEOIP
+sonematic.net # DNS_RESOLVE_FAILED
 songjianjun.com # UNKNOWN_GEOIP
 sony # NO_DOT
 sony-hes.co.jp # TLD
@@ -12031,7 +12064,6 @@ sora.com # UNKNOWN_GEOIP
 soso7778.com # DNS_RESOLVE_FAILED
 sosreader.com # DNS_RESOLVE_FAILED
 sotwe.com # UNKNOWN_GEOIP
-soubory.com # DNS_RESOLVE_FAILED
 soulcaliburhentai.net # DNS_RESOLVE_FAILED
 soundcloud.cloud # DNS_RESOLVE_FAILED
 soundofhope.eu # TLD
@@ -12061,7 +12093,7 @@ spacex.com # UNKNOWN_GEOIP
 spankbang.com # UNKNOWN_GEOIP
 spankbang.party # UNKNOWN_GEOIP
 spankbang1.com # UNKNOWN_GEOIP
-spanking.wiki # UNKNOWN_GEOIP
+spanking.wiki # DNS_RESOLVE_FAILED
 sparkpool.com # UNKNOWN_GEOIP
 spasibo.digital # NOT_RU_GEOIP
 spasibo.market # NOT_RU_GEOIP
@@ -12120,7 +12152,7 @@ ss7.app # UNKNOWN_GEOIP
 ssb.msk.ru # TLD
 ssdevrd.com # DNS_RESOLVE_FAILED
 ssglobal.co # UNKNOWN_GEOIP
-sshs.club # DNS_RESOLVE_FAILED
+sshs.club # UNKNOWN_GEOIP
 sshs.pw # UNKNOWN_GEOIP
 ssl-certificate.ch # TLD
 ssl-images-amazon.com # DNS_RESOLVE_FAILED
@@ -12207,6 +12239,7 @@ stark-verlag.ch # TLD
 starott.com # DNS_RESOLVE_FAILED
 start.ru # TLD
 startuplivingchina.com # DNS_RESOLVE_FAILED
+stash.ws # TLD
 static-cisco.com # DNS_RESOLVE_FAILED
 static-economist.com # DNS_RESOLVE_FAILED
 static-nike.com # DNS_RESOLVE_FAILED
@@ -12257,7 +12290,6 @@ storry.tv # UNKNOWN_GEOIP
 storyful.com # UNKNOWN_GEOIP
 straitsx.com # UNKNOWN_GEOIP
 streamingporn.xyz # UNKNOWN_GEOIP
-streamingthe.net # UNKNOWN_GEOIP
 streamporn.cc # DNS_RESOLVE_FAILED
 strepsils.at # TLD
 strepsils.ch # TLD
@@ -12712,6 +12744,7 @@ thottok.com # UNKNOWN_GEOIP
 thotvids.com # DNS_RESOLVE_FAILED
 threadreaderapp.com # UNKNOWN_GEOIP
 thrixxx.com # UNKNOWN_GEOIP
+throneproj.github.io # TLD
 throughnightsfire.com # DNS_RESOLVE_FAILED
 thtmod1.com # UNKNOWN_GEOIP
 thuhole.com # UNKNOWN_GEOIP
@@ -12842,6 +12875,7 @@ token.im # TLD
 tokenlon.im # TLD
 tokyo-sports.co.jp # TLD
 tokyo-tosho.net # UNKNOWN_GEOIP
+tokyodisneyresort.jp # TLD
 tokyoporns.com # UNKNOWN_GEOIP
 tokyotosho.info # UNKNOWN_GEOIP
 tokyotosho.se # TLD
@@ -13460,6 +13494,7 @@ video01.org # UNKNOWN_GEOIP
 videodelivery.net # UNKNOWN_GEOIP
 videodesexo.blog # UNKNOWN_GEOIP
 videoindexer.ai # TLD
+videosamadoresreais.com # DNS_RESOLVE_FAILED
 videosdemadurasx.com # UNKNOWN_GEOIP
 videosdepornografia.blog.br # TLD
 videosdesexo.br.com # UNKNOWN_GEOIP
@@ -13480,7 +13515,6 @@ vilavpn.xyz # UNKNOWN_GEOIP
 vilavpn1.xyz # DNS_RESOLVE_FAILED
 vilavpn2.xyz # DNS_RESOLVE_FAILED
 vilavpn3.xyz # DNS_RESOLVE_FAILED
-vilavpn4.xyz # DNS_RESOLVE_FAILED
 vilavpn5.xyz # DNS_RESOLVE_FAILED
 vilavpn6.xyz # DNS_RESOLVE_FAILED
 vilavpn7.xyz # DNS_RESOLVE_FAILED
@@ -13488,6 +13522,7 @@ vildberis.ru # TLD
 vim.org # DNS_RESOLVE_FAILED
 vimeo.fr # TLD
 vimeogoods.com # DNS_RESOLVE_FAILED
+vincnd.com # DNS_RESOLVE_FAILED
 vintagehomemadesex.com # DNS_RESOLVE_FAILED
 vintagemedicalpictures.com # DNS_RESOLVE_FAILED
 vip-beats.com # DNS_RESOLVE_FAILED
@@ -13890,6 +13925,7 @@ vpninja.net # UNKNOWN_GEOIP
 vpnjack.com # UNKNOWN_GEOIP
 vpnmaster.com # UNKNOWN_GEOIP
 vpnmentor.com # UNKNOWN_GEOIP
+vpnpick.com # UNKNOWN_GEOIP
 vpnreviewz.com # UNKNOWN_GEOIP
 vpnsecure.me # UNKNOWN_GEOIP
 vpntunnel.com # UNKNOWN_GEOIP
@@ -13964,7 +14000,6 @@ wapm.io # TLD
 waranlov.com # UNKNOWN_GEOIP
 warddogs.com # UNKNOWN_GEOIP
 warehouse.domains # NOT_RU_GEOIP
-warroom.org # UNKNOWN_GEOIP
 warthunder.com # UNKNOWN_GEOIP
 wasdj.com # DNS_RESOLVE_FAILED
 wasmer.io # TLD
@@ -14103,7 +14138,6 @@ widberris.ru # TLD
 widgets.stripst.com # DNS_RESOLVE_FAILED
 wieldberris.ru # TLD
 wifehomeporn.com # UNKNOWN_GEOIP
-wifeinlove.com # DNS_RESOLVE_FAILED
 wifesharingpics.com # UNKNOWN_GEOIP
 wiifitu.com # DNS_RESOLVE_FAILED
 wiipartyu.com # UNKNOWN_GEOIP
@@ -14173,7 +14207,7 @@ windowscommunity.net # DNS_RESOLVE_FAILED
 windowsuem.com # DNS_RESOLVE_FAILED
 windowsupdate.com # DNS_RESOLVE_FAILED
 windscribe.com # UNKNOWN_GEOIP
-wingy.site # DNS_RESOLVE_FAILED
+wingy.site # UNKNOWN_GEOIP
 wink.am # TLD
 wink.ru # TLD
 winning11.com # UNKNOWN_GEOIP
@@ -14314,7 +14348,7 @@ xanimeporn.tv # UNKNOWN_GEOIP
 xapplist.com # DNS_RESOLVE_FAILED
 xattractive.com # UNKNOWN_GEOIP
 xb18.me # DNS_RESOLVE_FAILED
-xbhuijiab.info # DNS_RESOLVE_FAILED
+xbhuijiab.info # UNKNOWN_GEOIP
 xbookcn.com # UNKNOWN_GEOIP
 xbookcn.net # UNKNOWN_GEOIP
 xbooru.com # UNKNOWN_GEOIP
@@ -14632,6 +14666,7 @@ xxxlucah.com # DNS_RESOLVE_FAILED
 xxxmaturepussypics.com # UNKNOWN_GEOIP
 xxxmatures.net # UNKNOWN_GEOIP
 xxxmofo.com # UNKNOWN_GEOIP
+xxxmomporn.tube # DNS_RESOLVE_FAILED
 xxxner.com # UNKNOWN_GEOIP
 xxxnu.com # UNKNOWN_GEOIP
 xxxnxx.me # UNKNOWN_GEOIP
@@ -14657,6 +14692,7 @@ xxxvideoszoo.com # UNKNOWN_GEOIP
 xxxvidso.com # UNKNOWN_GEOIP
 xxxx.com.au # TLD
 xxxxvideo.uno # UNKNOWN_GEOIP
+xxxyoungxxx.com # DNS_RESOLVE_FAILED
 xzone.to # TLD
 xzxxporn.com # DNS_RESOLVE_FAILED
 xzxxtube.com # UNKNOWN_GEOIP
@@ -14879,7 +14915,6 @@ yantaqu.com # DNS_RESOLVE_FAILED
 yaohubaba.com # UNKNOWN_GEOIP
 yaoimangaonline.com # UNKNOWN_GEOIP
 yaoiotaku.com # UNKNOWN_GEOIP
-yaole91.xyz # DNS_RESOLVE_FAILED
 yaoliuno.fun # UNKNOWN_GEOIP
 yaoyaomumu.com # DNS_RESOLVE_FAILED
 yarininsuyu.com # UNKNOWN_GEOIP
@@ -14956,7 +14991,7 @@ young-amateur-movies.com # UNKNOWN_GEOIP
 young-webcam.net # UNKNOWN_GEOIP
 young-xxx.net # UNKNOWN_GEOIP
 youngheaven.com # DNS_RESOLVE_FAILED
-youngmommyfucksme.com # DNS_RESOLVE_FAILED
+youngmommyfucksme.com # UNKNOWN_GEOIP
 youngpornonly.com # DNS_RESOLVE_FAILED
 youngsex.sexy # DNS_RESOLVE_FAILED
 youngsex.video # DNS_RESOLVE_FAILED
@@ -15187,6 +15222,7 @@ zee5.in # TLD
 zee5.tv # DNS_RESOLVE_FAILED
 zeebioskop.com # UNKNOWN_GEOIP
 zeeentertainment.com # DNS_RESOLVE_FAILED
+zeenite.com # UNKNOWN_GEOIP
 zeetv.co.uk # TLD
 zeetv.com # DNS_RESOLVE_FAILED
 zeibit.ai # TLD
@@ -15208,7 +15244,6 @@ zh-hans.cfsh99.com # UNKNOWN_GEOIP
 zh.pokerstrategy.com # UNKNOWN_GEOIP
 zh99.net # UNKNOWN_GEOIP
 zhaimankan.com # UNKNOWN_GEOIP
-zhainanjidi.xyz # DNS_RESOLVE_FAILED
 zhainanjidid.top # DNS_RESOLVE_FAILED
 zhangboz1.xyz # DNS_RESOLVE_FAILED
 zhengjian.org # UNKNOWN_GEOIP

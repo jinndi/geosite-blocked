@@ -1,7 +1,6 @@
 000webhost.com # UNKNOWN_GEOIP
 0101.co.jp # TLD
 0123tt.ru # TLD
-0kkkkkt.com # DNS_RESOLVE_FAILED
 0xrpc.io # TLD
 100.in-addr.arpa # TLD
 10086.cn # TLD
@@ -67,14 +66,16 @@
 1porn.tv # UNKNOWN_GEOIP
 1rpc.io # TLD
 1rx.io # TLD
-1tamilmv.cards # DNS_RESOLVE_FAILED
+1tamilmv.cards # UNKNOWN_GEOIP
 1tamilmv.durban # DNS_RESOLVE_FAILED
 1tv.ru # TLD
 1und1.de # TLD
+1win.com # NOT_RU_GEOIP
 1x1x5.com # UNKNOWN_GEOIP
 1xbet.com # UNKNOWN_GEOIP
 2.in-addr.arpa # TLD
 2.ip6.arpa # TLD
+204.in-addr.arpa # TLD
 20min.ch # TLD
 20minutes.fr # TLD
 20minutos.es # TLD
@@ -83,7 +84,6 @@
 21wiz.com # UNKNOWN_GEOIP
 22.cn # TLD
 23.in-addr.arpa # TLD
-23andme.com # UNKNOWN_GEOIP
 24-hds.com # UNKNOWN_GEOIP
 24.hu # TLD
 247wallst.com # UNKNOWN_GEOIP
@@ -111,11 +111,11 @@
 2miners.com # UNKNOWN_GEOIP
 2o7.net # DNS_RESOLVE_FAILED
 2umdjcuk.com # DNS_RESOLVE_FAILED
+2xstorage.com # UNKNOWN_GEOIP
 3.in-addr.arpa # TLD
 32.in-addr.arpa # TLD
 34.in-addr.arpa # TLD
 35.in-addr.arpa # TLD
-35.net # DNS_RESOLVE_FAILED
 360.cn # TLD
 360anyu.com # DNS_RESOLVE_FAILED
 360doc.com # DNS_RESOLVE_FAILED
@@ -124,7 +124,6 @@
 365lpodds.com # DNS_RESOLVE_FAILED
 3bmeteo.com # UNKNOWN_GEOIP
 3cx.com # UNKNOWN_GEOIP
-3cx.us # TLD
 3d-galleru.ru # TLD
 3ddd.ru # TLD
 3dnews.ru # TLD
@@ -196,11 +195,13 @@
 7sur7.be # TLD
 7tv.io # TLD
 8.in-addr.arpa # TLD
+853mmm.com # UNKNOWN_GEOIP
 8888.bg # TLD
 8888.porn # TLD
 888scoreonline.net # UNKNOWN_GEOIP
 8989c.net # DNS_RESOLVE_FAILED
 8slp.net # DNS_RESOLVE_FAILED
+8x8cloud.net # DNS_RESOLVE_FAILED
 90minut.pl # TLD
 91cg1.com # UNKNOWN_GEOIP
 91mobiles.com # UNKNOWN_GEOIP
@@ -254,22 +255,20 @@ aarnet.net.au # TLD
 aau.dk # TLD
 aawsat.com # UNKNOWN_GEOIP
 abadis.ir # TLD
+abc.cl # TLD
 abc.es # TLD
 abc.net.au # TLD
-abchina.com # DNS_RESOLVE_FAILED
 abcp.ru # TLD
 abczdrowie.pl # TLD
 abdelmaaboud.com # UNKNOWN_GEOIP
 abdn.ac.uk # TLD
 abebooks.co.uk # TLD
 abebooks.de # TLD
-abebooks.fr # TLD
 abebooks.it # TLD
 abebookscdn.com # DNS_RESOLVE_FAILED
 abendblatt.de # TLD
 ably-realtime.com # UNKNOWN_GEOIP
 ably.io # TLD
-abnamro.nl # TLD
 abola.pt # TLD
 about.google # TLD
 about.me # UNKNOWN_GEOIP
@@ -281,8 +280,6 @@ abr.ge # TLD
 abril.com.br # TLD
 abs.gov.au # TLD
 absher.sa # TLD
-absolutbank.ru # TLD
-absrivers.com # DNS_RESOLVE_FAILED
 abuse.ch # TLD
 abv.bg # TLD
 abzarek.ir # TLD
@@ -325,7 +322,6 @@ ad-m.net # DNS_RESOLVE_FAILED
 ad-tech.ru # TLD
 ad.gt # TLD
 ad.nl # TLD
-ad4m.at # TLD
 ada.gov # TLD
 adaa.org # UNKNOWN_GEOIP
 adac.de # TLD
@@ -351,6 +347,7 @@ adguard.org # DNS_RESOLVE_FAILED
 adhigh.net # NOT_RU_GEOIP
 adiam.tech # NOT_RU_GEOIP
 adidas.com.ar # TLD
+adidas.com.br # TLD
 adidas.mx # TLD
 adingo.jp # TLD
 adintl.cn # TLD
@@ -368,7 +365,6 @@ adlook.online # NOT_RU_GEOIP
 adlooxtracking.com # UNKNOWN_GEOIP
 admatic.com.tr # TLD
 admatic.de # TLD
-admhmao.ru # TLD
 admin.ch # TLD
 administracionelectronica.gob.es # TLD
 administracionespublicas.gob.es # TLD
@@ -408,8 +404,8 @@ adscale.de # TLD
 adsco.re # TLD
 adsdcsp.com # DNS_RESOLVE_FAILED
 adserv.ai # TLD
-adservings.ru # TLD
 adskeeper.com # UNKNOWN_GEOIP
+adsl-pool.sx.cn # TLD
 adspector.io # TLD
 adspend.space # NOT_RU_GEOIP
 adster.tech # UNKNOWN_GEOIP
@@ -484,11 +480,9 @@ ai.google # TLD
 aib.ie # TLD
 aibixby.com # DNS_RESOLVE_FAILED
 aibotplatform.com # DNS_RESOLVE_FAILED
-aicdn5.com # DNS_RESOLVE_FAILED
-aichouphaugn.com # UNKNOWN_GEOIP
-aicte-india.org # DNS_RESOLVE_FAILED
 aida.de # TLD
 aidata.io # TLD
+aidating.am # TLD
 aiee1.com # DNS_RESOLVE_FAILED
 aif.ru # TLD
 aimatch.net # DNS_RESOLVE_FAILED
@@ -544,7 +538,6 @@ aktualne.cz # TLD
 al-adtech.com # NOT_RU_GEOIP
 alabama.gov # TLD
 aladin.co.kr # TLD
-alania.net # DNS_RESOLVE_FAILED
 alarmnet.com # DNS_RESOLVE_FAILED
 alaska.edu # TLD
 alaska.gov # TLD
@@ -589,6 +582,7 @@ allabout.co.jp # TLD
 allaboutbirds.org # UNKNOWN_GEOIP
 allaboutcookies.org # UNKNOWN_GEOIP
 allahabadhighcourt.in # TLD
+allawnofs.com # DNS_RESOLVE_FAILED
 allawnos.com # DNS_RESOLVE_FAILED
 alldatasheet.com # UNKNOWN_GEOIP
 allegro.cz # TLD
@@ -677,6 +671,7 @@ americanbar.org # UNKNOWN_GEOIP
 americansongwriter.com # UNKNOWN_GEOIP
 americatv.com.pe # TLD
 ametsoc.org # UNKNOWN_GEOIP
+amiami.jp # TLD
 amnh.org # UNKNOWN_GEOIP
 amnupower.com # DNS_RESOLVE_FAILED
 amocrm.ru # TLD
@@ -690,6 +685,7 @@ amplreq.com # DNS_RESOLVE_FAILED
 ams.org # UNKNOWN_GEOIP
 ams1907.com # UNKNOWN_GEOIP
 amsoveasea.com # DNS_RESOLVE_FAILED
+amsterdam.nl # TLD
 amu.edu.pl # TLD
 amung.us # TLD
 amur-cit.ru # TLD
@@ -735,6 +731,7 @@ animedekho.app # UNKNOWN_GEOIP
 animeflv.net # UNKNOWN_GEOIP
 animego.me # NOT_RU_GEOIP
 animenewsnetwork.com # UNKNOWN_GEOIP
+animeonline.ninja # UNKNOWN_GEOIP
 animepahe.pw # UNKNOWN_GEOIP
 animeruka.com # UNKNOWN_GEOIP
 animesalt.ac # TLD
@@ -744,6 +741,7 @@ animevietsub.pl # TLD
 aninews.in # TLD
 aniwaves.ru # TLD
 aniworld.to # TLD
+ankergames.net # UNKNOWN_GEOIP
 anl.gov # TLD
 annas-archive.gl # TLD
 annualreviews.org # UNKNOWN_GEOIP
@@ -771,6 +769,7 @@ anybunny.org # UNKNOWN_GEOIP
 anycastdns.cz # TLD
 anydesk.com # UNKNOWN_GEOIP
 anyflip.com # UNKNOWN_GEOIP
+anygay.com # UNKNOWN_GEOIP
 anypointdns.net # DNS_RESOLVE_FAILED
 anysex.com # UNKNOWN_GEOIP
 anythinktech.com # DNS_RESOLVE_FAILED
@@ -783,7 +782,6 @@ aoneroom.com # DNS_RESOLVE_FAILED
 ap.gov.in # TLD
 ap4r.com # DNS_RESOLVE_FAILED
 apa.at # TLD
-apache-iv.com # DNS_RESOLVE_FAILED
 apache-ssl.org # UNKNOWN_GEOIP
 apachehaus.com # UNKNOWN_GEOIP
 apachetutor.org # DNS_RESOLVE_FAILED
@@ -873,6 +871,7 @@ archives.gov # TLD
 arconazure.com # DNS_RESOLVE_FAILED
 arcor.de # TLD
 arcspire.io # TLD
+arcticspg.ru # TLD
 ard-mcdn.de # TLD
 ard.de # TLD
 ardentnews.co.kr # TLD
@@ -881,6 +880,7 @@ arena.ai # TLD
 arenaplus.ph # TLD
 arenascan.com # UNKNOWN_GEOIP
 argentina.gob.ar # TLD
+argewebhosting.nl # TLD
 argos.co.uk # TLD
 argotunnel.com # DNS_RESOLVE_FAILED
 arionplay.com # UNKNOWN_GEOIP
@@ -913,7 +913,6 @@ aryion.com # UNKNOWN_GEOIP
 asahi-net.or.jp # TLD
 asahibeer-cp.jp # TLD
 ascelibrary.org # UNKNOWN_GEOIP
-ascii.jp # TLD
 ascopubs.org # UNKNOWN_GEOIP
 asd.ink # UNKNOWN_GEOIP
 asda.com # UNKNOWN_GEOIP
@@ -938,9 +937,11 @@ assets-yammer.com # DNS_RESOLVE_FAILED
 assoass.com # UNKNOWN_GEOIP
 astockcdn.net # DNS_RESOLVE_FAILED
 astro-seek.com # UNKNOWN_GEOIP
+astro.build # UNKNOWN_GEOIP
 astrosage.com # UNKNOWN_GEOIP
 astrum.team # DNS_RESOLVE_FAILED
 astrumnival.com # DNS_RESOLVE_FAILED
+astrumu.io # TLD
 asu.edu # TLD
 asurahosting.com # UNKNOWN_GEOIP
 asurascans.com # UNKNOWN_GEOIP
@@ -953,9 +954,7 @@ atg.se # TLD
 ath.cx # TLD
 athemes.com # UNKNOWN_GEOIP
 athena.io # TLD
-athletic.net # UNKNOWN_GEOIP
 athome.co.jp # TLD
-athwartwhoafat.com # UNKNOWN_GEOIP
 ati.su # TLD
 ati.tn # TLD
 aticdn.net # DNS_RESOLVE_FAILED
@@ -969,7 +968,6 @@ atol.ru # TLD
 atom.com # UNKNOWN_GEOIP
 atoma.cloud # DNS_RESOLVE_FAILED
 atomile.com # DNS_RESOLVE_FAILED
-atp.fox # TLD
 atrustdns.com # DNS_RESOLVE_FAILED
 atsenergo.ru # TLD
 atsint.net # DNS_RESOLVE_FAILED
@@ -987,6 +985,7 @@ auchan.fr # TLD
 auchan.ru # TLD
 auckland.ac.nz # TLD
 auction.co.kr # TLD
+audible.ca # TLD
 audible.co.uk # TLD
 audible.de # TLD
 audio.com # UNKNOWN_GEOIP
@@ -1159,6 +1158,7 @@ awsdns-28.net # DNS_RESOLVE_FAILED
 awsdns-29.co.uk # TLD
 awsdns-29.com # DNS_RESOLVE_FAILED
 awsdns-29.net # DNS_RESOLVE_FAILED
+awsdns-29.org # DNS_RESOLVE_FAILED
 awsdns-30.co.uk # TLD
 awsdns-30.com # DNS_RESOLVE_FAILED
 awsdns-30.net # DNS_RESOLVE_FAILED
@@ -1236,7 +1236,6 @@ awsdns-53.net # DNS_RESOLVE_FAILED
 awsdns-54.co.uk # TLD
 awsdns-54.com # DNS_RESOLVE_FAILED
 awsdns-54.net # DNS_RESOLVE_FAILED
-awsdns-54.org # DNS_RESOLVE_FAILED
 awsdns-55.co.uk # TLD
 awsdns-55.com # DNS_RESOLVE_FAILED
 awsdns-55.net # DNS_RESOLVE_FAILED
@@ -1268,6 +1267,7 @@ awsdns-63.co.uk # TLD
 awsdns-63.com # DNS_RESOLVE_FAILED
 awsdns-63.net # DNS_RESOLVE_FAILED
 awsdns-cn-13.cn # TLD
+awsdns-cn-14.com # DNS_RESOLVE_FAILED
 awsdns-cn-17.com # DNS_RESOLVE_FAILED
 awsdns-cn-34.com # DNS_RESOLVE_FAILED
 awsdns-cn-36.cn # TLD
@@ -1328,7 +1328,6 @@ b-dc-msedge.net # DNS_RESOLVE_FAILED
 b-dns.pl # TLD
 b-msedge.net # DNS_RESOLVE_FAILED
 b2b-center.ru # TLD
-b2bdxp.com # DNS_RESOLVE_FAILED
 b2c.com # DNS_RESOLVE_FAILED
 b2clogin.com # DNS_RESOLVE_FAILED
 bab.la # TLD
@@ -1350,6 +1349,7 @@ bahn.de # TLD
 baidu-itm.com # DNS_RESOLVE_FAILED
 baidu.cn # TLD
 baidu.hk # TLD
+baidubce.com # UNKNOWN_GEOIP
 baifentan.com # DNS_RESOLVE_FAILED
 bainsx.cn # TLD
 bajajfinserv.in # TLD
@@ -1381,7 +1381,6 @@ bankier.pl # TLD
 bankmandiri.co.id # TLD
 bankofengland.co.uk # TLD
 bannerflow.net # DNS_RESOLVE_FAILED
-bannerhealth.com # UNKNOWN_GEOIP
 banvenez.com # DNS_RESOLVE_FAILED
 barbars.ru # TLD
 barclays.co.uk # TLD
@@ -1430,6 +1429,7 @@ bcvcdn.com # DNS_RESOLVE_FAILED
 bd-pratidin.com # UNKNOWN_GEOIP
 bd.nl # TLD
 bd33fgabh.com # DNS_RESOLVE_FAILED
+bdcgslb.com # DNS_RESOLVE_FAILED
 bdo.com.ph # TLD
 bdtelemetry.amazon # TLD
 bdurl.net # DNS_RESOLVE_FAILED
@@ -1489,7 +1489,6 @@ bestialitysextaboo.net # UNKNOWN_GEOIP
 bestjavporn.com # UNKNOWN_GEOIP
 bestname.com.ua # TLD
 bestprice.gr # TLD
-bestrustservers.com # UNKNOWN_GEOIP
 bet2africa.ml # TLD
 bet365.bet.ar # TLD
 bet365.es # TLD
@@ -1572,6 +1571,7 @@ bidr.io # TLD
 bids.ws # TLD
 bidswitch.net # DNS_RESOLVE_FAILED
 bidvol.com # NOT_RU_GEOIP
+biedronka.pl # TLD
 biess.fin.ec # TLD
 bigbadtoystore.com # UNKNOWN_GEOIP
 bigbadwolf-slot.com # UNKNOWN_GEOIP
@@ -1629,9 +1629,11 @@ bitrix.info # NOT_RU_GEOIP
 bitrix24.ru # TLD
 bitrix24.tech # NOT_RU_GEOIP
 bitrixphone.com # DNS_RESOLVE_FAILED
+bitunix.com # UNKNOWN_GEOIP
 bixbyllm.com # DNS_RESOLVE_FAILED
 biz.ua # TLD
 bizimhesap.com # UNKNOWN_GEOIP
+bizkub.ru # TLD
 bizmrg.com # DNS_RESOLVE_FAILED
 bjx.com.cn # TLD
 bk6bba-resources.com # DNS_RESOLVE_FAILED
@@ -1643,7 +1645,6 @@ bkn.go.id # TLD
 bl.uk # TLD
 black-russia.net # DNS_RESOLVE_FAILED
 blackfaggot.online # UNKNOWN_GEOIP
-blackhub.games # NOT_RU_GEOIP
 blackhub.team # UNKNOWN_GEOIP
 blackline.com # UNKNOWN_GEOIP
 blackrussia.online # NOT_RU_GEOIP
@@ -1750,6 +1751,8 @@ bokepindo13.center # UNKNOWN_GEOIP
 bokepindo13.party # UNKNOWN_GEOIP
 bokepnoz.in # TLD
 bokepsurga.com # UNKNOWN_GEOIP
+bokeptoket.com # NOT_RU_GEOIP
+bol.io # TLD
 bold.dk # TLD
 bollyflix.med # UNKNOWN_GEOIP
 bollyflix.ski # UNKNOWN_GEOIP
@@ -1879,7 +1882,7 @@ bt.com.ve # TLD
 bt.dk # TLD
 bt4g.com # UNKNOWN_GEOIP
 btc-net.bg # TLD
-btcl.net.bd # TLD
+btcentralplus.com # DNS_RESOLVE_FAILED
 btclparked.com.bd # TLD
 btloader.com # UNKNOWN_GEOIP
 btmessage.com # UNKNOWN_GEOIP
@@ -1909,6 +1912,7 @@ bundesfinanzministerium.de # TLD
 bundesgesundheitsministerium.de # TLD
 bundesregierung.de # TLD
 bundestag.de # TLD
+bundeswirtschaftsministerium.de # TLD
 bungie.net # UNKNOWN_GEOIP
 bunkr.cr # TLD
 bunnings.com.au # TLD
@@ -1917,7 +1921,6 @@ bunnyinfra.net # DNS_RESOLVE_FAILED
 bunshun.jp # TLD
 bunte.de # TLD
 burgerkingrus.ru # TLD
-business-gazeta.ru # TLD
 business.gov.au # TLD
 business2community.com # UNKNOWN_GEOIP
 businessinsider.com.pl # TLD
@@ -1947,11 +1950,9 @@ bw9iawxlb3ro.com # DNS_RESOLVE_FAILED
 bwajeffwashere.buzz # DNS_RESOLVE_FAILED
 bwfbadminton.com # UNKNOWN_GEOIP
 bwinners.gm # TLD
-bx-dc-msedge.net # DNS_RESOLVE_FAILED
 bx-msedge.net # DNS_RESOLVE_FAILED
 bxcdn.net # DNS_RESOLVE_FAILED
 byabcde.com # DNS_RESOLVE_FAILED
-bybanking.com # UNKNOWN_GEOIP
 bybdc6.com # DNS_RESOLVE_FAILED
 byd3c3.com # DNS_RESOLVE_FAILED
 byspotify.com # DNS_RESOLVE_FAILED
@@ -2000,6 +2001,7 @@ ca-servers.ca # TLD
 ca.gov # TLD
 cac.gov.cn # TLD
 cachefly.net # DNS_RESOLVE_FAILED
+cadeau-a-la-carte.be # TLD
 cadence.com # UNKNOWN_GEOIP
 caf.fr # TLD
 cafe24.co.kr # TLD
@@ -2011,7 +2013,6 @@ cainet.ru # TLD
 cairo.gov.eg # TLD
 caissedesdepots.fr # TLD
 caixa.gov.br # TLD
-cake.me # UNKNOWN_GEOIP
 cakeisalie.co.uk # TLD
 cal.com # UNKNOWN_GEOIP
 calendly.com # UNKNOWN_GEOIP
@@ -2032,14 +2033,13 @@ camsite26.lol # UNKNOWN_GEOIP
 can.az # TLD
 canada.ca # TLD
 canadiantire.ca # TLD
-canalrcn.com # UNKNOWN_GEOIP
 canaltech.com.br # TLD
-canaryis.com # DNS_RESOLVE_FAILED
 cancer.gov # TLD
 candy.ai # TLD
 canny.io # TLD
 canterbury.ac.nz # TLD
 canva-apps.com # DNS_RESOLVE_FAILED
+canva.link # UNKNOWN_GEOIP
 canvas-user-content.com # DNS_RESOLVE_FAILED
 cao.go.jp # TLD
 capcutapi.com # DNS_RESOLVE_FAILED
@@ -2066,6 +2066,7 @@ cardiff.ac.uk # TLD
 cardkingdom.com # UNKNOWN_GEOIP
 cardmarket.com # UNKNOWN_GEOIP
 cardplayer.com # UNKNOWN_GEOIP
+careem-internal.com # DNS_RESOLVE_FAILED
 carezen.net # DNS_RESOLVE_FAILED
 cariad.digital # DNS_RESOLVE_FAILED
 carleton.ca # TLD
@@ -2153,6 +2154,7 @@ cdn28.com # DNS_RESOLVE_FAILED
 cdn4dd.com # DNS_RESOLVE_FAILED
 cdn77.eu # TLD
 cdn77.org # DNS_RESOLVE_FAILED
+cdn78.com # DNS_RESOLVE_FAILED
 cdn84.com # DNS_RESOLVE_FAILED
 cdn90.cn # TLD
 cdnamazing.com # DNS_RESOLVE_FAILED
@@ -2184,6 +2186,7 @@ cdnhwcjog12.com # DNS_RESOLVE_FAILED
 cdnhwcljk104.com # DNS_RESOLVE_FAILED
 cdnhwcoem01.com # DNS_RESOLVE_FAILED
 cdnhwcohm19.com # DNS_RESOLVE_FAILED
+cdnhwcqvk105.cn # TLD
 cdnhwcuim119.com # DNS_RESOLVE_FAILED
 cdnhwcuwd107.cn # TLD
 cdnhwcxcy07.com # DNS_RESOLVE_FAILED
@@ -2201,7 +2204,6 @@ ce.cn # TLD
 cea.com.br # TLD
 cea.fr # TLD
 celebforum.to # TLD
-celebjihad.com # UNKNOWN_GEOIP
 cellphones.com.vn # TLD
 ceneo.pl # TLD
 censor.net # UNKNOWN_GEOIP
@@ -2222,6 +2224,7 @@ ceracdn.net # DNS_RESOLVE_FAILED
 cern.ch # TLD
 cernet.net # DNS_RESOLVE_FAILED
 cert.pl # TLD
+certsbridge.com # DNS_RESOLVE_FAILED
 certum.pl # TLD
 cervantes.es # TLD
 cervantesvirtual.com # UNKNOWN_GEOIP
@@ -2235,6 +2238,7 @@ cgd.pt # TLD
 cgg.gov.in # TLD
 cgkthn.com # UNKNOWN_GEOIP
 cgnx.net # DNS_RESOLVE_FAILED
+cgocable.ca # TLD
 cgood.ru # TLD
 cgstate.gov.in # TLD
 chabad.org # UNKNOWN_GEOIP
@@ -2259,7 +2263,6 @@ chatib.us # TLD
 chatra.io # TLD
 chaturbate.com # UNKNOWN_GEOIP
 chavesnamao.com.br # TLD
-cheaptickets.nl # TLD
 check24.de # TLD
 checkdomain.de # TLD
 checkout.com # UNKNOWN_GEOIP
@@ -2291,7 +2294,6 @@ chng.it # TLD
 chnsrv.com # DNS_RESOLVE_FAILED
 chochox.com # UNKNOWN_GEOIP
 chocolatey.org # UNKNOWN_GEOIP
-chomikuj.pl # TLD
 chop.edu # TLD
 chordify.net # UNKNOWN_GEOIP
 chordtela.com # UNKNOWN_GEOIP
@@ -2300,7 +2302,6 @@ chroniclelive.co.uk # TLD
 chrono24.com # UNKNOWN_GEOIP
 chronopost.fr # TLD
 chsi.com.cn # TLD
-chuangcdn.com # DNS_RESOLVE_FAILED
 chula.ac.th # TLD
 chunichi.co.jp # TLD
 ci-servers.net # DNS_RESOLVE_FAILED
@@ -2311,7 +2312,6 @@ cian.tech # NOT_RU_GEOIP
 cib.com.cn # TLD
 cic.fr # TLD
 ciceksepeti.com # UNKNOWN_GEOIP
-cienradios.com # DNS_RESOLVE_FAILED
 cifraclub.com.br # TLD
 cikrf.ru # TLD
 cimalight.co # UNKNOWN_GEOIP
@@ -2346,7 +2346,6 @@ civicplus.com # UNKNOWN_GEOIP
 civitai.com # UNKNOWN_GEOIP
 cjb.net # DNS_RESOLVE_FAILED
 cjjd14.com # DNS_RESOLVE_FAILED
-cjmpxylza.com # DNS_RESOLVE_FAILED
 ck-ie.com # DNS_RESOLVE_FAILED
 ck.page # UNKNOWN_GEOIP
 ckuvjtwp2.top # UNKNOWN_GEOIP
@@ -2372,6 +2371,7 @@ clck.ru # TLD
 cldin.eu # TLD
 cldmail.ru # TLD
 clean.gg # TLD
+cleanpng.com # UNKNOWN_GEOIP
 clear-guide.org # UNKNOWN_GEOIP
 clearme.com # UNKNOWN_GEOIP
 clearsale.com.br # TLD
@@ -2387,7 +2387,6 @@ clickadu.net # UNKNOWN_GEOIP
 clickbank.net # DNS_RESOLVE_FAILED
 clickfunnels.com # UNKNOWN_GEOIP
 clickn.co.kr # TLD
-clickonometrics.pl # TLD
 clickpetroleoegas.com.br # TLD
 clickr.pro # UNKNOWN_GEOIP
 clicks.co.za # TLD
@@ -2403,7 +2402,6 @@ clixsight.com # DNS_RESOLVE_FAILED
 clktec.com # DNS_RESOLVE_FAILED
 clonodes.top # DNS_RESOLVE_FAILED
 cloud-fdc.com # DNS_RESOLVE_FAILED
-cloud.gov # TLD
 cloud.microsoft # TLD
 cloud.ru # TLD
 cloud86.nl # TLD
@@ -2450,7 +2448,6 @@ cloudsink.net # DNS_RESOLVE_FAILED
 cloudways.com # UNKNOWN_GEOIP
 cloudwaysapps.com # DNS_RESOLVE_FAILED
 cloudx.io # TLD
-clrt.ai # TLD
 clubready.com # UNKNOWN_GEOIP
 clutch.co # UNKNOWN_GEOIP
 clvrads.com # UNKNOWN_GEOIP
@@ -2523,6 +2520,7 @@ com.com # UNKNOWN_GEOIP
 com.ru # TLD
 com.se # TLD
 comagic.ru # TLD
+comc.com # UNKNOWN_GEOIP
 comdirect.de # TLD
 cometchat.io # TLD
 comfy.ua # TLD
@@ -2530,10 +2528,9 @@ comicbook.com # UNKNOWN_GEOIP
 comix.to # TLD
 commbank.com.au # TLD
 commerce.gov # TLD
-commercialrealestate.com.au # TLD
 commonsensemedia.org # UNKNOWN_GEOIP
+comodo.com # UNKNOWN_GEOIP
 complianz.io # TLD
-component-world.com # DNS_RESOLVE_FAILED
 comprasparaguai.com.br # TLD
 comptia.org # UNKNOWN_GEOIP
 computerbase.de # TLD
@@ -2595,7 +2592,6 @@ core.microsoft # TLD
 corevibe-network.com # UNKNOWN_GEOIP
 cornell.edu # TLD
 cornelsen.de # TLD
-corpinter.de # TLD
 corpinter.net # DNS_RESOLVE_FAILED
 corpinter.net.cn # TLD
 corporatefinanceinstitute.com # UNKNOWN_GEOIP
@@ -2614,11 +2610,13 @@ costco.ca # TLD
 coub.com # NOT_RU_GEOIP
 counterpunch.org # UNKNOWN_GEOIP
 country.is # TLD
+coupadev.com # UNKNOWN_GEOIP
 coupahost.com # DNS_RESOLVE_FAILED
 coupangcdn.com # DNS_RESOLVE_FAILED
 coupert.com # UNKNOWN_GEOIP
 couriermail.com.au # TLD
 coursehero.com # UNKNOWN_GEOIP
+coursiv.io # TLD
 court.gov.cn # TLD
 courthousenews.com # UNKNOWN_GEOIP
 cp.sk # TLD
@@ -2698,14 +2696,12 @@ csiro.au # TLD
 csis.org # UNKNOWN_GEOIP
 csof.net # DNS_RESOLVE_FAILED
 css-tricks.com # UNKNOWN_GEOIP
-csu.edu.au # TLD
 csulb.edu # TLD
 csun.edu # TLD
 csusm.edu # TLD
 ct.gov # TLD
 ctacdn.cn # TLD
 ctadns.cn # TLD
-ctc.ru # TLD
 ctdcdn.com # DNS_RESOLVE_FAILED
 ctdns.cn # TLD
 ctecdn.cn # TLD
@@ -2763,8 +2759,10 @@ cybernews.com # UNKNOWN_GEOIP
 cyberpanel.net # UNKNOWN_GEOIP
 cyberprotect.ru # TLD
 cyberprotector.online # UNKNOWN_GEOIP
+cybershoke.net # UNKNOWN_GEOIP
 cybo.com # UNKNOWN_GEOIP
 cyon.ch # TLD
+cytanet.com.cy # TLD
 czbooks.net # UNKNOWN_GEOIP
 d-53.info # DNS_RESOLVE_FAILED
 d-53.jp # TLD
@@ -2774,18 +2772,16 @@ d-zone.ca # TLD
 d21.team # UNKNOWN_GEOIP
 d2jsp.org # UNKNOWN_GEOIP
 d2ns-nbl.com # DNS_RESOLVE_FAILED
-d3js.org # UNKNOWN_GEOIP
 d4swing.com # UNKNOWN_GEOIP
+da.direct # UNKNOWN_GEOIP
 daad.de # TLD
 daaz.com # UNKNOWN_GEOIP
 dable.io # TLD
-dacom.co.kr # TLD
 dafiti.com.br # TLD
 daft.ie # TLD
 dagbladet.no # TLD
 daily.co.jp # TLD
 dailycaller.com # UNKNOWN_GEOIP
-dailygalaxy.com # UNKNOWN_GEOIP
 dailyhunt.in # TLD
 dailymail.co.uk # TLD
 dailymaverick.co.za # TLD
@@ -2794,7 +2790,6 @@ dailyroutine.lifestyle # UNKNOWN_GEOIP
 dailystar.co.uk # TLD
 dailytelegraph.com.au # TLD
 dailywire.com # UNKNOWN_GEOIP
-daioncdn.net # DNS_RESOLVE_FAILED
 dairyqueen.com # UNKNOWN_GEOIP
 daiwa.co.jp # TLD
 dal.ca # TLD
@@ -2833,15 +2828,16 @@ datahive.ai # TLD
 dataimpulse.com # UNKNOWN_GEOIP
 dataprev.gov.br # TLD
 dataprivacyframework.gov # TLD
-datarize.io # TLD
 datart.cz # TLD
 datatables.net # UNKNOWN_GEOIP
+datazoom.io # TLD
 datenschutz-generator.de # TLD
 datev.de # TLD
 datezone.com # UNKNOWN_GEOIP
 daumcdn.net # DNS_RESOLVE_FAILED
 dawn.com # UNKNOWN_GEOIP
 dayunlinks.cn # TLD
+db-ip.com # UNKNOWN_GEOIP
 db.tt # TLD
 dba.dk # TLD
 dbankcdn.cn # TLD
@@ -2948,7 +2944,6 @@ deseret.com # UNKNOWN_GEOIP
 desibf.com # UNKNOWN_GEOIP
 designboom.com # UNKNOWN_GEOIP
 designrush.com # UNKNOWN_GEOIP
-designspiration.com # UNKNOWN_GEOIP
 desikahani2.net # UNKNOWN_GEOIP
 desikamababa.com # UNKNOWN_GEOIP
 desipussy.in # TLD
@@ -2959,7 +2954,6 @@ destacamos.com # UNKNOWN_GEOIP
 destatis.de # TLD
 destentor.nl # TLD
 destructoid.com # UNKNOWN_GEOIP
-desty.page # UNKNOWN_GEOIP
 detmir.ru # TLD
 detran.sp.gov.br # TLD
 deutschepost.de # TLD
@@ -2973,7 +2967,6 @@ devin.ai # TLD
 devline.tv # NOT_RU_GEOIP
 devmail.ru # TLD
 devowl.io # TLD
-devtesting.live # DNS_RESOLVE_FAILED
 devvit.net # DNS_RESOLVE_FAILED
 dewafilm.xyz # UNKNOWN_GEOIP
 dewrain.life # DNS_RESOLVE_FAILED
@@ -3004,14 +2997,13 @@ diariodenavarra.es # TLD
 diariodocomercio.com.br # TLD
 dice.fm # TLD
 dicedreams.app # DNS_RESOLVE_FAILED
-dicelaboratory.com # DNS_RESOLVE_FAILED
-dichvucong.gov.vn # TLD
 dicrotin.com # UNKNOWN_GEOIP
 dictionary.com # UNKNOWN_GEOIP
 didiwuxian.com # DNS_RESOLVE_FAILED
 die.net # UNKNOWN_GEOIP
 diesiedleronline.de # TLD
 digbearings.com # DNS_RESOLVE_FAILED
+digi.ro # TLD
 digi24.ro # TLD
 digicert.cn # TLD
 digicertdns.com # DNS_RESOLVE_FAILED
@@ -3039,13 +3031,13 @@ digitalvideoplatform.com # DNS_RESOLVE_FAILED
 dignitymemorial.com # UNKNOWN_GEOIP
 dimensions.ai # TLD
 dindadisini.space # UNKNOWN_GEOIP
-dinos.co.jp # TLD
 dinotube.com # UNKNOWN_GEOIP
 dion.ne.jp # TLD
 dion.vc # TLD
 diplo.de # TLD
 directadmin.com # UNKNOWN_GEOIP
 diretta.it # TLD
+disboard.org # UNKNOWN_GEOIP
 dischem.co.za # TLD
 discomax.com # DNS_RESOLVE_FAILED
 discord.gg # TLD
@@ -3077,7 +3069,9 @@ dler.org # UNKNOWN_GEOIP
 dlink.com # UNKNOWN_GEOIP
 dlr.de # TLD
 dm.de # TLD
+dmarket.com # UNKNOWN_GEOIP
 dmed.kz # TLD
+dmi.dk # TLD
 dmitriy-mevedev-tor.top # UNKNOWN_GEOIP
 dmm.co.jp # TLD
 dmxleo.com # DNS_RESOLVE_FAILED
@@ -3085,12 +3079,12 @@ dn.se # TLD
 dnb.com # UNKNOWN_GEOIP
 dnb.no # TLD
 dnevnik.hr # TLD
-dnevnik.ru # TLD
 dnevnik.si # TLD
 dnevno.hr # TLD
 dnews.gr # TLD
 dni.gov # TLD
 dns-expired.com # DNS_RESOLVE_FAILED
+dns-h.com # DNS_RESOLVE_FAILED
 dns-parking.com # DNS_RESOLVE_FAILED
 dns-servers.vn # TLD
 dns-shop.ru # TLD
@@ -3138,10 +3132,10 @@ dnsv2.com # DNS_RESOLVE_FAILED
 dnsv3.com # DNS_RESOLVE_FAILED
 dnsv4.com # DNS_RESOLVE_FAILED
 doaj.org # UNKNOWN_GEOIP
+dobaklife24.com # DNS_RESOLVE_FAILED
 doc.gov # TLD
 docdoc.ru # TLD
 dochord.com # UNKNOWN_GEOIP
-dochub.com # UNKNOWN_GEOIP
 docker.io # TLD
 docomo.ne.jp # TLD
 docs.rs # TLD
@@ -3153,6 +3147,7 @@ doctoralia.com.mx # TLD
 documentcloud.org # UNKNOWN_GEOIP
 doda.jp # TLD
 dodois.io # TLD
+dodostatic.net # DNS_RESOLVE_FAILED
 doe.gov # TLD
 dogdrip.net # UNKNOWN_GEOIP
 doi.gov # TLD
@@ -3167,9 +3162,11 @@ domaincontrol.com # UNKNOWN_GEOIP
 domaindetails.com # UNKNOWN_GEOIP
 domaineasy.com # UNKNOWN_GEOIP
 domainers.de # TLD
+domainmarket.com # UNKNOWN_GEOIP
 domainnamedns.com # DNS_RESOLVE_FAILED
 domaintechnik.at # TLD
 domclick.ru # TLD
+domengood.ru # TLD
 domenus.ru # TLD
 domob.cn # TLD
 domru.biz # NOT_RU_GEOIP
@@ -3179,6 +3176,7 @@ donedeal.ie # TLD
 donmai.us # TLD
 donorbox.org # UNKNOWN_GEOIP
 dontworry.su # TLD
+donutsmp.net # UNKNOWN_GEOIP
 donutsmp.org # DNS_RESOLVE_FAILED
 donweb.com # UNKNOWN_GEOIP
 doodle.com # UNKNOWN_GEOIP
@@ -3240,6 +3238,7 @@ draugas.lt # TLD
 drbokep.top # UNKNOWN_GEOIP
 dreamexch.ai # TLD
 dreammail.jp # TLD
+dreamserve.dev # DNS_RESOLVE_FAILED
 drecom.jp # TLD
 drexel.edu # TLD
 drift-pixel.ai # TLD
@@ -3309,13 +3308,13 @@ dxtech.ai # TLD
 dyingbirds.com # DNS_RESOLVE_FAILED
 dyna-ns.net # DNS_RESOLVE_FAILED
 dynadot.com # UNKNOWN_GEOIP
+dynalist.io # TLD
 dynamic-m.com # DNS_RESOLVE_FAILED
 dynatracelabs.com # DNS_RESOLVE_FAILED
 dynotech.io # TLD
 dyupbydns.com # DNS_RESOLVE_FAILED
 dyz9.top # UNKNOWN_GEOIP
 dzcdn.net # UNKNOWN_GEOIP
-dzdas.com # DNS_RESOLVE_FAILED
 dzen.ru # TLD
 dzeninfra.ru # TLD
 dzexams.com # UNKNOWN_GEOIP
@@ -3338,9 +3337,7 @@ e2ro.com # DNS_RESOLVE_FAILED
 e5.sk # TLD
 e621.net # UNKNOWN_GEOIP
 e911cloud.com # DNS_RESOLVE_FAILED
-eac-front.com # DNS_RESOLVE_FAILED
 eadaily.com # NOT_RU_GEOIP
-eaglecdn.com # DNS_RESOLVE_FAILED
 eagllwin.com # DNS_RESOLVE_FAILED
 eapteka.ru # TLD
 earn.fm # TLD
@@ -3360,7 +3357,6 @@ eatthis.com # UNKNOWN_GEOIP
 eb.mil.br # TLD
 eba.gov.tr # TLD
 ebalka.love # UNKNOWN_GEOIP
-ebally.co.uk # TLD
 ebanking-services.com # DNS_RESOLVE_FAILED
 ebay-kleinanzeigen.de # TLD
 ebay.ca # TLD
@@ -3378,8 +3374,8 @@ ebc.com.br # TLD
 ebet.co.sz # TLD
 ebi.ac.uk # TLD
 eboblack.com # UNKNOWN_GEOIP
+ebonygalore.com # UNKNOWN_GEOIP
 ec-lyon.fr # TLD
-ec21.com # UNKNOWN_GEOIP
 ecbsn.com # DNS_RESOLVE_FAILED
 ecdnx.com # DNS_RESOLVE_FAILED
 ecfr.gov # TLD
@@ -3390,6 +3386,7 @@ eci.gov.in # TLD
 ecitizen.go.ke # TLD
 ecnavi.jp # TLD
 ecnl.ru # TLD
+ecnypay.cc # UNKNOWN_GEOIP
 ecombdapi.com # DNS_RESOLVE_FAILED
 ecombdimg.com # DNS_RESOLVE_FAILED
 ecomdata.de # TLD
@@ -3423,7 +3420,6 @@ editorialmanager.com # DNS_RESOLVE_FAILED
 edna.id # TLD
 edna.ru # TLD
 edpharmahub.com # UNKNOWN_GEOIP
-edreams.es # TLD
 edu-servers.net # DNS_RESOLVE_FAILED
 edu.gob.sv # TLD
 edublogs.org # UNKNOWN_GEOIP
@@ -3452,6 +3448,7 @@ eghrmis.gov.my # TLD
 egov.uz # TLD
 egramswaraj.gov.in # TLD
 ehow.com # UNKNOWN_GEOIP
+ehu.es # TLD
 ei.aero # DNS_RESOLVE_FAILED
 eia.gov # TLD
 eightfold.ai # TLD
@@ -3479,7 +3476,6 @@ element.io # TLD
 elementor.com # UNKNOWN_GEOIP
 elephantbet.co.ao # TLD
 elephantbet.co.mz # TLD
-elevate.cafe # UNKNOWN_GEOIP
 elevenlabs.io # TLD
 elfinanciero.com.mx # TLD
 elfsight.com # UNKNOWN_GEOIP
@@ -3528,7 +3524,6 @@ emojidb.org # UNKNOWN_GEOIP
 emojipedia.org # UNKNOWN_GEOIP
 emory.edu # TLD
 empik.com # UNKNOWN_GEOIP
-emqxcloudpro.com # DNS_RESOLVE_FAILED
 emrata.top # DNS_RESOLVE_FAILED
 emu-dns.com # DNS_RESOLVE_FAILED
 en-thunderscans.com # UNKNOWN_GEOIP
@@ -3558,6 +3553,7 @@ envato.com # UNKNOWN_GEOIP
 envato.market # DNS_RESOLVE_FAILED
 envoyer.io # TLD
 eol.org # UNKNOWN_GEOIP
+eolas.fr # TLD
 eonet.ne.jp # TLD
 epa.gov # TLD
 epam.com # UNKNOWN_GEOIP
@@ -3584,7 +3580,6 @@ equifax.com # UNKNOWN_GEOIP
 er.ru # TLD
 erli.pl # TLD
 ernet.in # TLD
-erofus.com # UNKNOWN_GEOIP
 eromecdn.com # DNS_RESOLVE_FAILED
 eroterest.net # DNS_RESOLVE_FAILED
 erotikchat4free.org # UNKNOWN_GEOIP
@@ -3594,6 +3589,7 @@ es.io # TLD
 escapefromtarkov.com # UNKNOWN_GEOIP
 escapistmagazine.com # UNKNOWN_GEOIP
 escavador.com # UNKNOWN_GEOIP
+escolavirtual.gov.br # TLD
 escort.club # UNKNOWN_GEOIP
 escortbabylon.net # UNKNOWN_GEOIP
 escortsandbabes.com.au # TLD
@@ -3601,7 +3597,9 @@ esdnevnik.rs # TLD
 eset.systems # DNS_RESOLVE_FAILED
 esic.gov.in # TLD
 esimdiscovery.com # DNS_RESOLVE_FAILED
+eskimi.com # UNKNOWN_GEOIP
 esocial.gov.br # TLD
+espacenet.com # UNKNOWN_GEOIP
 espacioapk.com # UNKNOWN_GEOIP
 espn.co.uk # TLD
 espn.com.ar # TLD
@@ -3612,7 +3610,6 @@ espn.com.ve # TLD
 espn.in # TLD
 esportsinsider.com # UNKNOWN_GEOIP
 espritgames.ru # TLD
-essence.com # UNKNOWN_GEOIP
 essex.ac.uk # TLD
 estadao.com.br # TLD
 estama.jp # TLD
@@ -3654,7 +3651,6 @@ europeana.eu # TLD
 eurosport.de # TLD
 eurosport.fr # TLD
 eurosport.it # TLD
-eurovisionworld.com # UNKNOWN_GEOIP
 ev2-msedge.net # DNS_RESOLVE_FAILED
 eva.ua # TLD
 eva.vn # TLD
@@ -3671,6 +3667,7 @@ evgnet.com # DNS_RESOLVE_FAILED
 evo-games.com # DNS_RESOLVE_FAILED
 evotor.ru # TLD
 evraz.com # NOT_RU_GEOIP
+evz.ro # TLD
 ewaybillgst.gov.in # TLD
 eweek.com # UNKNOWN_GEOIP
 ewg.org # UNKNOWN_GEOIP
@@ -3679,8 +3676,10 @@ examiner.com # UNKNOWN_GEOIP
 example.com # UNKNOWN_GEOIP
 example.org # UNKNOWN_GEOIP
 exblog.jp # TLD
+exchangerates24.com # UNKNOWN_GEOIP
 exchbet365.live # UNKNOWN_GEOIP
 excite.co.jp # TLD
+exclaimer.net # UNKNOWN_GEOIP
 exeter.ac.uk # TLD
 exhentai.org # UNKNOWN_GEOIP
 exitlag.net # UNKNOWN_GEOIP
@@ -3771,9 +3770,11 @@ faphouse1.com # UNKNOWN_GEOIP
 faphouse2.com # UNKNOWN_GEOIP
 faphouse4k.com # UNKNOWN_GEOIP
 fardayetaze.ir # TLD
+fareharbor.engineering # DNS_RESOLVE_FAILED
 faroutmagazine.co.uk # TLD
 farpost.ru # TLD
 farsnews.ir # TLD
+fashioncadeau.be # TLD
 fast-dl.one # UNKNOWN_GEOIP
 fastclick.net # DNS_RESOLVE_FAILED
 fastdl.app # UNKNOWN_GEOIP
@@ -3825,7 +3826,6 @@ feedly.com # UNKNOWN_GEOIP
 feedtofap.com # UNKNOWN_GEOIP
 feefo.com # UNKNOWN_GEOIP
 feinidi.com # UNKNOWN_GEOIP
-feishewang.cn # TLD
 feishu.cn # TLD
 felissimo.co.jp # TLD
 felizes.pt # TLD
@@ -3853,7 +3853,6 @@ files.fm # TLD
 filesdl.top # DNS_RESOLVE_FAILED
 filesusr.com # DNS_RESOLVE_FAILED
 filgoal.com # UNKNOWN_GEOIP
-film.ru # TLD
 filmaffinity.com # UNKNOWN_GEOIP
 filmexxx.live # UNKNOWN_GEOIP
 filmfreeway.com # UNKNOWN_GEOIP
@@ -3878,6 +3877,7 @@ finance.gov.bd # TLD
 financesonline.com # UNKNOWN_GEOIP
 fincen.gov # TLD
 findagrave.com # UNKNOWN_GEOIP
+findglocal.com # UNKNOWN_GEOIP
 findlaw.com # UNKNOWN_GEOIP
 findnovel.net # UNKNOWN_GEOIP
 fineboost.com # DNS_RESOLVE_FAILED
@@ -3894,6 +3894,7 @@ fireeye.com # UNKNOWN_GEOIP
 first-id.fr # TLD
 firstbytedns.net # DNS_RESOLVE_FAILED
 firstbytedns.ru # TLD
+firstenergycorp.com # UNKNOWN_GEOIP
 firstvds.ru # TLD
 firwinds.site # DNS_RESOLVE_FAILED
 fischipedia.org # UNKNOWN_GEOIP
@@ -3907,7 +3908,7 @@ fiverr.com # UNKNOWN_GEOIP
 fizzopic.org # DNS_RESOLVE_FAILED
 fjsdn.com # DNS_RESOLVE_FAILED
 flagcdn.com # UNKNOWN_GEOIP
-flashback.org # DNS_RESOLVE_FAILED
+flant.com # NOT_RU_GEOIP
 flashbots.net # UNKNOWN_GEOIP
 flashscore.co.id # TLD
 flashscore.co.uk # TLD
@@ -3939,6 +3940,7 @@ flixcart.com # DNS_RESOLVE_FAILED
 flixtor.to # TLD
 flocktory.com # NOT_RU_GEOIP
 flodesk.com # UNKNOWN_GEOIP
+floqast.engineering # DNS_RESOLVE_FAILED
 flowgpt.com # UNKNOWN_GEOIP
 flsenate.gov # TLD
 flvcdn.net # DNS_RESOLVE_FAILED
@@ -3968,7 +3970,6 @@ fool.com # UNKNOWN_GEOIP
 football.ua # TLD
 football24.ua # TLD
 football360.ir # TLD
-footballant.com # UNKNOWN_GEOIP
 footprint.net # DNS_RESOLVE_FAILED
 footprintdns.com # DNS_RESOLVE_FAILED
 forbes.ru # TLD
@@ -4026,6 +4027,7 @@ fr.ru # TLD
 fragrantica.com # UNKNOWN_GEOIP
 frame.io # TLD
 frameo.net # UNKNOWN_GEOIP
+framerstatic.com # DNS_RESOLVE_FAILED
 francebleu.fr # TLD
 franceconnect.gouv.fr # TLD
 franceinfo.fr # TLD
@@ -4044,7 +4046,6 @@ freecodecamp.org # UNKNOWN_GEOIP
 freeconvert.com # UNKNOWN_GEOIP
 freedns.si # TLD
 freedom.to # TLD
-freedom1.ru # TLD
 freedomhouse.org # UNKNOWN_GEOIP
 freedot.info # UNKNOWN_GEOIP
 freee.co.jp # TLD
@@ -4065,17 +4066,19 @@ freevideo.cz # TLD
 freewebnovel.com # UNKNOWN_GEOIP
 freewebs.com # UNKNOWN_GEOIP
 freifunk-stuttgart.de # TLD
+freilassing.ru # TLD
 french-stream.one # UNKNOWN_GEOIP
-frequency.stream # DNS_RESOLVE_FAILED
 freshworksapi.com # DNS_RESOLVE_FAILED
 freundin.de # TLD
 fril.jp # TLD
 fringster.com # UNKNOWN_GEOIP
 frontol.ru # TLD
+frontsrv.com # DNS_RESOLVE_FAILED
 frs2c.com # UNKNOWN_GEOIP
 fsapi.com # DNS_RESOLVE_FAILED
 fsiblogx.com # UNKNOWN_GEOIP
 fsrv.io # TLD
+fssai.gov.in # TLD
 fstr.rocks # DNS_RESOLVE_FAILED
 fsu.edu # TLD
 ftc.gov # TLD
@@ -4106,7 +4109,6 @@ funinrace360.com # UNKNOWN_GEOIP
 funinrace365.com # UNKNOWN_GEOIP
 funinstar.com # UNKNOWN_GEOIP
 funmora.com # DNS_RESOLVE_FAILED
-funtime.su # TLD
 fuq.com # UNKNOWN_GEOIP
 furaffinity.net # UNKNOWN_GEOIP
 furusato-tax.jp # TLD
@@ -4129,7 +4131,6 @@ fwdcdn.net # DNS_RESOLVE_FAILED
 fwpixel.com # DNS_RESOLVE_FAILED
 fws.gov # TLD
 fwupd.org # UNKNOWN_GEOIP
-fwwgo.com # DNS_RESOLVE_FAILED
 fxtools.gl # TLD
 fz-juelich.de # TLD
 g-cloud.by # TLD
@@ -4159,7 +4160,7 @@ gale.com # UNKNOWN_GEOIP
 galleryvalery.com # DNS_RESOLVE_FAILED
 gama.ir # TLD
 gamasutra.com # UNKNOWN_GEOIP
-gamblersanonymous.org # DNS_RESOLVE_FAILED
+gamberorosso.it # TLD
 gamblerzone.ca # TLD
 gambling.com # UNKNOWN_GEOIP
 gamblingcommission.gov.uk # TLD
@@ -4173,6 +4174,7 @@ gamedeveloper.com # UNKNOWN_GEOIP
 gameforge.com # UNKNOWN_GEOIP
 gamefound.com # UNKNOWN_GEOIP
 gameinformer.com # UNKNOWN_GEOIP
+gameinstaller.ru # TLD
 gamejolt.com # UNKNOWN_GEOIP
 gameloop.com # UNKNOWN_GEOIP
 gamemania.co.ke # TLD
@@ -4221,7 +4223,6 @@ gayporntube.com # NOT_RU_GEOIP
 gays-cruising.com # UNKNOWN_GEOIP
 gazeta.pl # TLD
 gazeta.ru # TLD
-gazetadopovo.com.br # TLD
 gazetaprawna.pl # TLD
 gazetawroclawska.pl # TLD
 gazprom-neft.ru # TLD
@@ -4292,8 +4293,8 @@ getbootstrap.com # UNKNOWN_GEOIP
 getclicky.com # UNKNOWN_GEOIP
 getcourse.ru # TLD
 getelevar.com # UNKNOWN_GEOIP
-getepic.com # UNKNOWN_GEOIP
 getgrass.io # TLD
+getgreenshot.org # UNKNOWN_GEOIP
 getintopc.com # UNKNOWN_GEOIP
 getmodsapk.com # UNKNOWN_GEOIP
 getrockerbox.com # UNKNOWN_GEOIP
@@ -4318,6 +4319,7 @@ gifi.fr # TLD
 gifyu.com # UNKNOWN_GEOIP
 giga.chat # NOT_RU_GEOIP
 giga.de # TLD
+gigahost.dk # TLD
 gigya.com # DNS_RESOLVE_FAILED
 gimkit.com # UNKNOWN_GEOIP
 giraff.io # TLD
@@ -4348,6 +4350,7 @@ gla.ac.uk # TLD
 gladns.com # DNS_RESOLVE_FAILED
 gladns.net # DNS_RESOLVE_FAILED
 glanceapis.com # DNS_RESOLVE_FAILED
+glasoperator.nl # TLD
 glassboxdigital.io # TLD
 glassdoor.co.in # TLD
 glassdoor.co.uk # TLD
@@ -4365,14 +4368,13 @@ global-hotspot.ru # TLD
 global.com # UNKNOWN_GEOIP
 global.gc.ca # TLD
 globalconnetct.com # DNS_RESOLVE_FAILED
+globaldomaingroup.com # UNKNOWN_GEOIP
 globallap.com # DNS_RESOLVE_FAILED
 globalnews.ca # TLD
 globalpay.com # DNS_RESOLVE_FAILED
 globalresearch.ca # TLD
 globalsecurity.org # UNKNOWN_GEOIP
-globalsign.com # UNKNOWN_GEOIP
 globalsigncdn.com # DNS_RESOLVE_FAILED
-globalspec.com # UNKNOWN_GEOIP
 globaltimes.cn # TLD
 globalvisionad.com # DNS_RESOLVE_FAILED
 globalzroute.com # DNS_RESOLVE_FAILED
@@ -4394,6 +4396,7 @@ gmru.net # DNS_RESOLVE_FAILED
 gmu.edu # TLD
 gmw.cn # TLD
 gmx.ch # TLD
+gmx.de # TLD
 gn-dns.com # DNS_RESOLVE_FAILED
 gn-dns.org # DNS_RESOLVE_FAILED
 gname-dns.com # DNS_RESOLVE_FAILED
@@ -4408,26 +4411,25 @@ gobid.co.za # TLD
 gocache.net # DNS_RESOLVE_FAILED
 gocardless.com # UNKNOWN_GEOIP
 gocase.com.br # TLD
-godagree.com # DNS_RESOLVE_FAILED
-godapply.com # DNS_RESOLVE_FAILED
 godotengine.org # UNKNOWN_GEOIP
 goethe.de # TLD
 gofile.io # TLD
 gofin.io # TLD
 gofizz.in # TLD
 gogl9.com # DNS_RESOLVE_FAILED
+gogodns.com # DNS_RESOLVE_FAILED
 gogoroyal.com # UNKNOWN_GEOIP
 gohugo.io # TLD
 goias.gov.br # TLD
 goindigo.in # TLD
 gojekapi.com # DNS_RESOLVE_FAILED
 golabs.io # TLD
-gold-bets.org # UNKNOWN_GEOIP
 gold-usergeneratedcontent.net # DNS_RESOLVE_FAILED
 goldapple.ru # TLD
 goldbet.it # TLD
 goldbett.org # UNKNOWN_GEOIP
 golem.de # TLD
+golfdigest.co.jp # TLD
 goneo.de # TLD
 gonewsvod.com # DNS_RESOLVE_FAILED
 gong.io # TLD
@@ -4436,7 +4438,6 @@ goo.ne.jp # TLD
 goo.su # TLD
 goodnotes-devops.com # DNS_RESOLVE_FAILED
 goodreturns.in # TLD
-goodtherapy.org # UNKNOWN_GEOIP
 google.ac # TLD
 google.ad # TLD
 google.ae # TLD
@@ -4637,7 +4638,6 @@ googlezip.net # DNS_RESOLVE_FAILED
 googll.store # UNKNOWN_GEOIP
 goojara.to # TLD
 gopuff.dev # UNKNOWN_GEOIP
-gorgias-convert.com # UNKNOWN_GEOIP
 gorgias.chat # DNS_RESOLVE_FAILED
 gorgias.help # UNKNOWN_GEOIP
 gorodok.bz # TLD
@@ -4646,6 +4646,7 @@ goseries4k.com # UNKNOWN_GEOIP
 goskope.com # DNS_RESOLVE_FAILED
 gosuslugi.ru # TLD
 gothamist.com # UNKNOWN_GEOIP
+gotickets.com # UNKNOWN_GEOIP
 gotrackier.com # DNS_RESOLVE_FAILED
 gouvernement.fr # TLD
 gov.bc.ca # TLD
@@ -4664,18 +4665,16 @@ goznak.ru # TLD
 gpb.ru # TLD
 gpcloudservice.com # DNS_RESOLVE_FAILED
 gperya.com # UNKNOWN_GEOIP
-gpmdata.ru # TLD
 gpo.gov # TLD
 gprocurement.go.th # TLD
-gptzero.me # UNKNOWN_GEOIP
 gpubgm.com # DNS_RESOLVE_FAILED
 gq-magazine.co.uk # TLD
 grabpay.com # DNS_RESOLVE_FAILED
-gradle.org # UNKNOWN_GEOIP
 grammarly.io # TLD
 grammarlyaws.com # DNS_RESOLVE_FAILED
 granbluefantasy.jp # TLD
 grandbet88claw.com # UNKNOWN_GEOIP
+grandgamestech.com # DNS_RESOLVE_FAILED
 grandviewresearch.com # UNKNOWN_GEOIP
 granola.ai # TLD
 grapee.jp # TLD
@@ -4768,8 +4767,6 @@ gwdg.de # TLD
 gwfb.net # DNS_RESOLVE_FAILED
 gwu.edu # TLD
 gxcorner.games # UNKNOWN_GEOIP
-gygtest.com # DNS_RESOLVE_FAILED
-gygtest.net # UNKNOWN_GEOIP
 gzone.ph # TLD
 h-cdn.com # DNS_RESOLVE_FAILED
 h-dns.pl # TLD
@@ -4804,7 +4801,6 @@ hange.jp # TLD
 hani.co.kr # TLD
 hanime.tv # UNKNOWN_GEOIP
 hanime1.me # UNKNOWN_GEOIP
-hanimeone.me # UNKNOWN_GEOIP
 haplat.net # DNS_RESOLVE_FAILED
 haplorrhini.com # DNS_RESOLVE_FAILED
 happ.su # TLD
@@ -4822,14 +4818,12 @@ harica.gr # TLD
 harknmav.fun # DNS_RESOLVE_FAILED
 harley-davidson.com # UNKNOWN_GEOIP
 harness.io # TLD
-harpercollins.com # DNS_RESOLVE_FAILED
 harpers.org # UNKNOWN_GEOIP
 harry.lu # TLD
 harvard.edu # TLD
 hasil.gov.my # TLD
 hasznaltauto.hu # TLD
 hatena.ne.jp # TLD
-haufe.de # TLD
 haufedev.systems # DNS_RESOLVE_FAILED
 havan.com.br # TLD
 haveibeenpwned.com # UNKNOWN_GEOIP
@@ -4837,9 +4831,7 @@ hawaii.edu # TLD
 hawaii.gov # TLD
 hawkhost.com # UNKNOWN_GEOIP
 haxx.se # TLD
-hb9trx.net # DNS_RESOLVE_FAILED
 hbidc.net # DNS_RESOLVE_FAILED
-hbrd.io # TLD
 hbs.edu # TLD
 hc360.com # DNS_RESOLVE_FAILED
 hcaptcha.com # UNKNOWN_GEOIP
@@ -4905,6 +4897,7 @@ hesap.com.tr # TLD
 hespress.com # UNKNOWN_GEOIP
 hessen.de # TLD
 hessenschau.de # TLD
+heteml.jp # TLD
 hetrixtools.net # UNKNOWN_GEOIP
 hetvomaug.com # DNS_RESOLVE_FAILED
 hetzner.de # TLD
@@ -4928,7 +4921,6 @@ hichina.com # DNS_RESOLVE_FAILED
 hicloud.com # DNS_RESOLVE_FAILED
 hicloudcam.com # DNS_RESOLVE_FAILED
 hiddenvpn.ru # TLD
-hiddnsservice.com # DNS_RESOLVE_FAILED
 higgsfield.ai # TLD
 highsnobiety.com # UNKNOWN_GEOIP
 highspeedinternet.com # UNKNOWN_GEOIP
@@ -5042,7 +5034,6 @@ hotpepper.jp # TLD
 hotpic.cc # UNKNOWN_GEOIP
 hotpic.me # UNKNOWN_GEOIP
 hotpornphotos.com # UNKNOWN_GEOIP
-hottopic.com # UNKNOWN_GEOIP
 hottrumpnews.icu # UNKNOWN_GEOIP
 hotukdeals.com # UNKNOWN_GEOIP
 house.gov # TLD
@@ -5064,6 +5055,7 @@ hsappstatic.net # UNKNOWN_GEOIP
 hsbc.co.uk # TLD
 hsbc.com.hk # TLD
 hscollectedforms.net # DNS_RESOLVE_FAILED
+hscoscdn-eu1.net # DNS_RESOLVE_FAILED
 hscoscdn10.net # DNS_RESOLVE_FAILED
 hse.de # TLD
 hse.gov.uk # TLD
@@ -5102,7 +5094,6 @@ hud.gov # TLD
 huedatastore.com # DNS_RESOLVE_FAILED
 huffingtonpost.ca # TLD
 huffingtonpost.co.uk # TLD
-huffingtonpost.es # TLD
 huffingtonpost.fr # TLD
 huffingtonpost.jp # TLD
 hugedomains.com # UNKNOWN_GEOIP
@@ -5123,6 +5114,7 @@ hurriyet.com.tr # TLD
 huyatvns.com # DNS_RESOLVE_FAILED
 hvg.hu # TLD
 hvosting.ua # TLD
+hw.ac.uk # TLD
 hwcdn.ru # TLD
 hwclouds-dns.com # DNS_RESOLVE_FAILED
 hwrescdn.com # DNS_RESOLVE_FAILED
@@ -5133,6 +5125,7 @@ hypermart.net # DNS_RESOLVE_FAILED
 hypernode.io # TLD
 hyperotics.com # DNS_RESOLVE_FAILED
 hypixel.net # UNKNOWN_GEOIP
+hyundai-meacv.com # DNS_RESOLVE_FAILED
 hyundaiusa.com # UNKNOWN_GEOIP
 hzmklvdieo.com # DNS_RESOLVE_FAILED
 i-mo.de # TLD
@@ -5214,7 +5207,6 @@ ietf.org # UNKNOWN_GEOIP
 ifc.org # UNKNOWN_GEOIP
 ifconfig.co # UNKNOWN_GEOIP
 ifconfig.io # TLD
-iflvopx.net # DNS_RESOLVE_FAILED
 ifood.com.br # TLD
 ig.com.br # TLD
 igamecj.com # DNS_RESOLVE_FAILED
@@ -5246,6 +5238,7 @@ ikman.lk # TLD
 ildolomiti.it # TLD
 ilex.by # TLD
 ilfattoquotidiano.it # TLD
+ilfoglio.it # TLD
 ilga.gov # TLD
 ilgazzettino.it # TLD
 ilgiornale.it # TLD
@@ -5279,7 +5272,6 @@ imd.gov.in # TLD
 imedia.cz # TLD
 imedia.ru # TLD
 imgflip.com # UNKNOWN_GEOIP
-imghosts.com # UNKNOWN_GEOIP
 imginn.com # UNKNOWN_GEOIP
 imgkit.net # DNS_RESOLVE_FAILED
 imgsmail.ru # TLD
@@ -5301,7 +5293,6 @@ imovelweb.com.br # TLD
 impact-ad.jp # TLD
 impact.com # UNKNOWN_GEOIP
 impactcdn.com # DNS_RESOLVE_FAILED
-impel.io # TLD
 imperial.ac.uk # TLD
 impervadns.net # DNS_RESOLVE_FAILED
 impervasecuredns.net # DNS_RESOLVE_FAILED
@@ -5316,7 +5307,6 @@ in.gov.br # TLD
 in.gr # TLD
 in.net # DNS_RESOLVE_FAILED
 in2p3.fr # TLD
-in3x.net # UNKNOWN_GEOIP
 ina.fr # TLD
 inaproc.id # TLD
 inbox.lv # TLD
@@ -5387,7 +5377,6 @@ inhabitat.com # UNKNOWN_GEOIP
 inhostedns.com # DNS_RESOLVE_FAILED
 inhostedns.net # DNS_RESOLVE_FAILED
 initff.com # DNS_RESOLVE_FAILED
-inituu.com # DNS_RESOLVE_FAILED
 initxa.com # DNS_RESOLVE_FAILED
 inkitt.com # UNKNOWN_GEOIP
 inkuai.com # DNS_RESOLVE_FAILED
@@ -5432,6 +5421,7 @@ interbet.co.za # TLD
 interbusiness.it # TLD
 intercars.eu # TLD
 intercom.io # TLD
+intercomassets.com # DNS_RESOLVE_FAILED
 interestingengineering.com # UNKNOWN_GEOIP
 interfax.ru # TLD
 intergi.com # DNS_RESOLVE_FAILED
@@ -5450,6 +5440,7 @@ interserver.net # UNKNOWN_GEOIP
 intersport.fr # TLD
 intlscdn.com # DNS_RESOLVE_FAILED
 intsmarthub.com # DNS_RESOLVE_FAILED
+intuit.ca # TLD
 intuitcdn.net # DNS_RESOLVE_FAILED
 inven.co.kr # TLD
 inventos.ru # TLD
@@ -5478,7 +5469,6 @@ iot334.com # DNS_RESOLVE_FAILED
 iotbing.com # DNS_RESOLVE_FAILED
 iothings.site # UNKNOWN_GEOIP
 iowa.gov # TLD
-ip-ptr.tech # DNS_RESOLVE_FAILED
 ip.sb # TLD
 ipa.go.jp # TLD
 ipapi.co # UNKNOWN_GEOIP
@@ -5549,6 +5539,7 @@ itau.com.br # TLD
 itbakit.com # DNS_RESOLVE_FAILED
 itc.cn # TLD
 itch.io # TLD
+itemdb.com # DNS_RESOLVE_FAILED
 itemsatis.com # UNKNOWN_GEOIP
 iteratehq.com # UNKNOWN_GEOIP
 iti.br # TLD
@@ -5560,7 +5551,6 @@ ittefaq.com.bd # TLD
 itu.ch # TLD
 itzmx.com # UNKNOWN_GEOIP
 iu.edu # TLD
-iucc.ac.il # TLD
 iucn.org # UNKNOWN_GEOIP
 iucnredlist.org # UNKNOWN_GEOIP
 iupui.edu # TLD
@@ -5578,7 +5568,6 @@ ixdf.org # UNKNOWN_GEOIP
 ixdzs.tw # TLD
 ixl.com # UNKNOWN_GEOIP
 ixxx.com # UNKNOWN_GEOIP
-iyf.tv # UNKNOWN_GEOIP
 iz.ru # TLD
 izap24.ru # TLD
 izbirkom.ru # TLD
@@ -5599,7 +5588,6 @@ jamendo.com # UNKNOWN_GEOIP
 jamesclear.com # UNKNOWN_GEOIP
 jamfcloud.com # DNS_RESOLVE_FAILED
 jamieoliver.com # UNKNOWN_GEOIP
-janeapp.net # DNS_RESOLVE_FAILED
 jang.com.pk # TLD
 janitorai.com # UNKNOWN_GEOIP
 japanet.co.jp # TLD
@@ -5627,6 +5615,7 @@ javwow.com # UNKNOWN_GEOIP
 javxxx.me # UNKNOWN_GEOIP
 jaxa.jp # TLD
 jaya9bangladesh.com # UNKNOWN_GEOIP
+jazz.com.pk # TLD
 jazztel.es # TLD
 jbhifi.com.au # TLD
 jcb.co.jp # TLD
@@ -5646,6 +5635,7 @@ jetro.go.jp # TLD
 jeuxvideo.com # UNKNOWN_GEOIP
 jewishvirtuallibrary.org # UNKNOWN_GEOIP
 jezebel.com # UNKNOWN_GEOIP
+jfa.jp # TLD
 jfrog.io # TLD
 jharkhand.gov.in # TLD
 jhu.edu # TLD
@@ -5661,7 +5651,6 @@ jiveip.net # DNS_RESOLVE_FAILED
 jivo.ru # TLD
 jixie.io # TLD
 jjgirls.com # UNKNOWN_GEOIP
-jjlxoi.cn # TLD
 jjshouse.com # UNKNOWN_GEOIP
 jk.gov.in # TLD
 jkanime.net # UNKNOWN_GEOIP
@@ -5682,11 +5671,13 @@ jobs.nhs.uk # TLD
 jobsatamazon.co.uk # TLD
 jobstreet.com # UNKNOWN_GEOIP
 jofogas.hu # TLD
+jogemoa05.com # DNS_RESOLVE_FAILED
 johndeerecloud.com # DNS_RESOLVE_FAILED
 johnpyeauctions.co.uk # TLD
 join.chat # UNKNOWN_GEOIP
 joinindianarmy.nic.in # TLD
 joinserver.xyz # NOT_RU_GEOIP
+jollytur.com # UNKNOWN_GEOIP
 jomodns.com # DNS_RESOLVE_FAILED
 jooble.org # UNKNOWN_GEOIP
 joomcdn.net # DNS_RESOLVE_FAILED
@@ -5701,6 +5692,7 @@ jouwweb.nl # TLD
 jovencitas.gratis # UNKNOWN_GEOIP
 joyclub.de # TLD
 joyn.de # TLD
+joytraffic.net # DNS_RESOLVE_FAILED
 jpn.org # DNS_RESOLVE_FAILED
 jpnumber.com # UNKNOWN_GEOIP
 jpush.cn # TLD
@@ -5740,6 +5732,7 @@ junglefrog.com # UNKNOWN_GEOIP
 juntadeandalucia.es # TLD
 jup.ag # TLD
 jup9.com # UNKNOWN_GEOIP
+juraforum.de # TLD
 juris.de # TLD
 jusbrasil.com.br # TLD
 juspay.in # TLD
@@ -5826,7 +5819,6 @@ keenetic.ru # TLD
 keepa.com # UNKNOWN_GEOIP
 keepverify.net # DNS_RESOLVE_FAILED
 keiba.go.jp # TLD
-keibabook.co.jp # TLD
 keibalab.jp # TLD
 keio.ac.jp # TLD
 keirin.jp # TLD
@@ -5963,7 +5955,6 @@ kriesi.at # TLD
 krikya11.club # UNKNOWN_GEOIP
 krisha.kz # TLD
 krisp.ai # TLD
-kro.kr # TLD
 krone.at # TLD
 krx18.com # UNKNOWN_GEOIP
 krxd.net # DNS_RESOLVE_FAILED
@@ -5996,7 +5987,6 @@ kuiniuca.com # DNS_RESOLVE_FAILED
 kuleuven.be # TLD
 kumanga.com # UNKNOWN_GEOIP
 kumulos.com # UNKNOWN_GEOIP
-kundelik.kz # TLD
 kuper.ru # TLD
 kupi.cz # TLD
 kurier.at # TLD
@@ -6004,6 +5994,7 @@ kurir.rs # TLD
 kurnik.pl # TLD
 kuronekoyamato.co.jp # TLD
 kuruma-news.jp # TLD
+kushub.com # UNKNOWN_GEOIP
 kustomerapp.com # DNS_RESOLVE_FAILED
 kuttymovies1.fast # UNKNOWN_GEOIP
 kuwo.cn # TLD
@@ -6160,6 +6151,7 @@ letelegramme.fr # TLD
 letemps.ch # TLD
 letour.fr # TLD
 letras.mus.br # TLD
+letsporn.com # UNKNOWN_GEOIP
 letterboxd.com # UNKNOWN_GEOIP
 letu.ru # TLD
 letudiant.fr # TLD
@@ -6174,7 +6166,6 @@ lgsmartplatform.com # DNS_RESOLVE_FAILED
 lgtvcommon.com # DNS_RESOLVE_FAILED
 lgtviot.com # DNS_RESOLVE_FAILED
 lgtvsdp.com # DNS_RESOLVE_FAILED
-lgucdn.com # DNS_RESOLVE_FAILED
 lh.pl # TLD
 liadm.com # DNS_RESOLVE_FAILED
 lib.ru # TLD
@@ -6186,6 +6177,7 @@ libertatea.ro # TLD
 liberty.edu # TLD
 libp2p.direct # DNS_RESOLVE_FAILED
 libp2p.io # TLD
+libraccio.it # TLD
 librarything.com # UNKNOWN_GEOIP
 librepelota.su # TLD
 libretexts.org # UNKNOWN_GEOIP
@@ -6213,6 +6205,7 @@ liftoff-creatives.io # TLD
 liftoff.io # TLD
 liftyad.xyz # DNS_RESOLVE_FAILED
 ligastavok.ru # TLD
+light.gg # TLD
 lightboxcdn.com # UNKNOWN_GEOIP
 lightspeed.app # UNKNOWN_GEOIP
 like-video.com # DNS_RESOLVE_FAILED
@@ -6275,6 +6268,7 @@ livejournal.com # NOT_RU_GEOIP
 livekit.cloud # DNS_RESOLVE_FAILED
 livelib.ru # TLD
 livemaster.ru # TLD
+livepocket.jp # TLD
 livepriceofgold.com # UNKNOWN_GEOIP
 liverpool.ac.uk # TLD
 liverpool.com.mx # TLD
@@ -6290,7 +6284,6 @@ livetv.sx # TLD
 liveworksheets.com # UNKNOWN_GEOIP
 lk21official.cc # DNS_RESOLVE_FAILED
 llamarpc.com # UNKNOWN_GEOIP
-llkkbbzz22.com # DNS_RESOLVE_FAILED
 llnl.gov # TLD
 lloydsbank.co.uk # TLD
 llvpn.com # UNKNOWN_GEOIP
@@ -6310,6 +6303,7 @@ localnowapi.com # DNS_RESOLVE_FAILED
 locanto.com.mx # TLD
 locanto.org # UNKNOWN_GEOIP
 locaweb.com.br # TLD
+lockton.com # UNKNOWN_GEOIP
 locondo.jp # TLD
 locum.ru # TLD
 lodz.pl # TLD
@@ -6326,6 +6320,7 @@ lolalytics.com # UNKNOWN_GEOIP
 lolipop.jp # TLD
 lolpol2.com # UNKNOWN_GEOIP
 lomanovo.com # DNS_RESOLVE_FAILED
+lomography.com # UNKNOWN_GEOIP
 london.gov.uk # TLD
 londonstockexchange.com # UNKNOWN_GEOIP
 longisland.com # UNKNOWN_GEOIP
@@ -6365,11 +6360,12 @@ lover938.net # UNKNOWN_GEOIP
 loveread.ec # TLD
 lovetrue.co.uk # TLD
 lowescdn.com # DNS_RESOLVE_FAILED
+lowyat.net # UNKNOWN_GEOIP
 loxonecloud.com # DNS_RESOLVE_FAILED
-loyaltylion.net # DNS_RESOLVE_FAILED
 lpga.or.jp # TLD
 lpl.com # UNKNOWN_GEOIP
 lporirxe.com # DNS_RESOLVE_FAILED
+lpu.in # TLD
 lrb.co.uk # TLD
 lrt.lt # TLD
 lrytas.lt # TLD
@@ -6412,6 +6408,7 @@ lxdns.info # DNS_RESOLVE_FAILED
 lyft.net # DNS_RESOLVE_FAILED
 lynk.id # TLD
 lyricstranslate.com # UNKNOWN_GEOIP
+m4sport.hu # TLD
 maariv.co.il # TLD
 maastrichtuniversity.nl # TLD
 macaro-ni.jp # TLD
@@ -6446,7 +6443,6 @@ mailchi.mp # TLD
 mailerlite.com # UNKNOWN_GEOIP
 mailgun.net # DNS_RESOLVE_FAILED
 mailin.fr # TLD
-mailpulse.best # NOT_RU_GEOIP
 mailshell.net # DNS_RESOLVE_FAILED
 mailspike.net # DNS_RESOLVE_FAILED
 main.jp # TLD
@@ -6503,7 +6499,6 @@ manomano.co.uk # TLD
 manomano.de # TLD
 manomano.es # TLD
 manomano.fr # TLD
-manomano.it # TLD
 mantan-web.jp # TLD
 manual.canon # TLD
 manuals.plus # UNKNOWN_GEOIP
@@ -6521,9 +6516,8 @@ marieclaire.fr # TLD
 marines.mil # DNS_RESOLVE_FAILED
 marinetraffic.com # UNKNOWN_GEOIP
 market-qx.trade # UNKNOWN_GEOIP
-marketing-hub.net # NOT_RU_GEOIP
+marketbeat.com # UNKNOWN_GEOIP
 marketingcloudapis.com # DNS_RESOLVE_FAILED
-marketo.co.uk # TLD
 marketo.com # UNKNOWN_GEOIP
 marketo.net # UNKNOWN_GEOIP
 marketsandmarkets.com # UNKNOWN_GEOIP
@@ -6540,7 +6534,6 @@ masothue.com # UNKNOWN_GEOIP
 masrawy.com # UNKNOWN_GEOIP
 mass.gov # TLD
 massagerepublic.com # UNKNOWN_GEOIP
-massey.ac.nz # TLD
 masstamilan.dev # UNKNOWN_GEOIP
 master.cz # TLD
 mastercard.us # TLD
@@ -6585,7 +6578,6 @@ mayo.edu # TLD
 mb.com.ph # TLD
 mbga.jp # TLD
 mbl.is # TLD
-mbrd.ru # TLD
 mca.gov.in # TLD
 mcas.ms # TLD
 mcdonalds.co.jp # TLD
@@ -6608,6 +6600,7 @@ mdg188sky.site # UNKNOWN_GEOIP
 mdhv.io # TLD
 mdpr.jp # TLD
 mdr.de # TLD
+mds.gov.br # TLD
 me-qr.com # UNKNOWN_GEOIP
 mearicloud.com # DNS_RESOLVE_FAILED
 meb.gov.tr # TLD
@@ -6632,8 +6625,10 @@ mediapart.fr # TLD
 mediaroom.com # UNKNOWN_GEOIP
 mediaset.it # TLD
 mediation.goog # TLD
+mediavitrina.com # UNKNOWN_GEOIP
 mediavitrina.ru # TLD
 mediawallahscript.com # DNS_RESOLVE_FAILED
+mediaworld.it # TLD
 medicare.gov # TLD
 medicinenet.com # UNKNOWN_GEOIP
 medlineplus.gov # TLD
@@ -6672,6 +6667,7 @@ mentalhealth.org.uk # TLD
 menti.com # UNKNOWN_GEOIP
 mentimeter.com # UNKNOWN_GEOIP
 meoodata01.com # DNS_RESOLVE_FAILED
+meow.ac # TLD
 mephi.ru # TLD
 meraki-sdavc-saas.com # DNS_RESOLVE_FAILED
 mercadoclics.com # DNS_RESOLVE_FAILED
@@ -6718,6 +6714,7 @@ meteoblue.com # UNKNOWN_GEOIP
 meteociel.fr # TLD
 meteofor.com.ua # TLD
 meteofor.lt # TLD
+meteofrance.fr # TLD
 meteored.cl # TLD
 meteored.com.ar # TLD
 meteored.mx # TLD
@@ -6745,6 +6742,7 @@ mgkomik.cc # UNKNOWN_GEOIP
 mgln.ai # TLD
 mgm.gov.tr # TLD
 mgp.ninja # DNS_RESOLVE_FAILED
+mgread.io # TLD
 mgts.ru # TLD
 mhlw.go.jp # TLD
 mhrs.gov.tr # TLD
@@ -6804,6 +6802,8 @@ minecraftservices.com # DNS_RESOLVE_FAILED
 minecraftskins.com # UNKNOWN_GEOIP
 minfin.com.ua # TLD
 mingky.live # UNKNOWN_GEOIP
+mingky04.live # UNKNOWN_GEOIP
+minglotalk.com # DNS_RESOLVE_FAILED
 minhngoc.net # UNKNOWN_GEOIP
 minhngoc.net.vn # TLD
 miniclippt.com # DNS_RESOLVE_FAILED
@@ -6823,7 +6823,6 @@ mirconnect.ru # TLD
 mirror.co.uk # TLD
 mirtesen.ru # TLD
 misa.vn # TLD
-misp.ru # TLD
 missav.ai # TLD
 missav.live # UNKNOWN_GEOIP
 missav.ws # TLD
@@ -6831,6 +6830,7 @@ missav01.com # UNKNOWN_GEOIP
 missav123.com # UNKNOWN_GEOIP
 missena.io # TLD
 missouri.edu # TLD
+mistore.jp # TLD
 mistral.ai # TLD
 misumi-ec.com # DNS_RESOLVE_FAILED
 mit.edu # TLD
@@ -6867,6 +6867,7 @@ mmua.in # TLD
 mmvideocdn.com # DNS_RESOLVE_FAILED
 mn.gov # TLD
 mnbvcxzas.com # DNS_RESOLVE_FAILED
+mndx1.com # DNS_RESOLVE_FAILED
 mnhn.fr # TLD
 mnregaweb4.nic.in # TLD
 mo.gov # TLD
@@ -6885,6 +6886,7 @@ mobileslotsite.co.uk # TLD
 mobilevikings.be # TLD
 mobiri.se # TLD
 mobirise.com # UNKNOWN_GEOIP
+mobisystems.com # UNKNOWN_GEOIP
 mobiuspace.net # DNS_RESOLVE_FAILED
 mobizil.com # UNKNOWN_GEOIP
 mobygames.com # UNKNOWN_GEOIP
@@ -6951,6 +6953,7 @@ moodle.org # UNKNOWN_GEOIP
 moodys.com # UNKNOWN_GEOIP
 moonactive.net # UNKNOWN_GEOIP
 moonpay.com # UNKNOWN_GEOIP
+mopera.net # DNS_RESOLVE_FAILED
 mopo.de # TLD
 moppy.jp # TLD
 mordorintelligence.com # UNKNOWN_GEOIP
@@ -6977,7 +6980,6 @@ moviead55.ru # TLD
 moviebox.ph # TLD
 movieboxpro.app # UNKNOWN_GEOIP
 movieffm.net # UNKNOWN_GEOIP
-moviepilot.de # TLD
 movies4u.as # TLD
 movies4u.finance # DNS_RESOLVE_FAILED
 movies4u.pn # TLD
@@ -7058,8 +7060,6 @@ mts-link.ru # TLD
 mts-nn.ru # TLD
 mts.ru # TLD
 mtsbank.ru # TLD
-mtsu.edu # TLD
-mtt.ru # TLD
 mtu-net.ru # TLD
 mtu.edu # TLD
 mtu.ru # TLD
@@ -7090,6 +7090,7 @@ musta.ch # TLD
 muzofond.fm # TLD
 mvasuper.click # DNS_RESOLVE_FAILED
 mvideo.ru # TLD
+mvnrepository.com # UNKNOWN_GEOIP
 mwbsys.com # DNS_RESOLVE_FAILED
 mweb.co.za # TLD
 mwscdn.ru # TLD
@@ -7097,7 +7098,6 @@ mx-ns.mx # TLD
 mxplayer.in # TLD
 mxpnl.com # DNS_RESOLVE_FAILED
 my-cima.net # UNKNOWN_GEOIP
-my-ihor.ru # TLD
 my-ip.io # TLD
 my-personaltrainer.it # TLD
 my.com # DNS_RESOLVE_FAILED
@@ -7135,6 +7135,7 @@ myinsales.ru # TLD
 myinstants.com # UNKNOWN_GEOIP
 myip.com # UNKNOWN_GEOIP
 myip.link # UNKNOWN_GEOIP
+myjcom.jp # TLD
 mykadri.tv # UNKNOWN_GEOIP
 mykajabi.com # DNS_RESOLVE_FAILED
 mykeeta.com # DNS_RESOLVE_FAILED
@@ -7182,7 +7183,7 @@ nadra.gov.pk # TLD
 naftemporiki.gr # TLD
 nag.kz # TLD
 nag.ru # TLD
-naga-89.xyz # UNKNOWN_GEOIP
+naga-89.xyz # DNS_RESOLVE_FAILED
 nagad88f.com # UNKNOWN_GEOIP
 nagawinplus.com # UNKNOWN_GEOIP
 nagoya-u.ac.jp # TLD
@@ -7225,12 +7226,12 @@ narrative.io # TLD
 narwaltech.com # DNS_RESOLVE_FAILED
 nasa.gov # TLD
 nashjournal.ru # TLD
+naszemiasto.pl # TLD
 nat.gov.tw # TLD
 natalie.mu # TLD
 national-lottery.co.uk # TLD
 nationalarchives.gov.uk # TLD
 nationalgallery.org.uk # TLD
-nationalgeographic.com.es # TLD
 nationalinterest.org # UNKNOWN_GEOIP
 nationalrail.co.uk # TLD
 nationalreview.com # UNKNOWN_GEOIP
@@ -7243,7 +7244,6 @@ naturabuy.fr # TLD
 naturacloud.com # UNKNOWN_GEOIP
 naturalnews.com # UNKNOWN_GEOIP
 nau.edu # TLD
-naukanet.ru # TLD
 naumen.ru # TLD
 nav.no # TLD
 navarra.es # TLD
@@ -7252,15 +7252,16 @@ naverncp.com # DNS_RESOLVE_FAILED
 navi.com # UNKNOWN_GEOIP
 navima.jp # TLD
 navitime.co.jp # TLD
+navitime.com # DNS_RESOLVE_FAILED
 navy.mil # DNS_RESOLVE_FAILED
 nazwa.pl # TLD
 nbcuott.com # DNS_RESOLVE_FAILED
+nbp.pl # TLD
 nc.gov # TLD
 nc0.co # DNS_RESOLVE_FAILED
 ncert.nic.in # TLD
 ncku.edu.tw # TLD
 ncl.ac.uk # TLD
-ncloudgtm.com # DNS_RESOLVE_FAILED
 ncsc.gov.uk # TLD
 ncsl.org # UNKNOWN_GEOIP
 ncsu.edu # TLD
@@ -7289,6 +7290,7 @@ nel.goog # TLD
 nelomanga.net # UNKNOWN_GEOIP
 nelreports.net # DNS_RESOLVE_FAILED
 nemo.travel # NOT_RU_GEOIP
+nemzetisport.hu # TLD
 nenkin.go.jp # TLD
 neogaf.com # UNKNOWN_GEOIP
 neon.build # DNS_RESOLVE_FAILED
@@ -7316,7 +7318,6 @@ netdna-cdn.com # DNS_RESOLVE_FAILED
 netdna-ssl.com # UNKNOWN_GEOIP
 netease.im # TLD
 netfiber.net.il # TLD
-nethouse.ru # TLD
 netinfo.bg # TLD
 netis.cc # DNS_RESOLVE_FAILED
 netnod.se # TLD
@@ -7404,6 +7405,7 @@ nhl.com # UNKNOWN_GEOIP
 nhm.ac.uk # TLD
 nhtsa.gov # TLD
 ni.com # UNKNOWN_GEOIP
+niagahoster.com # UNKNOWN_GEOIP
 nic.ai # TLD
 nic.bg # TLD
 nic.br # TLD
@@ -7425,7 +7427,6 @@ nic.kz # TLD
 nic.lk # TLD
 nic.lv # TLD
 nic.microsoft # TLD
-nic.no # TLD
 nic.one # UNKNOWN_GEOIP
 nic.rs # TLD
 nic.ru # TLD
@@ -7477,9 +7478,7 @@ njuskalo.hr # TLD
 nla.gov.au # TLD
 nld.com.vn # TLD
 nlnetlabs.nl # TLD
-nlr.gov # TLD
 nltimes.nl # TLD
-nmap.org # DNS_RESOLVE_FAILED
 nmas.com.mx # TLD
 nmrodam.com # DNS_RESOLVE_FAILED
 nmsu.edu # TLD
@@ -7524,8 +7523,6 @@ noskomnadzor.co.uk # TLD
 notamedia.ru # TLD
 notebookcheck.net # UNKNOWN_GEOIP
 notebooklm.google # TLD
-notelega.co.uk # TLD
-notes.io # TLD
 nothingthere.co.uk # TLD
 noticiasaominuto.com # UNKNOWN_GEOIP
 notifpush.com # UNKNOWN_GEOIP
@@ -7543,6 +7540,7 @@ novaspin88.vip # DNS_RESOLVE_FAILED
 novatek.ru # TLD
 novavexis.com # UNKNOWN_GEOIP
 novel543.com # UNKNOWN_GEOIP
+novelarrow.com # UNKNOWN_GEOIP
 novelfire.net # UNKNOWN_GEOIP
 novelfull.com # UNKNOWN_GEOIP
 novelupdates.com # UNKNOWN_GEOIP
@@ -7566,7 +7564,6 @@ npmjs.com # UNKNOWN_GEOIP
 npmjs.org # UNKNOWN_GEOIP
 npo.nl # TLD
 nps.gov # TLD
-nptel.ac.in # TLD
 npttech.com # DNS_RESOLVE_FAILED
 nr-data.net # DNS_RESOLVE_FAILED
 nr-ops.net # UNKNOWN_GEOIP
@@ -7614,7 +7611,6 @@ nta.go.jp # TLD
 nta.nic.in # TLD
 ntc.net.np # TLD
 ntdb.su # TLD
-ntelecom.ru # TLD
 nthu.edu.tw # TLD
 ntnu.edu.tw # TLD
 ntnu.no # TLD
@@ -7625,6 +7621,7 @@ ntp.org.cn # TLD
 ntp.se # TLD
 ntpc.edu.tw # TLD
 nttdocomo.co.jp # TLD
+nttpc.ne.jp # TLD
 ntu.edu.sg # TLD
 ntu.edu.tw # TLD
 ntua.gr # TLD
@@ -7643,7 +7640,6 @@ nudns.com # DNS_RESOLVE_FAILED
 nudogram.com # UNKNOWN_GEOIP
 nuevoloquo.ch # TLD
 nukistream.com # UNKNOWN_GEOIP
-nulls.gg # TLD
 nullsproxy.com # UNKNOWN_GEOIP
 numericable.fr # TLD
 numpy.org # UNKNOWN_GEOIP
@@ -7679,6 +7675,7 @@ o2.co.uk # TLD
 o2.cz # TLD
 o2.pl # TLD
 o2online.de # TLD
+o2r53ctp.co.uk # TLD
 o3.ru # TLD
 o365filtering.com # DNS_RESOLVE_FAILED
 o3t.ru # TLD
@@ -7801,6 +7798,7 @@ omniroot.com # DNS_RESOLVE_FAILED
 omnisendlink.com # UNKNOWN_GEOIP
 omnitagjs.com # DNS_RESOLVE_FAILED
 omny.fm # TLD
+omroepbrabant.nl # TLD
 omron.com # DNS_RESOLVE_FAILED
 omtrdc.net # DNS_RESOLVE_FAILED
 on.aws # TLD
@@ -7830,7 +7828,6 @@ onetrust.io # TLD
 onezapp.com # UNKNOWN_GEOIP
 onfinality.io # TLD
 onkakao.net # DNS_RESOLVE_FAILED
-onkatana.net # DNS_RESOLVE_FAILED
 onlar.az # TLD
 online-metrix.net # DNS_RESOLVE_FAILED
 online-reservations.com # UNKNOWN_GEOIP
@@ -7856,6 +7853,7 @@ onward.co.jp # TLD
 ooklaserver.net # DNS_RESOLVE_FAILED
 oolveri.com # UNKNOWN_GEOIP
 oolveris.com # UNKNOWN_GEOIP
+ooofortuna.info # DNS_RESOLVE_FAILED
 oos.ru # TLD
 op.gg # TLD
 opaque.net # UNKNOWN_GEOIP
@@ -7918,10 +7916,12 @@ oregonstate.edu # TLD
 orf.at # TLD
 org.ru # TLD
 oricon.co.jp # TLD
+orientaltrading.com # UNKNOWN_GEOIP
 orizzontescuola.it # TLD
 ornl.gov # TLD
 ors.at # TLD
 ortb.net # DNS_RESOLVE_FAILED
+os-content.com # UNKNOWN_GEOIP
 os-lb.com # DNS_RESOLVE_FAILED
 osaka-u.ac.jp # TLD
 oscaro.com # UNKNOWN_GEOIP
@@ -7986,6 +7986,7 @@ oxfordlearnersdictionaries.com # UNKNOWN_GEOIP
 oxylabs.io # TLD
 ozbargain.com.au # TLD
 ozerov.de # TLD
+ozmall.co.jp # TLD
 ozon.by # TLD
 ozon.com # Keyword
 ozon.kz # TLD
@@ -8065,7 +8066,6 @@ partsgeek.com # UNKNOWN_GEOIP
 partslink24.com # UNKNOWN_GEOIP
 partsouq.com # UNKNOWN_GEOIP
 pasarbokep.com # UNKNOWN_GEOIP
-passiongames-es.com # UNKNOWN_GEOIP
 passportindia.gov.in # TLD
 paste-l.ink # UNKNOWN_GEOIP
 pastebin.com # UNKNOWN_GEOIP
@@ -8105,7 +8105,6 @@ pcmag.com # UNKNOWN_GEOIP
 pcmax.jp # TLD
 pconline.com.cn # TLD
 pcpartpicker.com # UNKNOWN_GEOIP
-pcpitstop.com # UNKNOWN_GEOIP
 pcworld.com # UNKNOWN_GEOIP
 pddpic.com # DNS_RESOLVE_FAILED
 pdfcoffee.com # UNKNOWN_GEOIP
@@ -8134,6 +8133,7 @@ perf1.fr # TLD
 perfdrive.com # DNS_RESOLVE_FAILED
 perfectdomain.com # UNKNOWN_GEOIP
 perfectgirls.xxx # UNKNOWN_GEOIP
+perflib.com # DNS_RESOLVE_FAILED
 permkrai.ru # TLD
 permutive.app # UNKNOWN_GEOIP
 permutive.com # UNKNOWN_GEOIP
@@ -8156,7 +8156,6 @@ pgportal.gov.in # TLD
 pgsgames.games # UNKNOWN_GEOIP
 phanet.de # TLD
 phantom.app # UNKNOWN_GEOIP
-phantom.dev # UNKNOWN_GEOIP
 pharmeasy.in # TLD
 philpapers.org # UNKNOWN_GEOIP
 philstar.com # UNKNOWN_GEOIP
@@ -8168,7 +8167,6 @@ phoronix.com # UNKNOWN_GEOIP
 phosagro.ru # TLD
 photoacompanhantes.com # UNKNOWN_GEOIP
 photonengine.io # TLD
-photozou.jp # TLD
 phpbb.com # UNKNOWN_GEOIP
 physicsandmathstutor.com # UNKNOWN_GEOIP
 pia.jp # TLD
@@ -8211,7 +8209,6 @@ pixabay.com # UNKNOWN_GEOIP
 pixad.com.tr # TLD
 pixelcut.ai # TLD
 pixellog.io # TLD
-pixhost.to # TLD
 pixieset.com # UNKNOWN_GEOIP
 pixlates.com # DNS_RESOLVE_FAILED
 pixocial.com # UNKNOWN_GEOIP
@@ -8236,7 +8233,6 @@ plati.market # NOT_RU_GEOIP
 platinmods.com # UNKNOWN_GEOIP
 platorelay.com # DNS_RESOLVE_FAILED
 plausible.io # TLD
-play-cricket.com # UNKNOWN_GEOIP
 play.pl # TLD
 playarenax.in # TLD
 playbattlegrounds.com # DNS_RESOLVE_FAILED
@@ -8333,10 +8329,9 @@ polomap.com # UNKNOWN_GEOIP
 polovniautomobili.com # UNKNOWN_GEOIP
 polsatnews.pl # TLD
 polskieradio.pl # TLD
-poly-ai.chat # UNKNOWN_GEOIP
 polybuzz.ai # TLD
+polygon.technology # UNKNOWN_GEOIP
 polymarket.com # UNKNOWN_GEOIP
-polymetal.ru # TLD
 polyspeak.ai # TLD
 polyu.edu.hk # TLD
 pomorska.pl # TLD
@@ -8354,6 +8349,7 @@ poppen.de # TLD
 porn-comic.com # UNKNOWN_GEOIP
 porn300.com # UNKNOWN_GEOIP
 porn4fans.com # UNKNOWN_GEOIP
+pornbaker.com # UNKNOWN_GEOIP
 porndroids.com # UNKNOWN_GEOIP
 porngangg.com # UNKNOWN_GEOIP
 pornhat.com # UNKNOWN_GEOIP
@@ -8386,6 +8382,7 @@ portalsamorzadowy.pl # TLD
 portaltemponovo.com.br # TLD
 porter.in # TLD
 portfolio.hu # TLD
+portoseguro.com.br # TLD
 porzo.com # UNKNOWN_GEOIP
 poshantracker.in # TLD
 positivepsychology.com # UNKNOWN_GEOIP
@@ -8402,9 +8399,9 @@ postnl.nl # TLD
 postscript.io # TLD
 potok.cash # UNKNOWN_GEOIP
 powells.com # UNKNOWN_GEOIP
+power-dns.com # DNS_RESOLVE_FAILED
 powerappsportals.com # DNS_RESOLVE_FAILED
 powercam365.com # DNS_RESOLVE_FAILED
-powl.io # TLD
 powr.io # TLD
 poznan.pl # TLD
 pp.ru # TLD
@@ -8431,6 +8428,7 @@ premiumtag.net # UNKNOWN_GEOIP
 premiumtimesng.com # UNKNOWN_GEOIP
 preply.com # UNKNOWN_GEOIP
 presage.io # TLD
+president.gov.by # TLD
 president.gov.ua # TLD
 president.jp # TLD
 presinet.ne.jp # TLD
@@ -8472,9 +8470,11 @@ prnt.sc # TLD
 prntscr.com # UNKNOWN_GEOIP
 pro-market.net # DNS_RESOLVE_FAILED
 pro32connect.ru # TLD
+procrustes.top # UNKNOWN_GEOIP
 procyclingstats.com # UNKNOWN_GEOIP
 prod-infinitum.com.mx # TLD
 prodemge.gov.br # TLD
+proderj.rj.gov.br # TLD
 prodgdc.com # DNS_RESOLVE_FAILED
 prodns.com.br # TLD
 prodoctorov.ru # TLD
@@ -8526,11 +8526,12 @@ psiphon.news # UNKNOWN_GEOIP
 psl.eu # TLD
 psnprofiles.com # UNKNOWN_GEOIP
 pstatp.com # DNS_RESOLVE_FAILED
-pstmn.io # TLD
+pstu.ru # TLD
 psu.edu # TLD
 psychiatry.org # UNKNOWN_GEOIP
 psychiatryonline.org # UNKNOWN_GEOIP
 psychologicalscience.org # UNKNOWN_GEOIP
+psychologies.com # UNKNOWN_GEOIP
 ptb.de # TLD
 ptgaming.ph # TLD
 ptsecurity.com # NOT_RU_GEOIP
@@ -8551,7 +8552,6 @@ publico.pt # TLD
 pubmnet.com # DNS_RESOLVE_FAILED
 pubnubapi.com # DNS_RESOLVE_FAILED
 pubunit.net # UNKNOWN_GEOIP
-pucp.edu.pe # TLD
 pudelek.pl # TLD
 puicdn.com # DNS_RESOLVE_FAILED
 pulaujudinx.com # UNKNOWN_GEOIP
@@ -8604,6 +8604,7 @@ qh-lb.com # DNS_RESOLVE_FAILED
 qhimg.com # DNS_RESOLVE_FAILED
 qihucdn.com # DNS_RESOLVE_FAILED
 qiniucloud.net # DNS_RESOLVE_FAILED
+qiwa.sa # TLD
 qlivecdn.com # DNS_RESOLVE_FAILED
 qlogo.cn # TLD
 qmul.ac.uk # TLD
@@ -8662,7 +8663,6 @@ queniuyk.com # DNS_RESOLVE_FAILED
 quenq.com # UNKNOWN_GEOIP
 queropassagem.com.br # TLD
 questionpro.com # UNKNOWN_GEOIP
-queuebox.online # NOT_RU_GEOIP
 quickconnect.to # TLD
 quillbot.com # UNKNOWN_GEOIP
 quintoandar.com.br # TLD
@@ -8770,6 +8770,7 @@ rdatasrv.net # DNS_RESOLVE_FAILED
 rdcnw.net # DNS_RESOLVE_FAILED
 rdcpix.com # DNS_RESOLVE_FAILED
 rdcu.be # TLD
+rddrnpnyytcax.net # UNKNOWN_GEOIP
 rdsnet.ro # TLD
 rdstation.com.br # TLD
 read.ai # TLD
@@ -8786,13 +8787,13 @@ realmoneyslots-mobile.com # UNKNOWN_GEOIP
 realsrv.com # DNS_RESOLVE_FAILED
 realtimetrains.co.uk # TLD
 realtor.ca # TLD
+reaqle.tech # DNS_RESOLVE_FAILED
 reasonlabsapi.com # DNS_RESOLVE_FAILED
 rebrand.ly # TLD
 rebrickable.com # UNKNOWN_GEOIP
 rebuyengine.com # UNKNOWN_GEOIP
 receitafederal.gov.br # TLD
 receitasnestle.com.br # TLD
-receiteria.com.br # TLD
 receptivity.io # TLD
 reclameaqui.com.br # TLD
 record.pt # TLD
@@ -8801,6 +8802,7 @@ recruit.co.jp # TLD
 redbubble.com # UNKNOWN_GEOIP
 redbubble.net # DNS_RESOLVE_FAILED
 redbus.in # TLD
+redcare.it # TLD
 redcdn.pl # TLD
 redd.it # TLD
 redditspace.com # DNS_RESOLVE_FAILED
@@ -8824,10 +8826,13 @@ redwap.tv # UNKNOWN_GEOIP
 reed.co.uk # TLD
 rees46.ru # TLD
 refersion.com # UNKNOWN_GEOIP
+refined.site # UNKNOWN_GEOIP
 refiner.io # TLD
 reg.ru # TLD
 regery.net # DNS_RESOLVE_FAILED
+registar.ro # TLD
 register.it # TLD
+registerdomain.net.za # TLD
 registraduria.gov.co # UNKNOWN_GEOIP
 registro.br # TLD
 registry.in # TLD
@@ -8842,6 +8847,7 @@ reklama5.mk # TLD
 relativity.one # DNS_RESOLVE_FAILED
 relcomhost.ru # TLD
 reliancedigital.in # TLD
+remnote.com # UNKNOWN_GEOIP
 remote.management # DNS_RESOLVE_FAILED
 remotepc.com # UNKNOWN_GEOIP
 remotewd.com # DNS_RESOLVE_FAILED
@@ -8889,7 +8895,6 @@ rfvgcross.com # DNS_RESOLVE_FAILED
 rg.ru # TLD
 rgnameserver.com # DNS_RESOLVE_FAILED
 rgpub.io # TLD
-rgstatic.net # UNKNOWN_GEOIP
 rhinternal.net # DNS_RESOLVE_FAILED
 rhs.org.uk # TLD
 ri.gov # TLD
@@ -8959,6 +8964,7 @@ romsfun.com # UNKNOWN_GEOIP
 romsgames.net # UNKNOWN_GEOIP
 rona.ca # TLD
 rongbachkim.net # UNKNOWN_GEOIP
+rooster465.autos # DNS_RESOLVE_FAILED
 root-servers.net # DNS_RESOLVE_FAILED
 rootcanary.net # DNS_RESOLVE_FAILED
 rootlake.io # TLD
@@ -8969,7 +8975,6 @@ ros.ie # TLD
 rosatom.ru # TLD
 roscap.com # DNS_RESOLVE_FAILED
 rosdomofon.com # NOT_RU_GEOIP
-roseltorg.ru # TLD
 rosenergo.com # NOT_RU_GEOIP
 roskazna.ru # TLD
 rosminzdrav.ru # TLD
@@ -8998,6 +9003,7 @@ rp5.ru # TLD
 rpdns.net # DNS_RESOLVE_FAILED
 rpi.edu # TLD
 rpp.pe # TLD
+rqch.ru # TLD
 rqmob.com # DNS_RESOLVE_FAILED
 rqtrk.eu # TLD
 rsasecurity.com # DNS_RESOLVE_FAILED
@@ -9006,7 +9012,6 @@ rsf.org # UNKNOWN_GEOIP
 rshb.ru # TLD
 rsl.ru # TLD
 rsms.me # UNKNOWN_GEOIP
-rspb.org.uk # TLD
 rssi.ru # TLD
 rst.ua # TLD
 rt.com # NOT_RU_GEOIP
@@ -9044,7 +9049,6 @@ ru.net # NOT_RU_GEOIP
 ru.nl # TLD
 rubika.ir # TLD
 rubrik-lab.com # DNS_RESOLVE_FAILED
-rudn.ru # TLD
 rufus.ie # TLD
 rug.nl # TLD
 rugbyrama.fr # TLD
@@ -9079,6 +9083,7 @@ ruten.com.tw # TLD
 rutgers.edu # TLD
 rutracker.org # UNKNOWN_GEOIP
 rutube.ru # TLD
+ruvps.pro # DNS_RESOLVE_FAILED
 rwth-aachen.de # TLD
 rxnvg.com # UNKNOWN_GEOIP
 rynekzdrowia.pl # TLD
@@ -9113,7 +9118,6 @@ sailfishx.live # DNS_RESOLVE_FAILED
 sainsburys.co.uk # TLD
 sakura.ne.jp # TLD
 salesforce-dns.com # DNS_RESOLVE_FAILED
-salthasher.com # UNKNOWN_GEOIP
 salute.gov.it # TLD
 salute.ru # TLD
 sam.gov # TLD
@@ -9149,7 +9153,6 @@ samsungdiroute.net # DNS_RESOLVE_FAILED
 samsungdis.com # DNS_RESOLVE_FAILED
 samsungdm.com # DNS_RESOLVE_FAILED
 samsungdmroute.com # DNS_RESOLVE_FAILED
-samsungenergydr.com # DNS_RESOLVE_FAILED
 samsunggsl.com # DNS_RESOLVE_FAILED
 samsunghrm.com # DNS_RESOLVE_FAILED
 samsungiotcloud.com # DNS_RESOLVE_FAILED
@@ -9182,7 +9185,6 @@ saramin.co.kr # TLD
 sarapbabe.com # UNKNOWN_GEOIP
 sardine.ai # TLD
 sarenet.es # TLD
-sarkaricsc.com # UNKNOWN_GEOIP
 sarkariexam.com # UNKNOWN_GEOIP
 sarkariresult.com.cm # TLD
 saser.tw # TLD
@@ -9225,6 +9227,7 @@ sbs.co.kr # TLD
 sbs.com.au # TLD
 sc-apps.com # DNS_RESOLVE_FAILED
 sc-cdn.net # DNS_RESOLVE_FAILED
+sc-corp.net # DNS_RESOLVE_FAILED
 sc-gw.com # DNS_RESOLVE_FAILED
 sc.edu # TLD
 sc.gov # TLD
@@ -9269,7 +9272,6 @@ scryfall.com # UNKNOWN_GEOIP
 scu.edu # TLD
 sd-rtn.com # DNS_RESOLVE_FAILED
 sd.gov # TLD
-sdamgia.ru # TLD
 sdn.cz # TLD
 sdna.gr # TLD
 sdpay.co.in # TLD
@@ -9298,6 +9300,7 @@ secb2b.com # DNS_RESOLVE_FAILED
 secomtrust.net # DNS_RESOLVE_FAILED
 second-ns.com # DNS_RESOLVE_FAILED
 second-ns.de # TLD
+secrethostess.com # UNKNOWN_GEOIP
 section.io # TLD
 securebrowser.com # DNS_RESOLVE_FAILED
 securiti.ai # TLD
@@ -9316,7 +9319,6 @@ seg-social.gob.es # TLD
 seg-social.pt # TLD
 segment.io # TLD
 segmentapis.com # DNS_RESOLVE_FAILED
-segmento.ru # TLD
 segreencolumn.com # DNS_RESOLVE_FAILED
 sej.co.jp # TLD
 sejda.com # UNKNOWN_GEOIP
@@ -9335,12 +9337,12 @@ semana.es # TLD
 semasio.net # DNS_RESOLVE_FAILED
 semprot.com # UNKNOWN_GEOIP
 semrush.net # DNS_RESOLVE_FAILED
+sena.edu.co # DNS_RESOLVE_FAILED
 senat.fr # TLD
 senate.gov # TLD
 sendibm1.com # DNS_RESOLVE_FAILED
 sendinblue.com # UNKNOWN_GEOIP
 sendsay.ru # TLD
-sendtuna.com # UNKNOWN_GEOIP
 sengokuixa.jp # TLD
 seniat.gob.ve # TLD
 sensacine.com # UNKNOWN_GEOIP
@@ -9446,7 +9448,6 @@ sharesdns.com # DNS_RESOLVE_FAILED
 sharethis.net # DNS_RESOLVE_FAILED
 sharkia.gov.eg # TLD
 sharkninja.com # UNKNOWN_GEOIP
-shatel.ir # TLD
 shaw.ca # TLD
 shef.ac.uk # TLD
 sheffield.ac.uk # TLD
@@ -9478,6 +9479,7 @@ shopee.tw # TLD
 shopee.vn # TLD
 shopeepay.com.br # TLD
 shopier.com # UNKNOWN_GEOIP
+shopify.ai # TLD
 shopifyapps.com # DNS_RESOLVE_FAILED
 shopifycdn.com # DNS_RESOLVE_FAILED
 shopifyinc.com # DNS_RESOLVE_FAILED
@@ -9488,7 +9490,6 @@ shoptoshop.co.za # TLD
 short.gy # TLD
 shortpixel.ai # TLD
 shorturl.at # TLD
-show-sb.com # UNKNOWN_GEOIP
 showcamrips.com # UNKNOWN_GEOIP
 showpm.in # TLD
 showvid.ws # TLD
@@ -9544,6 +9545,7 @@ sinopec.com # DNS_RESOLVE_FAILED
 sinoptik.bg # TLD
 sinoptik.ua # TLD
 sintecgroup.ru # TLD
+sipgate.net # DNS_RESOLVE_FAILED
 sirsidynix.net.au # TLD
 sisal.it # TLD
 sistema.gov.br # TLD
@@ -9576,7 +9578,6 @@ skcrtxr.com # NOT_RU_GEOIP
 skechers.com # UNKNOWN_GEOIP
 skeepers.io # TLD
 skelbiu.lt # TLD
-skift.com # UNKNOWN_GEOIP
 skills.google # TLD
 skillshare.com # UNKNOWN_GEOIP
 skipthedishes.com # UNKNOWN_GEOIP
@@ -9643,7 +9644,6 @@ smartlook.cloud # DNS_RESOLVE_FAILED
 smarturl.it # TLD
 smartytech.io # TLD
 smartytouch.co # DNS_RESOLVE_FAILED
-smassets.net # DNS_RESOLVE_FAILED
 smbc-card.com # DNS_RESOLVE_FAILED
 smbc.co.jp # TLD
 sme.sk # TLD
@@ -9776,6 +9776,7 @@ speedostream1.com # UNKNOWN_GEOIP
 speedrun.com # UNKNOWN_GEOIP
 speedtestmark.com # DNS_RESOLVE_FAILED
 spektrum.de # TLD
+sph.com.sg # TLD
 sphinx-doc.org # UNKNOWN_GEOIP
 spicychat.ai # TLD
 spicymms.com # UNKNOWN_GEOIP
@@ -9788,7 +9789,6 @@ splio.name # DNS_RESOLVE_FAILED
 split.io # TLD
 splunkdev.net # DNS_RESOLVE_FAILED
 splunkdns.net # DNS_RESOLVE_FAILED
-splus.ir # TLD
 spmb.id # TLD
 spmbjatim.net # UNKNOWN_GEOIP
 spo-msedge.net # DNS_RESOLVE_FAILED
@@ -9808,7 +9808,6 @@ sportal.bg # TLD
 sportbox.ru # TLD
 sportchek.ca # TLD
 sportfilm800.com # UNKNOWN_GEOIP
-sporthub.bet # DNS_RESOLVE_FAILED
 sportingnews.com # UNKNOWN_GEOIP
 sportmail.ru # TLD
 sportmaster.ru # TLD
@@ -9845,7 +9844,6 @@ squarespace-cdn.com # DNS_RESOLVE_FAILED
 squarespacedns.com # DNS_RESOLVE_FAILED
 squiz.cloud # DNS_RESOLVE_FAILED
 squiz.net # UNKNOWN_GEOIP
-sravni.ru # TLD
 srce.hr # TLD
 sreality.cz # TLD
 srf.ch # TLD
@@ -9866,14 +9864,12 @@ sspinc.io # TLD
 sspnet.tech # NOT_RU_GEOIP
 sss.gov.ph # TLD
 sssinstagram.com # UNKNOWN_GEOIP
-sssrvpn.pro # NOT_RU_GEOIP
 ssstik.io # TLD
 ssstwitter.com # UNKNOWN_GEOIP
 st-andrews.ac.uk # TLD
 stability.ai # TLD
 stablediffusionweb.com # UNKNOWN_GEOIP
 stackdns.com # DNS_RESOLVE_FAILED
-stake-engine.com # UNKNOWN_GEOIP
 stake.ac # TLD
 stake.com # UNKNOWN_GEOIP
 stake.us # TLD
@@ -9885,7 +9881,6 @@ stanford.edu # TLD
 stape.io # TLD
 stapecdn.com # UNKNOWN_GEOIP
 star4live.com # DNS_RESOLVE_FAILED
-starbucks.co.jp # TLD
 stardewvalleywiki.com # UNKNOWN_GEOIP
 starkgames.app # DNS_RESOLVE_FAILED
 starline.ru # TLD
@@ -9902,6 +9897,7 @@ statefarm.org # DNS_RESOLVE_FAILED
 static.microsoft # TLD
 statically.io # TLD
 staticflickr.com # DNS_RESOLVE_FAILED
+statinside.com # UNKNOWN_GEOIP
 statisticslinks.com # DNS_RESOLVE_FAILED
 statnews.com # UNKNOWN_GEOIP
 stats.gov.cn # TLD
@@ -9934,9 +9930,9 @@ stocrm.ru # TLD
 stoiximan.gr # TLD
 stoloto.ru # TLD
 stonybrook.edu # TLD
+stopblocking.co.uk # TLD
 storage-yahoo.jp # TLD
 storageimagedisplay.com # UNKNOWN_GEOIP
-storagejsstrategiesfabulous.com # DNS_RESOLVE_FAILED
 storeland.ru # TLD
 stores.jp # TLD
 storiesig.info # UNKNOWN_GEOIP
@@ -9973,6 +9969,7 @@ strmd.st # TLD
 stroyserviceru.ru # TLD
 strpssts-ana.com # DNS_RESOLVE_FAILED
 strpst.com # DNS_RESOLVE_FAILED
+sts.pl # TLD
 stsci.edu # TLD
 stspg-customer.com # DNS_RESOLVE_FAILED
 stuba.sk # TLD
@@ -10002,7 +9999,6 @@ suicidepreventionlifeline.org # UNKNOWN_GEOIP
 suki-kira.com # UNKNOWN_GEOIP
 sultantotop3.com # UNKNOWN_GEOIP
 summerbeestest.work # DNS_RESOLVE_FAILED
-sumo.or.jp # TLD
 sumsub.com # UNKNOWN_GEOIP
 sunat.gob.pe # TLD
 sunbet.co.za # TLD
@@ -10014,6 +10010,7 @@ sunrise.ch # TLD
 suntory.co.jp # TLD
 suny.edu # TLD
 super.cz # TLD
+superbet.pl # TLD
 superbet.ro # TLD
 superbthemes.com # UNKNOWN_GEOIP
 supercdn.ru # TLD
@@ -10039,7 +10036,6 @@ supremecourt.gov # TLD
 supsystic.com # UNKNOWN_GEOIP
 surabaya.go.id # TLD
 surahquran.com # UNKNOWN_GEOIP
-surfeasy.mobi # DNS_RESOLVE_FAILED
 surfnet.nl # TLD
 surfshark.com # UNKNOWN_GEOIP
 surfsharkstatus.com # UNKNOWN_GEOIP
@@ -10134,7 +10130,6 @@ tabnak.ir # TLD
 tabor.ru # TLD
 tacdn.com # DNS_RESOLVE_FAILED
 tacticalrmm.io # TLD
-tadex.id # TLD
 tag24.de # TLD
 tages.dev # NOT_RU_GEOIP
 tagesanzeiger.ch # TLD
@@ -10219,7 +10214,6 @@ tcmb.gov.tr # TLD
 tconnect.services # NOT_RU_GEOIP
 tcpshield.com # UNKNOWN_GEOIP
 tcsbank.ru # TLD
-tctm.co # DNS_RESOLVE_FAILED
 tdatamaster.com # DNS_RESOLVE_FAILED
 tdc.net # DNS_RESOLVE_FAILED
 tdgall.com # UNKNOWN_GEOIP
@@ -10233,10 +10227,11 @@ tdnsvod1.cn # TLD
 tds.bid # UNKNOWN_GEOIP
 tdscpc.gov.in # TLD
 tdxflix.fyi # UNKNOWN_GEOIP
+te.eg # TLD
 teams-msedge.net # DNS_RESOLVE_FAILED
 teamspeak.com # UNKNOWN_GEOIP
 teamstoday.com # UNKNOWN_GEOIP
-tec.mx # TLD
+tebex.io # TLD
 tecconcursos.com.br # TLD
 techdirt.com # UNKNOWN_GEOIP
 techlab-cdn.com # DNS_RESOLVE_FAILED
@@ -10276,7 +10271,6 @@ telenet.be # TLD
 telenor.se # TLD
 telephony.goog # TLD
 teleport.media # NOT_RU_GEOIP
-telerama.fr # TLD
 telesco.pe # TLD
 teletalk.com.bd # TLD
 teletype.in # TLD
@@ -10286,6 +10280,7 @@ telia.net # DNS_RESOLVE_FAILED
 telkomadsl.co.za # TLD
 telkomuniversity.ac.id # TLD
 telmexla.net.co # DNS_RESOLVE_FAILED
+teloce.cc # DNS_RESOLVE_FAILED
 telphin.ru # TLD
 telstra.com.au # TLD
 telstra.net # DNS_RESOLVE_FAILED
@@ -10316,6 +10311,7 @@ terra.com.br # TLD
 terraform.io # TLD
 terrikon.com # UNKNOWN_GEOIP
 tescocloud.com # DNS_RESOLVE_FAILED
+tesla.cn # TLD
 tesla.services # UNKNOWN_GEOIP
 test-cdn-kkk.com # DNS_RESOLVE_FAILED
 test-uz.ru # TLD
@@ -10327,7 +10323,7 @@ testuk.org # DNS_RESOLVE_FAILED
 tevas.dev # UNKNOWN_GEOIP
 texas.gov # TLD
 texelkit.shop # NOT_RU_GEOIP
-textnow.com # UNKNOWN_GEOIP
+texify.blog # NOT_RU_GEOIP
 tf1.fr # TLD
 tf1info.fr # TLD
 tfbnw.net # DNS_RESOLVE_FAILED
@@ -10453,7 +10449,6 @@ tiktok-max.com # UNKNOWN_GEOIP
 tiktok-minis.com # DNS_RESOLVE_FAILED
 tiktok-minis.us # TLD
 tiktok-row.net # DNS_RESOLVE_FAILED
-tiktok-row.org # DNS_RESOLVE_FAILED
 tiktokcdn-eu.com # DNS_RESOLVE_FAILED
 tiktokcdn-us.com # DNS_RESOLVE_FAILED
 tiktokcdn.com # DNS_RESOLVE_FAILED
@@ -10473,6 +10468,7 @@ tiktokw.us # TLD
 tilda.ws # TLD
 tildaapi.com # DNS_RESOLVE_FAILED
 tildacdn.com # NOT_RU_GEOIP
+tildadns.com # NOT_RU_GEOIP
 tile-api.com # DNS_RESOLVE_FAILED
 tim.it # TLD
 timbrasil.com.br # TLD
@@ -10572,12 +10568,10 @@ topgai.net # UNKNOWN_GEOIP
 topgirl.co # DNS_RESOLVE_FAILED
 tophost.ch # TLD
 topky.sk # TLD
-toprecepty.cz # TLD
 topsante.com # UNKNOWN_GEOIP
 toptal.com # UNKNOWN_GEOIP
 topuniversities.com # UNKNOWN_GEOIP
 topwar.ru # TLD
-toranet.jp # TLD
 toranoana.jp # TLD
 tori.fi # TLD
 torn.com # UNKNOWN_GEOIP
@@ -10598,7 +10592,6 @@ totogaming.am # TLD
 touchstatistics.com # DNS_RESOLVE_FAILED
 tourvisor.ru # TLD
 toutiaoapi.com # DNS_RESOLVE_FAILED
-toutiaoimg.com # DNS_RESOLVE_FAILED
 tovima.gr # TLD
 tower.jp # TLD
 townhall.com # UNKNOWN_GEOIP
@@ -10610,7 +10603,6 @@ tpd-soe.com # DNS_RESOLVE_FAILED
 tpgi.com.au # TLD
 tplinkcloud.com.cn # TLD
 tplinknbu.com # DNS_RESOLVE_FAILED
-tplinkra-ipc.com # DNS_RESOLVE_FAILED
 tplinkra.com # DNS_RESOLVE_FAILED
 tpmn.co.kr # TLD
 tpmn.io # TLD
@@ -10644,7 +10636,7 @@ tranplanet.com # DNS_RESOLVE_FAILED
 transavia.com # UNKNOWN_GEOIP
 transcend-cdn.com # UNKNOWN_GEOIP
 transcend.io # TLD
-transfermarkt.com.tr # TLD
+transfermarkt.com # DNS_RESOLVE_FAILED
 transfermarkt.fr # TLD
 transformativeworks.org # UNKNOWN_GEOIP
 transip.eu # TLD
@@ -10692,6 +10684,7 @@ tripadvisor.it # TLD
 tripcdn.com # DNS_RESOLVE_FAILED
 tripledotapi.com # DNS_RESOLVE_FAILED
 tripo3d.ai # TLD
+tripod.com # DNS_RESOLVE_FAILED
 triptease.io # TLD
 triunfobet.com # UNKNOWN_GEOIP
 trkcliq.com # DNS_RESOLVE_FAILED
@@ -10719,8 +10712,10 @@ trustburn.com # UNKNOWN_GEOIP
 trustedreviews.com # UNKNOWN_GEOIP
 trustedstack.com # UNKNOWN_GEOIP
 trustindex.io # TLD
+trustvox.com.br # TLD
 trustwallet.com # UNKNOWN_GEOIP
 trustx.org # UNKNOWN_GEOIP
+truthfinder.com # UNKNOWN_GEOIP
 truthout.org # UNKNOWN_GEOIP
 truthsocial.com # UNKNOWN_GEOIP
 truyen-hentai.com # UNKNOWN_GEOIP
@@ -10728,19 +10723,17 @@ truyenfull.today # UNKNOWN_GEOIP
 truyenqq.com.vn # TLD
 truyenqqko.com # UNKNOWN_GEOIP
 trvl-media.com # DNS_RESOLVE_FAILED
-trycloudflare.com # UNKNOWN_GEOIP
 tsa.gov # TLD
 tsinghua.edu.cn # TLD
 tsite.jp # TLD
 tsn.ca # TLD
 tsn.ua # TLD
+tstaging.tools # DNS_RESOLVE_FAILED
 tsukuba.ac.jp # TLD
 ttcdn-us.com # DNS_RESOLVE_FAILED
 ttdns2.com # DNS_RESOLVE_FAILED
 ttdns3.com # DNS_RESOLVE_FAILED
-ttdns4.com # DNS_RESOLVE_FAILED
 ttidc.com.tr # TLD
-ttk.ru # TLD
 ttlivecdn.com # DNS_RESOLVE_FAILED
 ttoverseaus.net # DNS_RESOLVE_FAILED
 ttrk.io # TLD
@@ -10812,7 +10805,6 @@ tvbs.com.tw # TLD
 tver.jp # TLD
 tvgids.nl # TLD
 tvguia.es # TLD
-tvinsider.com # UNKNOWN_GEOIP
 tvip-media.net # NOT_RU_GEOIP
 tvn.pl # TLD
 tvn24.pl # TLD
@@ -10838,7 +10830,9 @@ twword.com # UNKNOWN_GEOIP
 txlivecdn.com # DNS_RESOLVE_FAILED
 txnhh.com # UNKNOWN_GEOIP
 txstate.edu # TLD
+txtensatorxgyt.xyz # DNS_RESOLVE_FAILED
 tyc.edu.tw # TLD
+tylersuper.click # DNS_RESOLVE_FAILED
 typepad.com # UNKNOWN_GEOIP
 typesense.net # DNS_RESOLVE_FAILED
 typicode.com # DNS_RESOLVE_FAILED
@@ -10867,7 +10861,6 @@ ualberta.ca # TLD
 uam.es # TLD
 uark.edu # TLD
 uaserials.my # TLD
-uatsptcn1.com # UNKNOWN_GEOIP
 ub.edu # TLD
 uba.ar # TLD
 ubc.ca # TLD
@@ -10903,6 +10896,7 @@ uclouvain.be # TLD
 ucm.es # TLD
 ucnaming.com # DNS_RESOLVE_FAILED
 uco.es # TLD
+ucom.ne.jp # TLD
 uconn.edu # TLD
 ucoz.ru # TLD
 ucpress.edu # TLD
@@ -11025,6 +11019,7 @@ unece.org # UNKNOWN_GEOIP
 uned.es # TLD
 unesp.br # TLD
 unext.jp # TLD
+unf.edu # TLD
 unh.edu # TLD
 uni-augsburg.de # TLD
 uni-bayreuth.de # TLD
@@ -11054,7 +11049,6 @@ uni-mannheim.de # TLD
 uni-marburg.de # TLD
 uni-muenchen.de # TLD
 uni-muenster.de # TLD
-uni-osnabrueck.de # TLD
 uni-paderborn.de # TLD
 uni-potsdam.de # TLD
 uni-regensburg.de # TLD
@@ -11064,6 +11058,7 @@ uni-trier.de # TLD
 uni-tuebingen.de # TLD
 uni-ulm.de # TLD
 uni-wuerzburg.de # TLD
+uni.rest # DNS_RESOLVE_FAILED
 unian.net # UNKNOWN_GEOIP
 unian.ua # TLD
 unibas.ch # TLD
@@ -11075,6 +11070,7 @@ unicode.org # UNKNOWN_GEOIP
 unicomcdn.com.cn # TLD
 unicontext.ru # TLD
 unicredit.ru # TLD
+unieuro.it # TLD
 unifi.it # TLD
 unige.ch # TLD
 unil.ch # TLD
@@ -11083,6 +11079,8 @@ unimi.it # TLD
 unimo.it # TLD
 unina.it # TLD
 uninet.net.mx # TLD
+unionesarda.it # TLD
+uniovi.es # TLD
 unipd.it # TLD
 unipi.it # TLD
 unipin.com # UNKNOWN_GEOIP
@@ -11091,6 +11089,7 @@ uniroma1.it # TLD
 uniroma2.it # TLD
 unisa.ac.za # TLD
 unistra.fr # TLD
+united-arrows.co.jp # TLD
 united-domains.de # TLD
 unitedcinemas.jp # TLD
 unito.it # TLD
@@ -11105,6 +11104,7 @@ univesalsrv.com # DNS_RESOLVE_FAILED
 univie.ac.at # TLD
 uniview.com # DNS_RESOLVE_FAILED
 unizar.es # TLD
+unizg.hr # TLD
 unl.edu # TLD
 unl.pt # TLD
 unleashed.be # TLD
@@ -11134,8 +11134,10 @@ up.ac.za # TLD
 up.gov.in # TLD
 up.nic.in # TLD
 up.pt # TLD
+upbeatbut.com # UNKNOWN_GEOIP
 upbhulekh.gov.in # TLD
 upc.edu # TLD
+upcloud.com # UNKNOWN_GEOIP
 upcloudlb.com # DNS_RESOLVE_FAILED
 upcons2025.com # UNKNOWN_GEOIP
 updatestar.com # UNKNOWN_GEOIP
@@ -11192,7 +11194,6 @@ usercontent.goog # TLD
 usercontent.microsoft # TLD
 usergate.com # NOT_RU_GEOIP
 userpilot.io # TLD
-usersatisfy.net # DNS_RESOLVE_FAILED
 usestoryteller.com # DNS_RESOLVE_FAILED
 usf.edu # TLD
 usg.edu # TLD
@@ -11250,7 +11251,6 @@ uw.edu # TLD
 uw.edu.pl # TLD
 uwa.edu.au # TLD
 uwaterloo.ca # TLD
-uwi.edu # TLD
 uwm.edu # TLD
 uwo.ca # TLD
 uwyo.edu # TLD
@@ -11263,7 +11263,6 @@ v-tun.com # UNKNOWN_GEOIP
 v21play.vip # DNS_RESOLVE_FAILED
 v21zone.org # DNS_RESOLVE_FAILED
 v2ex.com # UNKNOWN_GEOIP
-v2z.ru # TLD
 v6dgine.com # UNKNOWN_GEOIP
 v9r2yhjg.com # DNS_RESOLVE_FAILED
 va.gov # TLD
@@ -11307,6 +11306,7 @@ vegamovie.sn # TLD
 vegamovies.mq # TLD
 vegslb.com # DNS_RESOLVE_FAILED
 veikkaus.fi # TLD
+velocify.com # DNS_RESOLVE_FAILED
 veloxzone.com.br # TLD
 vendora.gr # TLD
 ventanillaunicasocial.gob.cl # TLD
@@ -11356,7 +11356,6 @@ viddeyyo.space # UNKNOWN_GEOIP
 videa.hu # TLD
 videlly.space # UNKNOWN_GEOIP
 video-mech.ru # TLD
-videogamer.com # UNKNOWN_GEOIP
 videonow.ru # TLD
 videosdemadurasx.com # UNKNOWN_GEOIP
 videotron.ca # TLD
@@ -11365,6 +11364,7 @@ videyli.co # UNKNOWN_GEOIP
 videyly.co # UNKNOWN_GEOIP
 videystream.vip # UNKNOWN_GEOIP
 videyx.click # DNS_RESOLVE_FAILED
+vidkern.shop # NOT_RU_GEOIP
 vidleey.sbs # UNKNOWN_GEOIP
 vidmate-official.com # UNKNOWN_GEOIP
 vidssave.com # UNKNOWN_GEOIP
@@ -11377,6 +11377,7 @@ vietcombank.com.vn # TLD
 vietel.com.vn # TLD
 vietnam.vn # TLD
 vietnamnet.vn # TLD
+viettel.vn # TLD
 viettelidc.com.vn # TLD
 vigo.tech # NOT_RU_GEOIP
 viifwjox.com # UNKNOWN_GEOIP
@@ -11386,7 +11387,6 @@ vildey.space # UNKNOWN_GEOIP
 villagevoice.com # UNKNOWN_GEOIP
 vim.org # DNS_RESOLVE_FAILED
 vinmec.com # UNKNOWN_GEOIP
-vinted.be # TLD
 vinted.co.uk # TLD
 vinted.cz # TLD
 vinted.de # TLD
@@ -11435,7 +11435,6 @@ vivint.ai # TLD
 vivintsky.com # UNKNOWN_GEOIP
 vivo.com.br # TLD
 vivo.com.cn # TLD
-vivozap.com.br # TLD
 vix-content.net # UNKNOWN_GEOIP
 vizio.com # UNKNOWN_GEOIP
 vk-analytics.ru # TLD
@@ -11447,6 +11446,7 @@ vk.com # NOT_RU_GEOIP
 vk.me # NOT_RU_GEOIP
 vk.ru # TLD
 vk.team # NOT_RU_GEOIP
+vkcloud-storage.ru # TLD
 vkcs.cloud # DNS_RESOLVE_FAILED
 vkontakte.ru # TLD
 vkplay.ru # TLD
@@ -11475,9 +11475,9 @@ vodafone.com.au # TLD
 vodafone.com.tr # TLD
 vodafone.cz # TLD
 vodafone.de # TLD
-vodafone.ind.in # TLD
 vodafone.it # TLD
 vodafone.pt # TLD
+vodafonemail.de # TLD
 vodien.com # UNKNOWN_GEOIP
 vodupload.com # DNS_RESOLVE_FAILED
 voeazul.com.br # TLD
@@ -11492,6 +11492,7 @@ voipstunt.com # UNKNOWN_GEOIP
 vol1.io # TLD
 volc-dns.com # DNS_RESOLVE_FAILED
 volc-dns.net # DNS_RESOLVE_FAILED
+volcanodiscovery.com # UNKNOWN_GEOIP
 volcanodns.com # DNS_RESOLVE_FAILED
 volccdn.com # DNS_RESOLVE_FAILED
 volces.com # DNS_RESOLVE_FAILED
@@ -11515,7 +11516,6 @@ voodoo-tech.io # TLD
 vortexscans.org # UNKNOWN_GEOIP
 voskhod.ru # TLD
 vost.pw # UNKNOWN_GEOIP
-voxexchange.io # TLD
 voxicheck.com # DNS_RESOLVE_FAILED
 voz.vn # TLD
 vp3n.ru # TLD
@@ -11531,8 +11531,8 @@ vsassets.io # TLD
 vsco.co # UNKNOWN_GEOIP
 vscode-cdn.net # DNS_RESOLVE_FAILED
 vseinstrumenti.ru # TLD
-vseosvita.ua # TLD
 vshowapi.com # DNS_RESOLVE_FAILED
+vsrv6.nl # TLD
 vstserv.com # DNS_RESOLVE_FAILED
 vt.edu # TLD
 vtb.ru # TLD
@@ -11544,6 +11544,7 @@ vu.edu.au # TLD
 vu.edu.pk # TLD
 vu.nl # TLD
 vultrusercontent.com # UNKNOWN_GEOIP
+vuzopedia.ru # TLD
 vwapps.io # TLD
 vwapps.run # DNS_RESOLVE_FAILED
 vwg-connect.com # DNS_RESOLVE_FAILED
@@ -11563,6 +11564,7 @@ wac-dc-msedge.net # DNS_RESOLVE_FAILED
 wac-msedge.net # DNS_RESOLVE_FAILED
 wacoal.jp # TLD
 wadax-sv.jp # TLD
+wakacje.pl # TLD
 walesonline.co.uk # TLD
 wall-box.com # DNS_RESOLVE_FAILED
 walla.co.il # TLD
@@ -11577,7 +11579,6 @@ walmart.com.mx # TLD
 walmartimages.com # DNS_RESOLVE_FAILED
 waltonbd.com # UNKNOWN_GEOIP
 wambacdn.net # NOT_RU_GEOIP
-wanadoo.es # TLD
 wanadoo.fr # TLD
 wanakadns.net # DNS_RESOLVE_FAILED
 wandzapi.com # DNS_RESOLVE_FAILED
@@ -11648,6 +11649,7 @@ webim.ru # TLD
 webinar.ru # TLD
 webland.ch # TLD
 weblio.jp # TLD
+webls.net # UNKNOWN_GEOIP
 webmotors.com.br # TLD
 webnames.ca # TLD
 webnovel.com # UNKNOWN_GEOIP
@@ -11698,6 +11700,7 @@ wework.com # UNKNOWN_GEOIP
 wfolio.ru # TLD
 wfu.edu # TLD
 wfxs.tw # TLD
+wg-gesucht.de # TLD
 wgu.edu # TLD
 whaledb.io # TLD
 whatfix.com # UNKNOWN_GEOIP
@@ -11706,7 +11709,6 @@ whatismyipaddress.com # UNKNOWN_GEOIP
 whatnot.com # UNKNOWN_GEOIP
 whc.ca # TLD
 whecloud.com # DNS_RESOLVE_FAILED
-wheree.com # UNKNOWN_GEOIP
 which.co.uk # TLD
 whiru.cn # TLD
 whitebit.com # UNKNOWN_GEOIP
@@ -11757,13 +11759,11 @@ winline.ru # TLD
 winss.net # DNS_RESOLVE_FAILED
 winudf.com # UNKNOWN_GEOIP
 wired.co.uk # TLD
-wired.it # TLD
 wireshark.org # UNKNOWN_GEOIP
 wisc.edu # TLD
 wisconsin.gov # TLD
 wise.com # UNKNOWN_GEOIP
 wiselg.com # DNS_RESOLVE_FAILED
-wisprflow.ai # TLD
 wistia.net # DNS_RESOLVE_FAILED
 wiwo.de # TLD
 wixapps.net # DNS_RESOLVE_FAILED
@@ -11774,7 +11774,6 @@ wiz.io # TLD
 wjx.cn # TLD
 wknd.ai # TLD
 wko.at # TLD
-wku.edu # TLD
 wkvytxcg8.com # DNS_RESOLVE_FAILED
 wlvpn.com # UNKNOWN_GEOIP
 wm.edu # TLD
@@ -11843,9 +11842,11 @@ wpzoom.com # UNKNOWN_GEOIP
 wri.org # UNKNOWN_GEOIP
 wrike.com # UNKNOWN_GEOIP
 writeablog.net # UNKNOWN_GEOIP
+writesonic.com # UNKNOWN_GEOIP
 wroc.pl # TLD
 ws-hp.com # DNS_RESOLVE_FAILED
 wscdns.com # DNS_RESOLVE_FAILED
+wscvdns.com # DNS_RESOLVE_FAILED
 wscvip.cn # TLD
 wsdvs.com # DNS_RESOLVE_FAILED
 wsdvs.info # DNS_RESOLVE_FAILED
@@ -11861,7 +11862,6 @@ wsukwai.com # DNS_RESOLVE_FAILED
 wswebcdn.com # DNS_RESOLVE_FAILED
 wswebcdn.info # DNS_RESOLVE_FAILED
 wswebpic.com # DNS_RESOLVE_FAILED
-wt-eu02.net # UNKNOWN_GEOIP
 wto.org # UNKNOWN_GEOIP
 wtr-lab.com # UNKNOWN_GEOIP
 wtxcdn.com # DNS_RESOLVE_FAILED
@@ -11883,7 +11883,6 @@ www.gov.ie # TLD
 www.gov.il # TLD
 www.gov.pl # TLD
 www.gov.uk # TLD
-www.gov.za # TLD
 www.ne.jp # TLD
 www.nhs.uk # TLD
 wx4.top # DNS_RESOLVE_FAILED
@@ -11903,17 +11902,16 @@ x5media.ru # TLD
 xahani.com # UNKNOWN_GEOIP
 xanimu.com # UNKNOWN_GEOIP
 xarxx.net # UNKNOWN_GEOIP
+xasiat.com # UNKNOWN_GEOIP
 xbanxia.cc # UNKNOWN_GEOIP
 xbox-dns.ru # TLD
 xboxservices.com # DNS_RESOLVE_FAILED
 xcafe.com # UNKNOWN_GEOIP
 xcal.tv # DNS_RESOLVE_FAILED
-xcdnpro.com # DNS_RESOLVE_FAILED
 xchina.co # UNKNOWN_GEOIP
 xcoinsystem.com # DNS_RESOLVE_FAILED
 xdate.ch # TLD
 xdrtc.com # DNS_RESOLVE_FAILED
-xe.gr # TLD
 xeconvert.com # UNKNOWN_GEOIP
 xendesktop.net # DNS_RESOLVE_FAILED
 xepay1.com # DNS_RESOLVE_FAILED
@@ -11938,7 +11936,6 @@ xiti.com # DNS_RESOLVE_FAILED
 xlivesex.com # UNKNOWN_GEOIP
 xlxx.mobi # UNKNOWN_GEOIP
 xmodxvquvodns.com # DNS_RESOLVE_FAILED
-xmrig.com # UNKNOWN_GEOIP
 xn--12c1ezaww.com # UNKNOWN_GEOIP
 xn--12cu1a5c.online # UNKNOWN_GEOIP
 xn--2-wxfc3gwbi.com # UNKNOWN_GEOIP
@@ -12039,7 +12036,8 @@ yahoo.co.jp # TLD
 yahooapis.jp # TLD
 yahoodns.net # DNS_RESOLVE_FAILED
 yakkun.com # UNKNOWN_GEOIP
-yaklass.ru # TLD
+yako06.com # DNS_RESOLVE_FAILED
+yako10.com # DNS_RESOLVE_FAILED
 yale.edu # TLD
 yallakora.com # UNKNOWN_GEOIP
 yallashots.top # UNKNOWN_GEOIP
@@ -12073,7 +12071,6 @@ yclients.com # NOT_RU_GEOIP
 ycyd123.com # DNS_RESOLVE_FAILED
 ydns.eu # TLD
 ydparty.tv # UNKNOWN_GEOIP
-ydparty04.tv # UNKNOWN_GEOIP
 ydparty06.net # UNKNOWN_GEOIP
 ydstatic.com # DNS_RESOLVE_FAILED
 yell.com # UNKNOWN_GEOIP
@@ -12119,7 +12116,6 @@ yottaa.net # DNS_RESOLVE_FAILED
 youborafds01.com # DNS_RESOLVE_FAILED
 youboranqs01.com # DNS_RESOLVE_FAILED
 yougov.co.uk # TLD
-youla.ru # TLD
 youm7.com # UNKNOWN_GEOIP
 youngjoygame.com # DNS_RESOLVE_FAILED
 youngle.site # DNS_RESOLVE_FAILED
@@ -12128,6 +12124,7 @@ your-server.de # TLD
 your-storagebox.de # TLD
 your-storageshare.de # TLD
 youradchoices.ca # TLD
+yournet.ne.jp # TLD
 youronlinechoices.eu # TLD
 yourstory.com # UNKNOWN_GEOIP
 youth.cn # TLD
@@ -12148,6 +12145,7 @@ yummyani.me # UNKNOWN_GEOIP
 yundunwaf5.com # DNS_RESOLVE_FAILED
 yunray.ai # TLD
 yupmanga.com # UNKNOWN_GEOIP
+yupoo.com # DNS_RESOLVE_FAILED
 yutex.ru # TLD
 yximgs.com # DNS_RESOLVE_FAILED
 yxponte.com # DNS_RESOLVE_FAILED
@@ -12224,8 +12222,8 @@ zerodha.com # UNKNOWN_GEOIP
 zerozero.pt # TLD
 zeta-ai.io # TLD
 zetaglobal.io # TLD
+zetsource.su # TLD
 zeturf.fr # TLD
-zeustechnology.com # DNS_RESOLVE_FAILED
 zhimg.com # DNS_RESOLVE_FAILED
 zhqidown.cn # TLD
 zi-scripts.com # DNS_RESOLVE_FAILED
@@ -12272,7 +12270,6 @@ zozo.jp # TLD
 zpath.net # DNS_RESOLVE_FAILED
 zpatwo.net # DNS_RESOLVE_FAILED
 zprk.io # TLD
-zqtk.net # DNS_RESOLVE_FAILED
 zr.ru # TLD
 zrrglobal.com # DNS_RESOLVE_FAILED
 zscaler.net # DNS_RESOLVE_FAILED
@@ -12287,7 +12284,6 @@ zt.ru # TLD
 ztat.net # DNS_RESOLVE_FAILED
 zucks.net # DNS_RESOLVE_FAILED
 zum.de # TLD
-zurich.com.au # TLD
 zurnal24.si # TLD
 zus.pl # TLD
 zvelo.com # UNKNOWN_GEOIP
@@ -12296,4 +12292,3 @@ zvuk.com # NOT_RU_GEOIP
 zwtianshangm.com # DNS_RESOLVE_FAILED
 zxcs.nl # TLD
 zzaru.com # UNKNOWN_GEOIP
-zzztube.com # UNKNOWN_GEOIP
