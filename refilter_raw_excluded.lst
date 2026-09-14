@@ -223,7 +223,7 @@
 12.vipchanger.pro # NOT_RU_TLD
 12.viptorpro.com # NOT_RU_TLD
 12.xporno.online # NOT_RU_TLD
-120-sad.ru # DNS_RESOLVE_FAILED
+120-sad.ru # UNKNOWN_GEOIP
 1205www.lasttor.com # NOT_RU_TLD
 1212-15.torrent24.org # NOT_RU_TLD
 1212-17.torrent24.org # NOT_RU_TLD
@@ -277,6 +277,7 @@
 1300loveshop.biz # NOT_RU_TLD
 1303fm.org # NOT_RU_TLD
 1305www.lasttor.com # NOT_RU_TLD
+130nsk.ru # DNS_RESOLVE_FAILED
 1337x.st # NOT_RU_TLD
 1337x.to # NOT_RU_TLD
 13agovor-rest.ru # UNKNOWN_GEOIP
@@ -1334,7 +1335,7 @@
 2ovechki.ru # UNKNOWN_GEOIP
 2p.lovertab.org # NOT_RU_TLD
 2pi.bz # NOT_RU_TLD
-2planeta.ru # NOT_RU_GEOIP
+2planeta.ru # UNKNOWN_GEOIP
 2plus2.ua # NOT_RU_TLD
 2porno365.net # NOT_RU_TLD
 2pornovideo.cc # NOT_RU_TLD
@@ -1440,7 +1441,7 @@
 324.hdpoisk1080.icu # NOT_RU_TLD
 325.landing-gama.com # NOT_RU_TLD
 32bez-depov.site # NOT_RU_TLD
-32sad.ru # DNS_RESOLVE_FAILED
+32sad.ru # UNKNOWN_GEOIP
 32w.buzz # NOT_RU_TLD
 33.pornoklad.ink # NOT_RU_TLD
 333.run2me.top # NOT_RU_TLD
@@ -1518,6 +1519,8 @@
 368.media # NOT_RU_TLD
 36lic.ru # UNKNOWN_GEOIP
 36r.top # NOT_RU_TLD
+36s.ru # UNKNOWN_GEOIP
+36school.ru # UNKNOWN_GEOIP
 36thair3ad.homestead.com # NOT_RU_TLD
 371a.com # NOT_RU_TLD
 37t.click # NOT_RU_TLD
@@ -1746,7 +1749,7 @@
 4fappers99.com # NOT_RU_TLD
 4freerussia.org # NOT_RU_TLD
 4gay.cc # NOT_RU_TLD
-4glaza31.ru # DNS_RESOLVE_FAILED
+4glaza31.ru # UNKNOWN_GEOIP
 4h0y.gitlab.io # NOT_RU_TLD
 4hairypussy.com # NOT_RU_TLD
 4i2.ru # DNS_RESOLVE_FAILED
@@ -1837,7 +1840,7 @@
 50t.click # NOT_RU_TLD
 50tour.ru # UNKNOWN_GEOIP
 51laki.com # NOT_RU_TLD
-51news.ru # UNKNOWN_GEOIP
+51news.ru # NOT_RU_GEOIP
 51royalrussia.com # NOT_RU_TLD
 52.bordel.house # NOT_RU_TLD
 52ds.ru # UNKNOWN_GEOIP
@@ -2536,6 +2539,7 @@ aaa-putina-nado-unichtojit.z-zasrancy.giize.com # NOT_RU_TLD
 aaa-putina-nado-unichtozhit.z-zasrancy.giize.com # NOT_RU_TLD
 aaa.anilibria.sbs # NOT_RU_TLD
 aaa.top-sofosbuvir2.ru # UNKNOWN_GEOIP
+aaakicks.ru # DNS_RESOLVE_FAILED
 aab.top-sofosbuvir1.ru # DNS_RESOLVE_FAILED
 aab.top-sofosbuvir2.ru # UNKNOWN_GEOIP
 aac.top-sofosbuvir1.ru # DNS_RESOLVE_FAILED
@@ -2680,7 +2684,6 @@ abinsk.x-nnov.ru # UNKNOWN_GEOIP
 abinsk.zdes-shkola7.ru # DNS_RESOLVE_FAILED
 abitaimmobiliaresas.it # NOT_RU_TLD
 abiturientu.ru # UNKNOWN_GEOIP
-abkhazia-prokat.ru # UNKNOWN_GEOIP
 abkhaziatour.com # NOT_RU_TLD
 ablackmaster.com # NOT_RU_TLD
 abmilf.com # NOT_RU_TLD
@@ -2746,7 +2749,6 @@ academy-at.ru # DNS_RESOLVE_FAILED
 academy-fundraising.ru # UNKNOWN_GEOIP
 academyco.ru # DNS_RESOLVE_FAILED
 academycyber.ru # DNS_RESOLVE_FAILED
-academygeodom.ru # UNKNOWN_GEOIP
 acadianglobal.com # NOT_RU_TLD
 acae.mp3wr.com # NOT_RU_TLD
 acassel.de # NOT_RU_TLD
@@ -2924,7 +2926,8 @@ adjuntar.com # NOT_RU_TLD
 adk-sochi.ru # UNKNOWN_GEOIP
 admin.instagram.com # NOT_RU_TLD
 ado24.online # NOT_RU_TLD
-adobe-education.ru # UNKNOWN_GEOIP
+adobe-education.ru # DNS_RESOLVE_FAILED
+adobe-encore.ru # DNS_RESOLVE_FAILED
 adobe.activate.com # NOT_RU_TLD
 adobe.com # NOT_RU_TLD
 adobe.de # NOT_RU_TLD
@@ -2954,7 +2957,6 @@ ads.ameedgroup.com # NOT_RU_TLD
 ads.lu4.org # NOT_RU_TLD
 adscommunity.live # NOT_RU_TLD
 adskij-uchitel-nubje-2025.jut-su1.art # NOT_RU_TLD
-adskiy-boss.ru # NOT_RU_GEOIP
 adt-chelny.ru # UNKNOWN_GEOIP
 adtherapy.ru # NOT_RU_GEOIP
 adtqaz.kz # NOT_RU_TLD
@@ -3025,7 +3027,7 @@ adwizer.ru # UNKNOWN_GEOIP
 adygeisk.bashgimn9.ru # DNS_RESOLVE_FAILED
 adygles.ru # UNKNOWN_GEOIP
 adylt.tizam.ru # NOT_RU_GEOIP
-adzen.ru # DNS_RESOLVE_FAILED
+adzen.ru # UNKNOWN_GEOIP
 adzone.urbanretails.com # NOT_RU_TLD
 ae.cinema-24.net # NOT_RU_TLD
 ae.stopfilms.info # NOT_RU_TLD
@@ -3048,7 +3050,6 @@ aeroflot.cc # NOT_RU_TLD
 aerofoto.team # NOT_RU_TLD
 aeronet.news # NOT_RU_TLD
 aerorozvidka.ngo # NOT_RU_TLD
-aerostarconference.ru # UNKNOWN_GEOIP
 aerostate.io # NOT_RU_TLD
 aerusauto.ru # DNS_RESOLVE_FAILED
 aesport.tv # NOT_RU_TLD
@@ -3119,7 +3120,7 @@ afisha.tochka.net # NOT_RU_TLD
 afishakinosputnik.ru # DNS_RESOLVE_FAILED
 afishar.com # NOT_RU_TLD
 afisharybinsk.ru # DNS_RESOLVE_FAILED
-afishasakhcom.ru # UNKNOWN_GEOIP
+afishasakhcom.ru # DNS_RESOLVE_FAILED
 afistfulofcoins.top # NOT_RU_TLD
 afkis-sakha.ru # UNKNOWN_GEOIP
 afluentgrowth.org # NOT_RU_TLD
@@ -3204,7 +3205,7 @@ agosdip.ru # DNS_RESOLVE_FAILED
 agpuhov.ru # UNKNOWN_GEOIP
 agr.ashoo.ac # NOT_RU_TLD
 agreskay.online # NOT_RU_TLD
-agreskay.ru # UNKNOWN_GEOIP
+agreskay.ru # DNS_RESOLVE_FAILED
 agressor.com.ua # NOT_RU_TLD
 agri-wealth.bugfinder.app # NOT_RU_TLD
 agrithaiholdings.net # NOT_RU_TLD
@@ -3304,7 +3305,7 @@ aidwa.org # NOT_RU_TLD
 aif-turkey.ru # UNKNOWN_GEOIP
 aifnet.ru # UNKNOWN_GEOIP
 aifony.ru # UNKNOWN_GEOIP
-aifprint.ru # DNS_RESOLVE_FAILED
+aifprint.ru # UNKNOWN_GEOIP
 aigaia.org # NOT_RU_TLD
 aigle-insightstream-solution.com # NOT_RU_TLD
 aigle-insightstreamsolution.com # NOT_RU_TLD
@@ -3432,6 +3433,7 @@ akcentivmebel.ru # DNS_RESOLVE_FAILED
 akcentu2.com # NOT_RU_TLD
 akcenty.com.ua # NOT_RU_TLD
 akhbuywdfhiihwux.bmeq4xku34je.live # NOT_RU_TLD
+akhmatacademy.ru # DNS_RESOLVE_FAILED
 akhmetovfoundation.org # NOT_RU_TLD
 akhz.com.ua # NOT_RU_TLD
 aki-h.com # NOT_RU_TLD
@@ -3441,6 +3443,7 @@ akibakts.com # NOT_RU_TLD
 akibamarket.com # NOT_RU_TLD
 akimkomtheatre.com # NOT_RU_TLD
 akintolove.com # NOT_RU_TLD
+akintoschool.ru # DNS_RESOLVE_FAILED
 akiratakahashi.net # NOT_RU_TLD
 akitut.ru # NOT_RU_GEOIP
 akkauntvk.ru # DNS_RESOLVE_FAILED
@@ -3475,6 +3478,7 @@ aksmo.ru # NOT_RU_GEOIP
 aktau-dostyk.kz # NOT_RU_TLD
 aktau-online.kz # NOT_RU_TLD
 aktialive.com # NOT_RU_TLD
+aktiv-nedv.ru # DNS_RESOLVE_FAILED
 aktiv23.ru # UNKNOWN_GEOIP
 aktivaciya-karty.ru # UNKNOWN_GEOIP
 aktivasarnix-soft.com # NOT_RU_TLD
@@ -3560,7 +3564,6 @@ aldan.padance.ru # UNKNOWN_GEOIP
 aldebarans.ru # UNKNOWN_GEOIP
 aldmistroy.ru # DNS_RESOLVE_FAILED
 aldobarbers.ru # DNS_RESOLVE_FAILED
-aldst.ru # UNKNOWN_GEOIP
 alean-ak.ru # DNS_RESOLVE_FAILED
 aleant.su # DNS_RESOLVE_FAILED
 alefstartup.com.ua # NOT_RU_TLD
@@ -3579,6 +3582,7 @@ aleksandrinskiyteatr.ru # DNS_RESOLVE_FAILED
 aleksandrov.czstudy.ru # UNKNOWN_GEOIP
 aleksandrov.fba-tiger.ru # UNKNOWN_GEOIP
 aleksandrov.judin-v.ru # UNKNOWN_GEOIP
+alekseymarchenkov.ru # DNS_RESOLVE_FAILED
 alekseynesterov.ru # DNS_RESOLVE_FAILED
 aleksin.2ovechki.ru # UNKNOWN_GEOIP
 alekso.ru # DNS_RESOLVE_FAILED
@@ -3633,7 +3637,6 @@ alfa-sport22.ru # DNS_RESOLVE_FAILED
 alfa.nicotinka.com # NOT_RU_TLD
 alfa156.online # NOT_RU_TLD
 alfa156.ru # UNKNOWN_GEOIP
-alfaautosochi.ru # DNS_RESOLVE_FAILED
 alfait-company.online # NOT_RU_TLD
 alfait-company.ru # DNS_RESOLVE_FAILED
 alfaitstudio.su # UNKNOWN_GEOIP
@@ -3818,7 +3821,8 @@ allgoroskopy.ru # DNS_RESOLVE_FAILED
 allgotrx.com # NOT_RU_TLD
 allhandsforukraine.org # NOT_RU_TLD
 allhema.ru # DNS_RESOLVE_FAILED
-allhunt.ru # NOT_RU_GEOIP
+allhunt.ru # UNKNOWN_GEOIP
+alliance-roomstore.ru # DNS_RESOLVE_FAILED
 alliance56.online # NOT_RU_TLD
 alliance56.ru # DNS_RESOLVE_FAILED
 allianceberns.com # NOT_RU_TLD
@@ -4116,7 +4120,6 @@ altirise.com # NOT_RU_TLD
 altitradingltd.com # NOT_RU_TLD
 altivatrading.com # NOT_RU_TLD
 altivo-group-ai-solution.com # NOT_RU_TLD
-altlotr.ru # UNKNOWN_GEOIP
 altocorevion.com # NOT_RU_TLD
 altoearn.com # NOT_RU_TLD
 altpro.ws # NOT_RU_TLD
@@ -4921,7 +4924,7 @@ antytila.com # NOT_RU_TLD
 antytila.ua # NOT_RU_TLD
 anubisperm.biz # NOT_RU_TLD
 anubisrising.top # NOT_RU_TLD
-anuchinsky.ru # UNKNOWN_GEOIP
+anuchinsky.ru # DNS_RESOLVE_FAILED
 anugerahsa.com # NOT_RU_TLD
 anv10.website # NOT_RU_TLD
 anvediaction.site # NOT_RU_TLD
@@ -5062,7 +5065,7 @@ aplawrence.com # NOT_RU_TLD
 aplaycasino.com # NOT_RU_TLD
 apmil.com # NOT_RU_TLD
 apmmarketsvr.com # NOT_RU_TLD
-apmotors.ru # NOT_RU_GEOIP
+apmotors.ru # DNS_RESOLVE_FAILED
 apoisk.club # NOT_RU_TLD
 apollo.lv # NOT_RU_TLD
 apollon-sport.ru # UNKNOWN_GEOIP
@@ -5244,7 +5247,6 @@ archiveofsins.com # NOT_RU_TLD
 archivkotlas.ru # UNKNOWN_GEOIP
 archivohot.com # NOT_RU_TLD
 archlure.icu # NOT_RU_TLD
-archmart.ru # DNS_RESOLVE_FAILED
 archmilsol.com # NOT_RU_TLD
 archnewage.ru # UNKNOWN_GEOIP
 archongroup.ru # UNKNOWN_GEOIP
@@ -5353,6 +5355,7 @@ ariskstar.ru # DNS_RESOLVE_FAILED
 aristata.biz # NOT_RU_TLD
 aristocraft.biz # NOT_RU_TLD
 aristocratclub.ru # DNS_RESOLVE_FAILED
+aristocratiya.ru # DNS_RESOLVE_FAILED
 arivatanen.com # NOT_RU_TLD
 arizona38.biz # NOT_RU_TLD
 arjasys.com # NOT_RU_TLD
@@ -5446,7 +5449,6 @@ art-light.net # NOT_RU_TLD
 art-lorien.ru # UNKNOWN_GEOIP
 art-mining.ru # UNKNOWN_GEOIP
 art-nov.ru # DNS_RESOLVE_FAILED
-art-proekt.su # DNS_RESOLVE_FAILED
 art-quest.ru # UNKNOWN_GEOIP
 art-sales.ru # NOT_RU_GEOIP
 art-set.ru # NOT_RU_GEOIP
@@ -5665,7 +5667,7 @@ asiporno1.top # NOT_RU_TLD
 asiporno2.top # NOT_RU_TLD
 asiporno3.top # NOT_RU_TLD
 ask-nebesa.ru # DNS_RESOLVE_FAILED
-ask-vc.ru # UNKNOWN_GEOIP
+ask-vc.ru # DNS_RESOLVE_FAILED
 asket.design # NOT_RU_TLD
 askjolene.com # NOT_RU_TLD
 asklopan.com # NOT_RU_TLD
@@ -5747,7 +5749,6 @@ astana-artstudio.kz # NOT_RU_TLD
 astana-shop.com # NOT_RU_TLD
 astana.steroids.kz # NOT_RU_TLD
 astars.tv # NOT_RU_TLD
-astartamebel.ru # DNS_RESOLVE_FAILED
 astcoltd.ru # DNS_RESOLVE_FAILED
 asterclub.ru # UNKNOWN_GEOIP
 asteria.su # DNS_RESOLVE_FAILED
@@ -5800,6 +5801,7 @@ astrosens.ru # DNS_RESOLVE_FAILED
 astroway.store # NOT_RU_TLD
 astrox-ledger.org # NOT_RU_TLD
 astroxvest.com # NOT_RU_TLD
+astroy86.ru # DNS_RESOLVE_FAILED
 astrum-it.ru # DNS_RESOLVE_FAILED
 astruzmtrading.com # NOT_RU_TLD
 asukarsten.com # NOT_RU_TLD
@@ -5930,7 +5932,7 @@ atorrent.club # NOT_RU_TLD
 atorrent.online # NOT_RU_TLD
 atorrent.site # NOT_RU_TLD
 atp.misterjoi.ru # NOT_RU_GEOIP
-atps-2.ru # UNKNOWN_GEOIP
+atps-2.ru # DNS_RESOLVE_FAILED
 atpterenga.ru # DNS_RESOLVE_FAILED
 atr-build.ru # UNKNOWN_GEOIP
 atr.ua # NOT_RU_TLD
@@ -6031,6 +6033,7 @@ auditconsalt-nsp77.ru # NOT_RU_GEOIP
 auditconsaltingnsp.ru # DNS_RESOLVE_FAILED
 auditconsaltnsp.ru # UNKNOWN_GEOIP
 audithon.ru # UNKNOWN_GEOIP
+auditnds.ru # DNS_RESOLVE_FAILED
 auditor63.ru # DNS_RESOLVE_FAILED
 auditsupport.ru # DNS_RESOLVE_FAILED
 auecomix.com # NOT_RU_TLD
@@ -6137,6 +6140,7 @@ auto-technologies.ru # DNS_RESOLVE_FAILED
 auto-tehosmotr.com # NOT_RU_TLD
 auto-u.ru # UNKNOWN_GEOIP
 auto-vendor.ru # UNKNOWN_GEOIP
+auto-voshod.ru # DNS_RESOLVE_FAILED
 auto-wealth.org # NOT_RU_TLD
 auto.ria.com # NOT_RU_TLD
 auto11rus.ru # UNKNOWN_GEOIP
@@ -6177,6 +6181,7 @@ autogrivan.info # NOT_RU_TLD
 autoherz.ru # DNS_RESOLVE_FAILED
 autoinsurancenir.top # NOT_RU_TLD
 autokonder.ru # DNS_RESOLVE_FAILED
+autoline38.ru # UNKNOWN_GEOIP
 autolook-vlrd.ru # DNS_RESOLVE_FAILED
 autolux-nsk.ru # UNKNOWN_GEOIP
 automagazin.pro # NOT_RU_TLD
@@ -6191,9 +6196,9 @@ autonomousglobalresources.com # NOT_RU_TLD
 autonum.info # NOT_RU_TLD
 autonyanya14.ru # DNS_RESOLVE_FAILED
 autopolivonline-spb.ru # DNS_RESOLVE_FAILED
+autoprestige-baic-perm.ru # DNS_RESOLVE_FAILED
 autoprobegsmr.ru # NOT_RU_GEOIP
 autoprom228.biz # NOT_RU_TLD
-autoproper.ru # UNKNOWN_GEOIP
 autoranziax-solution.com # NOT_RU_TLD
 autornd161.ru # UNKNOWN_GEOIP
 autorobottradinginc.com # NOT_RU_TLD
@@ -6253,6 +6258,7 @@ avaska.mxloade.com # NOT_RU_TLD
 avastream.fun # NOT_RU_TLD
 avastream.top # NOT_RU_TLD
 avastreamhd.online # NOT_RU_TLD
+avastreamhd.ru # DNS_RESOLVE_FAILED
 avatar-creator.ru # UNKNOWN_GEOIP
 avatar24.biz # NOT_RU_TLD
 avatar24.cc # NOT_RU_TLD
@@ -6394,6 +6400,7 @@ avtogamak-vrn.ru # UNKNOWN_GEOIP
 avtohlamu.net # NOT_RU_TLD
 avtoizkitaya-best.ru # UNKNOWN_GEOIP
 avtokomplekt-sos.ru # UNKNOWN_GEOIP
+avtokorch.ru # DNS_RESOLVE_FAILED
 avtokran61.ru # DNS_RESOLVE_FAILED
 avtokreslo-shop.ru # UNKNOWN_GEOIP
 avtokreslolulka.ru # UNKNOWN_GEOIP
@@ -6805,6 +6812,7 @@ bad-fuck.com # NOT_RU_TLD
 bad.news # NOT_RU_TLD
 bad7.biz # NOT_RU_TLD
 badablog.ru # UNKNOWN_GEOIP
+badb-carder.ru # NOT_RU_GEOIP
 badboy24.biz # NOT_RU_TLD
 badboy96.biz # NOT_RU_TLD
 badboy999.biz # NOT_RU_TLD
@@ -7067,6 +7075,7 @@ banzai-ru1.com # NOT_RU_TLD
 banzai-ru29.com # NOT_RU_TLD
 banzai-rub.ru # UNKNOWN_GEOIP
 banzainp2.com # NOT_RU_TLD
+banzayfoto.ru # DNS_RESOLVE_FAILED
 bapunest.online # NOT_RU_TLD
 bapunest.ru # DNS_RESOLVE_FAILED
 bar-1.biz # NOT_RU_TLD
@@ -7090,6 +7099,7 @@ barbusrep.org # NOT_RU_TLD
 barcaacademy.ru # UNKNOWN_GEOIP
 barcelonafc.ru # UNKNOWN_GEOIP
 barcelonastudio.ru # DNS_RESOLVE_FAILED
+barcentr.ru # UNKNOWN_GEOIP
 barcpd3.ru # UNKNOWN_GEOIP
 bard.edu # NOT_RU_TLD
 bard.google.com # NOT_RU_TLD
@@ -7101,7 +7111,6 @@ bargdb.ru # DNS_RESOLVE_FAILED
 barkaraoke.ru # UNKNOWN_GEOIP
 barkforest.com # NOT_RU_TLD
 barklumen.com # NOT_RU_TLD
-barlandrus.ru # UNKNOWN_GEOIP
 barnaul.vipster.net # NOT_RU_TLD
 barnes-ixair.com # NOT_RU_TLD
 barnesreview.org # NOT_RU_TLD
@@ -7170,7 +7179,7 @@ bastion.homes # NOT_RU_TLD
 bastion.tv # NOT_RU_TLD
 bastion71.ru # UNKNOWN_GEOIP
 bastufoks.online # NOT_RU_TLD
-bastufoks.ru # UNKNOWN_GEOIP
+bastufoks.ru # DNS_RESOLVE_FAILED
 bat.cn.ua # NOT_RU_TLD
 bataisk.alfa156.online # NOT_RU_TLD
 baten-coincraft.com # NOT_RU_TLD
@@ -7308,7 +7317,7 @@ bbwpornpics.com # NOT_RU_TLD
 bbwpornq.com # NOT_RU_TLD
 bbwpspace.com # NOT_RU_TLD
 bc-home.ru # UNKNOWN_GEOIP
-bc-kuntsevskaya.ru # UNKNOWN_GEOIP
+bc-kuntsevskaya.ru # DNS_RESOLVE_FAILED
 bc-vodny.ru # DNS_RESOLVE_FAILED
 bc.ai # NOT_RU_TLD
 bc.app # NOT_RU_TLD
@@ -7683,6 +7692,7 @@ bekafoods.ru # DNS_RESOLVE_FAILED
 bekapsajta2.site # NOT_RU_TLD
 bekarstudio.ru # UNKNOWN_GEOIP
 bekhterevconf.ru # DNS_RESOLVE_FAILED
+bel-grand.ru # UNKNOWN_GEOIP
 bel12volt.ru # UNKNOWN_GEOIP
 belabelo.com # NOT_RU_TLD
 belagrosnab.ru # UNKNOWN_GEOIP
@@ -7772,8 +7782,8 @@ belschool26.ru # DNS_RESOLVE_FAILED
 belsorriso.ru # UNKNOWN_GEOIP
 belstores.ru # UNKNOWN_GEOIP
 belthara.info # NOT_RU_TLD
-beltlight-msk.ru # UNKNOWN_GEOIP
 beltrexplatform-software.com # NOT_RU_TLD
+beltsandbuckles.ru # DNS_RESOLVE_FAILED
 beluezd.ru # UNKNOWN_GEOIP
 belviewmgt.com # NOT_RU_TLD
 belviroxbit.net # NOT_RU_TLD
@@ -7901,13 +7911,12 @@ best-moment-ox4f.online # NOT_RU_TLD
 best-moment.mom # NOT_RU_TLD
 best-movies.ru # UNKNOWN_GEOIP
 best-muzon.cc # NOT_RU_TLD
-best-muzon.ru # DNS_RESOLVE_FAILED
+best-muzon.ru # UNKNOWN_GEOIP
 best-omg.cc # NOT_RU_TLD
 best-option.top # NOT_RU_TLD
 best-option1.top # NOT_RU_TLD
 best-options.top # NOT_RU_TLD
 best-porn.video # NOT_RU_TLD
-best-serv.ru # DNS_RESOLVE_FAILED
 best-soft.net # NOT_RU_TLD
 best-t24.com # NOT_RU_TLD
 best-vuz.ru # DNS_RESOLVE_FAILED
@@ -8451,7 +8460,6 @@ bit-gpt-app-ai.com # NOT_RU_TLD
 bit-lexipro-60.com # NOT_RU_TLD
 bit-line.live # NOT_RU_TLD
 bit-loader.club # NOT_RU_TLD
-bit-max.ru # DNS_RESOLVE_FAILED
 bit-pay.pro # NOT_RU_TLD
 bit-pro-reopro.com # NOT_RU_TLD
 bit-rex.org # NOT_RU_TLD
@@ -8938,7 +8946,7 @@ blockhorizn.com # NOT_RU_TLD
 blockleaderx.com # NOT_RU_TLD
 blockmatchpro.com # NOT_RU_TLD
 blockmintstaking.com # NOT_RU_TLD
-blockmx.ru # NOT_RU_GEOIP
+blockmx.ru # DNS_RESOLVE_FAILED
 blockteamscore.com # NOT_RU_TLD
 blockteamx.com # NOT_RU_TLD
 blocktokenpro.com # NOT_RU_TLD
@@ -9175,7 +9183,6 @@ board6.scryde.ws # NOT_RU_TLD
 board7.scryde.ws # NOT_RU_TLD
 board8.scryde.ws # NOT_RU_TLD
 board9.scryde.ws # NOT_RU_TLD
-boardgamers.ru # DNS_RESOLVE_FAILED
 boards.guro.cx # NOT_RU_TLD
 boards.plus4chan.org # NOT_RU_TLD
 boasantiago.cl # NOT_RU_TLD
@@ -9246,7 +9253,7 @@ bok-o-bok.com # NOT_RU_TLD
 bok-o-bok.ru # DNS_RESOLVE_FAILED
 boki32.ru # UNKNOWN_GEOIP
 bokiflet-sit.online # NOT_RU_TLD
-bokiflet-sit.ru # UNKNOWN_GEOIP
+bokiflet-sit.ru # DNS_RESOLVE_FAILED
 bol-teatr.com # NOT_RU_TLD
 bolars82.ru # DNS_RESOLVE_FAILED
 bolashak-engr.kz # NOT_RU_TLD
@@ -9279,7 +9286,7 @@ bolshoi-tickets.ru # UNKNOWN_GEOIP
 bolshowprazdnik.ru # UNKNOWN_GEOIP
 bolshoy19.ru # NOT_RU_GEOIP
 bolshoyforum.com # NOT_RU_TLD
-bolshufar.ru # UNKNOWN_GEOIP
+bolshufar.ru # DNS_RESOLVE_FAILED
 boltchampionship.com # NOT_RU_TLD
 boltonwealthstrategies.com # NOT_RU_TLD
 bolvanka.org.ru # DNS_RESOLVE_FAILED
@@ -9538,6 +9545,7 @@ botfypro.com # NOT_RU_TLD
 botglazboga.com # NOT_RU_TLD
 bothack.pro # NOT_RU_TLD
 botinok.porn # NOT_RU_TLD
+bototype.ru # DNS_RESOLVE_FAILED
 botox-restylane.ru # UNKNOWN_GEOIP
 botpen.net # NOT_RU_TLD
 botreg.ru # DNS_RESOLVE_FAILED
@@ -9737,6 +9745,7 @@ brebo.ru # DNS_RESOLVE_FAILED
 bredaph.ru # UNKNOWN_GEOIP
 breedbus.com # NOT_RU_TLD
 breedoosit.online # NOT_RU_TLD
+breedoosit.ru # DNS_RESOLVE_FAILED
 breez-hotel.ru # UNKNOWN_GEOIP
 breezorae.com # NOT_RU_TLD
 breezviney.com # NOT_RU_TLD
@@ -9842,11 +9851,9 @@ bronnitsy.time-to-live.ru # DNS_RESOLVE_FAILED
 bronsinvexa.com # NOT_RU_TLD
 brontivexengine.com # NOT_RU_TLD
 bronto-psa.ru # UNKNOWN_GEOIP
-bronya72.ru # UNKNOWN_GEOIP
 bronzevillescholastic.com # NOT_RU_TLD
 broodkatanacoin.com # NOT_RU_TLD
 bropamefrit.ru # DNS_RESOLVE_FAILED
-bropk.ru # UNKNOWN_GEOIP
 brorsen.comet1go.com # NOT_RU_TLD
 brosestack.com # NOT_RU_TLD
 brosko-mebel.ru # NOT_RU_GEOIP
@@ -10111,6 +10118,7 @@ bucu.regis-online.ro # NOT_RU_TLD
 bud-moim-kirillom-2021.swezhak.su # TOO_MANY_DIGITS
 buda-koshelevo.net # NOT_RU_TLD
 buddamag24.biz # NOT_RU_TLD
+buddhaspacentre.ru # DNS_RESOLVE_FAILED
 buddhatour.ru # UNKNOWN_GEOIP
 buddy.net # NOT_RU_TLD
 budennovsk-sk.ru # UNKNOWN_GEOIP
@@ -10135,6 +10143,7 @@ bugulma.alevelclub.ru # UNKNOWN_GEOIP
 bugulma.s-shahter.online # NOT_RU_TLD
 buguruslan.get-mixed.ru # DNS_RESOLVE_FAILED
 bugyman.biz # NOT_RU_TLD
+buh-audit-checkconsalting.ru # DNS_RESOLVE_FAILED
 buh-auditconsalt.ru # DNS_RESOLVE_FAILED
 buh-gf.ru # UNKNOWN_GEOIP
 buh.ligazakon.net # NOT_RU_TLD
@@ -10826,6 +10835,7 @@ carewear.be # NOT_RU_TLD
 careworkcalifornia.com # NOT_RU_TLD
 carezonesa.com # NOT_RU_TLD
 carforhero.com # NOT_RU_TLD
+cargo-buyer.ru # DNS_RESOLVE_FAILED
 cargori.ru # UNKNOWN_GEOIP
 cargoroute.ru # DNS_RESOLVE_FAILED
 cargotat.ru # DNS_RESOLVE_FAILED
@@ -11039,7 +11049,6 @@ ccabura.place # NOT_RU_TLD
 ccabyl.ru # UNKNOWN_GEOIP
 ccc-putina-nado-unicht0zhit.z-zasrancy.mywire.org # NOT_RU_TLD
 ccc-putina-nado-unichtozhit.z-zasrancy.mywire.org # NOT_RU_TLD
-ccc65.ru # UNKNOWN_GEOIP
 cccc.ac # NOT_RU_TLD
 ccel.org # NOT_RU_TLD
 ccflips.com # NOT_RU_TLD
@@ -11056,6 +11065,7 @@ cd.transy-msk.xyz # NOT_RU_TLD
 cda7k-ddok.com # NOT_RU_TLD
 cdc88choi.com # NOT_RU_TLD
 cdek-material.ru # NOT_RU_GEOIP
+cdek-top.ru # DNS_RESOLVE_FAILED
 cdelka21v.ru # DNS_RESOLVE_FAILED
 cdix.com.br # NOT_RU_TLD
 cdn-client.medium.com # NOT_RU_TLD
@@ -11177,6 +11187,7 @@ centerpokrov.ru # UNKNOWN_GEOIP
 centevia.com # NOT_RU_TLD
 centr-autorazbor45.ru # DNS_RESOLVE_FAILED
 centr-ekt.ru # UNKNOWN_GEOIP
+centr-k-spb.ru # DNS_RESOLVE_FAILED
 centr-med-chita.ru # DNS_RESOLVE_FAILED
 centr-med24.ru # DNS_RESOLVE_FAILED
 centr-pb86.ru # UNKNOWN_GEOIP
@@ -11231,6 +11242,7 @@ ces-studio.com # NOT_RU_TLD
 ceskatelevize.cz # NOT_RU_TLD
 ceske-kundy.cz # NOT_RU_TLD
 ceskeporno.cz # NOT_RU_TLD
+ceut38.ru # DNS_RESOLVE_FAILED
 ceux-isc.co # NOT_RU_TLD
 ceuxisc.com # NOT_RU_TLD
 cevidi.com # NOT_RU_TLD
@@ -11298,6 +11310,7 @@ chaepedia.xyz # NOT_RU_TLD
 chaihana-halva.ru # DNS_RESOLVE_FAILED
 chaihanaushahina.ru # UNKNOWN_GEOIP
 chaihona-aiva.ru # DNS_RESOLVE_FAILED
+chaik-school.ru # DNS_RESOLVE_FAILED
 chaikovskii.garant-registratsia.ru # NOT_RU_GEOIP
 chain-imovax2u.com # NOT_RU_TLD
 chain-iplex-pro.net # NOT_RU_TLD
@@ -11327,6 +11340,7 @@ champion.3112.games # NOT_RU_TLD
 champion.rush-free17.online # NOT_RU_TLD
 champion333.buzz # NOT_RU_TLD
 championat-film.site # NOT_RU_TLD
+championay.ru # DNS_RESOLVE_FAILED
 championbesty.net # NOT_RU_TLD
 championclub.icu # NOT_RU_TLD
 championclub.shop # NOT_RU_TLD
@@ -11406,8 +11420,9 @@ chatmail.woodpeckersnest.space # NOT_RU_TLD
 chatname.net # NOT_RU_TLD
 chatsex.xxx # NOT_RU_TLD
 chaturbat-sex.su # DNS_RESOLVE_FAILED
+chaturbat.net.ru # DNS_RESOLVE_FAILED
 chaturbate-me.ru # NOT_RU_GEOIP
-chaturbate-net.ru # UNKNOWN_GEOIP
+chaturbate-net.ru # NOT_RU_GEOIP
 chaturbate.com # NOT_RU_TLD
 chaturbate.eu # NOT_RU_TLD
 chaturbate.global # NOT_RU_TLD
@@ -11544,7 +11559,6 @@ chelovekprav.org # NOT_RU_TLD
 chelshkola4.ru # UNKNOWN_GEOIP
 chelspasatel.ru # UNKNOWN_GEOIP
 chelyabinsk.bsgate25.com # NOT_RU_TLD
-chelyabinsk.dmaps.ru # UNKNOWN_GEOIP
 chelyabinsk.kalyan4-you.ru # DNS_RESOLVE_FAILED
 chelyabinsk.registratsya-schools.ru # NOT_RU_GEOIP
 chelyabinsk.vremennaya-registratsia.ru # NOT_RU_GEOIP
@@ -11839,6 +11853,7 @@ chukotkaconf.ru # DNS_RESOLVE_FAILED
 chuma24.org # NOT_RU_TLD
 chunkymuscle.com # NOT_RU_TLD
 chupaporntube.com # NOT_RU_TLD
+chupiessocks.ru # DNS_RESOLVE_FAILED
 church.ua # NOT_RU_TLD
 churchofchrist-barnaul.ru # DNS_RESOLVE_FAILED
 chutastation.com # NOT_RU_TLD
@@ -11857,7 +11872,7 @@ cia.gov # NOT_RU_TLD
 cialisgenbrx.com # NOT_RU_TLD
 cialishk.com # NOT_RU_TLD
 cibernetica.ru # DNS_RESOLVE_FAILED
-cibersoft.ru # DNS_RESOLVE_FAILED
+cibersoft.ru # UNKNOWN_GEOIP
 cibroxspace.com # NOT_RU_TLD
 cibta.ru # DNS_RESOLVE_FAILED
 cicadaprize.com # NOT_RU_TLD
@@ -12131,6 +12146,7 @@ cliphunter.biz # NOT_RU_TLD
 cliphunter.com # NOT_RU_TLD
 clipmega.com # NOT_RU_TLD
 clips4sale.com # NOT_RU_TLD
+clipsave.ru # DNS_RESOLVE_FAILED
 clipson.org # NOT_RU_TLD
 clipson.ru # UNKNOWN_GEOIP
 clipx16.com # NOT_RU_TLD
@@ -12455,6 +12471,7 @@ colombiafuckfest.com # NOT_RU_TLD
 coloradoketamineshop.com # NOT_RU_TLD
 coloradotr.ru # DNS_RESOLVE_FAILED
 colorit.icu # NOT_RU_TLD
+colormann.ru # UNKNOWN_GEOIP
 colorwave.icu # NOT_RU_TLD
 colta.ru # UNKNOWN_GEOIP
 columb.net # NOT_RU_TLD
@@ -13256,7 +13273,6 @@ csgoroll.com # NOT_RU_TLD
 csgoroll.gg # NOT_RU_TLD
 csgorun.gg # NOT_RU_TLD
 csgorunn.com # NOT_RU_TLD
-cskashop.ru # DNS_RESOLVE_FAILED
 cskush.ru # DNS_RESOLVE_FAILED
 cslab.space # NOT_RU_TLD
 csleaguepl7.com # NOT_RU_TLD
@@ -13454,7 +13470,6 @@ cz.ashoo.blue # NOT_RU_TLD
 cz.twatis.com # NOT_RU_TLD
 czaop-stiouhn-soiws.yolasite.com # NOT_RU_TLD
 czar-toy.ru # UNKNOWN_GEOIP
-czargovyie-dveri.ru # UNKNOWN_GEOIP
 czech-med.ru # DNS_RESOLVE_FAILED
 czechgays.com # NOT_RU_TLD
 czechlesbians.com # NOT_RU_TLD
@@ -13886,7 +13901,7 @@ ddf-models.com # NOT_RU_TLD
 ddfbusty.org # NOT_RU_TLD
 ddfedor.biz # NOT_RU_TLD
 ddfnetwork.org # NOT_RU_TLD
-ddfnetwork.ru # UNKNOWN_GEOIP
+ddfnetwork.ru # NOT_RU_GEOIP
 ddgroupclub.com # NOT_RU_TLD
 ddht.ru # UNKNOWN_GEOIP
 ddjural.ru # UNKNOWN_GEOIP
@@ -14057,7 +14072,6 @@ delfin-msk.online # NOT_RU_TLD
 delfin-msk.ru # UNKNOWN_GEOIP
 delfinomosaics.com # NOT_RU_TLD
 delfruit.top # NOT_RU_TLD
-delice-mebel.ru # DNS_RESOLVE_FAILED
 delivery-vodka.ru # DNS_RESOLVE_FAILED
 dell.com # NOT_RU_TLD
 dellsolutionsforum.ru # DNS_RESOLVE_FAILED
@@ -14151,7 +14165,6 @@ denngi.ru # DNS_RESOLVE_FAILED
 dennikn.sk # NOT_RU_TLD
 denoxai.pro # NOT_RU_TLD
 denpasoft.com # NOT_RU_TLD
-denrusguide.ru # UNKNOWN_GEOIP
 densa.info # NOT_RU_TLD
 denstar-fm.ru # DNS_RESOLVE_FAILED
 dent47.online # NOT_RU_TLD
@@ -14265,6 +14278,7 @@ desunote.ru # DNS_RESOLVE_FAILED
 desxclusivepro.com # NOT_RU_TLD
 det-sad14.ru # UNKNOWN_GEOIP
 det-sad21.ru # UNKNOWN_GEOIP
+det-sad22.ru # DNS_RESOLVE_FAILED
 det-sad24.ru # DNS_RESOLVE_FAILED
 det-sadik35.ru # UNKNOWN_GEOIP
 detailverified.com # NOT_RU_TLD
@@ -14397,7 +14411,6 @@ dewshiney.com # NOT_RU_TLD
 dewtania.digital # NOT_RU_TLD
 dex.art # NOT_RU_TLD
 dex.rolehub.ru # DNS_RESOLVE_FAILED
-dexa.ru # DNS_RESOLVE_FAILED
 dexacrew.com # NOT_RU_TLD
 dexfloat.com # NOT_RU_TLD
 dexly.pro # NOT_RU_TLD
@@ -14553,6 +14566,7 @@ digitalbhuwan.com # NOT_RU_TLD
 digitalblockltd.com # NOT_RU_TLD
 digitalbrokeragellc.com # NOT_RU_TLD
 digitalcoinsphere.com # NOT_RU_TLD
+digitalconference.ru # DNS_RESOLVE_FAILED
 digitalcryptox.com # NOT_RU_TLD
 digitalcurrencyxchange.com # NOT_RU_TLD
 digitaldailyreturn.org # NOT_RU_TLD
@@ -14854,7 +14868,7 @@ dlpl-os11.online # NOT_RU_TLD
 dlpl-os11.ru # NOT_RU_GEOIP
 dlpl-os6.ru # DNS_RESOLVE_FAILED
 dlpl-os7.online # NOT_RU_TLD
-dlpl-os7.ru # DNS_RESOLVE_FAILED
+dlpl-os7.ru # NOT_RU_GEOIP
 dlpl-os8.online # NOT_RU_TLD
 dlpl-os8.ru # DNS_RESOLVE_FAILED
 dlpl-os9.online # NOT_RU_TLD
@@ -14927,7 +14941,7 @@ dneprnews.info # NOT_RU_TLD
 dneprpatch.com # NOT_RU_TLD
 dnes.dir.bg # NOT_RU_TLD
 dnetumar.online # NOT_RU_TLD
-dnetumar.ru # UNKNOWN_GEOIP
+dnetumar.ru # DNS_RESOLVE_FAILED
 dnevnik-detdomovskoi-devchonki.loveread.online # NOT_RU_TLD
 dnevniki-vampira.online # NOT_RU_TLD
 dnevnikkirov.ru # UNKNOWN_GEOIP
@@ -14980,7 +14994,6 @@ dobro24-huhr.biz99.xyz # NOT_RU_TLD
 dobro365.biz # NOT_RU_TLD
 dobrobk.com # NOT_RU_TLD
 dobrobk2.com # NOT_RU_TLD
-dobroe-serdce.ru # DNS_RESOLVE_FAILED
 dobromed.kz # NOT_RU_TLD
 dobropekzakaz.ru # UNKNOWN_GEOIP
 dobrota-dom.ru # UNKNOWN_GEOIP
@@ -14995,6 +15008,7 @@ doc-dips.com # NOT_RU_TLD
 doc-dips.online # NOT_RU_TLD
 doc-inshakov.ru # DNS_RESOLVE_FAILED
 doc-kozulin.ru # UNKNOWN_GEOIP
+doc-person.ru # DNS_RESOLVE_FAILED
 doc-rf.com # NOT_RU_TLD
 doc-trust.biz # NOT_RU_TLD
 doc-vopros.ru # DNS_RESOLVE_FAILED
@@ -15007,7 +15021,7 @@ doc24.biz # NOT_RU_TLD
 docarti.fr # NOT_RU_TLD
 docblago-mc.ru # NOT_RU_GEOIP
 docblago.ru # DNS_RESOLVE_FAILED
-docblagos.ru # NOT_RU_GEOIP
+docblagos.ru # DNS_RESOLVE_FAILED
 docbobryshev.ru # DNS_RESOLVE_FAILED
 docdelive.ru # NOT_RU_GEOIP
 docdip.xyz # NOT_RU_TLD
@@ -15115,6 +15129,7 @@ dojkipornos.one # NOT_RU_TLD
 dojkipornos.org # NOT_RU_TLD
 dojkipornos.top # NOT_RU_TLD
 dok-distant.com # NOT_RU_TLD
+dok-person.ru # DNS_RESOLVE_FAILED
 dok-spb-2019.ru # TOO_MANY_DIGITS
 dok2022.xyz # NOT_RU_TLD
 doka-les.ru # UNKNOWN_GEOIP
@@ -15253,7 +15268,6 @@ domnitorstreasure.top # NOT_RU_TLD
 domodedovo-alko.at.ua # NOT_RU_TLD
 domodedovo-pivo.ru # DNS_RESOLVE_FAILED
 domogramrf.ru # DNS_RESOLVE_FAILED
-domoteka25.ru # UNKNOWN_GEOIP
 domovidenie.ru # DNS_RESOLVE_FAILED
 domovyat.net # NOT_RU_TLD
 dompek96.ru # UNKNOWN_GEOIP
@@ -15796,7 +15810,7 @@ drip-caz-202.top # NOT_RU_TLD
 drip-denty3.ru # DNS_RESOLVE_FAILED
 drip-denty4.ru # UNKNOWN_GEOIP
 drip-dr2dr5.top # NOT_RU_TLD
-drip-geoearu1.ru # UNKNOWN_GEOIP
+drip-geoearu1.ru # DNS_RESOLVE_FAILED
 drip-geoearu11.ru # DNS_RESOLVE_FAILED
 drip-geoearu12.ru # DNS_RESOLVE_FAILED
 drip-hutor1.ru # DNS_RESOLVE_FAILED
@@ -15844,6 +15858,7 @@ driprussia3.top # NOT_RU_TLD
 drive-live.ru # UNKNOWN_GEOIP
 drive-movie.com # NOT_RU_TLD
 drive.indapills.org # NOT_RU_TLD
+drivebag.ru # DNS_RESOLVE_FAILED
 drivebygirls.com # NOT_RU_TLD
 drivemaster.digital # NOT_RU_TLD
 driventryaa.com # NOT_RU_TLD
@@ -15863,7 +15878,7 @@ dro.russiansuka.skin # NOT_RU_TLD
 dro4.net # NOT_RU_TLD
 dro4a.org # NOT_RU_TLD
 dro4ilka.net # NOT_RU_TLD
-dro4ilka.ru # NOT_RU_GEOIP
+dro4ilka.ru # DNS_RESOLVE_FAILED
 dro4ka.net # NOT_RU_TLD
 drobmash21.online # NOT_RU_TLD
 drobmash21.ru # DNS_RESOLVE_FAILED
@@ -15930,6 +15945,7 @@ drypassion.com # NOT_RU_TLD
 drypencil.com # NOT_RU_TLD
 dryplaza.com # NOT_RU_TLD
 drywhisper.com # NOT_RU_TLD
+ds-149.ru # DNS_RESOLVE_FAILED
 ds-154.ru # DNS_RESOLVE_FAILED
 ds-428.ru # UNKNOWN_GEOIP
 ds-91.ru # DNS_RESOLVE_FAILED
@@ -15949,10 +15965,11 @@ ds137.ru # DNS_RESOLVE_FAILED
 ds13zr.ru # DNS_RESOLVE_FAILED
 ds166.ru # DNS_RESOLVE_FAILED
 ds17.ru # DNS_RESOLVE_FAILED
+ds17apn.ru # DNS_RESOLVE_FAILED
 ds19hrustalik.ru # DNS_RESOLVE_FAILED
 ds2020.online # NOT_RU_TLD
 ds22kch.ru # NOT_RU_GEOIP
-ds22romashka.ru # UNKNOWN_GEOIP
+ds22romashka.ru # DNS_RESOLVE_FAILED
 ds23-yeisk.ru # DNS_RESOLVE_FAILED
 ds230.ru # UNKNOWN_GEOIP
 ds238.ru # UNKNOWN_GEOIP
@@ -16175,6 +16192,7 @@ dvdgrad.ru # UNKNOWN_GEOIP
 dvdscop.online # NOT_RU_TLD
 dvdscop.ru # UNKNOWN_GEOIP
 dveri-alfador.ru # NOT_RU_GEOIP
+dveri-alita.ru # DNS_RESOLVE_FAILED
 dveri-garmoshka-66.ru # UNKNOWN_GEOIP
 dveri-med.ru # DNS_RESOLVE_FAILED
 dveri-praid.ru # UNKNOWN_GEOIP
@@ -16725,7 +16743,7 @@ ecopolitic.com.ua # NOT_RU_TLD
 ecoporno.tv # NOT_RU_TLD
 ecopravo.org # NOT_RU_TLD
 ecorealasset.com # NOT_RU_TLD
-ecorest-crimea.ru # DNS_RESOLVE_FAILED
+ecorest-crimea.ru # UNKNOWN_GEOIP
 ecoriogo.com # NOT_RU_TLD
 ecos.finance # NOT_RU_TLD
 ecosanitize.ru # UNKNOWN_GEOIP
@@ -16744,6 +16762,7 @@ ecotraffic.ru # UNKNOWN_GEOIP
 ecotrustventltd.com # NOT_RU_TLD
 ecovillage-sochi.ru # UNKNOWN_GEOIP
 ecozakaz.ru # DNS_RESOLVE_FAILED
+ecpc10.ru # DNS_RESOLVE_FAILED
 ecpmf.eu # NOT_RU_TLD
 ecryptostocks.com # NOT_RU_TLD
 ecsac.eu # NOT_RU_TLD
@@ -16829,6 +16848,7 @@ edunclub.ru # DNS_RESOLVE_FAILED
 eduneuro.tech # NOT_RU_TLD
 eduobr.ru # UNKNOWN_GEOIP
 eduportal.kz # NOT_RU_TLD
+edushkola.ru # DNS_RESOLVE_FAILED
 edutalknola.com # NOT_RU_TLD
 edyal.ru # UNKNOWN_GEOIP
 ee-business.online # NOT_RU_TLD
@@ -16851,7 +16871,7 @@ eff.kz # NOT_RU_TLD
 effektivniedieti.ru # UNKNOWN_GEOIP
 efigas.ru # DNS_RESOLVE_FAILED
 efir-lounge-centr.ru # DNS_RESOLVE_FAILED
-efo-electro.ru # DNS_RESOLVE_FAILED
+efo-electro.ru # UNKNOWN_GEOIP
 efoil39.ru # UNKNOWN_GEOIP
 efonglobalmarkets.com # NOT_RU_TLD
 efugames.com # NOT_RU_TLD
@@ -16884,9 +16904,9 @@ egrn.net # NOT_RU_TLD
 egrnka.com # NOT_RU_TLD
 egrnonline.com # NOT_RU_TLD
 egrnreestr.com # NOT_RU_TLD
-egrnreestr.ru # UNKNOWN_GEOIP
+egrnreestr.ru # DNS_RESOLVE_FAILED
 egrnreestroo.ru # UNKNOWN_GEOIP
-egrnst.ru # UNKNOWN_GEOIP
+egrnst.ru # DNS_RESOLVE_FAILED
 eground.pro # NOT_RU_TLD
 egrp-vipiski.ru # UNKNOWN_GEOIP
 egrp365-online.ru # UNKNOWN_GEOIP
@@ -17071,7 +17091,6 @@ elektrostal.vipster.net # NOT_RU_TLD
 elektrostalf.vipster.net # NOT_RU_TLD
 elelab.ru # UNKNOWN_GEOIP
 element8.ru # UNKNOWN_GEOIP
-elementary-digital.ru # UNKNOWN_GEOIP
 elements.envato.com # NOT_RU_TLD
 elements5.club # NOT_RU_TLD
 elemis-russia.ru # UNKNOWN_GEOIP
@@ -17156,7 +17175,6 @@ elma-rpa.ru # DNS_RESOLVE_FAILED
 elmagaz.ru # DNS_RESOLVE_FAILED
 elmedia.kz # NOT_RU_TLD
 elmir.ua # NOT_RU_TLD
-elmscan327.ru # UNKNOWN_GEOIP
 elmundo.es # NOT_RU_TLD
 elmundoporno.com # NOT_RU_TLD
 elnya.klin8.ru # UNKNOWN_GEOIP
@@ -17194,7 +17212,7 @@ emaxassetsltd.org # NOT_RU_TLD
 embarbaperu.com # NOT_RU_TLD
 embargo.ua # NOT_RU_TLD
 embassy-polyanka.ru # DNS_RESOLVE_FAILED
-embassy-ruangola.ru # UNKNOWN_GEOIP
+embassy-ruangola.ru # DNS_RESOLVE_FAILED
 embassyru-angola.ru # DNS_RESOLVE_FAILED
 embedy.cc # NOT_RU_TLD
 emberchest.org # NOT_RU_TLD
@@ -17218,6 +17236,7 @@ emex-medical.com # NOT_RU_TLD
 emgaweb3.com # NOT_RU_TLD
 emglobalgroup.com # NOT_RU_TLD
 emhrf.org # NOT_RU_TLD
+emias-info-zapis.ru # DNS_RESOLVE_FAILED
 emicoh-fedor.blogspot.com # NOT_RU_TLD
 emigrussia.org # NOT_RU_TLD
 emilburangulov.ru # DNS_RESOLVE_FAILED
@@ -17583,6 +17602,7 @@ equtytrstvault.com # NOT_RU_TLD
 eqvilibriaclub.ru # UNKNOWN_GEOIP
 er-crimea.com # NOT_RU_TLD
 er-erka.ru # UNKNOWN_GEOIP
+er-lukoyanov.ru # DNS_RESOLVE_FAILED
 era-group-spb.ru # UNKNOWN_GEOIP
 eraland.ru # UNKNOWN_GEOIP
 eralmonum-app.com # NOT_RU_TLD
@@ -18289,6 +18309,7 @@ expocity.digital # NOT_RU_TLD
 expoforum-cdk.ru # UNKNOWN_GEOIP
 exponentai.tech # NOT_RU_TLD
 export75.ru # UNKNOWN_GEOIP
+exportconf.ru # DNS_RESOLVE_FAILED
 exposurecommunications.biz # NOT_RU_TLD
 exposurephotolab.ru # DNS_RESOLVE_FAILED
 expotory.com # NOT_RU_TLD
@@ -18341,7 +18362,6 @@ extr.vip # NOT_RU_TLD
 extra-copy.ru # DNS_RESOLVE_FAILED
 extra.rumassa.shop # NOT_RU_TLD
 extraa.online # NOT_RU_TLD
-extracompany.ru # UNKNOWN_GEOIP
 extraload.com.ua # NOT_RU_TLD
 extraman.ru # UNKNOWN_GEOIP
 extramotors.ru # UNKNOWN_GEOIP
@@ -18647,6 +18667,7 @@ fan-tv5.com # NOT_RU_TLD
 fanable.ru # DNS_RESOLVE_FAILED
 fanday.net # NOT_RU_TLD
 fandosuh.club # NOT_RU_TLD
+fanfancy.ru # DNS_RESOLVE_FAILED
 fanfap.art # NOT_RU_TLD
 fanficlub.com # NOT_RU_TLD
 fanfilm4k.biz # NOT_RU_TLD
@@ -18862,10 +18883,12 @@ fastpic.org # NOT_RU_TLD
 fastpic.top # NOT_RU_TLD
 fastpro.online # NOT_RU_TLD
 fastproxy.online # NOT_RU_TLD
+fastregmsk.ru # DNS_RESOLVE_FAILED
 fastrun100.top # NOT_RU_TLD
 fastudos.top # NOT_RU_TLD
 fastvesti.com # NOT_RU_TLD
 fastyoutubevpn.ru # DNS_RESOLVE_FAILED
+fat-intverhb.ru # DNS_RESOLVE_FAILED
 fat-jet-bike.ru # DNS_RESOLVE_FAILED
 fatalstyle-chihuahua.ru # DNS_RESOLVE_FAILED
 fatbj.com # NOT_RU_TLD
@@ -19008,6 +19031,7 @@ feelingkolorful.fr # NOT_RU_TLD
 feelstone.ru # NOT_RU_GEOIP
 feelthesting.net # NOT_RU_TLD
 feenfresh.ru # DNS_RESOLVE_FAILED
+fefish.ru # DNS_RESOLVE_FAILED
 fehrtxo.xn--c1aem.art # NOT_RU_TLD
 fekrandorix-system.com # NOT_RU_TLD
 feldhaus-klinker-samara.ru # UNKNOWN_GEOIP
@@ -19524,6 +19548,7 @@ finneestcoourrse.site # NOT_RU_TLD
 finnfund.org # NOT_RU_TLD
 finnishfilmweek.ru # UNKNOWN_GEOIP
 finnmark.ru # UNKNOWN_GEOIP
+finnougr.ru # DNS_RESOLVE_FAILED
 finnpartner.ru # DNS_RESOLVE_FAILED
 fino-forge.com # NOT_RU_TLD
 fino-vex.com # NOT_RU_TLD
@@ -19726,7 +19751,6 @@ fkurf.ru # NOT_RU_GEOIP
 fl-beauty.ru # DNS_RESOLVE_FAILED
 fl.piped.video # NOT_RU_TLD
 fl4ua.org # NOT_RU_TLD
-flabria.ru # UNKNOWN_GEOIP
 flacme.ru # UNKNOWN_GEOIP
 flacme.xyz # NOT_RU_TLD
 flacmor.org # NOT_RU_TLD
@@ -19803,7 +19827,7 @@ flex-abx.com # NOT_RU_TLD
 flex-cut.com # NOT_RU_TLD
 flex-net-app.com # NOT_RU_TLD
 flex-nqk.com # NOT_RU_TLD
-flexinovo.ru # DNS_RESOLVE_FAILED
+flexinovo.ru # UNKNOWN_GEOIP
 flexipark.ru # UNKNOWN_GEOIP
 flexmarketstrategies.com # NOT_RU_TLD
 flexorarion-app.com # NOT_RU_TLD
@@ -19994,6 +20018,7 @@ fomichaparts.com # NOT_RU_TLD
 fomprotake-system.com # NOT_RU_TLD
 fon-infosport.info # NOT_RU_TLD
 fond-179.ru # DNS_RESOLVE_FAILED
+fond-bytdobru.ru # DNS_RESOLVE_FAILED
 fond-intellect.ru # DNS_RESOLVE_FAILED
 fond-narprom.ru # DNS_RESOLVE_FAILED
 fond-ohana.ru # UNKNOWN_GEOIP
@@ -20026,7 +20051,8 @@ fontop.ru # NOT_RU_GEOIP
 fonts4web.ru # DNS_RESOLVE_FAILED
 fontvielle.org # NOT_RU_TLD
 fonzo.ru # NOT_RU_GEOIP
-foodandcity.ru # UNKNOWN_GEOIP
+foodandcity.ru # DNS_RESOLVE_FAILED
+foodbuyexpo.ru # DNS_RESOLVE_FAILED
 foodcoma.me # NOT_RU_TLD
 foodcraftdv.ru # DNS_RESOLVE_FAILED
 foodcult24.ru # UNKNOWN_GEOIP
@@ -20184,6 +20210,7 @@ forall.swiss # NOT_RU_TLD
 forallhers.com # NOT_RU_TLD
 forarfund.com # NOT_RU_TLD
 forastat.com # NOT_RU_TLD
+foravto64.ru # DNS_RESOLVE_FAILED
 forbes.net.ua # NOT_RU_TLD
 forbes.ua # NOT_RU_TLD
 forbytes.com # NOT_RU_TLD
@@ -20277,7 +20304,6 @@ formit.icu # NOT_RU_TLD
 formmusic.icu # NOT_RU_TLD
 formsound.icu # NOT_RU_TLD
 formula-azs.ru # UNKNOWN_GEOIP
-formula-drone.ru # UNKNOWN_GEOIP
 formula-gaza-msk.ru # NOT_RU_GEOIP
 formula-opt.ru # DNS_RESOLVE_FAILED
 formula1.com # NOT_RU_TLD
@@ -20405,6 +20431,7 @@ forum.punterslounge.com # NOT_RU_TLD
 forum.pvpund.com # NOT_RU_TLD
 forum.pwclassic.net # NOT_RU_TLD
 forum.qwas.ru # NOT_RU_GEOIP
+forum.razumit.ru # DNS_RESOLVE_FAILED
 forum.realpvp.org # NOT_RU_TLD
 forum.realwar.ws # NOT_RU_TLD
 forum.resetters.com # NOT_RU_TLD
@@ -20588,7 +20615,7 @@ fr-horoshiycoffee.ru # UNKNOWN_GEOIP
 fr-nagazu.ru # UNKNOWN_GEOIP
 fr.aappspot.com # NOT_RU_TLD
 fr.ashoo.cfd # NOT_RU_TLD
-fr.casmars.ru # UNKNOWN_GEOIP
+fr.casmars.ru # DNS_RESOLVE_FAILED
 fr.casmr.ru # UNKNOWN_GEOIP
 fr.contactoffice.com # NOT_RU_TLD
 fr.eporner.com # NOT_RU_TLD
@@ -20623,7 +20650,6 @@ frameit.icu # NOT_RU_TLD
 franch-mechta.ru # DNS_RESOLVE_FAILED
 franch-pro.ru # UNKNOWN_GEOIP
 franchbook.ru # UNKNOWN_GEOIP
-franchisemap.ru # UNKNOWN_GEOIP
 franciscoqiinl.uzblog.net # NOT_RU_TLD
 francocollection.com # NOT_RU_TLD
 francoexperts.com # NOT_RU_TLD
@@ -20853,6 +20879,7 @@ freerussians.global # NOT_RU_TLD
 freerussians.org # NOT_RU_TLD
 freerutor.org # NOT_RU_TLD
 freerutube.com # NOT_RU_TLD
+freesafronov.ru # DNS_RESOLVE_FAILED
 freescatporn.com # NOT_RU_TLD
 freescatporntube.com # NOT_RU_TLD
 freeschool.education # NOT_RU_TLD
@@ -20860,7 +20887,6 @@ freesexpics.pro # NOT_RU_TLD
 freesliv.net # NOT_RU_TLD
 freesmoking.online # NOT_RU_TLD
 freesmoking.ru # DNS_RESOLVE_FAILED
-freesofts.ru # DNS_RESOLVE_FAILED
 freespeechdebate.com # NOT_RU_TLD
 freespirit.webboard.org # NOT_RU_TLD
 freestreams-live.my # NOT_RU_TLD
@@ -20968,7 +20994,7 @@ frisdploms.com # NOT_RU_TLD
 friskypizza.ru # UNKNOWN_GEOIP
 frm24.cc # NOT_RU_TLD
 frm48-tkwc.bizg.online # NOT_RU_TLD
-frm48-xxwe.biz.net.ru # NOT_RU_GEOIP
+frm48-xxwe.biz.net.ru # DNS_RESOLVE_FAILED
 frm48.biz # NOT_RU_TLD
 frma-cc1.esti.city # NOT_RU_TLD
 frocerax-app.com # NOT_RU_TLD
@@ -21009,7 +21035,6 @@ fsicomics.com # NOT_RU_TLD
 fsin-pokupka.ru # UNKNOWN_GEOIP
 fsin-rossii.com # NOT_RU_TLD
 fsin-rossii.ru # UNKNOWN_GEOIP
-fsk-solonoga.ru # UNKNOWN_GEOIP
 fskn-gov-ru.online # NOT_RU_TLD
 fskn-gov-ru.ru # DNS_RESOLVE_FAILED
 fskvadrat.ru # DNS_RESOLVE_FAILED
@@ -21466,6 +21491,8 @@ gakleindl.com # NOT_RU_TLD
 gala-xy-etalon.space # NOT_RU_TLD
 gala-xy-suba-etalon.space # NOT_RU_TLD
 galacticracers.top # NOT_RU_TLD
+galaktika-furniture.ru # DNS_RESOLVE_FAILED
+galaktikaokon.ru # DNS_RESOLVE_FAILED
 galam.kz # NOT_RU_TLD
 galamob.ru # UNKNOWN_GEOIP
 galaticexchange.com # NOT_RU_TLD
@@ -21522,6 +21549,7 @@ game-time.pw # NOT_RU_TLD
 game-torrent.co # NOT_RU_TLD
 game-videotube.ru # UNKNOWN_GEOIP
 game-wc1yb.com # NOT_RU_TLD
+game-woods.ru # DNS_RESOLVE_FAILED
 game.bifri.ru # DNS_RESOLVE_FAILED
 game.brawlstarsgame.com # NOT_RU_TLD
 game.gemly.cfd # NOT_RU_TLD
@@ -21581,7 +21609,7 @@ ganlivexapp.com # NOT_RU_TLD
 gannmarkets.com # NOT_RU_TLD
 gaoyr.com # NOT_RU_TLD
 gapoleten.online # NOT_RU_TLD
-gapoleten.ru # UNKNOWN_GEOIP
+gapoleten.ru # DNS_RESOLVE_FAILED
 gapstock.com # NOT_RU_TLD
 garant-registratsia.ru # NOT_RU_GEOIP
 garantiaplus.ru # NOT_RU_GEOIP
@@ -21602,7 +21630,7 @@ garfield2.ru # UNKNOWN_GEOIP
 garfubast.online # NOT_RU_TLD
 garfubast.ru # DNS_RESOLVE_FAILED
 gargtell.org # NOT_RU_TLD
-garibi.ru # NOT_RU_GEOIP
+garibi.ru # DNS_RESOLVE_FAILED
 garilla-15.off2.buzz # NOT_RU_TLD
 garilla-192.t32.online # NOT_RU_TLD
 garilla-193.t18.buzz # NOT_RU_TLD
@@ -22038,7 +22066,6 @@ gazetainform.com # NOT_RU_TLD
 gazetam.ru # UNKNOWN_GEOIP
 gazetamsk.ru # UNKNOWN_GEOIP
 gazetapositive.ru # DNS_RESOLVE_FAILED
-gazetarodina.ru # DNS_RESOLVE_FAILED
 gazetastopudov.ru # NOT_RU_GEOIP
 gazetavv.com # NOT_RU_TLD
 gazman-sdk.com # NOT_RU_TLD
@@ -22248,7 +22275,7 @@ generic24.ru # DNS_RESOLVE_FAILED
 genericapteca.ru # UNKNOWN_GEOIP
 genericpills.ru # DNS_RESOLVE_FAILED
 generikapteca.com # NOT_RU_TLD
-genesis-legenda.ru # NOT_RU_GEOIP
+genesis-legenda.ru # DNS_RESOLVE_FAILED
 genesisblooming.com # NOT_RU_TLD
 genesisinstitue.com # NOT_RU_TLD
 genesisminer.online # NOT_RU_TLD
@@ -22299,7 +22326,6 @@ georgia-drive.com # NOT_RU_TLD
 georgia.asia-places.com # NOT_RU_TLD
 georgianlegion.ge # NOT_RU_TLD
 georgschool11.ru # UNKNOWN_GEOIP
-geotehnikaurala.ru # UNKNOWN_GEOIP
 gepatit-c-stop2.ru # DNS_RESOLVE_FAILED
 gepatit-c-stop24.ru # DNS_RESOLVE_FAILED
 gepatit-c-stop3.ru # DNS_RESOLVE_FAILED
@@ -22334,6 +22360,7 @@ germanscat.net # NOT_RU_TLD
 germanstandard.com # NOT_RU_TLD
 germaxfin-software.com # NOT_RU_TLD
 germaxfin-system.com # NOT_RU_TLD
+germesmagazin.ru # DNS_RESOLVE_FAILED
 germesmeat.ru # UNKNOWN_GEOIP
 gernovich.ru # UNKNOWN_GEOIP
 geroi.biz # NOT_RU_TLD
@@ -22530,7 +22557,6 @@ gi.sosushka.vip # NOT_RU_TLD
 giaidau.org # NOT_RU_TLD
 gialimited.com # NOT_RU_TLD
 gianfrancoguerrieri.com # NOT_RU_TLD
-gianni-spb.ru # UNKNOWN_GEOIP
 gianpierofusco.com # NOT_RU_TLD
 gianthub.online # NOT_RU_TLD
 giaovienvietnam.vn # NOT_RU_TLD
@@ -22701,7 +22727,7 @@ gipnozis.serfilm.com # NOT_RU_TLD
 gipotina.online # NOT_RU_TLD
 gira-krasnodar.ru # UNKNOWN_GEOIP
 girbidrumstech.online # NOT_RU_TLD
-girbidrumstech.ru # UNKNOWN_GEOIP
+girbidrumstech.ru # DNS_RESOLVE_FAILED
 girl.porno.sexy # NOT_RU_TLD
 girlberry.ru # UNKNOWN_GEOIP
 girlceleb.club # NOT_RU_TLD
@@ -22962,7 +22988,6 @@ globi-trans.com # NOT_RU_TLD
 globo.agency # NOT_RU_TLD
 globoscope.ru # DNS_RESOLVE_FAILED
 globunited.com # NOT_RU_TLD
-globus-science.ru # UNKNOWN_GEOIP
 globuspizza.ru # UNKNOWN_GEOIP
 globusvrn.ru # UNKNOWN_GEOIP
 glocall.org # NOT_RU_TLD
@@ -22983,7 +23008,7 @@ glorycass.com # NOT_RU_TLD
 glorycazz.com # NOT_RU_TLD
 gloryccaznew.com # NOT_RU_TLD
 glorycoin.co # NOT_RU_TLD
-gloryflower.ru # UNKNOWN_GEOIP
+gloryflower.ru # DNS_RESOLVE_FAILED
 gloryholeswallow.com # NOT_RU_TLD
 glose.com # NOT_RU_TLD
 gloss-cos.com # NOT_RU_TLD
@@ -23066,7 +23091,6 @@ go.eog.plus # NOT_RU_TLD
 go.express-wallet.com # NOT_RU_TLD
 go.filmshd.top # NOT_RU_TLD
 go.filmy2024.co # NOT_RU_TLD
-go.gamesoftrones.ru # UNKNOWN_GEOIP
 go.joporn.space # NOT_RU_TLD
 go.lenporno.space # NOT_RU_TLD
 go.lotbob.ru # UNKNOWN_GEOIP
@@ -23255,6 +23279,7 @@ golmaster.lol # NOT_RU_TLD
 golmaster.online # NOT_RU_TLD
 golmaster.xyz # NOT_RU_TLD
 goloe.me # NOT_RU_TLD
+goloka-fest.ru # DNS_RESOLVE_FAILED
 golos-naroda.tv # NOT_RU_TLD
 golos-protiv.com # NOT_RU_TLD
 golos.com.ua # NOT_RU_TLD
@@ -23335,6 +23360,7 @@ good.reska.xyz # NOT_RU_TLD
 good.vaginke.cloud # NOT_RU_TLD
 good1.film-tv.club # NOT_RU_TLD
 goodbotnew.xyz # NOT_RU_TLD
+goodbyedpi.ru # UNKNOWN_GEOIP
 goodbyekavkaz.org # NOT_RU_TLD
 goodbyerussia.blogspot.com # NOT_RU_TLD
 goodcomix.feu.su # NOT_RU_GEOIP
@@ -23511,7 +23537,6 @@ gotfilled.com # NOT_RU_TLD
 gotgayporn.com # NOT_RU_TLD
 gotoaddr.com # NOT_RU_TLD
 gotofap.org # NOT_RU_TLD
-gotomedia.ru # DNS_RESOLVE_FAILED
 gotomexico.today # NOT_RU_TLD
 gotomyluck.com # NOT_RU_TLD
 gotorpnew.com # NOT_RU_TLD
@@ -23697,7 +23722,9 @@ gradus2-247-saratov.online # NOT_RU_TLD
 gradus2-247-surgut.online # NOT_RU_TLD
 gradus247-irkutsk.ru # DNS_RESOLVE_FAILED
 gradus247-kaliningrad.online # NOT_RU_TLD
+gradus247-kaliningrad.ru # DNS_RESOLVE_FAILED
 gradus247-krasnoyarsk.online # NOT_RU_TLD
+gradus247-krasnoyarsk.ru # DNS_RESOLVE_FAILED
 gradus247-moskva.online # NOT_RU_TLD
 gradus247-moskva.ru # DNS_RESOLVE_FAILED
 gradus247-nn.online # NOT_RU_TLD
@@ -24131,7 +24158,6 @@ gud-shop.top # NOT_RU_TLD
 gudanglagu321.de # NOT_RU_TLD
 gudangmp3r.cafelagu.me # NOT_RU_TLD
 gudermesshkola-1.ru # NOT_RU_GEOIP
-gudvinpromo.ru # UNKNOWN_GEOIP
 guerdon-enterprise.com # NOT_RU_TLD
 guerlain-parfum.ru # DNS_RESOLVE_FAILED
 guerrillamail.com # NOT_RU_TLD
@@ -24468,6 +24494,7 @@ happ-vpn.net # NOT_RU_TLD
 happ.beauty # NOT_RU_TLD
 happ.bot # NOT_RU_TLD
 happ.moscow # DNS_RESOLVE_FAILED
+happ.pp.ru # DNS_RESOLVE_FAILED
 happvpn.help # NOT_RU_TLD
 happvpn.info # NOT_RU_TLD
 happvpn.mom # NOT_RU_TLD
@@ -24856,6 +24883,7 @@ helenmartin.ru # DNS_RESOLVE_FAILED
 helga-sach.com # NOT_RU_TLD
 heli-nord.ru # DNS_RESOLVE_FAILED
 heliosequityltd.org # NOT_RU_TLD
+hellaanime.ru # UNKNOWN_GEOIP
 hellcase.com # NOT_RU_TLD
 hellcatraz.top # NOT_RU_TLD
 hellhog.ru # UNKNOWN_GEOIP
@@ -25373,7 +25401,7 @@ hisy.ashoo.sh # NOT_RU_TLD
 hisy.ashoo.top # NOT_RU_TLD
 hisy.ashoo.us # NOT_RU_TLD
 hisy.ashoo.vin # NOT_RU_TLD
-hit-vpn-connect.ru # NOT_RU_GEOIP
+hit-vpn-connect.ru # DNS_RESOLVE_FAILED
 hit-vpn.net # NOT_RU_TLD
 hit.pornooblako.live # NOT_RU_TLD
 hit24.group # NOT_RU_TLD
@@ -25629,7 +25657,6 @@ hopeharborsociety.com # NOT_RU_TLD
 hopemakers.online # NOT_RU_TLD
 hoppou-d.or.jp # NOT_RU_TLD
 hopufoa6.site # NOT_RU_TLD
-hor-russia.ru # UNKNOWN_GEOIP
 horaspace.pro # NOT_RU_TLD
 horecakids.ru # DNS_RESOLVE_FAILED
 horecaleaders.ru # UNKNOWN_GEOIP
@@ -25726,7 +25753,6 @@ hotblackmilf.com # NOT_RU_TLD
 hotblondepussy.com # NOT_RU_TLD
 hotbustymoms.com # NOT_RU_TLD
 hotcelebshome.com # NOT_RU_TLD
-hotcharts.ru # UNKNOWN_GEOIP
 hotchinagayporn.cc # NOT_RU_TLD
 hotcomix.supapupa.ru # UNKNOWN_GEOIP
 hotcore.info # NOT_RU_TLD
@@ -26052,6 +26078,7 @@ hu.sloip.ru # UNKNOWN_GEOIP
 hu.sotsg.ru # UNKNOWN_GEOIP
 hu.stloe.ru # UNKNOWN_GEOIP
 huage.online # NOT_RU_TLD
+huashen-ekb.ru # DNS_RESOLVE_FAILED
 huawei.com # NOT_RU_TLD
 hub-book.com # NOT_RU_TLD
 hub-books.com # NOT_RU_TLD
@@ -26174,7 +26201,7 @@ hy.indapills.org # NOT_RU_TLD
 hy.ru-music.online # NOT_RU_TLD
 hyaicint-hotel.ru # UNKNOWN_GEOIP
 hybityields.click # NOT_RU_TLD
-hycat.ru # NOT_RU_GEOIP
+hycat.ru # DNS_RESOLVE_FAILED
 hycmmarketnest.com # NOT_RU_TLD
 hydievpornovideo.cc # NOT_RU_TLD
 hydievpornovideo.click # NOT_RU_TLD
@@ -26235,7 +26262,6 @@ hzqianhe.com # NOT_RU_TLD
 i-11.net # NOT_RU_TLD
 i-34.com # NOT_RU_TLD
 i-am-reading.ru # UNKNOWN_GEOIP
-i-bp.ru # UNKNOWN_GEOIP
 i-cheloveka.ru # NOT_RU_GEOIP
 i-deti.org # NOT_RU_TLD
 i-dipl.com # NOT_RU_TLD
@@ -26429,10 +26455,9 @@ ice-arena.info # NOT_RU_TLD
 ice-dent.ru # UNKNOWN_GEOIP
 ice-gay.com # NOT_RU_TLD
 ice-markets.com # NOT_RU_TLD
-ice-people.ru # NOT_RU_GEOIP
+ice-people.ru # DNS_RESOLVE_FAILED
 ice24.top # NOT_RU_TLD
 ice24.vip.24rc.lol # NOT_RU_TLD
-icearenavolna.ru # UNKNOWN_GEOIP
 iceboys.co.za # NOT_RU_TLD
 icecoin.live # NOT_RU_TLD
 icegame.biz # NOT_RU_TLD
@@ -26544,7 +26569,6 @@ idrofiresystem.com # NOT_RU_TLD
 idsxxuesk.buzz # NOT_RU_TLD
 idywellness.com # NOT_RU_TLD
 ie2g.com # NOT_RU_TLD
-iec-arctic.ru # UNKNOWN_GEOIP
 ieep-ua.org # NOT_RU_TLD
 ief.kz # NOT_RU_TLD
 ief2022.kz # NOT_RU_TLD
@@ -26596,6 +26620,7 @@ igroblox.ru # UNKNOWN_GEOIP
 igrodrom.net # NOT_RU_TLD
 igromakc.ru # UNKNOWN_GEOIP
 igronews.com # NOT_RU_TLD
+igrosad.ru # DNS_RESOLVE_FAILED
 igrotek33.ru # UNKNOWN_GEOIP
 igrotorgi.ru # UNKNOWN_GEOIP
 igroupinfo.com # NOT_RU_TLD
@@ -26830,7 +26855,6 @@ imperator-club.net # NOT_RU_TLD
 imperator.city # NOT_RU_TLD
 imperatorfood.ru # DNS_RESOLVE_FAILED
 imperatorskie-mytishchi.ru # DNS_RESOLVE_FAILED
-imperatrica-furs.ru # UNKNOWN_GEOIP
 imperia-of-hentai.net # NOT_RU_TLD
 imperia-r.ru # UNKNOWN_GEOIP
 imperia-svyazi.ru # DNS_RESOLVE_FAILED
@@ -26932,7 +26956,7 @@ incforum.ru # UNKNOWN_GEOIP
 incident.obozrevatel.com # NOT_RU_TLD
 incinema.fun # NOT_RU_TLD
 inclients.ru # DNS_RESOLVE_FAILED
-inclik.ru # NOT_RU_GEOIP
+inclik.ru # DNS_RESOLVE_FAILED
 inclusiveart.ru # UNKNOWN_GEOIP
 incms.vc # NOT_RU_TLD
 inco-pro.com # NOT_RU_TLD
@@ -27078,6 +27102,7 @@ infocopter.ru # DNS_RESOLVE_FAILED
 infogamma.pro # NOT_RU_TLD
 infogov.ru # UNKNOWN_GEOIP
 infohelpukraine.uapp.org # NOT_RU_TLD
+infohome-altai.ru # DNS_RESOLVE_FAILED
 infoipi.ru # UNKNOWN_GEOIP
 infokassa.site # NOT_RU_TLD
 infokava.com # NOT_RU_TLD
@@ -27090,6 +27115,7 @@ infomozaika.info # NOT_RU_TLD
 infomozaika.net # NOT_RU_TLD
 infomozaika.org # NOT_RU_TLD
 infonavigator.com.ua # NOT_RU_TLD
+infontr.ru # DNS_RESOLVE_FAILED
 infopechen.ru # UNKNOWN_GEOIP
 infopodsolnux.ru # UNKNOWN_GEOIP
 infopressa-site.com # NOT_RU_TLD
@@ -27140,7 +27166,6 @@ infvp.net # NOT_RU_TLD
 ingacos.ru # DNS_RESOLVE_FAILED
 ingenercenter.ru # DNS_RESOLVE_FAILED
 ingerimaja.com # NOT_RU_TLD
-inginirium-tmn.ru # DNS_RESOLVE_FAILED
 inginirium.online # NOT_RU_TLD
 ingoodtastemag.com # NOT_RU_TLD
 ingrad-tophills.ru # DNS_RESOLVE_FAILED
@@ -27238,7 +27263,7 @@ instalelectro.ru # UNKNOWN_GEOIP
 instalker.org # NOT_RU_TLD
 install-shop.org # NOT_RU_TLD
 install2kr.at # NOT_RU_TLD
-instamar.ru # UNKNOWN_GEOIP
+instamar.ru # DNS_RESOLVE_FAILED
 instant-1sanorex.com # NOT_RU_TLD
 instant-4000lotemax.com # NOT_RU_TLD
 instant-400scale.com # NOT_RU_TLD
@@ -27512,7 +27537,6 @@ ip-centre.ru # UNKNOWN_GEOIP
 ip-news.ru # UNKNOWN_GEOIP
 ip-printx.ru # UNKNOWN_GEOIP
 ip-shnik.ru # DNS_RESOLVE_FAILED
-ip77.ru # DNS_RESOLVE_FAILED
 ipad.perfectgirls.net # NOT_RU_TLD
 ipadizer.ru # UNKNOWN_GEOIP
 ipadnik.ru # UNKNOWN_GEOIP
@@ -27738,6 +27762,7 @@ istpp.ru # DNS_RESOLVE_FAILED
 istraglamping.ru # DNS_RESOLVE_FAILED
 istravdpo.ru # DNS_RESOLVE_FAILED
 istream2watch.org # NOT_RU_TLD
+istrebytel-demonov-animego.ru # DNS_RESOLVE_FAILED
 istudio.jp # NOT_RU_TLD
 isukraine.com # NOT_RU_TLD
 isummit.info # NOT_RU_TLD
@@ -27918,7 +27943,6 @@ ivolga.info # NOT_RU_TLD
 ivona.ua # NOT_RU_TLD
 ivopora.ru # UNKNOWN_GEOIP
 ivriotex.ru # UNKNOWN_GEOIP
-ivstol.ru # DNS_RESOLVE_FAILED
 ivtracker.org # NOT_RU_TLD
 ivu.vidak.icu # NOT_RU_TLD
 ivushka8.ru # DNS_RESOLVE_FAILED
@@ -28074,7 +28098,7 @@ j.filmorium.online # NOT_RU_TLD
 j.filmqwq.online # NOT_RU_TLD
 j.fractr.xyz # NOT_RU_TLD
 j.mix-porn.xyz # NOT_RU_TLD
-j.porno-kazashki.ru # UNKNOWN_GEOIP
+j.porno-kazashki.ru # DNS_RESOLVE_FAILED
 j.stopfilms.info # NOT_RU_TLD
 j.top4top.net # NOT_RU_TLD
 j.torrentfilmov.net # NOT_RU_TLD
@@ -28186,6 +28210,7 @@ japangaysex.com # NOT_RU_TLD
 japangaysexhard.cc # NOT_RU_TLD
 japanhdv.com # NOT_RU_TLD
 japaninporn.com # NOT_RU_TLD
+japanisgood.ru # DNS_RESOLVE_FAILED
 japanmotors38.online # NOT_RU_TLD
 japanpeo.com # NOT_RU_TLD
 japoloy8.ru # DNS_RESOLVE_FAILED
@@ -28623,7 +28648,6 @@ juliagelas.ru # DNS_RESOLVE_FAILED
 julienflorkin.com # NOT_RU_TLD
 julikam.net # NOT_RU_TLD
 jumplix.com # NOT_RU_TLD
-jumpro.ru # DNS_RESOLVE_FAILED
 jun12.rudub.icu # NOT_RU_TLD
 jun13.rudub.icu # NOT_RU_TLD
 jun169.tvhub.digital # NOT_RU_TLD
@@ -28637,14 +28661,14 @@ jungbusijang.co.kr # NOT_RU_TLD
 juniordancecamp.ru # DNS_RESOLVE_FAILED
 juniorpaytechforum.ru # DNS_RESOLVE_FAILED
 juqt1r.c97.org # NOT_RU_TLD
-jur-fact.ru # DNS_RESOLVE_FAILED
 juremio5.ru # DNS_RESOLVE_FAILED
 juridicheskij-supermarket.ua # NOT_RU_TLD
 jurist-on-line.ru # UNKNOWN_GEOIP
 juristi-novosibirska.ru # UNKNOWN_GEOIP
-juristufa.ru # NOT_RU_GEOIP
+juristufa.ru # UNKNOWN_GEOIP
 jurliga.ligazakon.net # NOT_RU_TLD
 jurnaltv.md # NOT_RU_TLD
+jurserver.ru # DNS_RESOLVE_FAILED
 just-cafe.ru # DNS_RESOLVE_FAILED
 just-job.ru # DNS_RESOLVE_FAILED
 just-moment.ru # UNKNOWN_GEOIP
@@ -28819,7 +28843,7 @@ kadastr-365.ru # UNKNOWN_GEOIP
 kadastr-info.net # NOT_RU_TLD
 kadastr-rf.ru # UNKNOWN_GEOIP
 kadastr-ru.ru # UNKNOWN_GEOIP
-kadastrcheck.ru # UNKNOWN_GEOIP
+kadastrcheck.ru # DNS_RESOLVE_FAILED
 kadastrmap.info # NOT_RU_TLD
 kadastrmaps.com # NOT_RU_TLD
 kadastrovyj-otchet.ru # DNS_RESOLVE_FAILED
@@ -28948,6 +28972,7 @@ kamennyegriby.com # NOT_RU_TLD
 kamenrai.ru # UNKNOWN_GEOIP
 kamenskoe.city # NOT_RU_TLD
 kamenstol.ru # UNKNOWN_GEOIP
+kameranabludenia.ru # DNS_RESOLVE_FAILED
 kamerashop.ru # UNKNOWN_GEOIP
 kamerdam.com # NOT_RU_TLD
 kaminforlife.ru # UNKNOWN_GEOIP
@@ -29018,6 +29043,7 @@ karaokemedia.ru # DNS_RESOLVE_FAILED
 karasyandra.ru # DNS_RESOLVE_FAILED
 karate-kurgan.ru # UNKNOWN_GEOIP
 karatmarket.biz # NOT_RU_TLD
+karatussur.ru # DNS_RESOLVE_FAILED
 karatworld.com # NOT_RU_TLD
 karavan.ua # NOT_RU_TLD
 karavan2024.biz # NOT_RU_TLD
@@ -29040,7 +29066,6 @@ karkaskazan.ru # DNS_RESOLVE_FAILED
 karkasnyedomapodklyuch.ru # DNS_RESOLVE_FAILED
 karlburgers.ru # NOT_RU_GEOIP
 karliki.com # NOT_RU_TLD
-karlmunchausen.ru # NOT_RU_GEOIP
 karlson-guitars.ru # DNS_RESOLVE_FAILED
 karlson-restorant.ru # UNKNOWN_GEOIP
 karnaval-krd.ru # UNKNOWN_GEOIP
@@ -29076,7 +29101,7 @@ kartina-tv.com # NOT_RU_TLD
 kartina.dk # NOT_RU_TLD
 kartinacanada.com # NOT_RU_TLD
 kartinatvbrooklyn.com # NOT_RU_TLD
-kartinki-xxx.ru # UNKNOWN_GEOIP
+kartinki-xxx.ru # DNS_RESOLVE_FAILED
 kartochnyedengi.xyz # NOT_RU_TLD
 kartolog1.ru # DNS_RESOLVE_FAILED
 kartoman.ru # UNKNOWN_GEOIP
@@ -29104,7 +29129,6 @@ kasta.ru # NOT_RU_GEOIP
 kasynainternetowe.net # NOT_RU_TLD
 kasynainternetowe12.net # NOT_RU_TLD
 kasynainternetowe4.net # NOT_RU_TLD
-kat-53.ru # UNKNOWN_GEOIP
 kat.am # NOT_RU_TLD
 kataevprize.ru # DNS_RESOLVE_FAILED
 katalika.ru # UNKNOWN_GEOIP
@@ -29141,7 +29165,6 @@ kavalar.online # NOT_RU_TLD
 kavalar.ru # NOT_RU_GEOIP
 kavenapartners.com # NOT_RU_TLD
 kavioliitossa.fi # NOT_RU_TLD
-kavkaz-rif.ru # UNKNOWN_GEOIP
 kavkaz-uzel.eu # NOT_RU_TLD
 kavkaz-uzel.media # NOT_RU_TLD
 kavkaz-uzel.org # NOT_RU_TLD
@@ -29187,6 +29210,7 @@ kazanmall.cc # NOT_RU_TLD
 kazanmall.wiki # NOT_RU_TLD
 kazantourismforum.ru # UNKNOWN_GEOIP
 kazantsevphotoart.ru # UNKNOWN_GEOIP
+kazanwomen.ru # DNS_RESOLVE_FAILED
 kazatomproms.com # NOT_RU_TLD
 kazazey0.ru # DNS_RESOLVE_FAILED
 kazbeer.kz # NOT_RU_TLD
@@ -29333,6 +29357,7 @@ kem-repetitors.online # NOT_RU_TLD
 kem-repetitors.ru # DNS_RESOLVE_FAILED
 kemaner.online # NOT_RU_TLD
 kemerovo-alcobar.shop # NOT_RU_TLD
+kemerovo-balkon.ru # DNS_RESOLVE_FAILED
 kemerovo-online.ru # UNKNOWN_GEOIP
 kemerovo.sexros.biz # NOT_RU_TLD
 kemerovo24alkobar.shop # NOT_RU_TLD
@@ -29544,6 +29569,7 @@ kiinogo.biz # NOT_RU_TLD
 kik-tuning.ru # DNS_RESOLVE_FAILED
 kikanyy0.ru # DNS_RESOLVE_FAILED
 kilithg.ru # DNS_RESOLVE_FAILED
+killeranimal.ru # DNS_RESOLVE_FAILED
 killergram-girls.com # NOT_RU_TLD
 killergram.com # NOT_RU_TLD
 killernews.onl # NOT_RU_TLD
@@ -29685,10 +29711,11 @@ kirovgrad.registratsya-school2024.ru # TOO_MANY_DIGITS
 kirovgrad.school7-krasnokamensk.ru # NOT_RU_GEOIP
 kirovkluch.ru # UNKNOWN_GEOIP
 kirovskschool7.ru # UNKNOWN_GEOIP
-kirp-dvor.ru # UNKNOWN_GEOIP
+kirp-dvor.ru # NOT_RU_GEOIP
 kirpichi-i-bloki.ru # DNS_RESOLVE_FAILED
 kirsoc.ru # DNS_RESOLVE_FAILED
 kirtuclub.com # NOT_RU_TLD
+kirzhach-crb.ru # DNS_RESOLVE_FAILED
 kis-brys.ru # UNKNOWN_GEOIP
 kishmish.forumotion.eu # NOT_RU_TLD
 kislorod-jeverest.serfilm.com # NOT_RU_TLD
@@ -29912,6 +29939,7 @@ knigadoma.online # NOT_RU_TLD
 knigadoma.ru # UNKNOWN_GEOIP
 knigafond.ru # NOT_RU_GEOIP
 knigamaniya.ru # UNKNOWN_GEOIP
+knigamp3.ru # DNS_RESOLVE_FAILED
 knigavkarmane.com # NOT_RU_TLD
 knigavuhe.com # NOT_RU_TLD
 knigavuhe.info # NOT_RU_TLD
@@ -30037,7 +30065,6 @@ kokoses.one # NOT_RU_TLD
 kokoses.top # NOT_RU_TLD
 kokosik.vip # NOT_RU_TLD
 kokotka.ru # UNKNOWN_GEOIP
-kokotka11.ru # UNKNOWN_GEOIP
 kokotka2.ru # UNKNOWN_GEOIP
 kokotka6.ru # UNKNOWN_GEOIP
 koks.cc # NOT_RU_TLD
@@ -30164,7 +30191,6 @@ kondmateaisystem-engine.com # NOT_RU_TLD
 kondopoga.vi-print.ru # UNKNOWN_GEOIP
 kondratevo-rk.ru # DNS_RESOLVE_FAILED
 kongress2017.ru # TOO_MANY_DIGITS
-koniizmailovo.ru # UNKNOWN_GEOIP
 konkurent.in.ua # NOT_RU_TLD
 konkurent.ua # NOT_RU_TLD
 konkurs-cosmos.ru # DNS_RESOLVE_FAILED
@@ -30311,9 +30337,10 @@ kosmetologiya-no1.ru # DNS_RESOLVE_FAILED
 kosmo.lol # NOT_RU_TLD
 kosmodrive.kz # NOT_RU_TLD
 kosmolotonline.com # NOT_RU_TLD
-kosmos-center.ru # UNKNOWN_GEOIP
+kosmos-center.ru # DNS_RESOLVE_FAILED
 kosmos-territoriya-smerti.sportkids-nsk.ru # NOT_RU_GEOIP
 kosmoschool.com # NOT_RU_TLD
+kospel-shop.ru # DNS_RESOLVE_FAILED
 kospley-porno.top # NOT_RU_TLD
 kostanaylife.kz # NOT_RU_TLD
 kosterevo.octobre.ru # UNKNOWN_GEOIP
@@ -30377,6 +30404,7 @@ kpkni-gorod.ru # UNKNOWN_GEOIP
 kpnemo.eu # NOT_RU_TLD
 kpoz.ru # UNKNOWN_GEOIP
 kppshka.ru # UNKNOWN_GEOIP
+kprf79.ru # DNS_RESOLVE_FAILED
 kpscrodnik.ru # DNS_RESOLVE_FAILED
 kpsova.ru # UNKNOWN_GEOIP
 kpsp.ru # UNKNOWN_GEOIP
@@ -30486,7 +30514,6 @@ kremlintours.ru # NOT_RU_GEOIP
 krentavest-app.net # NOT_RU_TLD
 krep-c.ru # UNKNOWN_GEOIP
 krepezh-tochtonado.ru # UNKNOWN_GEOIP
-krepform.ru # UNKNOWN_GEOIP
 krepost54.ru # UNKNOWN_GEOIP
 kreslamebel.ru # UNKNOWN_GEOIP
 kresy24.pl # NOT_RU_TLD
@@ -30972,7 +30999,7 @@ kuvanle.online # NOT_RU_TLD
 kuvanle.ru # UNKNOWN_GEOIP
 kuvera-partners.com # NOT_RU_TLD
 kuzbass-camp.ru # DNS_RESOLVE_FAILED
-kuzhenkino.ru # UNKNOWN_GEOIP
+kuzhenkino.ru # NOT_RU_GEOIP
 kuzmabookdesign.ru # DNS_RESOLVE_FAILED
 kuzmaltd.ru # UNKNOWN_GEOIP
 kuzmiha-auto.ru # UNKNOWN_GEOIP
@@ -31239,14 +31266,13 @@ laderechaesperanza.xyz # NOT_RU_TLD
 ladiessharm.ru # DNS_RESOLVE_FAILED
 ladinideco.ru # DNS_RESOLVE_FAILED
 lado.blog.bg # NOT_RU_TLD
-ladoga-baza.ru # UNKNOWN_GEOIP
+ladoga-baza.ru # DNS_RESOLVE_FAILED
 ladoga-ltd.ru # DNS_RESOLVE_FAILED
 ladogazaim.ru # DNS_RESOLVE_FAILED
 ladonamex.com # NOT_RU_TLD
 ladushkin.bfrea.ru # UNKNOWN_GEOIP
 lady-antikrizis.ru # UNKNOWN_GEOIP
 lady-caramel.ru # DNS_RESOLVE_FAILED
-lady-golf.ru # UNKNOWN_GEOIP
 lady-hammer.c103.ru # UNKNOWN_GEOIP
 lady-hammer.h106.ru # UNKNOWN_GEOIP
 lady-hammer.h108.ru # UNKNOWN_GEOIP
@@ -31490,6 +31516,7 @@ lavorare.eu # NOT_RU_TLD
 lavr-b2b.ru # DNS_RESOLVE_FAILED
 lavra.crimea.ua # NOT_RU_TLD
 lavrcafe.ru # DNS_RESOLVE_FAILED
+lavrovanail.ru # DNS_RESOLVE_FAILED
 law-konsul.ru # DNS_RESOLVE_FAILED
 law-yamashita.com # NOT_RU_TLD
 law.sci.house # NOT_RU_TLD
@@ -31591,10 +31618,9 @@ lechiotit.ru # DNS_RESOLVE_FAILED
 lechupechen.ru # DNS_RESOLVE_FAILED
 lecoinporno.fr # NOT_RU_TLD
 lecshop.top # NOT_RU_TLD
-lectmania.ru # NOT_RU_GEOIP
+lectmania.ru # UNKNOWN_GEOIP
 lectorium.org # NOT_RU_TLD
 led.herrutor.site # NOT_RU_TLD
-ledboom86.ru # UNKNOWN_GEOIP
 leddepom.com # NOT_RU_TLD
 ledesign-studio.ru # DNS_RESOLVE_FAILED
 ledex-as.cz # NOT_RU_TLD
@@ -31732,7 +31758,6 @@ lemonde.fr # NOT_RU_TLD
 lemoulindaudenfort.com # NOT_RU_TLD
 lempopo.kz # NOT_RU_TLD
 len-masters.ru # UNKNOWN_GEOIP
-lenakarin.ru # UNKNOWN_GEOIP
 lenamaksimova.com # NOT_RU_TLD
 lenatoplist.com # NOT_RU_TLD
 lenatsokalenko.com # NOT_RU_TLD
@@ -31898,7 +31923,6 @@ letitfilms.com # NOT_RU_TLD
 letmeway.com # NOT_RU_TLD
 letniy-teatr.ru # DNS_RESOLVE_FAILED
 letnsochi.ru # UNKNOWN_GEOIP
-leto-home.ru # DNS_RESOLVE_FAILED
 letofeo.com # NOT_RU_TLD
 letovo-arch-competition.com # NOT_RU_TLD
 letras.top # NOT_RU_TLD
@@ -32048,7 +32072,6 @@ lexcasitom5.ru # UNKNOWN_GEOIP
 lexcazik-1.top # NOT_RU_TLD
 lexcazik-2.top # NOT_RU_TLD
 lexcrypto.ru # UNKNOWN_GEOIP
-lexfortforum.ru # UNKNOWN_GEOIP
 lexhotspot1.ru # DNS_RESOLVE_FAILED
 lexhotspot10.ru # UNKNOWN_GEOIP
 lexhotspot8.ru # DNS_RESOLVE_FAILED
@@ -32187,7 +32210,6 @@ libwww.freelibrary.org # NOT_RU_TLD
 libzek.club # NOT_RU_TLD
 libzik.club # NOT_RU_TLD
 lic1.online # NOT_RU_TLD
-lic1.ru # DNS_RESOLVE_FAILED
 lic1589.online # NOT_RU_TLD
 lic1589.ru # TOO_MANY_DIGITS
 lic4krd.ru # UNKNOWN_GEOIP
@@ -32517,7 +32539,6 @@ littledick.club # NOT_RU_TLD
 littlemutt.com # NOT_RU_TLD
 litusmotors.ru # UNKNOWN_GEOIP
 litway.net # NOT_RU_TLD
-litznak.ru # UNKNOWN_GEOIP
 liuweiwx.com # NOT_RU_TLD
 livan-sunrise.ru # UNKNOWN_GEOIP
 live-amp5.top # NOT_RU_TLD
@@ -33024,6 +33045,7 @@ loveecho.xyz # NOT_RU_TLD
 lovegav.ru # DNS_RESOLVE_FAILED
 lovehentai.net # NOT_RU_TLD
 lovehomeporn.com # NOT_RU_TLD
+lovejpg.ru # DNS_RESOLVE_FAILED
 loveki.ru # DNS_RESOLVE_FAILED
 loveliveforever.com # NOT_RU_TLD
 lovelopt.ru # DNS_RESOLVE_FAILED
@@ -33039,7 +33061,7 @@ lovenymphets.club # NOT_RU_TLD
 lovenymphets.com # NOT_RU_TLD
 loveone24.biz # NOT_RU_TLD
 lover.com.vn # NOT_RU_TLD
-lovercheck.ru # NOT_RU_GEOIP
+lovercheck.ru # DNS_RESOLVE_FAILED
 loveread.avivas.online # NOT_RU_TLD
 loveread.com.ua # NOT_RU_TLD
 loveread.ec # NOT_RU_TLD
@@ -33383,7 +33405,6 @@ luxtorrent.club # NOT_RU_TLD
 luxuretv.com # NOT_RU_TLD
 luxury-alcohol.ru # NOT_RU_GEOIP
 luxury-yachts.biz # NOT_RU_TLD
-luxurylivinggroup.ru # NOT_RU_GEOIP
 luxverblitzai-engine.com # NOT_RU_TLD
 luxvermo-platform.com # NOT_RU_TLD
 luxvermo.net # NOT_RU_TLD
@@ -33471,7 +33492,7 @@ lz-look.ru # DNS_RESOLVE_FAILED
 lz.lv # NOT_RU_TLD
 lz.run # NOT_RU_TLD
 lzk-metall.ru # UNKNOWN_GEOIP
-m-city-24.biz.net.ru # NOT_RU_GEOIP
+m-city-24.biz.net.ru # DNS_RESOLVE_FAILED
 m-city-klardqd.biz.net.ru # NOT_RU_GEOIP
 m-city-klarqd.biz.net.ru # NOT_RU_GEOIP
 m-enabling.ru # DNS_RESOLVE_FAILED
@@ -34055,7 +34076,7 @@ mafia-link.ru # DNS_RESOLVE_FAILED
 mafia-old.ru # DNS_RESOLVE_FAILED
 mafia-rut.online # NOT_RU_TLD
 mafia-rut.ru # DNS_RESOLVE_FAILED
-mafoch.ru # DNS_RESOLVE_FAILED
+mafoch.ru # UNKNOWN_GEOIP
 mag5.ru # DNS_RESOLVE_FAILED
 magadan.prost-13.com # NOT_RU_TLD
 magaero-kzn.ru # DNS_RESOLVE_FAILED
@@ -34093,6 +34114,7 @@ magicalvacationrentals.com # NOT_RU_TLD
 magiccall.co # NOT_RU_TLD
 magicclick.partners # NOT_RU_TLD
 magicdrop.net # NOT_RU_TLD
+magicheskaya-bittva-animego.ru # DNS_RESOLVE_FAILED
 magick-gerl.org # NOT_RU_TLD
 magickasylum.ru # UNKNOWN_GEOIP
 magiclife.ukraine7.com # NOT_RU_TLD
@@ -34121,7 +34143,6 @@ magor-vel.online # NOT_RU_TLD
 magor-vel.ru # DNS_RESOLVE_FAILED
 magrathea.endchan.net # NOT_RU_TLD
 mags10.ru # DNS_RESOLVE_FAILED
-mags11.ru # DNS_RESOLVE_FAILED
 mags7.ru # DNS_RESOLVE_FAILED
 mags8.ru # DNS_RESOLVE_FAILED
 mags9.ru # DNS_RESOLVE_FAILED
@@ -34238,8 +34259,7 @@ makeupgames.ru # UNKNOWN_GEOIP
 makeupstore.uz # NOT_RU_TLD
 makingmaterials.com # NOT_RU_TLD
 maklabery.online # NOT_RU_TLD
-maklabery.ru # UNKNOWN_GEOIP
-makoforum.ru # UNKNOWN_GEOIP
+maklabery.ru # DNS_RESOLVE_FAILED
 makoli.com # NOT_RU_TLD
 makota.ru # DNS_RESOLVE_FAILED
 makromer-okna.ru # UNKNOWN_GEOIP
@@ -34554,6 +34574,7 @@ markenique.com # NOT_RU_TLD
 markeniquea.xyz # NOT_RU_TLD
 markenium.com # NOT_RU_TLD
 market-card.com # NOT_RU_TLD
+market-china.ru # DNS_RESOLVE_FAILED
 market-flow.org # NOT_RU_TLD
 market-ht.ru # DNS_RESOLVE_FAILED
 market-omg.cc # NOT_RU_TLD
@@ -35089,7 +35110,6 @@ maxiporn.com # NOT_RU_TLD
 maxizdrav.ru # DNS_RESOLVE_FAILED
 maxknow.ru # UNKNOWN_GEOIP
 maxmod.kz # NOT_RU_TLD
-maxpure.ru # UNKNOWN_GEOIP
 maxqalcg.info # NOT_RU_TLD
 maxreturnmarket247.com # NOT_RU_TLD
 maxsiu.com # NOT_RU_TLD
@@ -35108,7 +35128,6 @@ may145.tvhub.today # NOT_RU_TLD
 maya-shop.ru # UNKNOWN_GEOIP
 mayak.org.ua # NOT_RU_TLD
 mayak3.com.ua # NOT_RU_TLD
-mayak4u.ru # UNKNOWN_GEOIP
 mayakonline.ru # DNS_RESOLVE_FAILED
 mayakvtomske.ru # UNKNOWN_GEOIP
 mayalazarenskaya.ru # DNS_RESOLVE_FAILED
@@ -35247,6 +35266,7 @@ mdou104lip.ru # UNKNOWN_GEOIP
 mdou12-safonovo.ru # DNS_RESOLVE_FAILED
 mdou124lip.ru # DNS_RESOLVE_FAILED
 mdou20.ru # DNS_RESOLVE_FAILED
+mdou22-raduga.ru # DNS_RESOLVE_FAILED
 mdou22-safonovo.ru # DNS_RESOLVE_FAILED
 mdou24-teremok.ru # DNS_RESOLVE_FAILED
 mdou34ang.ru # DNS_RESOLVE_FAILED
@@ -35331,6 +35351,7 @@ med-199.ru # NOT_RU_GEOIP
 med-99.ru # DNS_RESOLVE_FAILED
 med-999.ru # DNS_RESOLVE_FAILED
 med-analysis.ru # UNKNOWN_GEOIP
+med-and-service.ru # DNS_RESOLVE_FAILED
 med-catalog.com # NOT_RU_TLD
 med-center-garant.ru # DNS_RESOLVE_FAILED
 med-dent-dmd.ru # UNKNOWN_GEOIP
@@ -35349,11 +35370,13 @@ med-meditsina.ru # UNKNOWN_GEOIP
 med-plus78.ru # DNS_RESOLVE_FAILED
 med-pomoshnik.ru # NOT_RU_GEOIP
 med-pro99.ru # DNS_RESOLVE_FAILED
+med-recipe.ru # DNS_RESOLVE_FAILED
 med-samara.ru # UNKNOWN_GEOIP
 med-servis.online # NOT_RU_TLD
 med-servis.org # NOT_RU_TLD
 med-sklad1.ru # UNKNOWN_GEOIP
 med-spirt.online # NOT_RU_TLD
+med-spirt.ru # UNKNOWN_GEOIP
 med-spr.online # NOT_RU_TLD
 med-sprawkas.ru # NOT_RU_GEOIP
 med-tlt.ru # NOT_RU_GEOIP
@@ -35854,7 +35877,6 @@ mellstroygames2.com # NOT_RU_TLD
 mellstroyigra.online # NOT_RU_TLD
 mellstroyshop.online # NOT_RU_TLD
 mellstroythegame148.ru # DNS_RESOLVE_FAILED
-melnikovfestdance.ru # UNKNOWN_GEOIP
 melodrama1.online # NOT_RU_TLD
 melodrama1.xyz # NOT_RU_TLD
 melodyarps.com # NOT_RU_TLD
@@ -35903,7 +35925,7 @@ mens-market.ru # DNS_RESOLVE_FAILED
 menshovstudio.ru # UNKNOWN_GEOIP
 mensisland.com # NOT_RU_TLD
 menspower24.ru # UNKNOWN_GEOIP
-menssegment.ru # NOT_RU_GEOIP
+menssegment.ru # DNS_RESOLVE_FAILED
 menstab.com # NOT_RU_TLD
 menstabs.net # NOT_RU_TLD
 mentab.ru # UNKNOWN_GEOIP
@@ -36044,7 +36066,7 @@ metalmuz.ru # DNS_RESOLVE_FAILED
 metalpteryx.com # NOT_RU_TLD
 metalrostov2014.ru # TOO_MANY_DIGITS
 metals-expert.com # NOT_RU_TLD
-metalworks-models.ru # UNKNOWN_GEOIP
+metalworks-models.ru # DNS_RESOLVE_FAILED
 metamasklog.live # NOT_RU_TLD
 metamedia.zone # NOT_RU_TLD
 metamineria.net # NOT_RU_TLD
@@ -36083,7 +36105,7 @@ metricskey.net # NOT_RU_TLD
 metrikakazan.ru # DNS_RESOLVE_FAILED
 metrikastroy.ru # DNS_RESOLVE_FAILED
 metriks.pro # NOT_RU_TLD
-metrix1.ru # UNKNOWN_GEOIP
+metrix1.ru # DNS_RESOLVE_FAILED
 metrixedgenetwork.com # NOT_RU_TLD
 metro-assets.com # NOT_RU_TLD
 metro-scape.com # NOT_RU_TLD
@@ -36146,7 +36168,7 @@ mfcamhub.com # NOT_RU_TLD
 mfckineshma.ru # UNKNOWN_GEOIP
 mfcmoskvy.ru # NOT_RU_GEOIP
 mfcoskol.ru # UNKNOWN_GEOIP
-mfcsk.ru # UNKNOWN_GEOIP
+mfcsk.ru # DNS_RESOLVE_FAILED
 mfcuray.ru # UNKNOWN_GEOIP
 mfd65tijgw6b2ijvisfkid.to # NOT_RU_TLD
 mffllc.com # NOT_RU_TLD
@@ -36244,6 +36266,7 @@ mia-lakomstva.ru # DNS_RESOLVE_FAILED
 mia-master.ru # DNS_RESOLVE_FAILED
 miaceao.ru # UNKNOWN_GEOIP
 miamidolphinsproshop.com # NOT_RU_TLD
+miamusic.ru # DNS_RESOLVE_FAILED
 miaoo.ru # DNS_RESOLVE_FAILED
 mias-tubist.ru # DNS_RESOLVE_FAILED
 miass-dou50.ru # UNKNOWN_GEOIP
@@ -36317,7 +36340,6 @@ mikesletters.com # NOT_RU_TLD
 mikeymoraza.com # NOT_RU_TLD
 mikhail-doliev.dreamwidth.org # NOT_RU_TLD
 mikhaillermontov.com # NOT_RU_TLD
-mikhalkov.su # DNS_RESOLVE_FAILED
 mikholap.ru # DNS_RESOLVE_FAILED
 mikor-agro.ru # UNKNOWN_GEOIP
 mikrozoo.in.ua # NOT_RU_TLD
@@ -36440,7 +36462,7 @@ millionlabs.com # NOT_RU_TLD
 millipro.info # NOT_RU_TLD
 milo-club.ru # UNKNOWN_GEOIP
 milov.org # NOT_RU_TLD
-milox.ru # UNKNOWN_GEOIP
+milox.ru # NOT_RU_GEOIP
 milroads.ru # UNKNOWN_GEOIP
 milrti.ru # NOT_RU_GEOIP
 milya-2024.svm-murom.ru # TOO_MANY_DIGITS
@@ -36603,7 +36625,7 @@ mirkino.vip # NOT_RU_TLD
 mirkmf.ru # DNS_RESOLVE_FAILED
 mirknig.su # NOT_RU_GEOIP
 mirknig.ws # NOT_RU_TLD
-mirlada.ru # UNKNOWN_GEOIP
+mirlada.ru # DNS_RESOLVE_FAILED
 mirlib.ru # NOT_RU_GEOIP
 mirlotter.ru # UNKNOWN_GEOIP
 mirmarok.ru # UNKNOWN_GEOIP
@@ -36680,6 +36702,7 @@ missav.one # NOT_RU_TLD
 missav.ws # NOT_RU_TLD
 missav123.com # NOT_RU_TLD
 missax.com # NOT_RU_TLD
+missbliss.ru # DNS_RESOLVE_FAILED
 missbokblog.wordpress.com # NOT_RU_TLD
 misscakenn.ru # DNS_RESOLVE_FAILED
 missionaryboys.org # NOT_RU_TLD
@@ -36848,6 +36871,7 @@ mmkfinance.com # NOT_RU_TLD
 mmm100.com # NOT_RU_TLD
 mmmilli.blogspot.com # NOT_RU_TLD
 mmo-auction.ru # DNS_RESOLVE_FAILED
+mmodnaya.ru # DNS_RESOLVE_FAILED
 mmofans.club # NOT_RU_TLD
 mmopc.ru # UNKNOWN_GEOIP
 mmotgr.com # NOT_RU_TLD
@@ -36939,6 +36963,7 @@ mobi.huyamba.org # NOT_RU_TLD
 mobi.sluhai.club # NOT_RU_TLD
 mobi.sslkn.mobi # NOT_RU_TLD
 mobi.yaeby.art # NOT_RU_TLD
+mobilariuz.ru # DNS_RESOLVE_FAILED
 mobile-info.ru # DNS_RESOLVE_FAILED
 mobile-pomosh.ru # DNS_RESOLVE_FAILED
 mobile-repiter.ru # DNS_RESOLVE_FAILED
@@ -37074,7 +37099,7 @@ molpred-fabrika.ru # UNKNOWN_GEOIP
 molpred66.ru # DNS_RESOLVE_FAILED
 molproekt.com # NOT_RU_TLD
 molreki32.ru # UNKNOWN_GEOIP
-mom-books.ru # UNKNOWN_GEOIP
+mom-books.ru # DNS_RESOLVE_FAILED
 mom-son-fuck.net # NOT_RU_TLD
 mom-xxx.me # NOT_RU_TLD
 mom.wolftuning.ru # UNKNOWN_GEOIP
@@ -37169,6 +37194,7 @@ monolitstroy-belovo.ru # DNS_RESOLVE_FAILED
 monopolist-surf.site # NOT_RU_TLD
 monopoly-live.net # NOT_RU_TLD
 monopoly-live.org # NOT_RU_TLD
+monosite.ru # DNS_RESOLVE_FAILED
 monotter.com # NOT_RU_TLD
 monrcas1.online # NOT_RU_TLD
 monrcas2.online # NOT_RU_TLD
@@ -37269,6 +37295,7 @@ mortal-kombat2.ru # DNS_RESOLVE_FAILED
 mortalkombat.site # NOT_RU_TLD
 mortrans.info # NOT_RU_TLD
 mos.minuporno.com # NOT_RU_TLD
+mosagro38.ru # DNS_RESOLVE_FAILED
 mosartweek.ru # UNKNOWN_GEOIP
 mosavtosantrans.ru # UNKNOWN_GEOIP
 moscheles.com # NOT_RU_TLD
@@ -37329,6 +37356,7 @@ mosjaluzi.ru # DNS_RESOLVE_FAILED
 mosk-chec.ru # DNS_RESOLVE_FAILED
 mosk-checc.ru # UNKNOWN_GEOIP
 mosk-check.ru # DNS_RESOLVE_FAILED
+mosk-checks.ru # DNS_RESOLVE_FAILED
 mosk-chek.ru # NOT_RU_GEOIP
 mosk-cheks.ru # UNKNOWN_GEOIP
 mosk-dllplomss.ru # DNS_RESOLVE_FAILED
@@ -37345,7 +37373,7 @@ mosk-sz6.ru # DNS_RESOLVE_FAILED
 mosk-sz7.online # NOT_RU_TLD
 mosk-sz7.ru # DNS_RESOLVE_FAILED
 mosk-sz9.online # NOT_RU_TLD
-mosk-sz9.ru # NOT_RU_GEOIP
+mosk-sz9.ru # DNS_RESOLVE_FAILED
 moskids.ru # NOT_RU_GEOIP
 moskitka72.ru # DNS_RESOLVE_FAILED
 moskovaokulu.com # NOT_RU_TLD
@@ -37422,6 +37450,7 @@ motor-58.i103.ru # TOO_MANY_DIGITS
 motor-agro.com # NOT_RU_TLD
 motor-amp-ad-motors.ru # DNS_RESOLVE_FAILED
 motor-amp-ansemya.ru # DNS_RESOLVE_FAILED
+motor-amp-hodyachka.ru # DNS_RESOLVE_FAILED
 motor-amp-llc-motors.ru # UNKNOWN_GEOIP
 motor-amp-mopostol.ru # UNKNOWN_GEOIP
 motor-amp-motorhome.ru # UNKNOWN_GEOIP
@@ -37785,6 +37814,7 @@ msc-chec.ru # DNS_RESOLVE_FAILED
 msc-checc.ru # UNKNOWN_GEOIP
 msc-check.ru # DNS_RESOLVE_FAILED
 msc-checki.ru # DNS_RESOLVE_FAILED
+msc-checks.ru # DNS_RESOLVE_FAILED
 msc-chek.ru # DNS_RESOLVE_FAILED
 msc-chekk.ru # UNKNOWN_GEOIP
 msc-kassa.ru # DNS_RESOLVE_FAILED
@@ -37880,7 +37910,7 @@ mt315.com # NOT_RU_TLD
 mt5.ampglobal.com # NOT_RU_TLD
 mt5indexpro.com # NOT_RU_TLD
 mt7.forexstart.org # NOT_RU_TLD
-mta-download.ru # UNKNOWN_GEOIP
+mta-download.ru # DNS_RESOLVE_FAILED
 mtasaturk.com # NOT_RU_TLD
 mtb-spo.ru # UNKNOWN_GEOIP
 mtbp.vidak.icu # NOT_RU_TLD
@@ -37966,7 +37996,6 @@ multfilm.biz # NOT_RU_TLD
 multfilm.online # NOT_RU_TLD
 multfilm.top # NOT_RU_TLD
 multfilmi.lafa.ru.net # NOT_RU_GEOIP
-multfimsi.ru # UNKNOWN_GEOIP
 multfon.ru # DNS_RESOLVE_FAILED
 multgo.ru # UNKNOWN_GEOIP
 multhd.ru # DNS_RESOLVE_FAILED
@@ -38142,6 +38171,7 @@ mussic.xn--41a.wiki # NOT_RU_TLD
 musson02.ru # DNS_RESOLVE_FAILED
 mussoncafe.ru # DNS_RESOLVE_FAILED
 musto-poul.online # NOT_RU_TLD
+musto-poul.ru # DNS_RESOLVE_FAILED
 mustumba.com # NOT_RU_TLD
 musulmanin.com # NOT_RU_TLD
 mutabor24.com # NOT_RU_TLD
@@ -38221,6 +38251,7 @@ muzmp3.kz # NOT_RU_TLD
 muznavo.net # NOT_RU_TLD
 muznow.net # NOT_RU_TLD
 muzob.net # NOT_RU_TLD
+muzobzor.ru # DNS_RESOLVE_FAILED
 muzod.net # NOT_RU_TLD
 muzofan.net # NOT_RU_TLD
 muzoff.mp3hq.cc # NOT_RU_TLD
@@ -38838,7 +38869,6 @@ n-agent.shop # NOT_RU_TLD
 n-ann.ru # NOT_RU_GEOIP
 n-bb.ru # UNKNOWN_GEOIP
 n-dok.ru # DNS_RESOLVE_FAILED
-n-k-o.ru # UNKNOWN_GEOIP
 n-kadastr.com # NOT_RU_TLD
 n-noybera-2.ru # NOT_RU_GEOIP
 n-w.tv # NOT_RU_TLD
@@ -38981,13 +39011,11 @@ nablagoos.ru # DNS_RESOLVE_FAILED
 nabludatel.od.ua # NOT_RU_TLD
 nabotov.ru # DNS_RESOLVE_FAILED
 nabovok.pro # NOT_RU_TLD
-nabrosok39.ru # UNKNOWN_GEOIP
 nachedeu.com # NOT_RU_TLD
 nackor.org # NOT_RU_TLD
 nacktefoto.com # NOT_RU_TLD
 naco24.biz # NOT_RU_TLD
 nacogdochesfilmfestival.org # NOT_RU_TLD
-nadachedom.ru # DNS_RESOLVE_FAILED
 nadezhda-pso.ru # DNS_RESOLVE_FAILED
 nadezhda-vzn.ru # DNS_RESOLVE_FAILED
 nadine-j.de # NOT_RU_TLD
@@ -39119,11 +39147,11 @@ narco24-biz1.mins.city # NOT_RU_TLD
 narco24-biz3.mins.city # NOT_RU_TLD
 narco24-biz4.esti.city # NOT_RU_TLD
 narco24-lljf.biz.net.ru # NOT_RU_GEOIP
-narco24-nimh.biz.net.ru # NOT_RU_GEOIP
+narco24-nimh.biz.net.ru # DNS_RESOLVE_FAILED
 narco24-pocj.bizg.online # NOT_RU_TLD
 narco24-ribk.biz.net.ru # NOT_RU_GEOIP
 narco24-tqez.bizg.online # NOT_RU_TLD
-narco24-uazk.biz.net.ru # NOT_RU_GEOIP
+narco24-uazk.biz.net.ru # DNS_RESOLVE_FAILED
 narco24-ucls.biz99.xyz # NOT_RU_TLD
 narco24-urpl.biz99.xyz # NOT_RU_TLD
 narco24.biz # NOT_RU_TLD
@@ -39132,6 +39160,7 @@ narco24.cc # NOT_RU_TLD
 narcolog-24.biz # NOT_RU_TLD
 narcolog-biz.koms.city # NOT_RU_TLD
 narcolog.biz # NOT_RU_TLD
+narcologtlt.ru # UNKNOWN_GEOIP
 narcononkras.online # NOT_RU_TLD
 narcononkras.ru # UNKNOWN_GEOIP
 narcos.biz # NOT_RU_TLD
@@ -39480,6 +39509,7 @@ neodim.by # NOT_RU_TLD
 neodim.net.ua # NOT_RU_TLD
 neodimmag.com.ua # NOT_RU_TLD
 neofincap.com # NOT_RU_TLD
+neoklasmod.ru # DNS_RESOLVE_FAILED
 neolaki.net # NOT_RU_TLD
 neomaks.org # NOT_RU_TLD
 neomaks.ru # UNKNOWN_GEOIP
@@ -39813,7 +39843,12 @@ newretro.pw # NOT_RU_TLD
 newretro.space # NOT_RU_TLD
 newretro.tech # NOT_RU_TLD
 newretro.top # NOT_RU_TLD
+newretro12.ru # DNS_RESOLVE_FAILED
+newretro16.ru # DNS_RESOLVE_FAILED
 newretro2342.ru # TOO_MANY_DIGITS
+newretro32.ru # DNS_RESOLVE_FAILED
+newretro34.ru # DNS_RESOLVE_FAILED
+newretro38.ru # DNS_RESOLVE_FAILED
 newretro4.ru # UNKNOWN_GEOIP
 newretro42.ru # UNKNOWN_GEOIP
 newretro43.ru # UNKNOWN_GEOIP
@@ -40129,7 +40164,7 @@ nijie.info # NOT_RU_TLD
 nijiero-ch.com # NOT_RU_TLD
 nika-film.ru # DNS_RESOLVE_FAILED
 nika-komi.ru # DNS_RESOLVE_FAILED
-nikauto63.ru # UNKNOWN_GEOIP
+nikauto63.ru # DNS_RESOLVE_FAILED
 nikcenter.org # NOT_RU_TLD
 nike-castom.ru # DNS_RESOLVE_FAILED
 nike-discount.ru # DNS_RESOLVE_FAILED
@@ -40426,7 +40461,6 @@ nonpareil.live # NOT_RU_TLD
 nontonhentai.net # NOT_RU_TLD
 nookies.com # NOT_RU_TLD
 nootropicdesign.com # NOT_RU_TLD
-nootropics-home.ru # DNS_RESOLVE_FAILED
 nop.knopka23.site # NOT_RU_TLD
 nopoliceplease.pw # NOT_RU_TLD
 nopro.club # NOT_RU_TLD
@@ -40482,7 +40516,6 @@ norve.ru # UNKNOWN_GEOIP
 nos.nl # NOT_RU_TLD
 nosh1.ru # NOT_RU_GEOIP
 nosh6.ru # UNKNOWN_GEOIP
-noss-54.ru # UNKNOWN_GEOIP
 nostalgia3.gameassists.co.uk # NOT_RU_TLD
 nostalgy-books.ru # DNS_RESOLVE_FAILED
 nostik.com # NOT_RU_TLD
@@ -40528,7 +40561,6 @@ nova0nv.xyz # NOT_RU_TLD
 nova24.si # NOT_RU_TLD
 nova24tv.si # NOT_RU_TLD
 novabitglobe.com # NOT_RU_TLD
-novacom-wireless.ru # UNKNOWN_GEOIP
 novadm.ru # UNKNOWN_GEOIP
 novagrowtholdings.net # NOT_RU_TLD
 novaguild.io # NOT_RU_TLD
@@ -40564,6 +40596,7 @@ novayapolsha.org # NOT_RU_TLD
 novayapolsha.pl # NOT_RU_TLD
 novayapolsha.ru # NOT_RU_GEOIP
 novazar.ru # UNKNOWN_GEOIP
+novden-gazeta.ru # UNKNOWN_GEOIP
 novdivan.ru # UNKNOWN_GEOIP
 novelasbrasilieras.com # NOT_RU_TLD
 novelcrow.com # NOT_RU_TLD
@@ -40652,7 +40685,6 @@ novostiv.ru # DNS_RESOLVE_FAILED
 novostroi24.ru # UNKNOWN_GEOIP
 novostroiki-yaroslavl.online # NOT_RU_TLD
 novostroiki-yaroslavl.ru # DNS_RESOLVE_FAILED
-novostroyku-kupi.ru # UNKNOWN_GEOIP
 novotrend.co # NOT_RU_TLD
 novotrend.net # NOT_RU_TLD
 novotroitsk.net # NOT_RU_TLD
@@ -40841,7 +40873,7 @@ nubilesporn.com # NOT_RU_TLD
 nubilesunscripted.com # NOT_RU_TLD
 nubolyy8.ru # DNS_RESOLVE_FAILED
 nuborulet.online # NOT_RU_TLD
-nuborulet.ru # UNKNOWN_GEOIP
+nuborulet.ru # DNS_RESOLVE_FAILED
 nubuck.com.ua # NOT_RU_TLD
 nucarnivalbliss.com # NOT_RU_TLD
 nuclearmedicine.ru # UNKNOWN_GEOIP
@@ -40904,7 +40936,7 @@ nukigazo.com # NOT_RU_TLD
 nukikoi3.ru # DNS_RESOLVE_FAILED
 nukino.club # NOT_RU_TLD
 nukrulabs.online # NOT_RU_TLD
-nukrulabs.ru # UNKNOWN_GEOIP
+nukrulabs.ru # DNS_RESOLVE_FAILED
 nultamek.online # NOT_RU_TLD
 nultamek.ru # UNKNOWN_GEOIP
 numaura.ru # UNKNOWN_GEOIP
@@ -41270,7 +41302,7 @@ off.ovh # NOT_RU_TLD
 off.ru.net # NOT_RU_GEOIP
 off24-amdi.biz.net.ru # NOT_RU_GEOIP
 off24-cnfn.biz.net.ru # NOT_RU_GEOIP
-off24-jdxk.biz.net.ru # NOT_RU_GEOIP
+off24-jdxk.biz.net.ru # DNS_RESOLVE_FAILED
 off24-neob.biz.net.ru # NOT_RU_GEOIP
 off24-nnx.biz.net.ru # NOT_RU_GEOIP
 off24-ummb.biz.net.ru # NOT_RU_GEOIP
@@ -41335,12 +41367,14 @@ ohmyz.sh # NOT_RU_TLD
 ohol.info # NOT_RU_TLD
 ohota-i-ribalka.com # NOT_RU_TLD
 ohotanavideo.ru # DNS_RESOLVE_FAILED
+ohotnik-x-ohotniik-animego.ru # DNS_RESOLVE_FAILED
 ohotnik-x-ohotnik-animego.ru # NOT_RU_GEOIP
 ohotnik.kiev.ua # NOT_RU_TLD
 ohpizza.ru # DNS_RESOLVE_FAILED
 ohranadocs3.top # NOT_RU_TLD
 ohranadokumenty.com # NOT_RU_TLD
 ohranaru-xxuqcdb.top # NOT_RU_TLD
+ohranaru.ru # DNS_RESOLVE_FAILED
 ohrannik4.top # NOT_RU_TLD
 ohrannikdocs3.top # NOT_RU_TLD
 ohrannikdocs4.top # NOT_RU_TLD
@@ -41405,6 +41439,7 @@ okna-dveri-moskva.ru # UNKNOWN_GEOIP
 okna-germes.ru # DNS_RESOLVE_FAILED
 okna-okno.ru # DNS_RESOLVE_FAILED
 okna-plus-pz.ru # UNKNOWN_GEOIP
+okna-tk.ru # DNS_RESOLVE_FAILED
 okna-trex.ru # UNKNOWN_GEOIP
 okna-yard.ru # DNS_RESOLVE_FAILED
 okna72tmn.ru # DNS_RESOLVE_FAILED
@@ -41712,7 +41747,6 @@ omgwp14.at # NOT_RU_TLD
 omgwp15.at # NOT_RU_TLD
 omgx.ee # NOT_RU_TLD
 omhup2.at # NOT_RU_TLD
-omichka-promo.ru # UNKNOWN_GEOIP
 omicroncetipro.com # NOT_RU_TLD
 omikron.buzz # NOT_RU_TLD
 omilat.com # NOT_RU_TLD
@@ -42050,7 +42084,7 @@ ooo-eso.ru # UNKNOWN_GEOIP
 ooo-eurostroy.ru # UNKNOWN_GEOIP
 ooo-liza.ru # UNKNOWN_GEOIP
 ooo-opalubka-msk.ru # UNKNOWN_GEOIP
-ooo-piramidka1.ru # DNS_RESOLVE_FAILED
+ooo-piramidka1.ru # NOT_RU_GEOIP
 ooo-sex.com # NOT_RU_TLD
 ooo-sex.tv # NOT_RU_TLD
 ooo-tube.com # NOT_RU_TLD
@@ -42155,6 +42189,7 @@ opinion-maker.org # NOT_RU_TLD
 opinions.glavred.info # NOT_RU_TLD
 opituli.ru # UNKNOWN_GEOIP
 opivrn.ru # UNKNOWN_GEOIP
+opkam.ru # NOT_RU_GEOIP
 oplata-servisov.ru # UNKNOWN_GEOIP
 oplata-zarubezh.goopti.ru # DNS_RESOLVE_FAILED
 oplotrussia.ru # UNKNOWN_GEOIP
@@ -42304,7 +42339,7 @@ ordilo.org # NOT_RU_TLD
 ordreference.com # NOT_RU_TLD
 ore-one.fun # NOT_RU_TLD
 orehi.fun # NOT_RU_TLD
-orehiplus.ru # DNS_RESOLVE_FAILED
+orehiplus.ru # UNKNOWN_GEOIP
 orel-school49.ru # UNKNOWN_GEOIP
 orel.sexros.biz # NOT_RU_TLD
 orel.vipster.net # NOT_RU_TLD
@@ -42329,7 +42364,7 @@ orenweek.ru # UNKNOWN_GEOIP
 oreostyle.com # NOT_RU_TLD
 oretonappsolution.com # NOT_RU_TLD
 orf.at # NOT_RU_TLD
-orficlothes.ru # UNKNOWN_GEOIP
+orficlothes.ru # NOT_RU_GEOIP
 org.knigisamizdat.ru # NOT_RU_GEOIP
 org.knigiskachat.ru # NOT_RU_GEOIP
 org.sportsbay.top # NOT_RU_TLD
@@ -42412,7 +42447,6 @@ oruze.online # NOT_RU_TLD
 oruze.ru # DNS_RESOLVE_FAILED
 oruzeyka.com.ua # NOT_RU_TLD
 oruzhiemarket.com # NOT_RU_TLD
-oruzi.ru # DNS_RESOLVE_FAILED
 orvendralyxistech.com # NOT_RU_TLD
 orvynlurex.net # NOT_RU_TLD
 oryntrass-tech.com # NOT_RU_TLD
@@ -42494,6 +42528,7 @@ ostrovnoi.ruschools.ru # UNKNOWN_GEOIP
 ostrovnoi.valyevo.ru # UNKNOWN_GEOIP
 ostrovokkrasoty.ru # UNKNOWN_GEOIP
 ostrovskoe.ru # DNS_RESOLVE_FAILED
+ostrovtenerife.ru # DNS_RESOLVE_FAILED
 ostwest.tv # NOT_RU_TLD
 osvb.me # NOT_RU_TLD
 osvitasport.org # NOT_RU_TLD
@@ -42533,7 +42568,7 @@ otel-hazbin.top # NOT_RU_TLD
 otelagat.ru # DNS_RESOLVE_FAILED
 otelviktoriy.ru # DNS_RESOLVE_FAILED
 otelxazbin.ru # NOT_RU_GEOIP
-oter.su # DNS_RESOLVE_FAILED
+oter.su # NOT_RU_GEOIP
 other-film.online # NOT_RU_TLD
 other-film.ru # DNS_RESOLVE_FAILED
 other8march.ru # UNKNOWN_GEOIP
@@ -42598,7 +42633,7 @@ ou.houstonweddingphotographersix.com # NOT_RU_TLD
 ou3410.craftum.io # NOT_RU_TLD
 oukrf.ru # UNKNOWN_GEOIP
 oun48.ru # NOT_RU_GEOIP
-our-faith.ru # NOT_RU_GEOIP
+our-faith.ru # DNS_RESOLVE_FAILED
 our-life-fb.ru # UNKNOWN_GEOIP
 ourcourt.ru # NOT_RU_GEOIP
 ourgay.com # NOT_RU_TLD
@@ -42640,6 +42675,7 @@ overplant.ru # UNKNOWN_GEOIP
 oversea-shopping.com.ua # NOT_RU_TLD
 overtsignaltrading.live # NOT_RU_TLD
 ovfd.ru # NOT_RU_GEOIP
+ovistroy.ru # DNS_RESOLVE_FAILED
 ovrucka-gromada.gov.ua # NOT_RU_TLD
 ovyxylnk.com # NOT_RU_TLD
 ow-interior.ru # UNKNOWN_GEOIP
@@ -42844,7 +42880,7 @@ pandafilm.co # NOT_RU_TLD
 pandafilms.fun # NOT_RU_TLD
 pandahelp.vip # NOT_RU_TLD
 pandalino.ru # UNKNOWN_GEOIP
-pandamonium.ru # UNKNOWN_GEOIP
+pandamonium.ru # DNS_RESOLVE_FAILED
 pandamovies.pw # NOT_RU_TLD
 pandasecurity.com # NOT_RU_TLD
 pandaskins.com # NOT_RU_TLD
@@ -42952,6 +42988,7 @@ parazitytut.ru # DNS_RESOLVE_FAILED
 parazmol.online # NOT_RU_TLD
 pareform.ru # UNKNOWN_GEOIP
 parentafinancialservicesltd.com # NOT_RU_TLD
+parfbook.ru # DNS_RESOLVE_FAILED
 parfenyevo.ru # UNKNOWN_GEOIP
 parfum-style38.ru # DNS_RESOLVE_FAILED
 parfumshopper.ru # UNKNOWN_GEOIP
@@ -43038,6 +43075,7 @@ pasportrussia-online24.top # NOT_RU_TLD
 pasportrussia.com # NOT_RU_TLD
 pasqualecatalano.info # NOT_RU_TLD
 pass-line.ru # DNS_RESOLVE_FAILED
+pass-online.ru # DNS_RESOLVE_FAILED
 pass-safe.ru # DNS_RESOLVE_FAILED
 passat-shop.ru # UNKNOWN_GEOIP
 passion-hd.com # NOT_RU_TLD
@@ -43243,6 +43281,7 @@ peaceplea.me # NOT_RU_TLD
 peaceplea.org # NOT_RU_TLD
 peacerra.digital # NOT_RU_TLD
 peaceworkdesigns.com # NOT_RU_TLD
+peak-lab.ru # DNS_RESOLVE_FAILED
 peak-markdexsystem.com # NOT_RU_TLD
 peak-swapp.com # NOT_RU_TLD
 peak-vest.com # NOT_RU_TLD
@@ -43454,7 +43493,6 @@ pervtube.net # NOT_RU_TLD
 pervyj-otdel.online # NOT_RU_TLD
 pervyj-shag-shkola-baleta.ru # DNS_RESOLVE_FAILED
 pervyjotdel.online # NOT_RU_TLD
-pesni-tnt.ru # UNKNOWN_GEOIP
 pesni.guru # NOT_RU_TLD
 pesni.ru # UNKNOWN_GEOIP
 pesnigoo.ru # DNS_RESOLVE_FAILED
@@ -43653,6 +43691,7 @@ piedraluz-monvex.net # NOT_RU_TLD
 piekfinvoro.com # NOT_RU_TLD
 piekinvexa.com # NOT_RU_TLD
 pietari-spb.ru # DNS_RESOLVE_FAILED
+pifagor-design.ru # DNS_RESOLVE_FAILED
 pifsin-ios.ru # DNS_RESOLVE_FAILED
 pigboygv.cc # NOT_RU_TLD
 piggiesgetfed.com # NOT_RU_TLD
@@ -43679,6 +43718,7 @@ pillowtalkandco.com # NOT_RU_TLD
 pilnaya.ru # UNKNOWN_GEOIP
 pilomaterialy32.ru # NOT_RU_GEOIP
 pilot-sks.ru # UNKNOWN_GEOIP
+pilotfestival.ru # DNS_RESOLVE_FAILED
 pilteh.ru # UNKNOWN_GEOIP
 pilula.co.il # NOT_RU_TLD
 pilulagreen.com # NOT_RU_TLD
@@ -43956,13 +43996,14 @@ pl79rnd.ru # DNS_RESOLVE_FAILED
 placecafe.ru # DNS_RESOLVE_FAILED
 placefound.ru # DNS_RESOLVE_FAILED
 placenote.info # NOT_RU_TLD
-placetolive.ru # UNKNOWN_GEOIP
+placetolive.ru # DNS_RESOLVE_FAILED
 placevisor.com # NOT_RU_TLD
 plagia.ru # UNKNOWN_GEOIP
 plagiatnik.ru # UNKNOWN_GEOIP
 plainova.click # NOT_RU_TLD
 plainsfolk.com # NOT_RU_TLD
 plaisir-usadba.ru # UNKNOWN_GEOIP
+plame.ru # DNS_RESOLVE_FAILED
 plammya.site # NOT_RU_TLD
 plampaya.art # NOT_RU_TLD
 plan-zp.cc # NOT_RU_TLD
@@ -43991,7 +44032,6 @@ planet-vpn.ru # UNKNOWN_GEOIP
 planet-vpnfree.com # NOT_RU_TLD
 planet-vpnfree.net # NOT_RU_TLD
 planet.y103.ru # UNKNOWN_GEOIP
-planeta-55.ru # UNKNOWN_GEOIP
 planeta-meha.ru # DNS_RESOLVE_FAILED
 planeta-rotanga.ru # DNS_RESOLVE_FAILED
 planeta-valenki.ru # UNKNOWN_GEOIP
@@ -44159,7 +44199,6 @@ plyric.com # NOT_RU_TLD
 pm-22711.space # NOT_RU_TLD
 pm-leader.ru # UNKNOWN_GEOIP
 pm-moto.ru # UNKNOWN_GEOIP
-pm-time.ru # DNS_RESOLVE_FAILED
 pm.ashoo.bar # NOT_RU_TLD
 pm.com.ua # NOT_RU_TLD
 pm.ua # NOT_RU_TLD
@@ -44382,6 +44421,7 @@ podmoskovia.ru # UNKNOWN_GEOIP
 podnn.megapeer.vip # NOT_RU_TLD
 podnnn.megapeer.vip # NOT_RU_TLD
 podnyatie-urovnya-v-odinochku-animego.ru # NOT_RU_GEOIP
+podnyatie-urovnya-v-odinochky-animego.ru # DNS_RESOLVE_FAILED
 podobstrelom.ru # DNS_RESOLVE_FAILED
 podofilia.net # NOT_RU_TLD
 podoiki.raptoronline.ru # UNKNOWN_GEOIP
@@ -44500,7 +44540,7 @@ polanddaily24.com # NOT_RU_TLD
 polanofinances.com # NOT_RU_TLD
 polariscorporate.com # NOT_RU_TLD
 polariskyc.net # NOT_RU_TLD
-polblog.ru # DNS_RESOLVE_FAILED
+polblog.ru # UNKNOWN_GEOIP
 polden.live # NOT_RU_TLD
 polee.me # NOT_RU_TLD
 polemika.top # NOT_RU_TLD
@@ -44513,6 +44553,7 @@ policeyskiy-s-rublevki-my-tebya-naydem.net # NOT_RU_TLD
 policeyskiy-s-rublevki-snova-doma.net # NOT_RU_TLD
 policeyskiy-s-rublevki.net # NOT_RU_TLD
 policl3.ru # DNS_RESOLVE_FAILED
+poliglot-yazykovoj-tsentr.ru # DNS_RESOLVE_FAILED
 poliglot1.com # NOT_RU_TLD
 poligon.media # NOT_RU_TLD
 poligoncomp.ru # UNKNOWN_GEOIP
@@ -44573,6 +44614,8 @@ polivkom.ru # DNS_RESOLVE_FAILED
 polivskill.ru # DNS_RESOLVE_FAILED
 polivyanskoaya-adm.ru # DNS_RESOLVE_FAILED
 polk02.ru # UNKNOWN_GEOIP
+polkilo-ufa.ru # DNS_RESOLVE_FAILED
+polkirpicha.ru # DNS_RESOLVE_FAILED
 polkop.ru # DNS_RESOLVE_FAILED
 pollinator.nl # NOT_RU_TLD
 pollmax.ru # DNS_RESOLVE_FAILED
@@ -45038,7 +45081,7 @@ porno-hom5.top # NOT_RU_TLD
 porno-incest.top # NOT_RU_TLD
 porno-incest.tv # NOT_RU_TLD
 porno-karliki.com # NOT_RU_TLD
-porno-kazashki.ru # UNKNOWN_GEOIP
+porno-kazashki.ru # DNS_RESOLVE_FAILED
 porno-kompot.com # NOT_RU_TLD
 porno-kospley.ru # NOT_RU_GEOIP
 porno-lab.cc # NOT_RU_TLD
@@ -45461,7 +45504,7 @@ pornolend.one # NOT_RU_TLD
 pornolenta.co # NOT_RU_TLD
 pornolenta.xyz # NOT_RU_TLD
 pornoleon.com # NOT_RU_TLD
-pornolesbi.ru # NOT_RU_GEOIP
+pornolesbi.ru # DNS_RESOLVE_FAILED
 pornolesbi.tv # NOT_RU_TLD
 pornolesbiche.it # NOT_RU_TLD
 pornolevel.art # NOT_RU_TLD
@@ -45707,6 +45750,7 @@ pornoxpx.one # NOT_RU_TLD
 pornoxui.net # NOT_RU_TLD
 pornoyozhik.tv # NOT_RU_TLD
 pornozak.vip # NOT_RU_TLD
+pornozasos.ru # DNS_RESOLVE_FAILED
 pornozavod.cc # NOT_RU_TLD
 pornozavr.net # NOT_RU_TLD
 pornozebra.com # NOT_RU_TLD
@@ -45880,6 +45924,7 @@ portal-smi-by.ru # DNS_RESOLVE_FAILED
 portal.bgpmon.net # NOT_RU_TLD
 portal.gerki.in # NOT_RU_TLD
 portal.lviv.ua # NOT_RU_TLD
+portal.nov.ru # DNS_RESOLVE_FAILED
 portal.salaminv.com # NOT_RU_TLD
 portal.shcba.org # NOT_RU_TLD
 portal.switchmarkets.com # NOT_RU_TLD
@@ -46136,7 +46181,6 @@ pravo62.ru # DNS_RESOLVE_FAILED
 pravobazis.ru # DNS_RESOLVE_FAILED
 pravoex.ru # NOT_RU_GEOIP
 pravokator.club # NOT_RU_TLD
-pravomnenie.ru # DNS_RESOLVE_FAILED
 pravopys.kiev.ua # NOT_RU_TLD
 pravoslavie-ili-smert.vizvaz.com # NOT_RU_TLD
 pravoslaviesml.online # NOT_RU_TLD
@@ -46213,7 +46257,6 @@ prestige-motor.ru # DNS_RESOLVE_FAILED
 prestige-ru.ru # DNS_RESOLVE_FAILED
 prestigebio.ru # UNKNOWN_GEOIP
 prestigeglobalpoint.com # NOT_RU_TLD
-prestigeoil.ru # UNKNOWN_GEOIP
 prestigeshop-cc.esti.city # NOT_RU_TLD
 prestigio-glowture.net # NOT_RU_TLD
 pret-555.biz # NOT_RU_TLD
@@ -46287,6 +46330,7 @@ primo-inviox.net # NOT_RU_TLD
 primofluxorsolution.com # NOT_RU_TLD
 primogains.com # NOT_RU_TLD
 primoinviox.com # NOT_RU_TLD
+primopera.ru # UNKNOWN_GEOIP
 primordialgods.top # NOT_RU_TLD
 primorka.city # NOT_RU_TLD
 primostratique.com # NOT_RU_TLD
@@ -46309,7 +46353,7 @@ prior56.ru # NOT_RU_GEOIP
 prioratos.blogspot.com # NOT_RU_TLD
 prioritet-n.ru # DNS_RESOLVE_FAILED
 prioritet-stroi.ru # NOT_RU_GEOIP
-prioritetinfo.narod.ru # UNKNOWN_GEOIP
+prioritetinfo.narod.ru # DNS_RESOLVE_FAILED
 prisheynet.ru # UNKNOWN_GEOIP
 prismaluxerise.com # NOT_RU_TLD
 prismledgeron-tech.com # NOT_RU_TLD
@@ -46392,7 +46436,7 @@ pro-management.pro # NOT_RU_TLD
 pro-mnogoe.ru # DNS_RESOLVE_FAILED
 pro-muzey.ru # UNKNOWN_GEOIP
 pro-novae-amp.top # NOT_RU_TLD
-pro-obmen.ru # NOT_RU_GEOIP
+pro-obmen.ru # DNS_RESOLVE_FAILED
 pro-orenburg.ru # UNKNOWN_GEOIP
 pro-piska-russian.ru # NOT_RU_GEOIP
 pro-piska.ru # NOT_RU_GEOIP
@@ -46528,7 +46572,6 @@ prof-future.ru # UNKNOWN_GEOIP
 prof-k.ru # DNS_RESOLVE_FAILED
 prof-kamin.ru # DNS_RESOLVE_FAILED
 prof-komplekt.com # NOT_RU_TLD
-prof-kursec.ru # NOT_RU_GEOIP
 prof-russia.info # NOT_RU_TLD
 prof-study.com # NOT_RU_TLD
 prof102.ru # DNS_RESOLVE_FAILED
@@ -46687,6 +46730,7 @@ pronm.ru # NOT_RU_GEOIP
 pronouns.page # NOT_RU_TLD
 pronstars.ru # NOT_RU_GEOIP
 pronstera.online # NOT_RU_TLD
+pronstera.ru # DNS_RESOLVE_FAILED
 proofoffreedom.com # NOT_RU_TLD
 proosbb.info # NOT_RU_TLD
 propasport.ru # UNKNOWN_GEOIP
@@ -46711,7 +46755,7 @@ propusk.kz # NOT_RU_TLD
 propusk5.online # NOT_RU_TLD
 prorector.org # NOT_RU_TLD
 prorektor.ru # UNKNOWN_GEOIP
-prorepairpc.ru # UNKNOWN_GEOIP
+prorepairpc.ru # DNS_RESOLVE_FAILED
 proridne.com # NOT_RU_TLD
 prorigu.ru # UNKNOWN_GEOIP
 prorokk.blogspot.com # NOT_RU_TLD
@@ -47018,7 +47062,6 @@ psyhology.2x2forum.ru # UNKNOWN_GEOIP
 psyhoterapevt.com # NOT_RU_TLD
 psyoffice.ru # DNS_RESOLVE_FAILED
 psyplants.info # NOT_RU_TLD
-psytula.ru # DNS_RESOLVE_FAILED
 psyxotoxic.ru # UNKNOWN_GEOIP
 pt.anyporn.com # NOT_RU_TLD
 pt.ashoo.bar # NOT_RU_TLD
@@ -47190,6 +47233,7 @@ pureloli.site # NOT_RU_TLD
 purelyfinance.org # NOT_RU_TLD
 puremarketbroker.com # NOT_RU_TLD
 puremature.com # NOT_RU_TLD
+puremax.ru # UNKNOWN_GEOIP
 puremedsshop.com # NOT_RU_TLD
 puremedssolution.com # NOT_RU_TLD
 purenet.ltd # NOT_RU_TLD
@@ -47657,7 +47701,8 @@ r-34.xyz # NOT_RU_TLD
 r-7-top-1.ru # DNS_RESOLVE_FAILED
 r-72025amp.top # NOT_RU_TLD
 r-7365amp.top # NOT_RU_TLD
-r-bike.ru # UNKNOWN_GEOIP
+r-bike.ru # NOT_RU_GEOIP
+r-bistro.ru # UNKNOWN_GEOIP
 r-clb24.com # NOT_RU_TLD
 r-detailing.ru # UNKNOWN_GEOIP
 r-g-d.ru # DNS_RESOLVE_FAILED
@@ -47745,6 +47790,7 @@ r2.lovertab.com # NOT_RU_TLD
 r2.sosalkino.cam # NOT_RU_TLD
 r2.sosalkino.run # NOT_RU_TLD
 r2.topmuzon.info # NOT_RU_TLD
+r207rrc.ru # DNS_RESOLVE_FAILED
 r2iclubforums.com # NOT_RU_TLD
 r2p.org.ua # NOT_RU_TLD
 r2school.online # NOT_RU_TLD
@@ -47810,7 +47856,7 @@ rabota.zip # NOT_RU_TLD
 rabota01.com # NOT_RU_TLD
 rabota23.top # NOT_RU_TLD
 rabotaandzarplata.ru # UNKNOWN_GEOIP
-rabotakuzbassa.ru # DNS_RESOLVE_FAILED
+rabotakuzbassa.ru # UNKNOWN_GEOIP
 rabotavtaxi.su # DNS_RESOLVE_FAILED
 rabotnitsa.su # UNKNOWN_GEOIP
 rabotta.art # NOT_RU_TLD
@@ -47895,6 +47941,7 @@ radostzhit.ru # UNKNOWN_GEOIP
 radowners.com # NOT_RU_TLD
 radpo.ru # DNS_RESOLVE_FAILED
 radrr.ru # UNKNOWN_GEOIP
+raduga-70.ru # DNS_RESOLVE_FAILED
 raduga-horses.ru # NOT_RU_GEOIP
 raduga-live.ru # DNS_RESOLVE_FAILED
 raduga-realty.ru # UNKNOWN_GEOIP
@@ -47917,7 +47964,6 @@ raidforums.com # NOT_RU_TLD
 raihanislam.com # NOT_RU_TLD
 raikerian.com # NOT_RU_TLD
 raikou2.donmai.us # NOT_RU_TLD
-railrus.ru # UNKNOWN_GEOIP
 railway.supply # NOT_RU_TLD
 railwayz.info # NOT_RU_TLD
 rainbow-web.ru # DNS_RESOLVE_FAILED
@@ -48324,7 +48370,7 @@ realstreamunited.tv # NOT_RU_TLD
 realtotal.de # NOT_RU_TLD
 realtsv.ru # UNKNOWN_GEOIP
 realty.420on.cz # NOT_RU_TLD
-realtyhistory.ru # UNKNOWN_GEOIP
+realtyhistory.ru # DNS_RESOLVE_FAILED
 realuniverse.ru # UNKNOWN_GEOIP
 realvpro.com # NOT_RU_TLD
 realvr.com # NOT_RU_TLD
@@ -48407,7 +48453,7 @@ redetecri-cei.com.br # NOT_RU_TLD
 redexpress.ru # DNS_RESOLVE_FAILED
 redfist.de # NOT_RU_TLD
 redfix.ru # UNKNOWN_GEOIP
-redfond.ru # UNKNOWN_GEOIP
+redfond.ru # DNS_RESOLVE_FAILED
 redford-bitspirexsolution.com # NOT_RU_TLD
 redgay.net # NOT_RU_TLD
 redgay.pro # NOT_RU_TLD
@@ -48512,14 +48558,14 @@ reestr3.net # NOT_RU_TLD
 reestr4.net # NOT_RU_TLD
 reestr5.net # NOT_RU_TLD
 reestr6.net # NOT_RU_TLD
-reestrcheck.ru # UNKNOWN_GEOIP
+reestrcheck.ru # DNS_RESOLVE_FAILED
 reestrne.ru # UNKNOWN_GEOIP
 reestrnet.com # NOT_RU_TLD
 reestrnet.net # NOT_RU_TLD
 reestrnet.ru # UNKNOWN_GEOIP
 reestros.com # NOT_RU_TLD
 reestros.net # NOT_RU_TLD
-reestrru.ru # UNKNOWN_GEOIP
+reestrru.ru # DNS_RESOLVE_FAILED
 reezka.com # NOT_RU_TLD
 ref-ampsecwc.com # NOT_RU_TLD
 ref-ampsecwc.ru # UNKNOWN_GEOIP
@@ -48574,7 +48620,7 @@ reggiostudio.ru # DNS_RESOLVE_FAILED
 regi.brilliantone.one # NOT_RU_TLD
 regi.elitezone.one # NOT_RU_TLD
 regimovie.com # NOT_RU_TLD
-reginabottinishop.ru # UNKNOWN_GEOIP
+reginabottinishop.ru # DNS_RESOLVE_FAILED
 reginas-exeed.ru # UNKNOWN_GEOIP
 reginas-mitsubishi.ru # UNKNOWN_GEOIP
 region-obramur.ru # DNS_RESOLVE_FAILED
@@ -48620,7 +48666,6 @@ reifporn.de # NOT_RU_TLD
 reinhardfischer.bidinside.com # NOT_RU_TLD
 reit-hentai.com # NOT_RU_TLD
 rejuvenatehrt.com # NOT_RU_TLD
-rek-rnd.ru # UNKNOWN_GEOIP
 reklama-next.ru # UNKNOWN_GEOIP
 reklamnoe-agency.ru # DNS_RESOLVE_FAILED
 rekrut26.ru # DNS_RESOLVE_FAILED
@@ -48649,8 +48694,8 @@ remap-ru.com # NOT_RU_TLD
 remap-ru.onrender.com # NOT_RU_TLD
 remastered.valka.click # NOT_RU_TLD
 remaxsoft.ru # UNKNOWN_GEOIP
-rembitpro.ru # UNKNOWN_GEOIP
 remelectro.ru # UNKNOWN_GEOIP
+remhol-ufa.ru # DNS_RESOLVE_FAILED
 remitroi.com # NOT_RU_TLD
 remix24.biz # NOT_RU_TLD
 remkolor.ru # DNS_RESOLVE_FAILED
@@ -48664,6 +48709,7 @@ remont-kv-korolev.ru # UNKNOWN_GEOIP
 remont-kvartir-moskow.ru # UNKNOWN_GEOIP
 remont-luber.ru # UNKNOWN_GEOIP
 remont-oshibki.ru # DNS_RESOLVE_FAILED
+remont-pylesosa.ru # DNS_RESOLVE_FAILED
 remont-segodnya.ru # DNS_RESOLVE_FAILED
 remont-tehniki-na-domy.com.ua # NOT_RU_TLD
 remont12rus.ru # DNS_RESOLVE_FAILED
@@ -48712,6 +48758,7 @@ rent-nlk.ru # DNS_RESOLVE_FAILED
 rent.men # NOT_RU_TLD
 rent.sms-activation-service.com # NOT_RU_TLD
 renta-estate.ru # DNS_RESOLVE_FAILED
+rentalcardominicana.ru # DNS_RESOLVE_FAILED
 rentarecovery.com # NOT_RU_TLD
 rentgens.ru # DNS_RESOLVE_FAILED
 rentkompressor.ru # UNKNOWN_GEOIP
@@ -48736,6 +48783,7 @@ repicsx.com # NOT_RU_TLD
 repinaavhim.ru # DNS_RESOLVE_FAILED
 replicheorologilusso.com # NOT_RU_TLD
 replyua.net # NOT_RU_TLD
+repnikov-house.ru # DNS_RESOLVE_FAILED
 repo.mongodb.org # NOT_RU_TLD
 repoizon.ru # UNKNOWN_GEOIP
 report.if.ua # NOT_RU_TLD
@@ -48998,6 +49046,7 @@ ria-mlt.ru # UNKNOWN_GEOIP
 ria24.today # NOT_RU_TLD
 rianphoto.ru # UNKNOWN_GEOIP
 riasv.ru # NOT_RU_GEOIP
+ribamorie.ru # UNKNOWN_GEOIP
 ribito-ru.online # NOT_RU_TLD
 ribito-ru.ru # DNS_RESOLVE_FAILED
 ribset.com # NOT_RU_TLD
@@ -49462,7 +49511,6 @@ romen-sula.org # NOT_RU_TLD
 romeo.com # NOT_RU_TLD
 romtrading-software.com # NOT_RU_TLD
 rondell-mag.ru # DNS_RESOLVE_FAILED
-ronice.ru # UNKNOWN_GEOIP
 ronix21.ru # DNS_RESOLVE_FAILED
 roofcenter.kz # NOT_RU_TLD
 roofellex.click # NOT_RU_TLD
@@ -49589,7 +49637,7 @@ ross-dlplomg4.ru # NOT_RU_GEOIP
 ross-dlplomg5.ru # DNS_RESOLVE_FAILED
 ross-dlploms.ru # DNS_RESOLVE_FAILED
 rossal24.ru # DNS_RESOLVE_FAILED
-rossall24.ru # UNKNOWN_GEOIP
+rossall24.ru # DNS_RESOLVE_FAILED
 rossc.ru # UNKNOWN_GEOIP
 rosscandal.com # NOT_RU_TLD
 rosserrial.ru # NOT_RU_GEOIP
@@ -50787,7 +50835,6 @@ runetki.com # NOT_RU_TLD
 runetki4.com # NOT_RU_TLD
 runetkim.com # NOT_RU_TLD
 runetlib.com # NOT_RU_TLD
-runetmusic.ru # UNKNOWN_GEOIP
 runewitch-dom.wiki # NOT_RU_TLD
 runinterup.top # NOT_RU_TLD
 runnermediasss.com # NOT_RU_TLD
@@ -50851,7 +50898,6 @@ rus-dlploman.com # NOT_RU_TLD
 rus-dom.su # UNKNOWN_GEOIP
 rus-et.ru # UNKNOWN_GEOIP
 rus-fa.com # NOT_RU_TLD
-rus-historyold.ru # UNKNOWN_GEOIP
 rus-imperia.info # NOT_RU_TLD
 rus-media.org # NOT_RU_TLD
 rus-midwives.ru # DNS_RESOLVE_FAILED
@@ -51037,8 +51083,9 @@ rusalco1-247-zelenograd.online # NOT_RU_TLD
 rusalco1-247-zelenograd.ru # TOO_MANY_DIGITS
 rusalco1-tumen.ru # UNKNOWN_GEOIP
 rusalco247-arhangelsk.online # NOT_RU_TLD
+rusalco247-arhangelsk.ru # DNS_RESOLVE_FAILED
 rusalco247-astrahan.online # NOT_RU_TLD
-rusalco247-astrahan.ru # UNKNOWN_GEOIP
+rusalco247-astrahan.ru # DNS_RESOLVE_FAILED
 rusalco247-barnaul.online # NOT_RU_TLD
 rusalco247-barnaul.ru # DNS_RESOLVE_FAILED
 rusalco247-chelni.online # NOT_RU_TLD
@@ -51056,19 +51103,19 @@ rusalco247-kursk.ru # UNKNOWN_GEOIP
 rusalco247-lipeck.online # NOT_RU_TLD
 rusalco247-lipeck.ru # DNS_RESOLVE_FAILED
 rusalco247-lyuberci.online # NOT_RU_TLD
-rusalco247-lyuberci.ru # UNKNOWN_GEOIP
+rusalco247-lyuberci.ru # DNS_RESOLVE_FAILED
 rusalco247-mitishi.online # NOT_RU_TLD
 rusalco247-mitishi.ru # DNS_RESOLVE_FAILED
 rusalco247-penza.online # NOT_RU_TLD
 rusalco247-penza.ru # UNKNOWN_GEOIP
 rusalco247-rnd.online # NOT_RU_TLD
-rusalco247-rnd.ru # UNKNOWN_GEOIP
+rusalco247-rnd.ru # DNS_RESOLVE_FAILED
 rusalco247-ryazan.online # NOT_RU_TLD
-rusalco247-ryazan.ru # UNKNOWN_GEOIP
+rusalco247-ryazan.ru # DNS_RESOLVE_FAILED
 rusalco247-spb.online # NOT_RU_TLD
-rusalco247-spb.ru # UNKNOWN_GEOIP
+rusalco247-spb.ru # DNS_RESOLVE_FAILED
 rusalco247-tumen.online # NOT_RU_TLD
-rusalco247-tumen.ru # UNKNOWN_GEOIP
+rusalco247-tumen.ru # DNS_RESOLVE_FAILED
 rusalco247-tver.online # NOT_RU_TLD
 rusalco247-tver.ru # DNS_RESOLVE_FAILED
 rusalco247ulyanovsk.online # NOT_RU_TLD
@@ -51130,7 +51177,6 @@ ruslit.space # NOT_RU_TLD
 ruslon.ru # UNKNOWN_GEOIP
 ruslust.com # NOT_RU_TLD
 rusmafiozi.blogspot.com # NOT_RU_TLD
-rusmangal24.ru # DNS_RESOLVE_FAILED
 rusmebelmag.ru # UNKNOWN_GEOIP
 rusmedicines.com # NOT_RU_TLD
 rusmonitor.com # NOT_RU_TLD
@@ -51236,7 +51282,6 @@ russianforpeace.ru # UNKNOWN_GEOIP
 russianforum.wordpress.com # NOT_RU_TLD
 russianfuck.net # NOT_RU_TLD
 russiangang.cc # NOT_RU_TLD
-russianhackers.su # UNKNOWN_GEOIP
 russianireland.com # NOT_RU_TLD
 russianjurist.ru # DNS_RESOLVE_FAILED
 russiann.erokomiksi.biz # NOT_RU_TLD
@@ -51257,7 +51302,6 @@ russiawillbefree.org # NOT_RU_TLD
 russie-libertes.org # NOT_RU_TLD
 russkaya-polyana.ru # UNKNOWN_GEOIP
 russkiepornovideo.org # NOT_RU_TLD
-russkiiballetspb.ru # DNS_RESOLVE_FAILED
 russkiy-azot.ru # NOT_RU_GEOIP
 russkiy-film1.ru # UNKNOWN_GEOIP
 russkiy-forum.ru # NOT_RU_GEOIP
@@ -52003,7 +52047,6 @@ sad1221.online # NOT_RU_TLD
 sad1221.ru # TOO_MANY_DIGITS
 sad134.ru # UNKNOWN_GEOIP
 sad14.ru # DNS_RESOLVE_FAILED
-sad17.ru # DNS_RESOLVE_FAILED
 sad338.ru # UNKNOWN_GEOIP
 sad51.ru # DNS_RESOLVE_FAILED
 sad57vrn.ru # UNKNOWN_GEOIP
@@ -52060,6 +52103,7 @@ sagewisdom.ru # UNKNOWN_GEOIP
 saggytitsporn.com # NOT_RU_TLD
 sagidis.com # NOT_RU_TLD
 sahar-in.ru # UNKNOWN_GEOIP
+sahar142.ru # DNS_RESOLVE_FAILED
 saharvoskspb.com # NOT_RU_TLD
 saigonbitnova-soft.com # NOT_RU_TLD
 saikaaa.com # NOT_RU_TLD
@@ -52641,7 +52685,6 @@ schoolchess.uz # NOT_RU_TLD
 schoolcommunications.ru # UNKNOWN_GEOIP
 schooldesignufa.ru # DNS_RESOLVE_FAILED
 schooleinstein.ru # UNKNOWN_GEOIP
-schoolexodus.ru # DNS_RESOLVE_FAILED
 schoolforbaby.ru # UNKNOWN_GEOIP
 schoolgame.biz # NOT_RU_TLD
 schoolgirllust.com # NOT_RU_TLD
@@ -52967,7 +53010,7 @@ semnasem.cc # NOT_RU_TLD
 semnasem.org # NOT_RU_TLD
 semtrafo.com # NOT_RU_TLD
 semya911.ru # UNKNOWN_GEOIP
-semyamagazin.ru # UNKNOWN_GEOIP
+semyamagazin.ru # DNS_RESOLVE_FAILED
 semyana.com # NOT_RU_TLD
 semyanych-420.bio # NOT_RU_TLD
 semyanych-forum.website # NOT_RU_TLD
@@ -53173,6 +53216,7 @@ setwalls2.club # NOT_RU_TLD
 seun.ru # UNKNOWN_GEOIP
 sevan-hotel.ru # NOT_RU_GEOIP
 sevane.ru # NOT_RU_GEOIP
+sevastopol-forum.ru # DNS_RESOLVE_FAILED
 sevastopol.polyana-oz.ru # NOT_RU_GEOIP
 sevastopolki.ru # NOT_RU_GEOIP
 sevbyttehnika.ru # DNS_RESOLVE_FAILED
@@ -53288,7 +53332,6 @@ sex-sosedki.one # NOT_RU_TLD
 sex-sosedki.top # NOT_RU_TLD
 sex-stories.club # NOT_RU_TLD
 sex-team.com # NOT_RU_TLD
-sex-the-city.ru # DNS_RESOLVE_FAILED
 sex-ukraine.net # NOT_RU_TLD
 sex-video365.cc # NOT_RU_TLD
 sex-video365.net # NOT_RU_TLD
@@ -53435,7 +53478,7 @@ sexnovoros.biz # NOT_RU_TLD
 sexnovoros.net # NOT_RU_TLD
 sexnr.club # NOT_RU_TLD
 sexodomik.ru # UNKNOWN_GEOIP
-sexofonn.ru # UNKNOWN_GEOIP
+sexofonn.ru # DNS_RESOLVE_FAILED
 sexogolic.info # NOT_RU_TLD
 sexohota.click # NOT_RU_TLD
 sexohota.info # NOT_RU_TLD
@@ -53644,7 +53687,6 @@ sf.casvn.ru # UNKNOWN_GEOIP
 sf74.biz # NOT_RU_TLD
 sfarbitrevo.com # NOT_RU_TLD
 sfate.github.io # NOT_RU_TLD
-sfcontact.ru # UNKNOWN_GEOIP
 sfeam.com # NOT_RU_TLD
 sfera-motors.ru # DNS_RESOLVE_FAILED
 sferauristov.ru # DNS_RESOLVE_FAILED
@@ -53768,7 +53810,6 @@ sharewood.pro # NOT_RU_TLD
 sharewoodbiz.com # NOT_RU_TLD
 sharikiekb.ru # DNS_RESOLVE_FAILED
 sharikisaratov.ru # UNKNOWN_GEOIP
-sharingcard.ru # DNS_RESOLVE_FAILED
 shark-china.com # NOT_RU_TLD
 sharklasers.com # NOT_RU_TLD
 sharkoconsultores.com # NOT_RU_TLD
@@ -53893,6 +53934,7 @@ sherlokbot.info # NOT_RU_TLD
 sherlokbot.org # NOT_RU_TLD
 sherlokbot.pro # NOT_RU_TLD
 shershni.online # NOT_RU_TLD
+sherston.ru # DNS_RESOLVE_FAILED
 sherut.org # NOT_RU_TLD
 shesbreedingmaterial.com # NOT_RU_TLD
 sheseducedme.com # NOT_RU_TLD
@@ -53984,7 +54026,6 @@ shkola49ufa.ru # UNKNOWN_GEOIP
 shkola73saratov.ru # UNKNOWN_GEOIP
 shkola84.ru # UNKNOWN_GEOIP
 shkolabuduschego.ru # UNKNOWN_GEOIP
-shkolaharkovskogo.ru # UNKNOWN_GEOIP
 shkolanauki.ru # UNKNOWN_GEOIP
 shkolaozerki.ru # UNKNOWN_GEOIP
 shkura.com.ua # NOT_RU_TLD
@@ -54206,6 +54247,7 @@ siberianbattalion.com # NOT_RU_TLD
 siberiastars.ru # UNKNOWN_GEOIP
 sibigps.ru # UNKNOWN_GEOIP
 sibir-opt.ru # DNS_RESOLVE_FAILED
+sibirhouses.ru # DNS_RESOLVE_FAILED
 sibirki.club # NOT_RU_TLD
 sibirki.live # NOT_RU_TLD
 sibirki.org # NOT_RU_TLD
@@ -54289,6 +54331,7 @@ silin-hidasip.ru # DNS_RESOLVE_FAILED
 silknote.org # NOT_RU_TLD
 silkroad-conference.ru # UNKNOWN_GEOIP
 silkroadgame.top # NOT_RU_TLD
+silkroadjourneys.ru # DNS_RESOLVE_FAILED
 silly-gallieni-et-le-quai.com # NOT_RU_TLD
 silo-bevco.world # NOT_RU_TLD
 silomarthostel.com # NOT_RU_TLD
@@ -54321,7 +54364,6 @@ simaris.shop # NOT_RU_TLD
 simbadrid.ru # UNKNOWN_GEOIP
 simbapt.ru # DNS_RESOLVE_FAILED
 simbez-kupit.ru # DNS_RESOLVE_FAILED
-simbez-kupit2.ru # NOT_RU_GEOIP
 simbirsk-service.ru # DNS_RESOLVE_FAILED
 simcard-bez.ru # DNS_RESOLVE_FAILED
 simcard-europa.com # NOT_RU_TLD
@@ -54331,7 +54373,6 @@ simf-chess-school.ru # DNS_RESOLVE_FAILED
 simferopol-leshoz.ru # UNKNOWN_GEOIP
 simferopolki.ru # NOT_RU_GEOIP
 simfo-s.ru # UNKNOWN_GEOIP
-simfoniya-dom.ru # UNKNOWN_GEOIP
 simfoniya-tekstilya.ru # UNKNOWN_GEOIP
 similarchannels.com # NOT_RU_TLD
 similars.net # NOT_RU_TLD
@@ -54368,7 +54409,6 @@ simplemining.net # NOT_RU_TLD
 simpleroptionstec.com # NOT_RU_TLD
 simplexfinance.net # NOT_RU_TLD
 simplyhentai.org # NOT_RU_TLD
-simpro-v.ru # UNKNOWN_GEOIP
 simpsons.pornhentai.net # NOT_RU_TLD
 simpsonsua.tv # NOT_RU_TLD
 simptown.su # NOT_RU_GEOIP
@@ -54423,7 +54463,7 @@ sion38.ru # UNKNOWN_GEOIP
 sip-free.com # NOT_RU_TLD
 sip-system.com # NOT_RU_TLD
 sirena-luti.online # NOT_RU_TLD
-sirena-luti.ru # UNKNOWN_GEOIP
+sirena-luti.ru # DNS_RESOLVE_FAILED
 sirena.news # NOT_RU_TLD
 sirensong.ru # UNKNOWN_GEOIP
 sirenxxxstudios.com # NOT_RU_TLD
@@ -54646,7 +54686,7 @@ skolko-kupit-pravo.linefoods.ru # UNKNOWN_GEOIP
 skolko-stoit-priobresti-voenniyy-bilet.oxda.ru # UNKNOWN_GEOIP
 skolkovo-chinaclub.ru # UNKNOWN_GEOIP
 skolkovo.ventures # NOT_RU_TLD
-skomnia.ru # DNS_RESOLVE_FAILED
+skomnia.ru # UNKNOWN_GEOIP
 skopin.city-driving.ru # UNKNOWN_GEOIP
 skoraja-pomosch.serfilm.com # NOT_RU_TLD
 skoraya-pomosch.top # NOT_RU_TLD
@@ -54824,7 +54864,6 @@ slonwear.ru # UNKNOWN_GEOIP
 sloot-onlinus.com # NOT_RU_TLD
 slotland.com # NOT_RU_TLD
 slovelas.ru # UNKNOWN_GEOIP
-slovo-istiny.ru # UNKNOWN_GEOIP
 slovo-pacana-7-seriya.com # NOT_RU_TLD
 slovo-pacana.org # NOT_RU_TLD
 slovo-zashite.org # NOT_RU_TLD
@@ -54933,7 +54972,7 @@ smartrine.com # NOT_RU_TLD
 smarts-games.fun # NOT_RU_TLD
 smartshop-perm.ru # UNKNOWN_GEOIP
 smartsolutions.in.net # NOT_RU_TLD
-smartspace-krsk.ru # UNKNOWN_GEOIP
+smartspace-krsk.ru # DNS_RESOLVE_FAILED
 smartstocks-aisoftware.com # NOT_RU_TLD
 smarttexpert.com # NOT_RU_TLD
 smarttrendsmarket.org # NOT_RU_TLD
@@ -54944,7 +54983,6 @@ smartwealthlimited.com # NOT_RU_TLD
 smartworldplatforms.live # NOT_RU_TLD
 smashed.xxx # NOT_RU_TLD
 smaxim.ru # NOT_RU_GEOIP
-smbase.ru # DNS_RESOLVE_FAILED
 smbiznes.ru # DNS_RESOLVE_FAILED
 smbx.me # NOT_RU_TLD
 smbx.su # DNS_RESOLVE_FAILED
@@ -54964,6 +55002,7 @@ smclub.tech # NOT_RU_TLD
 smclub.uk # NOT_RU_TLD
 smclub.work # NOT_RU_TLD
 smdopt.ru # DNS_RESOLVE_FAILED
+sme-russia.ru # DNS_RESOLVE_FAILED
 sme.sk # NOT_RU_TLD
 smeforum.ru # UNKNOWN_GEOIP
 smehgaz.ru # NOT_RU_GEOIP
@@ -54993,8 +55032,10 @@ smit-servis.ru # UNKNOWN_GEOIP
 smiya.ru # DNS_RESOLVE_FAILED
 smk-cinema.ru # DNS_RESOLVE_FAILED
 smk-gazprom.ru # UNKNOWN_GEOIP
+smm-team.ru # DNS_RESOLVE_FAILED
 smogexperts.com # NOT_RU_TLD
 smok-games.pro # NOT_RU_TLD
+smoke-tab.ru # DNS_RESOLVE_FAILED
 smokedworld.biz # NOT_RU_TLD
 smokejapan.ru # UNKNOWN_GEOIP
 smokemgn.biz # NOT_RU_TLD
@@ -55024,7 +55065,6 @@ smolkvd.ru # UNKNOWN_GEOIP
 smolninskoe.org # NOT_RU_TLD
 smolschool16.ru # UNKNOWN_GEOIP
 smolstom1.ru # UNKNOWN_GEOIP
-smon-tag.ru # UNKNOWN_GEOIP
 smoothcomp.com # NOT_RU_TLD
 smorodina25.ru # UNKNOWN_GEOIP
 smorrebrod.com.ua # NOT_RU_TLD
@@ -55070,7 +55110,7 @@ smsfast.net # NOT_RU_TLD
 smsfast.org # NOT_RU_TLD
 smshub.org # NOT_RU_TLD
 smska.us # NOT_RU_TLD
-smslife.ru # NOT_RU_GEOIP
+smslife.ru # UNKNOWN_GEOIP
 smsmena.ru # UNKNOWN_GEOIP
 smsnab.ru # UNKNOWN_GEOIP
 smsobor.ru # UNKNOWN_GEOIP
@@ -55149,7 +55189,7 @@ so.ashoo.blue # NOT_RU_TLD
 so.ecoacademiya.ru # DNS_RESOLVE_FAILED
 so.indapills.org # NOT_RU_TLD
 so.indatab.org # NOT_RU_TLD
-soap22.ru # DNS_RESOLVE_FAILED
+soap22.ru # UNKNOWN_GEOIP
 soap4.me # NOT_RU_TLD
 soapui.org # NOT_RU_TLD
 sobaka-perm.ru # NOT_RU_GEOIP
@@ -55294,7 +55334,6 @@ solargroup.pro # NOT_RU_TLD
 solarrecords.net # NOT_RU_TLD
 solartecna.com # NOT_RU_TLD
 solclub2.top # NOT_RU_TLD
-soldatova-fantasy.ru # UNKNOWN_GEOIP
 soldoutaftercrisis.com # NOT_RU_TLD
 soleafinvex.net # NOT_RU_TLD
 solen-groupe.com # NOT_RU_TLD
@@ -55379,6 +55418,7 @@ someonesister.com # NOT_RU_TLD
 somewords.ru # DNS_RESOLVE_FAILED
 somm.cc # NOT_RU_TLD
 sommet-fintrix.net # NOT_RU_TLD
+somniya.ru # DNS_RESOLVE_FAILED
 somvoz.ru # NOT_RU_GEOIP
 sonata-ug.ru # DNS_RESOLVE_FAILED
 sonceprom.com # NOT_RU_TLD
@@ -55540,6 +55580,7 @@ sovye.ru # DNS_RESOLVE_FAILED
 sowewe.cc # NOT_RU_TLD
 soxmining.com # NOT_RU_TLD
 soyledexeris.com # NOT_RU_TLD
+soyuz-avtoshkol.ru # UNKNOWN_GEOIP
 soyuz-inv.ru # UNKNOWN_GEOIP
 soyuztec.ru # DNS_RESOLVE_FAILED
 soyzvlz.ru # UNKNOWN_GEOIP
@@ -55607,7 +55648,6 @@ spas-icona.ru # UNKNOWN_GEOIP
 spas-na-krovi.ru # UNKNOWN_GEOIP
 spas-setun.ru # UNKNOWN_GEOIP
 spasaemyj.swezhak-2025.art # NOT_RU_TLD
-spasau.ru # DNS_RESOLVE_FAILED
 spasbereg.ru # UNKNOWN_GEOIP
 spasibo.msk.ru # UNKNOWN_GEOIP
 spasibo53.ru # UNKNOWN_GEOIP
@@ -55636,7 +55676,6 @@ spb-rtk.ru # UNKNOWN_GEOIP
 spb-stm.ru # UNKNOWN_GEOIP
 spb-sud.ru # NOT_RU_GEOIP
 spb.4pig.com # NOT_RU_TLD
-spb.dmaps.ru # UNKNOWN_GEOIP
 spb.elite-alko.ru # UNKNOWN_GEOIP
 spb.good-shop.pro # NOT_RU_TLD
 spb.minuporno.com # NOT_RU_TLD
@@ -55654,7 +55693,6 @@ spb1.transexualy.ru # UNKNOWN_GEOIP
 spb2.telkypiter.org # NOT_RU_TLD
 spb3.rosall-24.ru # DNS_RESOLVE_FAILED
 spb3.telkypiter.org # NOT_RU_TLD
-spbabai.ru # UNKNOWN_GEOIP
 spbbalkon.ru # DNS_RESOLVE_FAILED
 spbdosuk.com # NOT_RU_TLD
 spbenergy.club # NOT_RU_TLD
@@ -55680,6 +55718,7 @@ spbu.cokchs08.ru # DNS_RESOLVE_FAILED
 spbustavsud.ru # UNKNOWN_GEOIP
 spbwave.ru # UNKNOWN_GEOIP
 spcs.network # NOT_RU_TLD
+speakeasy-nsk.ru # DNS_RESOLVE_FAILED
 speakforfluency.com # NOT_RU_TLD
 spearfish.ru # DNS_RESOLVE_FAILED
 spec-odezhda37.ru # UNKNOWN_GEOIP
@@ -56099,7 +56138,7 @@ st-ruza.online # NOT_RU_TLD
 st-ruza.ru # DNS_RESOLVE_FAILED
 st-sobor.ru # DNS_RESOLVE_FAILED
 st-stroy35.ru # UNKNOWN_GEOIP
-st-tver.ru # DNS_RESOLVE_FAILED
+st-tver.ru # UNKNOWN_GEOIP
 st-veduga.ru # UNKNOWN_GEOIP
 st-victor.ru # UNKNOWN_GEOIP
 st.ashoo.wtf # NOT_RU_TLD
@@ -56637,7 +56676,7 @@ stophuy.top # NOT_RU_TLD
 stopka.vodka # NOT_RU_TLD
 stopkor.info # NOT_RU_TLD
 stopmoskal.com # NOT_RU_TLD
-stoprofavtodor.ru # DNS_RESOLVE_FAILED
+stoprofavtodor.ru # NOT_RU_GEOIP
 stopthewar-peace.com # NOT_RU_TLD
 stopudovo.z-zasrancy.giize.com # NOT_RU_TLD
 stopwar.helpcrunch.com # NOT_RU_TLD
@@ -56735,7 +56774,6 @@ streisand.work # NOT_RU_TLD
 streisandvpn.info # NOT_RU_TLD
 strel-dvor.ru # UNKNOWN_GEOIP
 strelam.ru # UNKNOWN_GEOIP
-strelets-m.ru # UNKNOWN_GEOIP
 strelka-challenges.com # NOT_RU_TLD
 strelki.info # NOT_RU_TLD
 strelochnik.com # NOT_RU_TLD
@@ -56980,6 +57018,7 @@ sunacrb.ru # DNS_RESOLVE_FAILED
 sunandmooncleaningservices.com # NOT_RU_TLD
 sunberryza.com # NOT_RU_TLD
 sunbluster.com # NOT_RU_TLD
+suncitynk.ru # DNS_RESOLVE_FAILED
 suncorai.net # NOT_RU_TLD
 suncrest-fluxrow-app.com # NOT_RU_TLD
 suncrest-luxonapp.com # NOT_RU_TLD
@@ -57035,6 +57074,7 @@ supermariorun.com # NOT_RU_TLD
 superpapermario.com # NOT_RU_TLD
 supersmashbros.cn # NOT_RU_TLD
 supersmashbros.com.cn # NOT_RU_TLD
+supkzn.ru # DNS_RESOLVE_FAILED
 supma.cc # NOT_RU_TLD
 supolka.net # NOT_RU_TLD
 support-groups.org # NOT_RU_TLD
@@ -57438,12 +57478,12 @@ szaojet.com # NOT_RU_TLD
 szbrvymb.com # NOT_RU_TLD
 szczyt-xenthorplatform.com # NOT_RU_TLD
 szczytostfinora.net # NOT_RU_TLD
+szemp.ru # UNKNOWN_GEOIP
 szextra.hu # NOT_RU_TLD
 szgeo.ru # UNKNOWN_GEOIP
 szgeodez.ru # DNS_RESOLVE_FAILED
 szk321.ru # DNS_RESOLVE_FAILED
 szkv97.ru # UNKNOWN_GEOIP
-szlightking.ru # UNKNOWN_GEOIP
 szru.gov.ua # NOT_RU_TLD
 szsm-kamensk.ru # UNKNOWN_GEOIP
 szu.ngo # NOT_RU_TLD
@@ -57642,6 +57682,7 @@ taloue.com # NOT_RU_TLD
 talvorys.com # NOT_RU_TLD
 tam.transy-msk.su # NOT_RU_GEOIP
 tama-germany.de # NOT_RU_TLD
+tamadabook.ru # DNS_RESOLVE_FAILED
 tamagavk.ru # UNKNOWN_GEOIP
 tamaraeidelman.com # NOT_RU_TLD
 tamboranminings.com # NOT_RU_TLD
@@ -57902,7 +57943,7 @@ tech-amp14.top # NOT_RU_TLD
 tech-mailing.com # NOT_RU_TLD
 tech-startups.ru # UNKNOWN_GEOIP
 tech.liga.net # NOT_RU_TLD
-tech4stroy.ru # UNKNOWN_GEOIP
+tech4stroy.ru # DNS_RESOLVE_FAILED
 techadvances.digital # NOT_RU_TLD
 techcircuit.ru # DNS_RESOLVE_FAILED
 techcor.click # NOT_RU_TLD
@@ -57953,7 +57994,7 @@ teen-sex.tv # NOT_RU_TLD
 teenageanalsluts.com # NOT_RU_TLD
 teenanalcasting.com # NOT_RU_TLD
 teenax.com # NOT_RU_TLD
-teenbay.ru # DNS_RESOLVE_FAILED
+teenbay.ru # UNKNOWN_GEOIP
 teenboyslove.com # NOT_RU_TLD
 teenboyslove.net # NOT_RU_TLD
 teencamvideos.me # NOT_RU_TLD
@@ -58029,7 +58070,6 @@ tehosmotr-auto.com # NOT_RU_TLD
 tehosmotr-dv.ru # UNKNOWN_GEOIP
 tehosmotr-online.org # NOT_RU_TLD
 tehosmotr-rsa.ru # DNS_RESOLVE_FAILED
-tehosmotrdk-avto.ru # UNKNOWN_GEOIP
 tehosmotrss.pro # NOT_RU_TLD
 tehrekon.ru # DNS_RESOLVE_FAILED
 tehsil.biz # NOT_RU_TLD
@@ -58208,7 +58248,6 @@ terenkollibrary.kz # NOT_RU_TLD
 terexholdings.com # NOT_RU_TLD
 tereze-shkola.ru # UNKNOWN_GEOIP
 teriberka51.ru # DNS_RESOLVE_FAILED
-terikovnet.ru # UNKNOWN_GEOIP
 terinanelson.ca # NOT_RU_TLD
 termalstar.com.ua # NOT_RU_TLD
 terman-s.ru # DNS_RESOLVE_FAILED
@@ -58223,7 +58262,6 @@ termincin.com # NOT_RU_TLD
 termo-ng.ru # DNS_RESOLVE_FAILED
 termofor-shop.ru # UNKNOWN_GEOIP
 termoplex.ru # UNKNOWN_GEOIP
-termopodveska.com.ru # UNKNOWN_GEOIP
 termosk.ru # UNKNOWN_GEOIP
 ternopoliany.te.ua # NOT_RU_TLD
 terovexis-software.com # NOT_RU_TLD
@@ -58327,18 +58365,20 @@ texocmotpa.net # NOT_RU_TLD
 texosmotr-24.ru # DNS_RESOLVE_FAILED
 texosmotrbezauto.ru # UNKNOWN_GEOIP
 texosmotronlinedv.ru # DNS_RESOLVE_FAILED
+texosmotrvsem.ru # UNKNOWN_GEOIP
 texpoldev.com # NOT_RU_TLD
 texstar-nsk.ru # UNKNOWN_GEOIP
 texster.ru # UNKNOWN_GEOIP
 text-a.blogspot.com # NOT_RU_TLD
 textbooks1-11.ru # DNS_RESOLVE_FAILED
+textil-stolitsa.ru # DNS_RESOLVE_FAILED
 textileartscenter.com # NOT_RU_TLD
 textileweek.online # NOT_RU_TLD
 textisound.blogspot.com # NOT_RU_TLD
 textmp3.ru # UNKNOWN_GEOIP
 textovenapesni.com # NOT_RU_TLD
 textpesni.org # NOT_RU_TLD
-textrunet.ru # DNS_RESOLVE_FAILED
+textrunet.ru # UNKNOWN_GEOIP
 texty.org.ua # NOT_RU_TLD
 tezars.ru # UNKNOWN_GEOIP
 tezgoal.com # NOT_RU_TLD
@@ -58438,7 +58478,7 @@ the-cult.com.ua # NOT_RU_TLD
 the-days.ru # UNKNOWN_GEOIP
 the-digital-garden.ru # UNKNOWN_GEOIP
 the-dinhexgpt.com # NOT_RU_TLD
-the-dog-collection.ru # DNS_RESOLVE_FAILED
+the-dog-collection.ru # UNKNOWN_GEOIP
 the-dog-house.org # NOT_RU_TLD
 the-evolutionworld.org # NOT_RU_TLD
 the-financial-frontier.com # NOT_RU_TLD
@@ -59525,6 +59565,7 @@ torgbay.ru # UNKNOWN_GEOIP
 torgenergoprom.ru # DNS_RESOLVE_FAILED
 torgmeh.ru # UNKNOWN_GEOIP
 torgoviy-dvor.ru # DNS_RESOLVE_FAILED
+torgshop21.ru # DNS_RESOLVE_FAILED
 torgstellaz.ru # UNKNOWN_GEOIP
 torgtrailers.ru # DNS_RESOLVE_FAILED
 toriimarkets.com # NOT_RU_TLD
@@ -59932,7 +59973,7 @@ trainfanatics.com # NOT_RU_TLD
 trainmydata.com # NOT_RU_TLD
 trainpix.org # NOT_RU_TLD
 traktor-orel.ru # DNS_RESOLVE_FAILED
-traktorist-info.ru # DNS_RESOLVE_FAILED
+traktorist-info.ru # UNKNOWN_GEOIP
 traktory.gowww.top # NOT_RU_TLD
 traktorypsm.top # NOT_RU_TLD
 traktorzz.top # NOT_RU_TLD
@@ -60028,6 +60069,7 @@ transymoskvy5555.com # NOT_RU_TLD
 traphub2.com # NOT_RU_TLD
 trapporn.com # NOT_RU_TLD
 trasdespherefinance.com # NOT_RU_TLD
+trash-bag.ru # DNS_RESOLVE_FAILED
 trash.porn # NOT_RU_TLD
 trashyneverclassy.com # NOT_RU_TLD
 trast-at.ru # UNKNOWN_GEOIP
@@ -60108,7 +60150,6 @@ treffpaylox.com # NOT_RU_TLD
 treideram.ru # UNKNOWN_GEOIP
 trek002.ru # UNKNOWN_GEOIP
 trekolsoda.online # NOT_RU_TLD
-trekolsoda.ru # UNKNOWN_GEOIP
 trekov.net # NOT_RU_TLD
 trel-kion.world # NOT_RU_TLD
 trelenta.com # NOT_RU_TLD
@@ -60391,6 +60432,7 @@ truledgermarkets.com # NOT_RU_TLD
 truliki.com # NOT_RU_TLD
 truliki.org # NOT_RU_TLD
 truliki.ru # UNKNOWN_GEOIP
+trushkov-advokat.ru # DNS_RESOLVE_FAILED
 trusorbot-tech.com # NOT_RU_TLD
 trust-in-btc.com # NOT_RU_TLD
 trust-option.com # NOT_RU_TLD
@@ -60878,7 +60920,6 @@ tuta.com # NOT_RU_TLD
 tutankhamun.site # NOT_RU_TLD
 tutanota.com # NOT_RU_TLD
 tutchecks.ru # DNS_RESOLVE_FAILED
-tutcpravka.ru # NOT_RU_GEOIP
 tutdobro.ru # DNS_RESOLVE_FAILED
 tutfilmov.com # NOT_RU_TLD
 tutkino.ac # NOT_RU_TLD
@@ -61021,7 +61062,6 @@ tvhub.today # NOT_RU_TLD
 tvhub.world # NOT_RU_TLD
 tvigo.club # NOT_RU_TLD
 tvigo.net # NOT_RU_TLD
-tvisa.ru # UNKNOWN_GEOIP
 tvispo58.ru # UNKNOWN_GEOIP
 tvm-mena.com # NOT_RU_TLD
 tvmarkets.com # NOT_RU_TLD
@@ -61350,7 +61390,7 @@ uchi-lichnyj-kabinet.ru # UNKNOWN_GEOIP
 uchi.alleng.me # NOT_RU_TLD
 uchim63.ru # DNS_RESOLVE_FAILED
 uchords.net # NOT_RU_TLD
-uchstar.ru # NOT_RU_GEOIP
+uchstar.ru # DNS_RESOLVE_FAILED
 uck-l.ru # DNS_RESOLVE_FAILED
 ucnauri.com # NOT_RU_TLD
 ucrainica.fandom.com # NOT_RU_TLD
@@ -61604,12 +61644,11 @@ ulan-ude.kkm.center # NOT_RU_TLD
 uleyshop.com # NOT_RU_TLD
 uli24.biz # NOT_RU_TLD
 ulica-shekspira-87.serfilm.com # NOT_RU_TLD
-ulido.ru # NOT_RU_GEOIP
+ulido.ru # DNS_RESOLVE_FAILED
 ulitka-ahatina.ru # DNS_RESOLVE_FAILED
 uliy.vip # NOT_RU_TLD
 uljanovsk.soski.org # NOT_RU_TLD
 ulk24.com # NOT_RU_TLD
-ulov1.ru # DNS_RESOLVE_FAILED
 ulozto.sk # NOT_RU_TLD
 ulsan-anma.com # NOT_RU_TLD
 ulsun.ru # NOT_RU_GEOIP
@@ -61670,6 +61709,7 @@ umarkets.site # NOT_RU_TLD
 umblinagltd.com # NOT_RU_TLD
 umcaixote.com # NOT_RU_TLD
 umcgochs-kaluga.ru # DNS_RESOLVE_FAILED
+umdi.ru # DNS_RESOLVE_FAILED
 umdpl.info # NOT_RU_TLD
 umeed.app # NOT_RU_TLD
 umekana.ru # DNS_RESOLVE_FAILED
@@ -62000,7 +62040,6 @@ urb-a.dreamwidth.org # NOT_RU_TLD
 urban-vpn.pro # NOT_RU_TLD
 urban3p.com # NOT_RU_TLD
 urbanauapp.org # NOT_RU_TLD
-urbanburger.ru # UNKNOWN_GEOIP
 urbancrew.club # NOT_RU_TLD
 urbanculture.in # NOT_RU_TLD
 urbanculture.live # NOT_RU_TLD
@@ -62024,6 +62063,7 @@ urestgroup.ru # UNKNOWN_GEOIP
 urfo.expert # NOT_RU_TLD
 urgames.ru # UNKNOWN_GEOIP
 urgentnews.media # NOT_RU_TLD
+urinesynthetic.ru # DNS_RESOLVE_FAILED
 urist-weber.ru # UNKNOWN_GEOIP
 urkiss.ru # UNKNOWN_GEOIP
 url-eco.app # NOT_RU_TLD
@@ -62072,7 +62112,7 @@ use-application-dns.net # NOT_RU_TLD
 usebesttraffic.com # NOT_RU_TLD
 usegserwfwerg.pro # NOT_RU_TLD
 usehtc.com # NOT_RU_TLD
-usemycar.ru # UNKNOWN_GEOIP
+usemycar.ru # DNS_RESOLVE_FAILED
 user-tech.ru # UNKNOWN_GEOIP
 user.asset-ace.net # NOT_RU_TLD
 user.atlas-finance.info # NOT_RU_TLD
@@ -62136,6 +62176,7 @@ ust-kut24.today # NOT_RU_TLD
 ust-kut24.website # NOT_RU_TLD
 ust-kut24.world # NOT_RU_TLD
 ust-kut24.xyz # NOT_RU_TLD
+ust-ugan.ru # DNS_RESOLVE_FAILED
 ustakut24.com # NOT_RU_TLD
 ustaz.uplc.kz # NOT_RU_TLD
 ustdoneckaya-adm.ru # UNKNOWN_GEOIP
@@ -62259,6 +62300,7 @@ v-c.online # NOT_RU_TLD
 v-c.shop # NOT_RU_TLD
 v-c.space # NOT_RU_TLD
 v-c.su # NOT_RU_GEOIP
+v-context.ru # DNS_RESOLVE_FAILED
 v-domashnix-usloviyax.ru # UNKNOWN_GEOIP
 v-info.ru # UNKNOWN_GEOIP
 v-ivanenko.blogspot.com # NOT_RU_TLD
@@ -62454,7 +62496,7 @@ vagonchiki.su # DNS_RESOLVE_FAILED
 vagonkavbane-spb.ru # DNS_RESOLVE_FAILED
 vagporn.vip # NOT_RU_TLD
 vagrarxps.com # NOT_RU_TLD
-vagudze.ru # UNKNOWN_GEOIP
+vagudze.ru # DNS_RESOLVE_FAILED
 vah-gims.top # NOT_RU_TLD
 vahrushi-live.ru # UNKNOWN_GEOIP
 vahvacorebitplatform.com # NOT_RU_TLD
@@ -62532,7 +62574,7 @@ vantages-market.com # NOT_RU_TLD
 vantheonlux.net # NOT_RU_TLD
 vanuxpro.com # NOT_RU_TLD
 vanwertinspections.com # NOT_RU_TLD
-vanya-vpn-connect.ru # NOT_RU_GEOIP
+vanya-vpn-connect.ru # DNS_RESOLVE_FAILED
 vanyavpn.ac # NOT_RU_TLD
 vanyavpn.ag # NOT_RU_TLD
 vanyavpn.app # NOT_RU_TLD
@@ -62801,7 +62843,7 @@ vekshino.ru # NOT_RU_GEOIP
 vel-dorna.co # NOT_RU_TLD
 vel-kitha.co # NOT_RU_TLD
 vela.eog.bz # NOT_RU_TLD
-velakast.ru # UNKNOWN_GEOIP
+velakast.ru # DNS_RESOLVE_FAILED
 velanexas.com # NOT_RU_TLD
 velanonest-soft.com # NOT_RU_TLD
 velanovatrading-ai-soft.com # NOT_RU_TLD
@@ -62905,6 +62947,7 @@ verdi-market.ru # UNKNOWN_GEOIP
 verdictrobotics.com # NOT_RU_TLD
 verdienen-sie500-soft.com # NOT_RU_TLD
 verdimedia.ru # DNS_RESOLVE_FAILED
+verdiyalta.ru # DNS_RESOLVE_FAILED
 veres-hotel.ru # UNKNOWN_GEOIP
 vereschagino.eilerschool.ru # DNS_RESOLVE_FAILED
 vereya.alevelclub.ru # UNKNOWN_GEOIP
@@ -63013,6 +63056,7 @@ vetex.live # NOT_RU_TLD
 vethouseufa.ru # UNKNOWN_GEOIP
 vetintern.ru # DNS_RESOLVE_FAILED
 vetipay.org # NOT_RU_TLD
+vetka-museum.ru # DNS_RESOLVE_FAILED
 vetkashtanka.ru # UNKNOWN_GEOIP
 vetlugamemorybook.ru # UNKNOWN_GEOIP
 vetrenyj.ru # DNS_RESOLVE_FAILED
@@ -63094,7 +63138,6 @@ viagra-opt.com # NOT_RU_TLD
 viagra-pochtoy.ru # NOT_RU_GEOIP
 viagra-shop.in.ua # NOT_RU_TLD
 viagra-shop.su # NOT_RU_GEOIP
-viagra.moscow # UNKNOWN_GEOIP
 viagra100.ru # NOT_RU_GEOIP
 viagragel.ru # UNKNOWN_GEOIP
 viagragenups.com # NOT_RU_TLD
@@ -63193,6 +63236,7 @@ videolaba.net # NOT_RU_TLD
 videolaba.one # NOT_RU_TLD
 videolaba.top # NOT_RU_TLD
 videoleak.net # NOT_RU_TLD
+videolink-sb.ru # DNS_RESOLVE_FAILED
 videomi.com # NOT_RU_TLD
 videomi.net # NOT_RU_TLD
 videomin.net # NOT_RU_TLD
@@ -63264,7 +63308,7 @@ viewtarget.click # NOT_RU_TLD
 vif-valtrix.net # NOT_RU_TLD
 vifdexeris.com # NOT_RU_TLD
 vigand.ru # DNS_RESOLVE_FAILED
-vigepanr.ru # UNKNOWN_GEOIP
+vigepanr.ru # DNS_RESOLVE_FAILED
 vigorcrestflow.com # NOT_RU_TLD
 vigps.ru # UNKNOWN_GEOIP
 vigyqye8.ru # DNS_RESOLVE_FAILED
@@ -63337,6 +63381,7 @@ vintageprofessionaloptions.com # NOT_RU_TLD
 vintagestory.at # NOT_RU_TLD
 vinthanglong.com # NOT_RU_TLD
 vinvachain.com # NOT_RU_TLD
+vinyl-on.ru # DNS_RESOLVE_FAILED
 vinyl-x.com # NOT_RU_TLD
 vinylstatus.com # NOT_RU_TLD
 vio.tvfilms.club # NOT_RU_TLD
@@ -63413,7 +63458,6 @@ visitkralovec.cz # NOT_RU_TLD
 visitmalta.academy # NOT_RU_TLD
 visitnewell.com # NOT_RU_TLD
 visitorsdetails.com # NOT_RU_TLD
-visitrussia-yar.ru # UNKNOWN_GEOIP
 visitukraine.today # NOT_RU_TLD
 visitygo.com # NOT_RU_TLD
 vislanet.ru # DNS_RESOLVE_FAILED
@@ -63515,6 +63559,7 @@ vk69shop69.com # NOT_RU_TLD
 vk6tor.at # NOT_RU_TLD
 vk7tor.at # NOT_RU_TLD
 vkabare.com # NOT_RU_TLD
+vkanketa.ru # DNS_RESOLVE_FAILED
 vkantakti.ru # DNS_RESOLVE_FAILED
 vkdia.com # NOT_RU_TLD
 vkdiz.ru # DNS_RESOLVE_FAILED
@@ -63570,7 +63615,7 @@ vkusnaeda.ru # UNKNOWN_GEOIP
 vkusnaya-rybka-ekb.ru # UNKNOWN_GEOIP
 vkusnoexpert.ru # DNS_RESOLVE_FAILED
 vkusnogorsk.ru # UNKNOWN_GEOIP
-vkusnoserver.ru # DNS_RESOLVE_FAILED
+vkusnoserver.ru # UNKNOWN_GEOIP
 vkusnovarov.ru # DNS_RESOLVE_FAILED
 vkusnyierecepty.ru # DNS_RESOLVE_FAILED
 vkusopediya.ru # DNS_RESOLVE_FAILED
@@ -63645,7 +63690,7 @@ vmes34.ru # UNKNOWN_GEOIP
 vmeste-region.ru # UNKNOWN_GEOIP
 vmeste-tv.site # NOT_RU_TLD
 vmeste-tv.sm1ky.com # NOT_RU_TLD
-vmeste-vazhno.ru # DNS_RESOLVE_FAILED
+vmeste-vazhno.ru # UNKNOWN_GEOIP
 vmeste.info # NOT_RU_TLD
 vmeste.site # NOT_RU_TLD
 vmestezp.org # NOT_RU_TLD
@@ -63798,6 +63843,7 @@ voland.moscow # DNS_RESOLVE_FAILED
 volanixedge-5-ai.com # NOT_RU_TLD
 volanixedgeai.com # NOT_RU_TLD
 volchitsa-i-pryanosti-animego.ru # NOT_RU_GEOIP
+volchitsa-i-pryanosty-animego.ru # DNS_RESOLVE_FAILED
 volga-hc.ru # UNKNOWN_GEOIP
 volga-instrument.ru # UNKNOWN_GEOIP
 volga24.biz # NOT_RU_TLD
@@ -63976,7 +64022,7 @@ voxy-russia.ru # DNS_RESOLVE_FAILED
 voyag-tour.ru # UNKNOWN_GEOIP
 voyage-info.ru # UNKNOWN_GEOIP
 voyageinfo.ru # UNKNOWN_GEOIP
-voyagepromo.ru # UNKNOWN_GEOIP
+voyagepromo.ru # DNS_RESOLVE_FAILED
 voyazh-avtoshkola.com # NOT_RU_TLD
 voydoda.com # NOT_RU_TLD
 voyeur-russian.org # NOT_RU_TLD
@@ -64063,7 +64109,7 @@ vpnavira.info # NOT_RU_TLD
 vpnbear.biz # NOT_RU_TLD
 vpnbeaver.com # NOT_RU_TLD
 vpnbeaver.info # NOT_RU_TLD
-vpnblog.ru # UNKNOWN_GEOIP
+vpnblog.ru # DNS_RESOLVE_FAILED
 vpnforandroid.help # NOT_RU_TLD
 vpnforyoutube.com # NOT_RU_TLD
 vpnfreepro.net # NOT_RU_TLD
@@ -64451,7 +64497,6 @@ vykroykisew.ru # DNS_RESOLVE_FAILED
 vykrytasy.com # NOT_RU_TLD
 vyksavkurse.ru # UNKNOWN_GEOIP
 vykulya.online # NOT_RU_TLD
-vykupavto74.ru # DNS_RESOLVE_FAILED
 vymanga.co # NOT_RU_TLD
 vymanga.com # NOT_RU_TLD
 vymanga.net # NOT_RU_TLD
@@ -64943,7 +64988,7 @@ welcometorussia.info # NOT_RU_TLD
 welho.ru # UNKNOWN_GEOIP
 welicanclub.com # NOT_RU_TLD
 welikeitintheass.com # NOT_RU_TLD
-well-be.ru # DNS_RESOLVE_FAILED
+well-be.ru # NOT_RU_GEOIP
 wellfedmiami.com # NOT_RU_TLD
 wellhealthsafety.com # NOT_RU_TLD
 wellness-tula.ru # UNKNOWN_GEOIP
@@ -65359,6 +65404,7 @@ wood-man.biz # NOT_RU_TLD
 wood-press.ru # DNS_RESOLVE_FAILED
 wood-top.ru # DNS_RESOLVE_FAILED
 woodbridgereal.com # NOT_RU_TLD
+wooddes.ru # DNS_RESOLVE_FAILED
 woodentino.ru # UNKNOWN_GEOIP
 woodline.pro # NOT_RU_TLD
 woodmanfilms.com # NOT_RU_TLD
@@ -65553,7 +65599,7 @@ wt.mato-tech.com # NOT_RU_TLD
 wt.phasset.org # NOT_RU_TLD
 wtf.porn # NOT_RU_TLD
 wtfilm.online # NOT_RU_TLD
-wtfpassporno.ru # UNKNOWN_GEOIP
+wtfpassporno.ru # NOT_RU_GEOIP
 wtfpeople.com # NOT_RU_TLD
 wtk.mychord.net # NOT_RU_TLD
 wto.cnfi.org.tw # NOT_RU_TLD
@@ -65873,7 +65919,7 @@ www.288sb.com # NOT_RU_TLD
 www.28bal.ru # UNKNOWN_GEOIP
 www.2bgay.com # NOT_RU_TLD
 www.2folie.cam # NOT_RU_TLD
-www.2planeta.ru # NOT_RU_GEOIP
+www.2planeta.ru # UNKNOWN_GEOIP
 www.2sub.tv # NOT_RU_TLD
 www.2x2x2.ru # UNKNOWN_GEOIP
 www.321chat.com # NOT_RU_TLD
@@ -66813,7 +66859,7 @@ www.bodyforumtr.com # NOT_RU_TLD
 www.bollyrulezz.in # NOT_RU_TLD
 www.bombahentai.com # NOT_RU_TLD
 www.bombastic.com # NOT_RU_TLD
-www.bomtv.ru # NOT_RU_GEOIP
+www.bomtv.ru # UNKNOWN_GEOIP
 www.bonell.se # NOT_RU_TLD
 www.bonertube.com # NOT_RU_TLD
 www.bonestv.ru # NOT_RU_GEOIP
@@ -67537,7 +67583,6 @@ www.devki.net # NOT_RU_TLD
 www.devki.uno # NOT_RU_TLD
 www.devki.vip # NOT_RU_TLD
 www.devonki.net # NOT_RU_TLD
-www.dexa.ru # DNS_RESOLVE_FAILED
 www.dextv.org # NOT_RU_TLD
 www.dginh.ru # UNKNOWN_GEOIP
 www.dh420.biz # NOT_RU_TLD
@@ -67548,7 +67593,7 @@ www.diagnose.me # NOT_RU_TLD
 www.diagram.com.ua # NOT_RU_TLD
 www.dial69.com # NOT_RU_TLD
 www.dialog.ua # NOT_RU_TLD
-www.diamondsofrussia.ru # UNKNOWN_GEOIP
+www.diamondsofrussia.ru # DNS_RESOLVE_FAILED
 www.diaperscroller.com # NOT_RU_TLD
 www.dibiz.com # NOT_RU_TLD
 www.dickhardon.com # NOT_RU_TLD
@@ -67686,6 +67731,7 @@ www.dwh.su # DNS_RESOLVE_FAILED
 www.dwutygodnik.com # NOT_RU_TLD
 www.dyked.com # NOT_RU_TLD
 www.dynamomania.com # NOT_RU_TLD
+www.e-azbuka.ru # DNS_RESOLVE_FAILED
 www.e-kuzbass.ru # UNKNOWN_GEOIP
 www.e-libra.su # UNKNOWN_GEOIP
 www.e-reading-lib.com # NOT_RU_TLD
@@ -67960,7 +68006,6 @@ www.fanhaolou.com # NOT_RU_TLD
 www.fanhentai.net # NOT_RU_TLD
 www.fanmark.info # NOT_RU_TLD
 www.fansygay.com # NOT_RU_TLD
-www.fant-lib.ru # NOT_RU_GEOIP
 www.fantasy-worlds.net # NOT_RU_TLD
 www.fantasy-worlds.org # NOT_RU_TLD
 www.fantasy00.biz # NOT_RU_TLD
@@ -68376,7 +68421,7 @@ www.gardenshaman.eu # NOT_RU_TLD
 www.gargteil.com # NOT_RU_TLD
 www.gargtell.com # NOT_RU_TLD
 www.gargtells.com # NOT_RU_TLD
-www.garibi.ru # NOT_RU_GEOIP
+www.garibi.ru # DNS_RESOLVE_FAILED
 www.gay-fuck-tube.com # NOT_RU_TLD
 www.gay-porns24.com # NOT_RU_TLD
 www.gay-x-videos.net # NOT_RU_TLD
@@ -69922,7 +69967,7 @@ www.ls25.biz # NOT_RU_TLD
 www.lschool4.ru # UNKNOWN_GEOIP
 www.lsd-online.es # NOT_RU_TLD
 www.lsfabric.com # NOT_RU_TLD
-www.lslg.ru # NOT_RU_GEOIP
+www.lslg.ru # UNKNOWN_GEOIP
 www.luckia.es # NOT_RU_TLD
 www.lucsheekino.ru # UNKNOWN_GEOIP
 www.lukki.com # NOT_RU_TLD
@@ -70189,7 +70234,7 @@ www.metarthunter.com # NOT_RU_TLD
 www.metartnetwork.com # NOT_RU_TLD
 www.metartx.com # NOT_RU_TLD
 www.metooo.io # NOT_RU_TLD
-www.metrix1.ru # UNKNOWN_GEOIP
+www.metrix1.ru # DNS_RESOLVE_FAILED
 www.metro64.ru # UNKNOWN_GEOIP
 www.metrolagu.live # NOT_RU_TLD
 www.metrolagu.ws # NOT_RU_TLD
@@ -70853,6 +70898,7 @@ www.nymsite.com # NOT_RU_TLD
 www.o-audiobook.ru # NOT_RU_GEOIP
 www.oakleyforum.com # NOT_RU_TLD
 www.oao-niti.com # NOT_RU_TLD
+www.oaotmz.ru # DNS_RESOLVE_FAILED
 www.oapraha.cz # NOT_RU_TLD
 www.oasis-matrix.com # NOT_RU_TLD
 www.oberlinlibstaff.com # NOT_RU_TLD
@@ -70884,7 +70930,7 @@ www.okino.ua # NOT_RU_TLD
 www.okna-park.ru # UNKNOWN_GEOIP
 www.okonplenki.ru # DNS_RESOLVE_FAILED
 www.okporn.com # NOT_RU_TLD
-www.okroshkafest.ru # DNS_RESOLVE_FAILED
+www.okroshkafest.ru # UNKNOWN_GEOIP
 www.oksiji13.ru # NOT_RU_GEOIP
 www.okzhetpes.kz # NOT_RU_TLD
 www.oldcart.ru # DNS_RESOLVE_FAILED
@@ -71185,7 +71231,7 @@ www.pnmtoken.com # NOT_RU_TLD
 www.pnts32.biz # NOT_RU_TLD
 www.pnwreaderboard.com # NOT_RU_TLD
 www.po-kaki-to.com # NOT_RU_TLD
-www.pochki-med.ru # UNKNOWN_GEOIP
+www.pochki-med.ru # DNS_RESOLVE_FAILED
 www.pocket-option.com # NOT_RU_TLD
 www.pocket7games.com # NOT_RU_TLD
 www.podchaser.com # NOT_RU_TLD
@@ -71197,6 +71243,7 @@ www.pointsincase.com # NOT_RU_TLD
 www.poiskm.co # NOT_RU_TLD
 www.poistine.org # NOT_RU_TLD
 www.pokazz.net # NOT_RU_TLD
+www.pokrovckoe.ru # DNS_RESOLVE_FAILED
 www.pokupkalekarstva13.ru # DNS_RESOLVE_FAILED
 www.pol105.ru # UNKNOWN_GEOIP
 www.polariscorporate.com # NOT_RU_TLD
@@ -71346,7 +71393,7 @@ www.pornogo.tv # NOT_RU_TLD
 www.pornogogue.com # NOT_RU_TLD
 www.pornogorod.net # NOT_RU_TLD
 www.pornogovno.net # NOT_RU_TLD
-www.pornogovno.ru # UNKNOWN_GEOIP
+www.pornogovno.ru # DNS_RESOLVE_FAILED
 www.pornohd.sex # NOT_RU_TLD
 www.pornohdv.com # NOT_RU_TLD
 www.pornohirsch.net # NOT_RU_TLD
@@ -71833,7 +71880,7 @@ www.roshtein.com # NOT_RU_TLD
 www.rospofilm.ru # DNS_RESOLVE_FAILED
 www.rosrao.ru # UNKNOWN_GEOIP
 www.rosregistr.ru # UNKNOWN_GEOIP
-www.rossi-potok.ru # UNKNOWN_GEOIP
+www.rossi-potok.ru # DNS_RESOLVE_FAILED
 www.rostabletka.com # NOT_RU_TLD
 www.rostabletka.ru # UNKNOWN_GEOIP
 www.rostabletka1.ru # DNS_RESOLVE_FAILED
@@ -72518,7 +72565,7 @@ www.starzpartners.com # NOT_RU_TLD
 www.statinformation.ru # DNS_RESOLVE_FAILED
 www.stats24.com # NOT_RU_TLD
 www.statshow.com # NOT_RU_TLD
-www.stavcnti.ru # UNKNOWN_GEOIP
+www.stavcnti.ru # DNS_RESOLVE_FAILED
 www.stavsch13.ru # UNKNOWN_GEOIP
 www.steamboataa.org # NOT_RU_TLD
 www.steelland.ru # NOT_RU_GEOIP
@@ -72595,7 +72642,6 @@ www.suiteedge.com # NOT_RU_TLD
 www.sukamain.com # NOT_RU_TLD
 www.sumbur.ru # UNKNOWN_GEOIP
 www.summix.biz # NOT_RU_TLD
-www.sun-zb.ru # DNS_RESOLVE_FAILED
 www.sunflowerofpeace.com # NOT_RU_TLD
 www.superace88.org # NOT_RU_TLD
 www.supergame.be # NOT_RU_TLD
@@ -72772,7 +72818,7 @@ www.tevas-online.link # NOT_RU_TLD
 www.tevas-online.top # NOT_RU_TLD
 www.tevas.top # NOT_RU_TLD
 www.texster.ru # UNKNOWN_GEOIP
-www.textsound.ru # NOT_RU_GEOIP
+www.textsound.ru # UNKNOWN_GEOIP
 www.textures-resource.com # NOT_RU_TLD
 www.tfilm.co # NOT_RU_TLD
 www.tfrecipes.com # NOT_RU_TLD
@@ -72951,6 +72997,7 @@ www.topmodelcams.com # NOT_RU_TLD
 www.topnewp.com # NOT_RU_TLD
 www.topolek132.ru # NOT_RU_GEOIP
 www.topontiki.gr # NOT_RU_TLD
+www.topreading.ru # DNS_RESOLVE_FAILED
 www.topshemales.com # NOT_RU_TLD
 www.topsport-tv.ru # NOT_RU_GEOIP
 www.topstep.com # NOT_RU_TLD
@@ -73295,7 +73342,7 @@ www.utorrent.tv # NOT_RU_TLD
 www.utorrentfilmi.ru # UNKNOWN_GEOIP
 www.uutiskerain.fi # NOT_RU_TLD
 www.uygunpetgross.com.tr # NOT_RU_TLD
-www.uz-sex.ru # UNKNOWN_GEOIP
+www.uz-sex.ru # DNS_RESOLVE_FAILED
 www.uzb-seks.com # NOT_RU_TLD
 www.uzreport.news # NOT_RU_TLD
 www.v-archive.ru # UNKNOWN_GEOIP
@@ -73370,10 +73417,10 @@ www.vgstroy.ru # UNKNOWN_GEOIP
 www.vhudu.ru # UNKNOWN_GEOIP
 www.via-cheboksary.ru # UNKNOWN_GEOIP
 www.viagra-pochtoy.ru # NOT_RU_GEOIP
-www.viagra.moscow # UNKNOWN_GEOIP
+www.viagra.moscow # DNS_RESOLVE_FAILED
 www.viagragel.ru # UNKNOWN_GEOIP
 www.viagramsk.top # NOT_RU_TLD
-www.viaunica.ru # NOT_RU_GEOIP
+www.viaunica.ru # DNS_RESOLVE_FAILED
 www.vibepride.com # NOT_RU_TLD
 www.vibeuralon66.ru # NOT_RU_GEOIP
 www.vibharamlcb.com # NOT_RU_TLD
@@ -73402,6 +73449,7 @@ www.vidz.com # NOT_RU_TLD
 www.vigodas.com # NOT_RU_TLD
 www.vigrid.net # NOT_RU_TLD
 www.vikiporn.com # NOT_RU_TLD
+www.viknano.ru # DNS_RESOLVE_FAILED
 www.vildelive.com # NOT_RU_TLD
 www.vine-lab.ru # NOT_RU_GEOIP
 www.vinegret.cz # NOT_RU_TLD
@@ -73771,11 +73819,9 @@ www.xn----7sbagg2asxyn.xn--p1ai # NOT_RU_GEOIP
 www.xn----7sbb4afccxgjthx0d2a.xn--p1ai # TOO_MANY_DIGITS
 www.xn----7sbgbncpjkih2ac6aiu4b6j.xn--p1ai # TOO_MANY_DIGITS
 www.xn----7sbhbhgasc1dicpx0b6d4f.xn--p1ai # TOO_MANY_DIGITS
-www.xn----7sbki7bfhcka.xn--p1ai # UNKNOWN_GEOIP
 www.xn----7sbwmbi5akhec6c4bj.xn--p1ai # TOO_MANY_DIGITS
 www.xn----7sbyhmm8db.xn--p1ai # DNS_RESOLVE_FAILED
 www.xn----7sbzhgab7ageef.xn--p1ai # UNKNOWN_GEOIP
-www.xn----8sba3afemovkaw.xn--p1ai # NOT_RU_GEOIP
 www.xn----8sbehdcf8ckeqqn.xn--p1ai # UNKNOWN_GEOIP
 www.xn----9sber1balbkke.xn--p1ai # DNS_RESOLVE_FAILED
 www.xn----9sbwiajqbjgfh4n.xn--p1ai # UNKNOWN_GEOIP
@@ -73799,7 +73845,6 @@ www.xn--80afoazq8c.xn--p1ai # UNKNOWN_GEOIP
 www.xn--80aidrd5bg.xn--p1ai # UNKNOWN_GEOIP
 www.xn--80aiqehhbv.xn--p1ai # UNKNOWN_GEOIP
 www.xn--80akhbhmjebktq.xn--p1ai # UNKNOWN_GEOIP
-www.xn--80akocmfqjhc2b.xn--p1ai # UNKNOWN_GEOIP
 www.xn--9-7sbatz2av.xn--p1ai # UNKNOWN_GEOIP
 www.xn--90aiguyb.com # NOT_RU_TLD
 www.xn--aa-wl5eb.com # NOT_RU_TLD
@@ -73807,7 +73852,6 @@ www.xn--b1afqekfqc.xn--p1ai # UNKNOWN_GEOIP
 www.xn--blackspru-e4b.com # NOT_RU_TLD
 www.xn--c1adanwdbfmc.xn--p1ai # UNKNOWN_GEOIP
 www.xn--cck1a7gsd645rnx7b.com # NOT_RU_TLD
-www.xn--d1abg3alef4d.xn--p1ai # UNKNOWN_GEOIP
 www.xn--d1abqqgea.xn--p1ai # DNS_RESOLVE_FAILED
 www.xn--d1alcghbb.xn--p1ai # NOT_RU_GEOIP
 www.xn--e1ajmqq7b.com # NOT_RU_TLD
@@ -74254,7 +74298,7 @@ wwwmerrell.ru # UNKNOWN_GEOIP
 wwwn.porno666.news # NOT_RU_TLD
 wwwo.porno666.news # NOT_RU_TLD
 wwwp.porno666.news # NOT_RU_TLD
-wwwq4.ru # UNKNOWN_GEOIP
+wwwq4.ru # DNS_RESOLVE_FAILED
 wwww.gaycity.love # NOT_RU_TLD
 wwww.kambohstream.online # NOT_RU_TLD
 wwww.rugayporn.com # NOT_RU_TLD
@@ -74435,6 +74479,7 @@ x100000.com # NOT_RU_TLD
 x102.ru # UNKNOWN_GEOIP
 x1080hd.com # NOT_RU_TLD
 x109.ru # UNKNOWN_GEOIP
+x10meetup.ru # DNS_RESOLVE_FAILED
 x11.rusoska.mobi # NOT_RU_TLD
 x12.rusoska.mobi # NOT_RU_TLD
 x13.rusoska.mobi # NOT_RU_TLD
@@ -74610,6 +74655,7 @@ xgolye.xyz # NOT_RU_TLD
 xgore.net # NOT_RU_TLD
 xgrannytube.com # NOT_RU_TLD
 xgroovy.com # NOT_RU_TLD
+xgscore.ru # DNS_RESOLVE_FAILED
 xh.hd.vg # NOT_RU_TLD
 xh.hdx.lol # NOT_RU_TLD
 xh.zorox.sex # NOT_RU_TLD
@@ -74768,20 +74814,20 @@ xn-----6kcb0azcfolcdz6a9eyd4a.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcb1baeecmeygcnm4au1a5bzhua.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcbabb8emoddlnkr7uhe.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcbabid0aaa2ddizqn9amd7oqem.xn--p1ai # UNKNOWN_GEOIP
-xn-----6kcbannhltb4bihw9anbr4ryb.xn--p1ai # UNKNOWN_GEOIP
+xn-----6kcbannhltb4bihw9anbr4ryb.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcbba1af7aosjiozcfcfgig9hqe.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcbbaa7a0aeujqegfhhujscqhd6x1ci.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcbbgip5asdmqgh4b7a.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcbbh4bfdmffdqkegsh6dml.com # NOT_RU_TLD
 xn-----6kcbcec0a1au5ah5cewz8gqd.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcbckhbq2dsibgw7a.xn--p1ai # UNKNOWN_GEOIP
-xn-----6kcbeacb5fuajfqks0og3c.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcblb7a6bb0ayr.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcbodgb2acbazcygk1cnov4a5cxiqd.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcbtifrlk6admfji6a7g.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcceef4aqgkp7aacc0aqdcikm.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kccepbg1afqfjxvxsh8x.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kccfgbp2ab1cvaaesdrti1ftk.xn--p1ai # DNS_RESOLVE_FAILED
+xn-----6kccicvcusmceoldf9ayj10a.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcdczrcrweih3dxdte4a.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcfcsdqkn3bcmrwr4tc.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcfljbz1ad2abjudf3e.xn--p1ai # UNKNOWN_GEOIP
@@ -74793,6 +74839,7 @@ xn-----6kcklee4bpgcwcieq1p8a.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcrb6askcdgunl4d.xn--p1ai # UNKNOWN_GEOIP
 xn-----6kcrbgsmjrn3bno1exe6a.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----6kcswkkcbdggbcju5m4b3c.xn--p1ai # DNS_RESOLVE_FAILED
+xn-----7kcadhcqbxnbzdmvgmdib1ad8afe9h1m.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----7kcagabcx1bboelivelc9a1ae5h2keg.xn--p1ai # UNKNOWN_GEOIP
 xn-----7kcb9abfnxhlbe.xn--80acvaamejcuh0a.xn--p1ai # UNKNOWN_GEOIP
 xn-----7kcbaa4ag0bvpz7aze.xn--p1ai # DNS_RESOLVE_FAILED
@@ -74804,7 +74851,6 @@ xn-----7kcbj2agaufigbjjlefn8a8r.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----7kcbof6cjgbfadx2f9bxc.xn--p1ai # NOT_RU_GEOIP
 xn-----7kcbvdmbhpcgorfqg6a1a.xn--p1ai # DNS_RESOLVE_FAILED
 xn-----7kcchbniweojd5abqga8adl4ah0a6a9m.xn--p1ai # UNKNOWN_GEOIP
-xn-----7kcfljaz3ahejjyclgs.xn--p1ai # UNKNOWN_GEOIP
 xn-----7kcgjhacbdvcdadnq0clndpjp3agod0m.xn--p1ai # UNKNOWN_GEOIP
 xn-----7kcgn5cdbagnnnx.animerem.org # NOT_RU_TLD
 xn-----7kchnvblqkkhpibrif4h.com # NOT_RU_TLD
@@ -74852,6 +74898,7 @@ xn----0705-3nf0dgdsb0bgjgg.xn--p1ai # TOO_MANY_DIGITS
 xn----0tbicacq.xn--p1ai # UNKNOWN_GEOIP
 xn----0tbkajo.xn--p1ai # UNKNOWN_GEOIP
 xn----1-6cdbgxbeap1bigyphd4af4m.xyz # NOT_RU_TLD
+xn----1-6cdsceyji0feh.xn--p1ai # DNS_RESOLVE_FAILED
 xn----11-53dwcf1akj7fei.xn--p1ai # UNKNOWN_GEOIP
 xn----1233-2nf0djbrf0bcmen.xn--p1ai # TOO_MANY_DIGITS
 xn----1234-2nf0djbrf0bcmen.xn--p1ai # TOO_MANY_DIGITS
@@ -74865,6 +74912,7 @@ xn----157-4ve8czbqe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----19-53d6bedob4aghge.com # NOT_RU_TLD
 xn----2-7cddwcbr5adjrnk2anr.xyz # NOT_RU_TLD
 xn----24-f4dbmcfdse4vta.xn--p1ai # UNKNOWN_GEOIP
+xn----27-53d0c9aoe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----29-53d6bedob4aghge.com # NOT_RU_TLD
 xn----3-6cdbag1abfaq4bjg0aqhd6af1c6kxe.xyz # NOT_RU_TLD
 xn----3-7cdcb1abbt1ahgiwpj6a8a.xyz # NOT_RU_TLD
@@ -74872,7 +74920,6 @@ xn----301-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----311-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----327-4ve8czbqe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----37-53d0c9aoe.xn--p1ai # UNKNOWN_GEOIP
-xn----378-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----381-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----385-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----387-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
@@ -74903,6 +74950,7 @@ xn----528-4ve8czbqe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----530-4ve8czbqe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----581-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----695-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
+xn----707-4ve8czbqe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----711-4ve8czbqe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----717-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----727-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
@@ -74933,6 +74981,7 @@ xn----7sbab2bwgeerdkgd8azb8k.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbab4bkhmdj2aggin5cc6h3bm.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbab6ajicclx1b.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbab9bbkpdfty.xn--p1ai # UNKNOWN_GEOIP
+xn----7sbaba2cfwdd6bza.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbaba3a1c3ahhdi3cyh.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbaba4apcyjnesxqhf1etj.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbaba9bhsmlwhqf2r.xn--p1ai # UNKNOWN_GEOIP
@@ -74942,7 +74991,6 @@ xn----7sbababex1fa0cxa4job.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbabacrbn4epeiqlxe.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbabahitv0a7ci4a.xn--p1ai # NOT_RU_GEOIP
 xn----7sbabahuydcsdbg4a7cgsmnl7p.xn--p1ai # UNKNOWN_GEOIP
-xn----7sbabaicbmp4cgk0b3cj4u.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbabaifv1axfkkg1dye4g.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbabain3cmzzwo4i.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbabaod2dehfhg9fh.xn--p1ai # DNS_RESOLVE_FAILED
@@ -74979,7 +75027,6 @@ xn----7sbacvcduqezae8c1mg.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbade5cmje3b.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbadhqc5bvibwcth1mf.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbafbde2bfbw5anbyjne.xn--p1ai # NOT_RU_GEOIP
-xn----7sbafcq0bbowsij7ezg.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbafr1crflx.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbagddrs8eet7j.xn--p1ai # NOT_RU_GEOIP
 xn----7sbagg2asxyn.xn--p1ai # NOT_RU_GEOIP
@@ -75000,6 +75047,7 @@ xn----7sbakdm9aulcoijakh.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbaldyccaarc8ao0bjr0j.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbale3ebno.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbalh5aeee3ab7c6b5d.xn--p1ai # DNS_RESOLVE_FAILED
+xn----7sbalvgbplpb0b0b6d.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbamgfbh2abej3bd7cha.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbaoxrl0bj.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbapcf1bvzt.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75078,6 +75126,7 @@ xn----7sbbh3aci0adcdczue0fxh.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbh4aillh0b.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbh5a0a0aqd9aep3as6c.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbhh2axp9g.xn--p1ai # DNS_RESOLVE_FAILED
+xn----7sbbhmolgccf8aj2e.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbhn6ada2dt2k.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbhpqyl4adbgebpc.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbhqgjflg1cr0h.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75094,7 +75143,6 @@ xn----7sbbklaohq4cgghdsh.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbbkzqjosvcl6hxb.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbblalas3cgbzmqckcv.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbbndvhvkh3b5e.xn--p1ai # UNKNOWN_GEOIP
-xn----7sbbngjtvn3aho.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbbnknhce3aglxfe1a.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbbowaamdhhra.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbbp1addcx7ax6c.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75118,6 +75166,7 @@ xn----7sbdfotp8bhe.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbebfaijb6ciitc5a4r.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbebrb4a3a2bzetb0a.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbed4abosbkb1ajec0e8d.xn--p1ai # DNS_RESOLVE_FAILED
+xn----7sbeiiq1agfiwd2ak7a.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbeiiq7aeedtddhlth.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbejwba3deg2i.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbenasowphnig7bm.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75161,7 +75210,6 @@ xn----7sbkcohbbob3aero.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbkdcvsabeti1c7b.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbkofb0ac2aajtmgz.xn--p1ai # UNKNOWN_GEOIP
 xn----7sbksfedtnvevk9b2a.xn--p1ai # DNS_RESOLVE_FAILED
-xn----7sbld2eag.xn--p1ai # UNKNOWN_GEOIP
 xn----7sblemrgnwtgg6m.xn--p1ai # UNKNOWN_GEOIP
 xn----7sblijaumh4b.xn--p1ai # DNS_RESOLVE_FAILED
 xn----7sbm1bdjkbhd0i.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75252,10 +75300,10 @@ xn----8sbah2akjnktmbli4a5n.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbahbnupjgrfkcb7bmd1o.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbahh0bb7aqvi3c.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbai0aa9bldedbqh.xn--p1ai # UNKNOWN_GEOIP
+xn----8sbaila5b2alfefhj8c.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbak7aftbabhusk.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbalwni7bsf3c.xn--p1ai # UNKNOWN_GEOIP
 xn----8sban5apomdq.xn--p1ai # NOT_RU_GEOIP
-xn----8sbancagi3cli.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbanfandz2af4az7c4f.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbaonibqlfj4s.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbaq0b3adft8e.xn--p1ai # UNKNOWN_GEOIP
@@ -75321,10 +75369,10 @@ xn----8sbgvjtfbedkjx.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbgvtplc4e.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbh9bayt2e.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbhhxkndeik.xn--p1ai # UNKNOWN_GEOIP
-xn----8sbignc1asekp0o.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbigsxdeibpcsehd7c.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbk1avgcgjc.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbkbdoeclbnzg6e.xn--p1ai # UNKNOWN_GEOIP
+xn----8sbkbfpnmuef4cxdtf.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbkcrd4bgkejckd6p.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbkdd5bfksy.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbkdqcnc4dh.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75333,7 +75381,6 @@ xn----8sbkeepmbwiax7a7i.xn--80adxhks # UNKNOWN_GEOIP
 xn----8sbkendq0bh7da.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbkrhgubvjl8b0d.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbkwik2a2a8e.xn--p1ai # DNS_RESOLVE_FAILED
-xn----8sblezcadvd3bfg3a7k.xn--p1ai # UNKNOWN_GEOIP
 xn----8sblmeibygbc.xn--p1ai # UNKNOWN_GEOIP
 xn----8sbmboaogpem8a4k.xn--p1ai # DNS_RESOLVE_FAILED
 xn----8sbmbpnlvbkg0p.xn--p1ai # UNKNOWN_GEOIP
@@ -75368,14 +75415,12 @@ xn----988-4ve8czbqe.xn--p1ai # UNKNOWN_GEOIP
 xn----9sbb2afg0bn2b.xn--p1ai # UNKNOWN_GEOIP
 xn----9sbb6bc2bd.xn--p1ai # DNS_RESOLVE_FAILED
 xn----9sbbiidp6bhud9a.xn--p1ai # UNKNOWN_GEOIP
-xn----9sbbzbahge3akabtle2i.xn--p1ai # UNKNOWN_GEOIP
 xn----9sbe4aepbcmcq.xn--p1ai # NOT_RU_GEOIP
 xn----9sbebc2cogcb1c2grb.xn--p1ai # NOT_RU_GEOIP
 xn----9sbebkcb2ainzeedrsecw9q.xn--p1ai # UNKNOWN_GEOIP
 xn----9sbel8agjl1a1af0i.xn--p1ai # DNS_RESOLVE_FAILED
 xn----9sbfumlnmo0h.xn--p1ai # UNKNOWN_GEOIP
 xn----9sbhfb6anf1b0etb.xn--p1ai # UNKNOWN_GEOIP
-xn----9sbicetdjyi1a1ab0j.xn--p1ai # DNS_RESOLVE_FAILED
 xn----9sbigsnrrn9g.xn--p1ai # DNS_RESOLVE_FAILED
 xn----9sbjfsfefvbc3afg.xn--p1ai # UNKNOWN_GEOIP
 xn----9sbkedkcbr7ab.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75428,7 +75473,6 @@ xn----ctbgdaruyksqam3i.xn--p1ai # UNKNOWN_GEOIP
 xn----ctbgugarddfymy9h.xn--p1ai # UNKNOWN_GEOIP
 xn----ctbhccv1ae7akdi0c5c.xn--p1ai # DNS_RESOLVE_FAILED
 xn----ctbhoagfaeesblbd3c6l.xn--p1ai # DNS_RESOLVE_FAILED
-xn----ctbhochb4a5akl0m.xn--p1ai # UNKNOWN_GEOIP
 xn----ctbib0aepeciitg.xn--p1ai # UNKNOWN_GEOIP
 xn----ctbionrbbnnb7e.xn--p1ai # UNKNOWN_GEOIP
 xn----ctbirblokk8a7b4bg.xn--p1ai # UNKNOWN_GEOIP
@@ -75446,13 +75490,14 @@ xn----dtbfcabjpba7bfuqcplgm.xn--p1ai # DNS_RESOLVE_FAILED
 xn----dtbgca9bgbeceif.org # NOT_RU_TLD
 xn----dtbhczcvgz.xn--p1ai # UNKNOWN_GEOIP
 xn----dtbi0amkphfu.xn--p1ai # DNS_RESOLVE_FAILED
-xn----dtbiabnfchi5aaujpahpdih6i.xn--p1ai # UNKNOWN_GEOIP
+xn----dtbiabnfchi5aaujpahpdih6i.xn--p1ai # NOT_RU_GEOIP
 xn----dtbikdiu1agbed7l.xn--p1ai # DNS_RESOLVE_FAILED
 xn----dtbjegmmcaggdeea5a.xn--p1ai # UNKNOWN_GEOIP
 xn----dtbjhocqddcbtmmy5cxg.xn--p1ai # UNKNOWN_GEOIP
 xn----dtbjrxpef0c.xn--p1ai # DNS_RESOLVE_FAILED
 xn----dtbq0aafcfege9i1a.xn--p1ai # DNS_RESOLVE_FAILED
 xn----dtbq4aah6c.xn--p1ai # DNS_RESOLVE_FAILED
+xn----dtbqbh2acczh6h.xn--p1ai # DNS_RESOLVE_FAILED
 xn----dtbqpicke.org # NOT_RU_TLD
 xn----dtbriikebudf.xn--p1ai # UNKNOWN_GEOIP
 xn----dtbsa0aaadssa3n.xn--p1ai # UNKNOWN_GEOIP
@@ -75554,6 +75599,7 @@ xn----ptbqhceadj0j.xn--p1ai # UNKNOWN_GEOIP
 xn----stbaba9adelf.xn--p1ai # UNKNOWN_GEOIP
 xn----stbbejdczki4hc.xn--p1ai # DNS_RESOLVE_FAILED
 xn----stbbofbejr.xn--p1ai # DNS_RESOLVE_FAILED
+xn----ttbgfcj7a.xn--p1ai # DNS_RESOLVE_FAILED
 xn----ttbicdn.xn--80adxhks # DNS_RESOLVE_FAILED
 xn----ttbigf8a.xn--p1ai # DNS_RESOLVE_FAILED
 xn----utbbjdnhfr0e.xn--p1acf # UNKNOWN_GEOIP
@@ -75660,14 +75706,14 @@ xn--11-6kca8agblvjdi2a2a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--11-vlctj.xn--p1ai # DNS_RESOLVE_FAILED
 xn--115-5cd3cgu2f.xn--p1ai # UNKNOWN_GEOIP
 xn--12--5cd3ceac0a0alw0d.xn--p1ai # UNKNOWN_GEOIP
+xn--12-9kcpb4b0ata5a6d.xn--p1ai # DNS_RESOLVE_FAILED
 xn--12-emcl0b.xn--p1ai # UNKNOWN_GEOIP
 xn--123-5cdkauz5cvjeg.xn--p1ai # DNS_RESOLVE_FAILED
 xn--123-eddpan7ci9a.xn--p1ai # UNKNOWN_GEOIP
-xn--13-6kcgb2cd5aus3d9a1dc.xn--p1ai # UNKNOWN_GEOIP
 xn--13-flclue4ax.xn--p1ai # UNKNOWN_GEOIP
 xn--13-pmc2a.xn--p1ai # UNKNOWN_GEOIP
 xn--14-6kc3bfr2e.xn--p1ai # UNKNOWN_GEOIP
-xn--14-6kchkfmc2a3b1g.xn--p1ai # UNKNOWN_GEOIP
+xn--14-6kchkfmc2a3b1g.xn--p1ai # DNS_RESOLVE_FAILED
 xn--14-6kclvec3aj7p.xn--p1ai # UNKNOWN_GEOIP
 xn--14-qmc.xn--p1ai # DNS_RESOLVE_FAILED
 xn--145-5cdtbf0hi.xn--p1ai # NOT_RU_GEOIP
@@ -75709,7 +75755,6 @@ xn--2024-f4d0baihix2cxl.xn--p1ai # TOO_MANY_DIGITS
 xn--2024-f4dgnri0cfgdc1a0bykj.xn--p1ai # TOO_MANY_DIGITS
 xn--2025-43d3d1bzg.xn--p1ai # TOO_MANY_DIGITS
 xn--21-6kc0bekqpik.xn--p1ai # DNS_RESOLVE_FAILED
-xn--21-6kcaclrewuf1ab6cr3c.xn--p1ai # UNKNOWN_GEOIP
 xn--21-6kcichhfdwaxf8a4b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--21-6kcua3abgihnntqi4b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--21-6kcutg2a2cwa.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75810,6 +75855,7 @@ xn--5-etb0b.xn--p1ai # UNKNOWN_GEOIP
 xn--50--5cddx1bfdexe8bzftera.xn--p1ai # UNKNOWN_GEOIP
 xn--51-6kcaaqc3a2ct7he.xn--p1ai # UNKNOWN_GEOIP
 xn--51-6kcake8ahsvo1ani.xn--p1ai # DNS_RESOLVE_FAILED
+xn--52-dlc6aeh8a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--53-6kc5agv2bdl.xn--p1ai # DNS_RESOLVE_FAILED
 xn--53-6kch4aanzhuu.xn--p1ai # DNS_RESOLVE_FAILED
 xn--53-6kcyfeb1bedwk7c5f.xn--p1ai # UNKNOWN_GEOIP
@@ -75841,7 +75887,7 @@ xn--61-llc6c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--63-6kc5apeki.xn--p1ai # UNKNOWN_GEOIP
 xn--63-6kcajsubsicfrqussb3cxnfg.xn--p1ai # DNS_RESOLVE_FAILED
 xn--63-6kcatfca1aav4aezkut9cq.xn--p1ai # DNS_RESOLVE_FAILED
-xn--63-6kclebf8dkzldj.xn--p1ai # NOT_RU_GEOIP
+xn--63-6kclebf8dkzldj.xn--p1ai # DNS_RESOLVE_FAILED
 xn--63-mlcmthgg3e.xn--p1ai # UNKNOWN_GEOIP
 xn--64-6kca7act.xn--p1ai # DNS_RESOLVE_FAILED
 xn--64-mlclgj2f.xn--p1ai # UNKNOWN_GEOIP
@@ -75852,7 +75898,7 @@ xn--66-6kcau0b1aeko.xn--p1ai # UNKNOWN_GEOIP
 xn--66-glc2c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--66-mlcaaaklxxgba7bm8f.xn--p1ai # UNKNOWN_GEOIP
 xn--68-6kcuzpihjx2b4d.xn--p1ai # NOT_RU_GEOIP
-xn--69--5cddao1dj3ahwlr2f.xn--p1ai # UNKNOWN_GEOIP
+xn--69--5cddao1dj3ahwlr2f.xn--p1ai # DNS_RESOLVE_FAILED
 xn--69-9kc1alxsen4c.xn--p1ai # UNKNOWN_GEOIP
 xn--7-7sbaa3cgkl1gb.xn--p1ai # UNKNOWN_GEOIP
 xn--7-7sbirdczi9n.xn--p1ai # UNKNOWN_GEOIP
@@ -75864,7 +75910,7 @@ xn--72-9kcpb4b0ata5a6d.xn--p1ai # UNKNOWN_GEOIP
 xn--72-jlc1c3d.xn--p1ai # DNS_RESOLVE_FAILED
 xn--73-6kcteboqpm7d5b.xn--p1ai # UNKNOWN_GEOIP
 xn--73-jlce8aam9a6b2b.xn--p1ai # DNS_RESOLVE_FAILED
-xn--74-1lci4a.xn--p1ai # NOT_RU_GEOIP
+xn--74-1lci4a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--74-6kc5ck.xn--p1ai # DNS_RESOLVE_FAILED
 xn--74-6kca3cwancocl.xn--p1ai # UNKNOWN_GEOIP
 xn--74-6kcenypi6e.xn--p1ai # UNKNOWN_GEOIP
@@ -75909,6 +75955,7 @@ xn--80aaa4cbfodm8k.xn--p1ai # NOT_RU_GEOIP
 xn--80aaaa2bw7am7bxa8chh.xn--p1ai # NOT_RU_GEOIP
 xn--80aaaa2chc7eta.animerem.org # NOT_RU_TLD
 xn--80aaaa3bmff3aihu.xn--p1ai # UNKNOWN_GEOIP
+xn--80aaaa4bgjskugkfh9e.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaaab6af1a0a1o.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaaabbx9bb0afhfzfl0hvg.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaaadevo6a4cpm.xn--p1ai # DNS_RESOLVE_FAILED
@@ -75918,6 +75965,7 @@ xn--80aaaahtsbukmdd5bcnmw5u.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaaai2baaheddqv0bcyvs8toa.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaaaibkkdyf6ayfjmf2c.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaaaj1blvouctg2p.xn--p1ai # DNS_RESOLVE_FAILED
+xn--80aaaakaq2anfnqdquoceli3y.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaaaogdzqkxprmgaj6f3a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaaasgcvoect4a0a6t.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaabafhmybeagdadyicotcdbdlhibbaox3a0awop0b3ixa4a6lqb2a.xn--p1ai # UNKNOWN_GEOIP
@@ -75941,7 +75989,7 @@ xn--80aaag0aqhwbe4ag3f.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaag5ajzv.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaagbgh8bjc2abdb5c1f.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaagdg6ctabtdlq.xn--p1ai # UNKNOWN_GEOIP
-xn--80aaagghh4d3a.xn--p1ai # NOT_RU_GEOIP
+xn--80aaagghh4d3a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaagkdukhedkykbit0i.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaagvjeegdmugb7dxa5k.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaahaho7a9aefhfiyc.xn--p1ai # UNKNOWN_GEOIP
@@ -75981,7 +76029,6 @@ xn--80aabdcobephfrk1bfed7a7j.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aabejccbba0dhjymd5afo7k9c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aabf4aiko5c1aj2e.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aabflmke6byewa.xn--p1ai # DNS_RESOLVE_FAILED
-xn--80aabfmaaepme8apgibd7aj.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aabgoqnudcojo5n.xn--p1ai # UNKNOWN_GEOIP
 xn--80aablu4ccigd1a0j.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaboeqnbt1bl4fxcwb.xn--p1ai # UNKNOWN_GEOIP
@@ -76004,7 +76051,6 @@ xn--80aacpqiegwniboicv3k4c.xn--p1ai # UNKNOWN_GEOIP
 xn--80aacrthc0abjidioi1m.xn--p1ai # UNKNOWN_GEOIP
 xn--80aacwc1beqa7j3a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aadcqb5a2abjxm9g0b.xn--p1ai # UNKNOWN_GEOIP
-xn--80aadddjeda9d2db9cya.xn--p1ai # UNKNOWN_GEOIP
 xn--80aadkevhbkvnxnq8km.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aadpblgwbweko2ab6e5dk.xn--p1ai # UNKNOWN_GEOIP
 xn--80aadwgabakd4ei.xn--p1ai # UNKNOWN_GEOIP
@@ -76032,7 +76078,7 @@ xn--80aafiedicl6bim1fugsa.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aafkbrca1bgkgoeev1bza.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aaflaaal2atdu2a5a8f.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaflikgbhrtckpug.xn--p1ai # DNS_RESOLVE_FAILED
-xn--80aaflrac7bhmdoe.xn--p1ai # UNKNOWN_GEOIP
+xn--80aaflrac7bhmdoe.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aafr2bgt.xn--p1ai # UNKNOWN_GEOIP
 xn--80aafsiardahjgme5p.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aafvsr1a.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76068,6 +76114,7 @@ xn--80aaiugnj1d.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaiuzi6d.xn--p1ai # NOT_RU_GEOIP
 xn--80aaiwphd9k.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aajbp5bep.xn--p1ai # NOT_RU_GEOIP
+xn--80aajofyqppj.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aajzbfbyacsnjm7k2b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aakaeoqqeogazgp6q.xn--p1ai # UNKNOWN_GEOIP
 xn--80aakaqqahgrcbm0jodza.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76106,11 +76153,12 @@ xn--80aaxglefv.xn--p1acf # UNKNOWN_GEOIP
 xn--80aaxhm1abdf.xn--p1ai # UNKNOWN_GEOIP
 xn--80aaxpd2aa5c.xn--p1ai # UNKNOWN_GEOIP
 xn--80aayhhb9f.com # NOT_RU_TLD
+xn--80aayvehbjj.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aazeslgfad.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ab0bld6dza.xn--p1ai # UNKNOWN_GEOIP
 xn--80ab1bmfl6f.xn--p1ai # UNKNOWN_GEOIP
 xn--80ab2abm.xn--p1ai # NOT_RU_GEOIP
-xn--80aba3cclgi3f2b.xn--p1ai # NOT_RU_GEOIP
+xn--80aba3cclgi3f2b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80abadiixnhydbbz5c6b.xn--p1ai # NOT_RU_GEOIP
 xn--80abafjetbdrirvg3azg.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80abapp6ar0j.xn--p1ai # NOT_RU_GEOIP
@@ -76137,6 +76185,7 @@ xn--80abjdxauhcjkmy.xn--p1ai # UNKNOWN_GEOIP
 xn--80abktql.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80abmhewkdshjancdn.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80abmkibkau.xn--p1ai # DNS_RESOLVE_FAILED
+xn--80abmsfh7be3b.xn--p1ai # UNKNOWN_GEOIP
 xn--80abnepvcuja8i.xn--p1ai # UNKNOWN_GEOIP
 xn--80abteno7j.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80abucvd6a1g.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76189,9 +76238,7 @@ xn--80adc5apbv8i.xn--p1ai # UNKNOWN_GEOIP
 xn--80adc8beafyeu.com # NOT_RU_TLD
 xn--80adcetbcdhhmu4k7d.xn--p1ai # UNKNOWN_GEOIP
 xn--80adezefobbcvj.xn--p1ai # UNKNOWN_GEOIP
-xn--80adfc1ayocc6a5g.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80adfebmfdd9bcj2aehigc7v.xn--p1ai # DNS_RESOLVE_FAILED
-xn--80adgd5aauho7l.xn--p1ai # UNKNOWN_GEOIP
 xn--80adhcbtqcpbhb2aqk0m1c.xn--p1ai # UNKNOWN_GEOIP
 xn--80adiaihbaf1aenp8cbf.xn--p1ai # UNKNOWN_GEOIP
 xn--80adibnlkq7ele.xn--p1ai # UNKNOWN_GEOIP
@@ -76205,7 +76252,7 @@ xn--80adjaap4adjbyjng8f.xn--p1ai # UNKNOWN_GEOIP
 xn--80adjbide2bbebbvs3b4a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80adjua8ablfi1h.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80adjzclooe.xn--p1ai # UNKNOWN_GEOIP
-xn--80adnhbq3g0a.xn--p1ai # UNKNOWN_GEOIP
+xn--80adnhbq3g0a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80adpqfl4azf.me # NOT_RU_TLD
 xn--80adr0aix.xn--p1ai # UNKNOWN_GEOIP
 xn--80adrxbkilcsx2e.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76236,7 +76283,7 @@ xn--80aehr6bng.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aehukdjcrp.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aeibb7afmr0al.xn--p1ai # UNKNOWN_GEOIP
 xn--80aeibphh3bu7epd.xn--p1ai # UNKNOWN_GEOIP
-xn--80aeibvsufdcr.xn--p1ai # UNKNOWN_GEOIP
+xn--80aeibvsufdcr.xn--p1ai # NOT_RU_GEOIP
 xn--80aeibyolknecjb.xn--p1ai # UNKNOWN_GEOIP
 xn--80aeiluelyj.xn--p1ai # NOT_RU_GEOIP
 xn--80aeinqcfl0a9a2a.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76297,6 +76344,7 @@ xn--80ahcnrdmi1a.xn--p1ai # UNKNOWN_GEOIP
 xn--80ahd6afy2a9b.xn--80adxhks # UNKNOWN_GEOIP
 xn--80ahdiezeyrk1h.xn--p1ai # UNKNOWN_GEOIP
 xn--80ahdm3chh.xn--p1ai # DNS_RESOLVE_FAILED
+xn--80ahdmfe2ced8c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ahdmmeqqcif.com # NOT_RU_TLD
 xn--80aheayaeqm2akl7i.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ahgcriqar0a.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76318,6 +76366,7 @@ xn--80aizddian.org # NOT_RU_TLD
 xn--80aja2adds.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ajagids1a3ad3c.xn--p1ai # UNKNOWN_GEOIP
 xn--80ajamkbatprcjfuyn.xn--p1ai # DNS_RESOLVE_FAILED
+xn--80ajaptcbrbecdbsi6c1e.xn--p1ai # UNKNOWN_GEOIP
 xn--80ajaui2a6c6b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ajbalplitemgt.xn--p1ai # UNKNOWN_GEOIP
 xn--80ajcndddqbgqne2gxc.xn--p1ai # UNKNOWN_GEOIP
@@ -76339,7 +76388,6 @@ xn--80ajkjghex5k.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ajngaldbcr.xn--p1ai # UNKNOWN_GEOIP
 xn--80ajobdejgabe2aht5cwb6h.xn--p1ai # UNKNOWN_GEOIP
 xn--80ajoeg3bxa.xn--p1ai # DNS_RESOLVE_FAILED
-xn--80ajpceieftfc9f5d.xn--p1ai # UNKNOWN_GEOIP
 xn--80ajycu4ak.xn--j1amh # NOT_RU_TLD
 xn--80akaaarmitgbjkmp2h.xn--p1ai # UNKNOWN_GEOIP
 xn--80akbqkhb2ba2a2g.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76350,7 +76398,6 @@ xn--80akiiuip7a.xn--p1ai # UNKNOWN_GEOIP
 xn--80akjdbel5am.xn--90ais # NOT_RU_TLD
 xn--80akjfacrhfqaehoei9s.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80akjffhsbkczr0kee.xn--p1ai # UNKNOWN_GEOIP
-xn--80akocmfqjhc2b.xn--p1ai # UNKNOWN_GEOIP
 xn--80akpacj1ag6g.xn--p1ai # NOT_RU_GEOIP
 xn--80akpsjj.com # NOT_RU_TLD
 xn--80aktccze9fuade.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76369,7 +76416,6 @@ xn--80apaabfhzk7a5ck.xn--p1ai # UNKNOWN_GEOIP
 xn--80apabjkmqdelf3fve8a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80apagbbfxgmuj4j.site # NOT_RU_TLD
 xn--80apaglwgfad2j.xn--p1ai # UNKNOWN_GEOIP
-xn--80apbhioddjdf3b.xn--p1ai # UNKNOWN_GEOIP
 xn--80apbkeihedku1a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80apbnbhdys4c6di.xn--p1ai # UNKNOWN_GEOIP
 xn--80apeg8adp.xn--p1ai # NOT_RU_GEOIP
@@ -76388,7 +76434,6 @@ xn--80aqafgbagmva5b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aqarcrcmj1c0b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aqdc3ag.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aqdcudhdq.xn--p1ai # DNS_RESOLVE_FAILED
-xn--80aqdnefifm6b.xn--p1ai # UNKNOWN_GEOIP
 xn--80aqekdgoddx.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80aqfgb.com # NOT_RU_TLD
 xn--80aqfgb.live # NOT_RU_TLD
@@ -76418,13 +76463,13 @@ xn--80axhljs.xn--p1ai # DNS_RESOLVE_FAILED
 xn--80ayw9a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--82-9kcme6c8e.xn--p1ai # UNKNOWN_GEOIP
 xn--85-8kcn7akajdxoqd.xn--p1ai # UNKNOWN_GEOIP
-xn--86-6kcad3a4abdyjbksfzdfn.xn--p1ai # UNKNOWN_GEOIP
 xn--86-6kcdpf5dh.xn--p1ai # DNS_RESOLVE_FAILED
 xn--86-kmchf3c.xn--p1ai # NOT_RU_GEOIP
 xn--89-9kc1abm1apf8dte.xn--p1ai # DNS_RESOLVE_FAILED
 xn--9-7sbatz2av.xn--p1ai # UNKNOWN_GEOIP
 xn--9-8sbm4c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90-6kcanb0b2bza.xn--p1ai # UNKNOWN_GEOIP
+xn--90aajpke8cei.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90abadfchal5b0fb2fxd.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90abageinb0bdsnybn4n.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90abegx3bfik.xn--p1ai # UNKNOWN_GEOIP
@@ -76452,18 +76497,18 @@ xn--90afbd3andbr.xn--p1ai # UNKNOWN_GEOIP
 xn--90afcymbdrm0hg6b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90afdatlelcd3aay7c5do.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90afdbldq1acqanq7b3e.xn--p1ai # UNKNOWN_GEOIP
+xn--90afdmba5a1af3i.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90afebms4aw5f.xn--80aswg # UNKNOWN_GEOIP
 xn--90afr4a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90agbnpci1al7hdqv.xn--p1ai # DNS_RESOLVE_FAILED
-xn--90agdd5d4a1at.xn--p1ai # NOT_RU_GEOIP
 xn--90agdkfjjl6joan.xn--p1ai # UNKNOWN_GEOIP
 xn--90agdlfe0aplelv.xn--p1ai # UNKNOWN_GEOIP
 xn--90agqrir8azbti.xn--p1ai # DNS_RESOLVE_FAILED
-xn--90ags8azd.xn--p1ai # UNKNOWN_GEOIP
 xn--90ahbjadpffi3r.xn--p1ai # UNKNOWN_GEOIP
 xn--90ahgccoq8a0ap7h.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90ahicgeenf4boy2a8i.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90ahiuffipn.xn--p1ai # UNKNOWN_GEOIP
+xn--90ahkico2a6b9d.xn--b1ajukhp0cb.xn--p1ai # UNKNOWN_GEOIP
 xn--90ahkj5a.cc # NOT_RU_TLD
 xn--90ahkj5a.me # NOT_RU_TLD
 xn--90ahkj5a.org # NOT_RU_TLD
@@ -76489,6 +76534,7 @@ xn--90avceambknh9g.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90aven.xn--p1ai # DNS_RESOLVE_FAILED
 xn--90avmpk.xn--p1ai # UNKNOWN_GEOIP
 xn--90awmj.xn--p1ai # UNKNOWN_GEOIP
+xn--93-vlchp9ao.xn--p1ai # DNS_RESOLVE_FAILED
 xn--94-jlc4bza.xn--p1ai # UNKNOWN_GEOIP
 xn--99-6kca7ai1crj1c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--99-jlc5al4a.xn--p1ai # UNKNOWN_GEOIP
@@ -76622,7 +76668,6 @@ xn--c1aqgcbbkm.xn--p1ai # DNS_RESOLVE_FAILED
 xn--c1awjfw.xn--p1ai # DNS_RESOLVE_FAILED
 xn--cksr0a96v.com # NOT_RU_TLD
 xn--d1aab1acm.xn--p1ai # DNS_RESOLVE_FAILED
-xn--d1aabcifl2cpg8i.xn--p1ai # NOT_RU_GEOIP
 xn--d1aabnnefmd2o.xn--p1ai # UNKNOWN_GEOIP
 xn--d1aacihrobi6i.xn--p1ai # DNS_RESOLVE_FAILED
 xn--d1aadllinf1agj4d.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76632,7 +76677,6 @@ xn--d1abaa2baihgof9bye.xn--p1ai # DNS_RESOLVE_FAILED
 xn--d1abacdejqdwcjba3a.xn--p1ai # NOT_RU_GEOIP
 xn--d1abba1bceqeb7j.xn--p1ai # DNS_RESOLVE_FAILED
 xn--d1abbjarn1afcjk0cze.xn--p1ai # UNKNOWN_GEOIP
-xn--d1abg3alef4d.xn--p1ai # UNKNOWN_GEOIP
 xn--d1abih5b2cc.xn--p1ai # UNKNOWN_GEOIP
 xn--d1abjbdwbabgdcc4ai8b4c8c.xn--p1ai # UNKNOWN_GEOIP
 xn--d1abkk2achig9i.xn--p1ai # DNS_RESOLVE_FAILED
@@ -76710,7 +76754,6 @@ xn--e1agfng3c9a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1agfojh6b.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1agfqjha6b1e.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1agpddl.xn--p1ai # DNS_RESOLVE_FAILED
-xn--e1ahcecjfdilwy6b7bnk.xn--p1ai # UNKNOWN_GEOIP
 xn--e1ajbcaqz.xn--p1ai # NOT_RU_GEOIP
 xn--e1ajidcocns.xn--p1ai # UNKNOWN_GEOIP
 xn--e1ajoh.xn--p1ai # UNKNOWN_GEOIP
@@ -76723,6 +76766,7 @@ xn--e1aktc.tv # NOT_RU_TLD
 xn--e1alcugdb7e.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1amagfanmd1a8f.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1ancebmci4f.xn--p1ai # DNS_RESOLVE_FAILED
+xn--e1anfdfph4a.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1apegbl1eq.xn--p1ai # UNKNOWN_GEOIP
 xn--e1arcbgg.xn--p1ai # DNS_RESOLVE_FAILED
 xn--e1azzb.xn--p1ai # NOT_RU_GEOIP
@@ -76774,6 +76818,7 @@ xn--j1aatf9c.xn--p1ai # DNS_RESOLVE_FAILED
 xn--j1adfnc.animerem.org # NOT_RU_TLD
 xn--j1adfqu.xn--p1ai # DNS_RESOLVE_FAILED
 xn--j1adld2a.xn--p1ai # DNS_RESOLVE_FAILED
+xn--j1adln1d.xn--p1ai # DNS_RESOLVE_FAILED
 xn--j1aeebcgsaif.xn--p1ai # DNS_RESOLVE_FAILED
 xn--j1ahdaa.xn--p1ai # DNS_RESOLVE_FAILED
 xn--j1aidcn.org # NOT_RU_TLD
@@ -77280,7 +77325,7 @@ xxxkrd.com # NOT_RU_TLD
 xxxkrd.net # NOT_RU_TLD
 xxxkzn.com # NOT_RU_TLD
 xxxl.tube # NOT_RU_TLD
-xxxlibs.ru # DNS_RESOLVE_FAILED
+xxxlibs.ru # UNKNOWN_GEOIP
 xxxlove.sx # NOT_RU_TLD
 xxxmanga.pro # NOT_RU_TLD
 xxxmature.pro # NOT_RU_TLD
@@ -77468,7 +77513,7 @@ yandexdep.top # NOT_RU_TLD
 yandexrdcrt.com # NOT_RU_TLD
 yandova.ru # UNKNOWN_GEOIP
 yansrasfol.online # NOT_RU_TLD
-yansrasfol.ru # UNKNOWN_GEOIP
+yansrasfol.ru # DNS_RESOLVE_FAILED
 yanudist.com # NOT_RU_TLD
 yaoi.fandom.com # NOT_RU_TLD
 yaoidj.com # NOT_RU_TLD
@@ -77560,6 +77605,7 @@ yespornpleasexxx.com # NOT_RU_TLD
 yespornvip.com # NOT_RU_TLD
 yesshop.su # DNS_RESOLVE_FAILED
 yesyouth108.wordpress.com # NOT_RU_TLD
+yetimedicine.ru # DNS_RESOLVE_FAILED
 yewtu.be # NOT_RU_TLD
 yfua.org # NOT_RU_TLD
 yg24.sh # NOT_RU_TLD
@@ -77614,7 +77660,6 @@ yord.ru # DNS_RESOLVE_FAILED
 yorki-strizhka.ru # UNKNOWN_GEOIP
 yorkshireweddingbarn.co.uk # NOT_RU_TLD
 yorktheatre.org # NOT_RU_TLD
-yoshla.ru # UNKNOWN_GEOIP
 yotube.com # NOT_RU_TLD
 you-anime.ru # UNKNOWN_GEOIP
 you-books.com # NOT_RU_TLD
@@ -77721,7 +77766,6 @@ youtubu.tv # NOT_RU_TLD
 youvend.ru # UNKNOWN_GEOIP
 youx.pics # NOT_RU_TLD
 youxxxgallery.com # NOT_RU_TLD
-yoya-plus-max.ru # DNS_RESOLVE_FAILED
 yozay.com # NOT_RU_TLD
 yozhik24.ru # DNS_RESOLVE_FAILED
 yozhpri.ru # DNS_RESOLVE_FAILED
@@ -77885,6 +77929,7 @@ zaebya2.site # NOT_RU_TLD
 zaebya3.site # NOT_RU_TLD
 zaebya4.site # NOT_RU_TLD
 zagadki-i-tayni-animego.ru # DNS_RESOLVE_FAILED
+zagadky-i-tajny-animego.ru # DNS_RESOLVE_FAILED
 zagadky-i-tayny-animego.ru # DNS_RESOLVE_FAILED
 zagnul.net # NOT_RU_TLD
 zagorodom174.ru # DNS_RESOLVE_FAILED
@@ -77915,6 +77960,7 @@ zakladchitsa.ru # NOT_RU_GEOIP
 zakladchitsy.com # NOT_RU_TLD
 zakladchitsy.org # NOT_RU_TLD
 zakladka.art # NOT_RU_TLD
+zakonmigro.ru # DNS_RESOLVE_FAILED
 zakonno-registratsia.ru # NOT_RU_GEOIP
 zakupka-shop.ru # DNS_RESOLVE_FAILED
 zakupkashop.ru # DNS_RESOLVE_FAILED
@@ -78034,7 +78080,6 @@ zawayaly.com # NOT_RU_TLD
 zaweduy7.ru # DNS_RESOLVE_FAILED
 zaxid.net # NOT_RU_TLD
 zaxvostom.com # NOT_RU_TLD
-zaycev-net.ru # UNKNOWN_GEOIP
 zaycev.online # NOT_RU_TLD
 zaycev4.net # NOT_RU_TLD
 zaycevnet.net # NOT_RU_TLD
@@ -78268,6 +78313,7 @@ zhsk-1.ru # UNKNOWN_GEOIP
 zhuichaguoji.org # NOT_RU_TLD
 zhuk.world # NOT_RU_TLD
 zhukov.city-driving.ru # UNKNOWN_GEOIP
+zhukovekb.ru # DNS_RESOLVE_FAILED
 zhukovka.uvedomlenie-fms.ru # UNKNOWN_GEOIP
 zhukovskiyriamo.ru # UNKNOWN_GEOIP
 zhuravli-restoran.ru # UNKNOWN_GEOIP
