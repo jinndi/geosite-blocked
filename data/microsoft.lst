@@ -140,6 +140,7 @@ bingapistatistics.com
 bingparachute.com
 bingsandbox.com
 bingsettingssearch.trafficmanager.net
+bingstatic.com
 bingvisualsearch.com
 bingworld.com
 bj1.api.bing.com
@@ -193,6 +194,9 @@ crmdynint-gcc.com
 crmdynint.com
 crossborderexpansion.com
 ctldl.windowsupdate.com
+data.microsoft.com
+dc.applicationinsights.azure.com
+dc.services.visualstudio.com
 dcg.microsoft.com
 default.exp-tas.com
 dependabot.com
@@ -281,6 +285,7 @@ ie9.com
 imaginecup.pl
 img-prod-cms-rt-microsoft-com.akamaized.net
 img-s-msn-com.akamaized.net
+in.applicationinsights.azure.com
 ingads.com
 insiderdevtour.com
 internetexplorer.co
@@ -296,6 +301,7 @@ l-msedge.net
 latampartneruniversity.com
 lex.download.prss.microsoft.com
 lexuat.download.prss.microsoft.com
+live.applicationinsights.azure.com
 live.com
 live.com.au
 live.eu
@@ -480,6 +486,7 @@ msftconnecttest.com
 msfteducation.ca
 msftncsi.com
 msftnet.org
+msftstatic.com
 msgamesresearch.com
 msgamestudios.com
 mshome.net
@@ -605,6 +612,7 @@ renovacionxboxlive.com
 repo.new
 rink.hockeyapp.net
 rsm.download.prss.microsoft.com
+rt.services.visualstudio.com
 s-dc-msedge.net
 s-microsoft.com
 s-msedge.net
@@ -657,6 +665,7 @@ sysinternals.com
 t-msedge.net
 tailwindtraders.com
 techhub.ms
+telemetry.microsoft.com
 tellmewhygame.com
 tfsallin.net
 th.bing.com
