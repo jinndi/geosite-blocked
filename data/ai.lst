@@ -117,12 +117,14 @@ grazie.ai
 grazie.aws.intellij.net
 grok.com
 grok.x.com
+grokbot.com
 grokipedia.com
 groq.com
 h2o.ai
 hf.co
 hf.space
 host.livekit.cloud
+http-intake.logs.us5.datadoghq.com
 huggingface.co
 identrust.com
 intercom.io
@@ -164,6 +166,7 @@ notebooklm.googleapis.com
 notegpt.io
 nousresearch.com
 novelai.net
+o1158394.ingest.us.sentry.io
 oaistatic.com
 oaistatsig.com
 oaiusercontent.com
@@ -193,6 +196,7 @@ ppl-ai-file-upload.s3.amazonaws.com
 pplx-res.cloudinary.com
 pplx.ai
 proactivebackend-pa.googleapis.com
+production-copilot-host-westus.webpubsub.azure.com
 production-openaicom-storage.azureedge.net
 qoder.com
 robinfrontend-pa.googleapis.com
