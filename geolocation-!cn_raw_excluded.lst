@@ -981,7 +981,7 @@ altrec.com # UNKNOWN_GEOIP
 am730.com.hk # TLD
 amabitch.com # UNKNOWN_GEOIP
 amakings.com # UNKNOWN_GEOIP
-amandalist.com # UNKNOWN_GEOIP
+amandalist.com # DNS_RESOLVE_FAILED
 amapornofilme.com # UNKNOWN_GEOIP
 amateur-fetish.com # UNKNOWN_GEOIP
 amateuranalporn.com # UNKNOWN_GEOIP
@@ -2265,7 +2265,6 @@ biitii.com # DNS_RESOLVE_FAILED
 bikac.xyz # DNS_RESOLVE_FAILED
 bild.de # TLD
 bili2.cc # UNKNOWN_GEOIP
-bili888.com # DNS_RESOLVE_FAILED
 billpoint.us # TLD
 bim.ir # TLD
 bim360ops.com # DNS_RESOLVE_FAILED
@@ -3529,7 +3528,6 @@ cnnmoney.ch # TLD
 cnnmoneystream.com # DNS_RESOLVE_FAILED
 cnshopin.com # DNS_RESOLVE_FAILED
 cnzjp.xyz # DNS_RESOLVE_FAILED
-co.ng.mil # DNS_RESOLVE_FAILED
 coalmetbank.ru # TLD
 coat.co.jp # TLD
 cobinhood.com # DNS_RESOLVE_FAILED
@@ -4276,7 +4274,6 @@ dldlinks.com # DNS_RESOLVE_FAILED
 dlercloud.com # UNKNOWN_GEOIP
 dlercloud.me # DNS_RESOLVE_FAILED
 dlercloud.org # UNKNOWN_GEOIP
-dleris.best # DNS_RESOLVE_FAILED
 dlib.eastview.com # UNKNOWN_GEOIP
 dln1.ncdn.ec # TLD
 dlsite.com.tw # TLD
@@ -4826,7 +4823,6 @@ ereg.wip3.adobe.com # DNS_RESOLVE_FAILED
 ereg.wip4.adobe.com # DNS_RESOLVE_FAILED
 erights.net # UNKNOWN_GEOIP
 eriversoft.com # UNKNOWN_GEOIP
-erlang.org # DNS_RESOLVE_FAILED
 ernestmandel.org # UNKNOWN_GEOIP
 ero-anime.net # DNS_RESOLVE_FAILED
 ero-labs.io # TLD
@@ -6151,7 +6147,6 @@ gunsamerica.com # UNKNOWN_GEOIP
 guo.media # DNS_RESOLVE_FAILED
 guochanw.life # DNS_RESOLVE_FAILED
 guysnightlife.com # UNKNOWN_GEOIP
-gvlib.com # DNS_RESOLVE_FAILED
 gvm.com.tw # TLD
 gvt0.com # DNS_RESOLVE_FAILED
 gvt1.com # DNS_RESOLVE_FAILED
@@ -8176,7 +8171,6 @@ line-apps-rc.com # DNS_RESOLVE_FAILED
 line-apps.com # UNKNOWN_GEOIP
 line-cdn.net # DNS_RESOLVE_FAILED
 line-scdn.net # DNS_RESOLVE_FAILED
-linearcollider.org # DNS_RESOLVE_FAILED
 linefriends.com.tw # TLD
 linegame.jp # TLD
 linemobile.com # DNS_RESOLVE_FAILED
@@ -8812,7 +8806,6 @@ microsoftpersonalcontent.com # DNS_RESOLVE_FAILED
 microsoftready.com # DNS_RESOLVE_FAILED
 microsoftsiteselection.com # DNS_RESOLVE_FAILED
 microsoftstore.com.hk # TLD
-microsoftuwp.com # DNS_RESOLVE_FAILED
 micstl.com # DNS_RESOLVE_FAILED
 midjourney.com # UNKNOWN_GEOIP
 mie.co.jp # TLD
@@ -8820,6 +8813,7 @@ miexnoviadesnuda.com # UNKNOWN_GEOIP
 mihua.org # DNS_RESOLVE_FAILED
 mij.rip # DNS_RESOLVE_FAILED
 mikanani.me # UNKNOWN_GEOIP
+mike.cz.cc # DNS_RESOLVE_FAILED
 milffox.com # UNKNOWN_GEOIP
 milfprime.com # UNKNOWN_GEOIP
 milfsexstart.nl # TLD
@@ -9662,6 +9656,7 @@ nhk.jp # TLD
 nhk.or.jp # TLD
 nhkworld.jp # TLD
 nhncorp.jp # TLD
+nic.cz.cc # DNS_RESOLVE_FAILED
 nic.gov # TLD
 nic.ru # TLD
 niceanimegames.com # UNKNOWN_GEOIP
@@ -9749,7 +9744,7 @@ nivodz.com # DNS_RESOLVE_FAILED
 nix-community.github.io # TLD
 nixos.wiki # UNKNOWN_GEOIP
 nixpkgs.org # UNKNOWN_GEOIP
-njav.com # DNS_RESOLVE_FAILED
+njav.com # UNKNOWN_GEOIP
 njav.tv # UNKNOWN_GEOIP
 njavtv.com # UNKNOWN_GEOIP
 njpw.co.jp # TLD
@@ -9863,7 +9858,6 @@ ntp.ufe.cz # TLD
 ntp0.ntp-servers.net # NOT_RU_GEOIP
 ntp0.ring.gr.jp # TLD
 ntp1.jst.mfeed.ad.jp # TLD
-ntp1.ntp-servers.net # NOT_RU_GEOIP
 ntp1.plala.or.jp # TLD
 ntp1.ring.gr.jp # TLD
 ntp1.time.nl # TLD
@@ -10327,13 +10321,10 @@ paypal-database.us # TLD
 paypal-engineering.com # DNS_RESOLVE_FAILED
 paypal-excelinvoicing.com # DNS_RESOLVE_FAILED
 paypal-here.com # DNS_RESOLVE_FAILED
-paypal-integration.com # DNS_RESOLVE_FAILED
 paypal-labs.com # DNS_RESOLVE_FAILED
 paypal-login.us # TLD
 paypal-referral.com # DNS_RESOLVE_FAILED
-paypal-retail.com # DNS_RESOLVE_FAILED
 paypal-signin.us # TLD
-paypal-sptam.com # DNS_RESOLVE_FAILED
 paypal.ca # TLD
 paypal.com.hk # TLD
 paypal.com.sg # TLD
@@ -10821,7 +10812,6 @@ pornuj.cz # TLD
 pornv.org # UNKNOWN_GEOIP
 pornvideobb.com # UNKNOWN_GEOIP
 pornvideos.casa # DNS_RESOLVE_FAILED
-pornvideotop.com # DNS_RESOLVE_FAILED
 pornvr.me # UNKNOWN_GEOIP
 pornwatchers.com # UNKNOWN_GEOIP
 pornwebmasters.com # UNKNOWN_GEOIP
@@ -11212,7 +11202,7 @@ recoiljs.org # UNKNOWN_GEOIP
 reconinstruments.com # DNS_RESOLVE_FAILED
 recordedfuture.com # UNKNOWN_GEOIP
 recoveryversion.com.tw # TLD
-redamateurtube.com # DNS_RESOLVE_FAILED
+redamateurtube.com # UNKNOWN_GEOIP
 redbubble.com # UNKNOWN_GEOIP
 redbyhbo.com # DNS_RESOLVE_FAILED
 redchinacn.net # UNKNOWN_GEOIP
@@ -11440,6 +11430,7 @@ rts.ch # TLD
 rttv.com # DNS_RESOLVE_FAILED
 rttv.ru # TLD
 rtxv.ru # TLD
+ru.ccb.com # DNS_RESOLVE_FAILED
 rude.com # UNKNOWN_GEOIP
 ruhub.tv # NOT_RU_GEOIP
 rukoebxx.com # DNS_RESOLVE_FAILED
@@ -12003,7 +11994,6 @@ shuangmawei.xyz # DNS_RESOLVE_FAILED
 shufflesex.com # UNKNOWN_GEOIP
 shuziyimin.org # UNKNOWN_GEOIP
 shwchurch3.com # UNKNOWN_GEOIP
-shwebank.com # DNS_RESOLVE_FAILED
 shymysex.com # DNS_RESOLVE_FAILED
 siam.org # UNKNOWN_GEOIP
 sibsoc.ru # TLD
@@ -13278,6 +13268,7 @@ tubefuckme.net # DNS_RESOLVE_FAILED
 tubegalore.com # UNKNOWN_GEOIP
 tubegold.xxx # DNS_RESOLVE_FAILED
 tubeislam.com # UNKNOWN_GEOIP
+tubemature.tv # DNS_RESOLVE_FAILED
 tubeorigin.com # UNKNOWN_GEOIP
 tubepatrol.org # UNKNOWN_GEOIP
 tubepornlist.com # UNKNOWN_GEOIP
@@ -13389,7 +13380,6 @@ typora.io # TLD
 tyre-cadcam.com # NOT_RU_GEOIP
 tyrecadcam.com # NOT_RU_GEOIP
 tytng189.com # DNS_RESOLVE_FAILED
-tytporno.online # UNKNOWN_GEOIP
 u.nu # TLD
 u15.info # UNKNOWN_GEOIP
 u3c3.com # UNKNOWN_GEOIP
