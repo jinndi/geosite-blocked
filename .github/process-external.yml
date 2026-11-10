@@ -1,4 +1,4 @@
-name: Process Top Tranco Domains & Geolocation JSON
+name: Process Geolocation JSON
 
 on:
   workflow_dispatch:
@@ -24,9 +24,9 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install geoip2 dnspython tranco
+          pip install geoip2 dnspython
 
-      - name: Process Tranco Top domains and filter
+      - name: Process Geolocation JSON and filter
         run: |
           python -c "
           import os
@@ -35,12 +35,8 @@ jobs:
           import concurrent.futures
           import geoip2.database
           import dns.resolver
-          from tranco import Tranco
 
           folder = 'data'
-          dst_lst = os.path.join(folder, 'tranco.top.lst')
-          excluded_lst = 'tranco_raw_excluded.lst'
-          raw_lst = 'tranco_raw.lst'
           geoip_db_path = 'GeoLite2-Country.mmdb'
 
           json_url = 'https://raw.githubusercontent.com/KaringX/karing-ruleset/sing/geo/geosite/geolocation-!cn.json'
@@ -244,15 +240,8 @@ jobs:
               print(f'Удалено по DNS/GeoIP (нерезолвящиеся, неизвестные или IP из RU): {dns_geoip_filtered}')
               print(f'Сохранено в чистый список ({dst_path}): {len(filtered_domains)}')
 
-          # --- 1. ОБРАБОТКА TRANCO TOP 20000 ---
-          print('\n=== 1. Обработка Tranco Top 20000 ===')
-          t = Tranco(cache=True, cache_dir='.tranco_cache')
-          tranco_raw = t.list().top(20000)
-          print(f'Получено из Tranco: {len(tranco_raw)} доменов.')
-          process_domains_pipeline(tranco_raw, dst_lst, excluded_lst, raw_lst)
-
-          # --- 2. ОБРАБОТКА GEOLOCATION JSON ---
-          print('\n=== 2. Обработка Geolocation JSON ===')
+          # --- ОБРАБОТКА GEOLOCATION JSON ---
+          print('\n=== Обработка Geolocation JSON ===')
           print(f'Скачивание JSON: {json_url}')
           try:
               req = urllib.request.Request(json_url, headers={'User-Agent': 'Mozilla/5.0'})
@@ -278,8 +267,8 @@ jobs:
         env:
           TZ: "Europe/Moscow"
         run: |
-          # 1. Сначала добавляем все созданные/измененные файлы в индекс
-          git add data/ tranco_raw*.lst geolocation-\!cn_raw*.lst
+          # 1. Сначала добавляем измененные файлы в индекс
+          git add data/ geolocation-\!cn_raw*.lst
 
           # 2. Проверяем, есть ли что коммитить в индексе
           if git diff --staged --quiet; then
@@ -287,7 +276,7 @@ jobs:
           else
             git config --global user.name "github-actions[bot]"
             git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "[auto] Process Tranco top20000 & Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
+            git commit -m "[auto] Process Geolocation JSON $(date '+%Y-%m-%d %H:%M:%S')"
             git pull origin main --rebase
             git push
           fi
